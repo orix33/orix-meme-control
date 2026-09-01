@@ -1,0 +1,77 @@
+name: Meme-Control 24/7
+
+# Laesst den Paper-Kontrollversuch stuendlich laufen — auch wenn Marks PC aus ist.
+#
+# WARUM STUENDLICH UND NICHT HAEUFIGER
+# ------------------------------------
+# GitHub Actions gibt privaten Repos 2.000 Freiminuten im Monat. Ein Zyklus
+# braucht rund 2 Minuten:
+#     stuendlich : 24 x 2 = 48 min/Tag = ~1.450 min/Monat  -> passt
+#     alle 30min : 48 x 2 = 96 min/Tag = ~2.900 min/Monat  -> passt NICHT
+# In einem oeffentlichen Repo ist es unbegrenzt; dann kann der Takt hoch.
+#
+# Fuer den Versuch reicht stuendlich vollkommen: Die Positionen haben 6 Stunden
+# Horizont, und 24 Durchgaenge am Tag liefern mehr Stichprobe als der lokale
+# 15-Minuten-Takt, der nur lief, solange der Rechner an war.
+#
+# KEINE SECRETS NOETIG. Der Versuch nutzt ausschliesslich freie oeffentliche
+# APIs (GeckoTerminal, RugCheck, IPFS). Es gibt hier keinen einzigen Schluessel
+# und keinen Pfad zu einer Order.
+
+on:
+  schedule:
+    - cron: "17 * * * *"     # stuendlich zur Minute 17 (nicht :00 — da ist
+                             # GitHubs Scheduler am staerksten ausgelastet und
+                             # verzoegert Laeufe am meisten)
+  workflow_dispatch:          # zum Testen von Hand ausloesbar
+
+# Zwei gleichzeitige Laeufe wuerden denselben Zustand schreiben und sich
+# ueberholen — dasselbe Problem wie zwei Runner auf einem Rechner.
+concurrency:
+  group: meme-control
+  cancel-in-progress: false
+
+permissions:
+  contents: write             # noetig, um den Zustand zurueckzuschreiben
+
+jobs:
+  zyklus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12       # ein Zyklus braucht ~2 min; 12 faengt Haenger ab
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+        # Keine Abhaengigkeiten zu installieren: der Versuch laeuft auf reiner
+        # Standardbibliothek. Kein requirements.txt, kein pip.
+
+      - name: Zyklus ausfuehren
+        working-directory: py
+        run: python cycle.py
+
+      - name: Zustand zurueckschreiben
+        run: |
+          git config user.name  "meme-control-bot"
+          git config user.email "actions@github.com"
+          git add py/data/
+          if git diff --staged --quiet; then
+            echo "Keine Aenderung am Zustand — nichts zu committen."
+          else
+            git commit -m "Kontrollversuch: Zyklus $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Ein paralleler Lauf koennte inzwischen gepusht haben.
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: Bericht in die Lauf-Zusammenfassung
+        if: always()
+        working-directory: py
+        run: |
+          {
+            echo '```'
+            python -c "import sys; sys.path.insert(0,'.'); import meme_control as MC; print(MC.report())"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
