@@ -2,17 +2,17 @@ name: Meme-Control 24/7
 
 # Laesst den Paper-Kontrollversuch stuendlich laufen — auch wenn Marks PC aus ist.
 #
-# WARUM STUENDLICH UND NICHT HAEUFIGER
-# ------------------------------------
-# GitHub Actions gibt privaten Repos 2.000 Freiminuten im Monat. Ein Zyklus
-# braucht rund 2 Minuten:
-#     stuendlich : 24 x 2 = 48 min/Tag = ~1.450 min/Monat  -> passt
-#     alle 30min : 48 x 2 = 96 min/Tag = ~2.900 min/Monat  -> passt NICHT
-# In einem oeffentlichen Repo ist es unbegrenzt; dann kann der Takt hoch.
+# TAKT
+# ----
+# Alle 20 Minuten, weil dieses Repo OEFFENTLICH ist: Dort sind Actions-Minuten
+# unbegrenzt. In einem privaten Repo waeren es 2.000 Freiminuten im Monat, und
+# bei ~2 Minuten je Zyklus passte nur stuendlich (~1.450/Monat) — alle 20 min
+# waeren ~4.300 und wuerden Kosten ausloesen.
 #
-# Fuer den Versuch reicht stuendlich vollkommen: Die Positionen haben 6 Stunden
-# Horizont, und 24 Durchgaenge am Tag liefern mehr Stichprobe als der lokale
-# 15-Minuten-Takt, der nur lief, solange der Rechner an war.
+# WICHTIG bei oeffentlichen Repos: GitHub schaltet geplante Workflows nach
+# 60 Tagen ohne Repository-Aktivitaet automatisch ab. Da dieser Workflow bei
+# jedem Lauf den Zustand zurueckschreibt, erzeugt er selbst Aktivitaet — die
+# Abschaltung greift also nicht, solange er laeuft.
 #
 # KEINE SECRETS NOETIG. Der Versuch nutzt ausschliesslich freie oeffentliche
 # APIs (GeckoTerminal, RugCheck, IPFS). Es gibt hier keinen einzigen Schluessel
@@ -20,9 +20,12 @@ name: Meme-Control 24/7
 
 on:
   schedule:
-    - cron: "17 * * * *"     # stuendlich zur Minute 17 (nicht :00 — da ist
-                             # GitHubs Scheduler am staerksten ausgelastet und
-                             # verzoegert Laeufe am meisten)
+    # Alle 20 Minuten. In einem OEFFENTLICHEN Repo sind Actions-Minuten
+    # unbegrenzt — der Takt kostet also nichts und die Stichprobe waechst
+    # dreimal so schnell. Bewusst auf 7/27/47 statt 0/20/40: zur vollen und
+    # halben Stunde ist GitHubs Scheduler am staerksten ausgelastet und
+    # verzoegert Laeufe am meisten.
+    - cron: "7,27,47 * * * *"
   workflow_dispatch:          # zum Testen von Hand ausloesbar
 
 # Zwei gleichzeitige Laeufe wuerden denselben Zustand schreiben und sich
