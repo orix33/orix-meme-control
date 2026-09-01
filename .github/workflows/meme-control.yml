@@ -26,7 +26,24 @@ on:
     # halben Stunde ist GitHubs Scheduler am staerksten ausgelastet und
     # verzoegert Laeufe am meisten.
     - cron: "7,27,47 * * * *"
-  workflow_dispatch:          # zum Testen von Hand ausloesbar
+
+  workflow_dispatch:          # von Hand ueber die Actions-Oberflaeche
+
+  # Ein Push loest ebenfalls aus. Das ist der Weg, einen Lauf zu erzwingen,
+  # ohne die Actions-Oberflaeche zu benutzen — nuetzlich zum Testen und dann,
+  # wenn "Run workflow" nicht erreichbar ist.
+  #
+  # ENDLOSSCHLEIFE VERHINDERT, doppelt abgesichert:
+  #   1. GitHub loest bei Commits, die mit GITHUB_TOKEN gepusht wurden,
+  #      grundsaetzlich KEINE neuen Laeufe aus. Das allein genuegt schon.
+  #   2. Trotzdem `paths-ignore` auf das Zustandsverzeichnis: Selbst wenn
+  #      Punkt 1 einmal nicht greifen sollte, kann ein reiner Zustands-Commit
+  #      diesen Workflow nicht erneut starten. Guertel und Hosentraeger.
+  push:
+    branches: [main]
+    paths-ignore:
+      - "py/data/**"
+      - "**.md"
 
 # Zwei gleichzeitige Laeufe wuerden denselben Zustand schreiben und sich
 # ueberholen — dasselbe Problem wie zwei Runner auf einem Rechner.
