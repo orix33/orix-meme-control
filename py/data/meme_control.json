@@ -1,12 +1,102 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 32,
-  "last_scan": "2026-09-02T11:09:14.123531+00:00",
+  "scans": 33,
+  "last_scan": "2026-09-02T15:09:40.276722+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-0902-150940-LQX",
+        "arm": "kontrolle",
+        "scan_idx": 32,
+        "opened_ts": "2026-09-02T15:09:40.276722+00:00",
+        "symbol": "LQX",
+        "pool_address": "CPtdeFZit77yXyUmMomFY7vnQLwdtCpudAWuYDNpjqxH",
+        "token_address": "Ayh7APYu2gKBdwnnHVGgnLi5sYqquKfVwH2absjcdrP4",
+        "entry_price_usd": 9.72231867102652e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +11.5%",
+          "1h +11.5%",
+          "Buy-Ratio 60%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17728.1648,
+        "age_minutes": 4.3,
+        "status": "open",
+        "current_price_usd": 9.72231867102652e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-0902-150940-$1",
+        "arm": "alt",
+        "scan_idx": 32,
+        "opened_ts": "2026-09-02T15:09:40.276722+00:00",
+        "symbol": "$1",
+        "pool_address": "HisZTuKhHEHLfWZsRPSDXJ9w8gqriqfvJAhYUJS2VbF3",
+        "token_address": "64iqnvwDybA1AY7rHGJ859pxi2Y1DHdGCozkFLXvU6cT",
+        "entry_price_usd": 2.153111538368905e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +152.3%",
+          "1h +152.3%",
+          "Buy-Ratio 88%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21101.583,
+        "age_minutes": 3.7,
+        "status": "open",
+        "current_price_usd": 2.153111538368905e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-0902-150940-DICKBUTT",
+        "arm": "neu",
+        "scan_idx": 32,
+        "opened_ts": "2026-09-02T15:09:40.276722+00:00",
+        "symbol": "DICKBUTT",
+        "pool_address": "H7EjnqWw1gabUEqghG52HfA2HxFov8C9co6rCNzrMivU",
+        "token_address": "CgypxZcmmZMVQMERA6D59hkh8maPEnj31pYRKM9cpump",
+        "entry_price_usd": 0.000600551535712523,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 76718.4031,
+        "age_minutes": 1308.8,
+        "status": "open",
+        "current_price_usd": 0.000600551535712523,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 25 % bei reifem Token",
+          "7834 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 24.75,
+          "halter": 7834,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
