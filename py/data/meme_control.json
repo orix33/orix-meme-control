@@ -1,63 +1,104 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 46,
-  "last_scan": "2026-09-04T11:09:44.854568+00:00",
+  "scans": 47,
+  "last_scan": "2026-09-04T15:00:57.741004+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-0904-060351-REBOOT",
+        "id": "KON-0904-150057-WOFI",
         "arm": "kontrolle",
-        "scan_idx": 44,
-        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
-        "symbol": "REBOOT",
-        "pool_address": "HWH7JVg9hWHr3tLyTmw4pJwGqVizUjkw53RRppdbAXfb",
-        "token_address": "FKrjsuYb6zHgLSdgenQwordFfKT6H2x1rTGMJGjdpump",
-        "entry_price_usd": 3.1175536406156583e-06,
-        "score": 5,
+        "scan_idx": 46,
+        "opened_ts": "2026-09-04T15:00:57.741004+00:00",
+        "symbol": "WOFI",
+        "pool_address": "Gh7s5SrDHE62EWPjLJ2bDxNWfuzezjzmpg4c639EK1yz",
+        "token_address": "BwfPU7kfVrWkaGoNXwSpibqTjuRFwmQWwYafXQtPpump",
+        "entry_price_usd": 0.05370236727104005,
+        "score": 6,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
+          "Buy-Ratio 74%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2500.5767,
-        "age_minutes": 2.4,
+        "liquidity_usd": 615397.8685,
+        "age_minutes": 2.2,
         "status": "open",
-        "current_price_usd": 2.908736602219688e-06,
-        "pnl_pct": -6.7,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-04T11:09:35.879446+00:00",
-        "liquidity_usd_jetzt": 2308.9548
-      },
-      {
-        "id": "KON-0904-060351-COBI",
-        "arm": "kontrolle",
-        "scan_idx": 44,
-        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
-        "symbol": "COBI",
-        "pool_address": "6xJZiFbFGYdZoCDrYmF2UKnx2PAQSc4tFufz7uUWPx3F",
-        "token_address": "ByB53N62sY1APuENjyU46mx4QuiwmNv2GmH1Xpp2nBtT",
-        "entry_price_usd": 4.978778655265918e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +42.7%",
-          "1h +42.7%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 44823.7373,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 4.978778655265918e-05,
+        "current_price_usd": 0.05370236727104005,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-04T11:09:35.879446+00:00",
-        "liquidity_usd_jetzt": 44934.3907
+        "letzte_pruefung": null
       }
     ],
-    "alt": [],
-    "neu": []
+    "alt": [
+      {
+        "id": "ALT-0904-150057-AGI",
+        "arm": "alt",
+        "scan_idx": 46,
+        "opened_ts": "2026-09-04T15:00:57.741004+00:00",
+        "symbol": "AGI",
+        "pool_address": "ZSD1uPgjFcSvq95GZTgFxMX3S4og63uR5oKpTd9iUVm",
+        "token_address": "F3p2UBJxR3rrW1nPZQtNjQ1nxDDVs25kC3pCxtSsmnH3",
+        "entry_price_usd": 1.0722147772377954e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +31.3%",
+          "1h +31.3%",
+          "Buy-Ratio 74%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19221.4959,
+        "age_minutes": 3.4,
+        "status": "open",
+        "current_price_usd": 1.0722147772377954e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-0904-150057-SOL",
+        "arm": "neu",
+        "scan_idx": 46,
+        "opened_ts": "2026-09-04T15:00:57.741004+00:00",
+        "symbol": "SOL",
+        "pool_address": "7oJKaU7vC3TVw7G8ACjuDtgyxjzC8RnX4zBcwfWzy2sp",
+        "token_address": "DxJGrNgXod7YSKuAJmjRbSsiZdBReVJtbGN1kCS9pump",
+        "entry_price_usd": 2.2390840919987558e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +200.1%",
+          "1h +200.1%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6510.0673,
+        "age_minutes": 1.5,
+        "status": "open",
+        "current_price_usd": 2.2390840919987558e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "464 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 52.55,
+          "halter": 464,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -1066,6 +1107,60 @@
         "liquidity_usd_jetzt": 2413.8891,
         "closed_ts": "2026-09-04T01:22:08.596479+00:00",
         "close_reason": "Horizont erreicht (395 min)"
+      },
+      {
+        "id": "KON-0904-060351-REBOOT",
+        "arm": "kontrolle",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "REBOOT",
+        "pool_address": "HWH7JVg9hWHr3tLyTmw4pJwGqVizUjkw53RRppdbAXfb",
+        "token_address": "FKrjsuYb6zHgLSdgenQwordFfKT6H2x1rTGMJGjdpump",
+        "entry_price_usd": 3.1175536406156583e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2500.5767,
+        "age_minutes": 2.4,
+        "status": "expired",
+        "current_price_usd": 2.908736602219688e-06,
+        "pnl_pct": -6.7,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-04T15:00:54.461280+00:00",
+        "liquidity_usd_jetzt": 2244.1582,
+        "closed_ts": "2026-09-04T15:00:54.461280+00:00",
+        "close_reason": "Horizont erreicht (537 min)"
+      },
+      {
+        "id": "KON-0904-060351-COBI",
+        "arm": "kontrolle",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "COBI",
+        "pool_address": "6xJZiFbFGYdZoCDrYmF2UKnx2PAQSc4tFufz7uUWPx3F",
+        "token_address": "ByB53N62sY1APuENjyU46mx4QuiwmNv2GmH1Xpp2nBtT",
+        "entry_price_usd": 4.978778655265918e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +42.7%",
+          "1h +42.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 44823.7373,
+        "age_minutes": 2.5,
+        "status": "expired",
+        "current_price_usd": 4.978778655265918e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-04T15:00:54.461280+00:00",
+        "liquidity_usd_jetzt": 43673.4163,
+        "closed_ts": "2026-09-04T15:00:54.461280+00:00",
+        "close_reason": "Horizont erreicht (537 min)"
       }
     ],
     "alt": [
