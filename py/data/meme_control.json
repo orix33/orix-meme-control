@@ -1,49 +1,114 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 44,
-  "last_scan": "2026-09-04T01:22:11.525726+00:00",
+  "scans": 45,
+  "last_scan": "2026-09-04T06:03:51.831049+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": [
+    "kontrolle": [
       {
-        "id": "NEU-0903-213948-FURY",
-        "arm": "neu",
-        "scan_idx": 41,
-        "opened_ts": "2026-09-03T21:39:48.699264+00:00",
-        "symbol": "FURY",
-        "pool_address": "5DDnJRznbaVDkvaSsL1s5GUHxPtggzJ1cQNMJBesceEz",
-        "token_address": "D21qzAfynfjhmM873DC6SKaM8YDnKruwAQc7iUf9pump",
-        "entry_price_usd": 3.017860875002445e-06,
+        "id": "KON-0904-060351-REBOOT",
+        "arm": "kontrolle",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "REBOOT",
+        "pool_address": "HWH7JVg9hWHr3tLyTmw4pJwGqVizUjkw53RRppdbAXfb",
+        "token_address": "FKrjsuYb6zHgLSdgenQwordFfKT6H2x1rTGMJGjdpump",
+        "entry_price_usd": 3.1175536406156583e-06,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2404.9882,
-        "age_minutes": 11.3,
+        "liquidity_usd": 2500.5767,
+        "age_minutes": 2.4,
         "status": "open",
-        "current_price_usd": 2.9908619827880053e-06,
-        "pnl_pct": -0.89,
+        "current_price_usd": 3.1175536406156583e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-04T01:22:08.596479+00:00",
-        "v2_score": 3,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden"
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-0904-060351-COBI",
+        "arm": "kontrolle",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "COBI",
+        "pool_address": "6xJZiFbFGYdZoCDrYmF2UKnx2PAQSc4tFufz7uUWPx3F",
+        "token_address": "ByB53N62sY1APuENjyU46mx4QuiwmNv2GmH1Xpp2nBtT",
+        "entry_price_usd": 4.978778655265918e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +42.7%",
+          "1h +42.7%",
+          "Liquiditäts-Sweet-Spot"
         ],
-        "v2_signale": {
-          "top10_pct": 99.97,
-          "halter": 49,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 2357.7872
+        "liquidity_usd": 44823.7373,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 4.978778655265918e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
       }
-    ]
+    ],
+    "alt": [
+      {
+        "id": "ALT-0904-060351-CONCERN",
+        "arm": "alt",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "CONCERN",
+        "pool_address": "B49WUiEZXmWmzp8ULZH59se94kXvJf1M7DcLsHbvkDCD",
+        "token_address": "9erMjr418JRb45pfGxnKNvw8tzozwBkLY887be6EptQR",
+        "entry_price_usd": 1.1028989646109094e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +25.2%",
+          "1h +29.2%",
+          "Buy-Ratio 70%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19754.3889,
+        "age_minutes": 4.4,
+        "status": "open",
+        "current_price_usd": 1.1028989646109094e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-0904-060351-Fifapup",
+        "arm": "alt",
+        "scan_idx": 44,
+        "opened_ts": "2026-09-04T06:03:51.831049+00:00",
+        "symbol": "Fifapup",
+        "pool_address": "Dibmzgd4nd2j4x9znJgjzhaR9K92cK7RQA41rSQCY4Uw",
+        "token_address": "EdDJcVnZoapFfK3vQyUEywtdz5dYJ5xH9i8nDBdwpump",
+        "entry_price_usd": 0.023594497923821577,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +32.4%",
+          "1h +52.6%",
+          "Buy-Ratio 78%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 113082.5916,
+        "age_minutes": 4.5,
+        "status": "open",
+        "current_price_usd": 0.023594497923821577,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -3395,6 +3460,44 @@
         "liquidity_usd_jetzt": 0.7898,
         "closed_ts": "2026-09-03T21:39:43.199121+00:00",
         "close_reason": "Liquiditaet 0.79 $ (Start 3980 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
+      },
+      {
+        "id": "NEU-0903-213948-FURY",
+        "arm": "neu",
+        "scan_idx": 41,
+        "opened_ts": "2026-09-03T21:39:48.699264+00:00",
+        "symbol": "FURY",
+        "pool_address": "5DDnJRznbaVDkvaSsL1s5GUHxPtggzJ1cQNMJBesceEz",
+        "token_address": "D21qzAfynfjhmM873DC6SKaM8YDnKruwAQc7iUf9pump",
+        "entry_price_usd": 3.017860875002445e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2404.9882,
+        "age_minutes": 11.3,
+        "status": "expired",
+        "current_price_usd": 2.9601609977113018e-06,
+        "pnl_pct": -1.91,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-04T06:03:51.547344+00:00",
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.97,
+          "halter": 49,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2356.0637,
+        "closed_ts": "2026-09-04T06:03:51.547344+00:00",
+        "close_reason": "Horizont erreicht (504 min)"
       }
     ]
   }
