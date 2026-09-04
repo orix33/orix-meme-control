@@ -1,35 +1,10 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 43,
-  "last_scan": "2026-09-03T23:32:13.871806+00:00",
+  "scans": 44,
+  "last_scan": "2026-09-04T01:22:11.525726+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0903-184727-LAMPORT",
-        "arm": "kontrolle",
-        "scan_idx": 40,
-        "opened_ts": "2026-09-03T18:47:27.651408+00:00",
-        "symbol": "LAMPORT",
-        "pool_address": "GnRkzQSefw9tJ6NxkbPC5SeiiGKN4rpiFSekV4aX5dGU",
-        "token_address": "BNNu2JSvpK6zYWS8pYSK6mzCL5qJ2ncvpw19cffEpump",
-        "entry_price_usd": 3.041910662201112e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2410.2787,
-        "age_minutes": 3.6,
-        "status": "open",
-        "current_price_usd": 3.093424931701755e-06,
-        "pnl_pct": 1.69,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-03T23:32:05.743696+00:00",
-        "liquidity_usd_jetzt": 2417.9016
-      }
-    ],
+    "kontrolle": [],
     "alt": [],
     "neu": [
       {
@@ -50,10 +25,10 @@
         "liquidity_usd": 2404.9882,
         "age_minutes": 11.3,
         "status": "open",
-        "current_price_usd": 3.0329750414896913e-06,
-        "pnl_pct": 0.5,
+        "current_price_usd": 2.9908619827880053e-06,
+        "pnl_pct": -0.89,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-03T23:32:05.743696+00:00",
+        "letzte_pruefung": "2026-09-04T01:22:08.596479+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -66,7 +41,7 @@
           "creator_haelt": false,
           "risiko_score": 1
         },
-        "liquidity_usd_jetzt": 2384.7522
+        "liquidity_usd_jetzt": 2357.7872
       }
     ]
   },
@@ -1051,6 +1026,32 @@
         "liquidity_usd_jetzt": 3722.7942,
         "closed_ts": "2026-09-03T23:32:05.743696+00:00",
         "close_reason": "Stop-Loss erreicht (roh -25.2%)"
+      },
+      {
+        "id": "KON-0903-184727-LAMPORT",
+        "arm": "kontrolle",
+        "scan_idx": 40,
+        "opened_ts": "2026-09-03T18:47:27.651408+00:00",
+        "symbol": "LAMPORT",
+        "pool_address": "GnRkzQSefw9tJ6NxkbPC5SeiiGKN4rpiFSekV4aX5dGU",
+        "token_address": "BNNu2JSvpK6zYWS8pYSK6mzCL5qJ2ncvpw19cffEpump",
+        "entry_price_usd": 3.041910662201112e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2410.2787,
+        "age_minutes": 3.6,
+        "status": "expired",
+        "current_price_usd": 3.093424931701755e-06,
+        "pnl_pct": 1.69,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-04T01:22:08.596479+00:00",
+        "liquidity_usd_jetzt": 2413.8891,
+        "closed_ts": "2026-09-04T01:22:08.596479+00:00",
+        "close_reason": "Horizont erreicht (395 min)"
       }
     ],
     "alt": [
