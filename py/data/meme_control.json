@@ -1,56 +1,29 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 51,
-  "last_scan": "2026-09-05T00:50:40.517454+00:00",
+  "scans": 52,
+  "last_scan": "2026-09-05T05:35:34.230508+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-0904-225845-JPWP",
+        "id": "KON-0905-053534-Bill",
         "arm": "kontrolle",
-        "scan_idx": 49,
-        "opened_ts": "2026-09-04T22:58:45.277496+00:00",
-        "symbol": "JPWP",
-        "pool_address": "43fHLyn1eBjjuByrxBxH4P64uzRrhAES3JK4ecEUrDfn",
-        "token_address": "G5e87hRpJKin2MXMyiCPbm4Cu3nz5PHEQVNqAmRQpump",
-        "entry_price_usd": 3.6990111602178297e-06,
+        "scan_idx": 51,
+        "opened_ts": "2026-09-05T05:35:34.230508+00:00",
+        "symbol": "Bill",
+        "pool_address": "9Y76GmaLauvWXMWgWSoWoDCNUWworqyh1C9xYhnGgESz",
+        "token_address": "EHzSp1MRcKXYmGhZHYEQAV9sgwGNw6ZU2KLiQ8nnpump",
+        "entry_price_usd": 1.9103124344841677e-05,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2422.7808,
-        "age_minutes": 2.6,
+        "liquidity_usd": 9860.0681,
+        "age_minutes": 3.9,
         "status": "open",
-        "current_price_usd": 3.6990111602178297e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-05T00:50:34.987899+00:00",
-        "liquidity_usd_jetzt": 2365.5936
-      },
-      {
-        "id": "KON-0905-005040-Fedrad",
-        "arm": "kontrolle",
-        "scan_idx": 50,
-        "opened_ts": "2026-09-05T00:50:40.517454+00:00",
-        "symbol": "Fedrad",
-        "pool_address": "GQx9fhRquoxcGB9w8TWPeVZFNBgW2BpqrsqLiWEotFts",
-        "token_address": "2u8mQpjTmaMxm9GdLD488BfLczWLZemUDE8kcGXkpump",
-        "entry_price_usd": 6.403385676591193e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +57.7%",
-          "1h +57.7%",
-          "Buy-Ratio 80%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 102120.7886,
-        "age_minutes": 4.8,
-        "status": "open",
-        "current_price_usd": 6.403385676591193e-05,
+        "current_price_usd": 1.9103124344841677e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -78,7 +51,34 @@
         "liquidity_usd": 102044.2118,
         "age_minutes": 4.6,
         "status": "open",
-        "current_price_usd": 0.0011117031787048297,
+        "current_price_usd": 0.0012083517311736811,
+        "pnl_pct": 8.69,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-05T05:35:25.835908+00:00",
+        "liquidity_usd_jetzt": 107297.5028
+      },
+      {
+        "id": "ALT-0905-053534-FEDBAL",
+        "arm": "alt",
+        "scan_idx": 51,
+        "opened_ts": "2026-09-05T05:35:34.230508+00:00",
+        "symbol": "FEDBAL",
+        "pool_address": "39NbSEUaeKFqitJPnBqR1BqeEYmb9aUqKBE9aB4jW5Rc",
+        "token_address": "AJQueAzANdDsvj1fCRF2V1auHeV9hywM3cKfSdNepump",
+        "entry_price_usd": 0.059582674197189676,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +116.7%",
+          "1h +116.7%",
+          "Buy-Ratio 80%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 78926.4619,
+        "age_minutes": 3.8,
+        "status": "open",
+        "current_price_usd": 0.059582674197189676,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -86,39 +86,43 @@
     ],
     "neu": [
       {
-        "id": "NEU-0905-005040-salamale",
+        "id": "NEU-0905-053534-robindog",
         "arm": "neu",
-        "scan_idx": 50,
-        "opened_ts": "2026-09-05T00:50:40.517454+00:00",
-        "symbol": "salamaleko",
-        "pool_address": "Htf7KTFf9QrchyS6WkgxCgh4wcbMQN96sGqayFB3FjG",
-        "token_address": "F6eNf4CUCsJiU6K39gecVPB5MT3ZGMPz68V4qTq8pump",
-        "entry_price_usd": 3.445761861626621e-06,
-        "score": 5,
+        "scan_idx": 51,
+        "opened_ts": "2026-09-05T05:35:34.230508+00:00",
+        "symbol": "robindog",
+        "pool_address": "GNARZYrP6i4E9hokeLeLWxERrm5NixgWXMW1XLntSGNw",
+        "token_address": "G6FTMhyEE5JeZEuZdyrz26uH5Py2B1g2Cd96XtXdP81h",
+        "entry_price_usd": 7.772564821048102e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
+          "5m +40.5%",
+          "1h +40.5%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2716.0397,
-        "age_minutes": 5.0,
+        "liquidity_usd": 2390.4392,
+        "age_minutes": 6.0,
         "status": "open",
-        "current_price_usd": 3.445761861626621e-06,
+        "current_price_usd": 7.772564821048102e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 7,
         "v2_warum": [
           "Twitter vorhanden",
           "Website vorhanden",
-          "55 Halter (jung)"
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "217 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 26 (hoch)"
         ],
         "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 55,
+          "top10_pct": 94.55,
+          "halter": 217,
           "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
+          "creator_haelt": true,
+          "risiko_score": 26
         }
       }
     ]
@@ -1239,6 +1243,61 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-09-04T20:52:11.588199+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 5363 $) — kein Ausstieg. Schein-PnL waere +274.3% gewesen."
+      },
+      {
+        "id": "KON-0905-005040-Fedrad",
+        "arm": "kontrolle",
+        "scan_idx": 50,
+        "opened_ts": "2026-09-05T00:50:40.517454+00:00",
+        "symbol": "Fedrad",
+        "pool_address": "GQx9fhRquoxcGB9w8TWPeVZFNBgW2BpqrsqLiWEotFts",
+        "token_address": "2u8mQpjTmaMxm9GdLD488BfLczWLZemUDE8kcGXkpump",
+        "entry_price_usd": 6.403385676591193e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +57.7%",
+          "1h +57.7%",
+          "Buy-Ratio 80%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 102120.7886,
+        "age_minutes": 4.8,
+        "status": "rug",
+        "current_price_usd": 1.1943934958217817e-07,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-05T05:35:25.835908+00:00",
+        "liquidity_usd_jetzt": 0.000250922136150536,
+        "closed_ts": "2026-09-05T05:35:25.835908+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 102121 $) — kein Ausstieg. Schein-PnL waere -99.8% gewesen."
+      },
+      {
+        "id": "KON-0904-225845-JPWP",
+        "arm": "kontrolle",
+        "scan_idx": 49,
+        "opened_ts": "2026-09-04T22:58:45.277496+00:00",
+        "symbol": "JPWP",
+        "pool_address": "43fHLyn1eBjjuByrxBxH4P64uzRrhAES3JK4ecEUrDfn",
+        "token_address": "G5e87hRpJKin2MXMyiCPbm4Cu3nz5PHEQVNqAmRQpump",
+        "entry_price_usd": 3.6990111602178297e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2422.7808,
+        "age_minutes": 2.6,
+        "status": "expired",
+        "current_price_usd": 3.6990111602178297e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-05T05:35:25.835908+00:00",
+        "liquidity_usd_jetzt": 2365.4055,
+        "closed_ts": "2026-09-05T05:35:25.835908+00:00",
+        "close_reason": "Horizont erreicht (397 min)"
       }
     ],
     "alt": [
@@ -3889,6 +3948,45 @@
         "liquidity_usd_jetzt": 40507.5434,
         "closed_ts": "2026-09-05T00:50:34.987899+00:00",
         "close_reason": "Take-Profit erreicht (roh +138.3%)"
+      },
+      {
+        "id": "NEU-0905-005040-salamale",
+        "arm": "neu",
+        "scan_idx": 50,
+        "opened_ts": "2026-09-05T00:50:40.517454+00:00",
+        "symbol": "salamaleko",
+        "pool_address": "Htf7KTFf9QrchyS6WkgxCgh4wcbMQN96sGqayFB3FjG",
+        "token_address": "F6eNf4CUCsJiU6K39gecVPB5MT3ZGMPz68V4qTq8pump",
+        "entry_price_usd": 3.445761861626621e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2716.0397,
+        "age_minutes": 5.0,
+        "status": "sl",
+        "current_price_usd": 2.850628278467912e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-05T05:35:25.835908+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "55 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 55,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2259.4925,
+        "closed_ts": "2026-09-05T05:35:25.835908+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -17.3%)"
       }
     ]
   }
