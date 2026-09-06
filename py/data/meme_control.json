@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 66,
-  "last_scan": "2026-09-06T21:44:48.847923+00:00",
+  "scans": 67,
+  "last_scan": "2026-09-06T23:13:25.051073+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -24,37 +24,11 @@
         "liquidity_usd": 16229.624,
         "age_minutes": 5.6,
         "status": "open",
-        "current_price_usd": 0.184347026764942,
-        "pnl_pct": -0.83,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-06T21:44:23.073890+00:00",
-        "liquidity_usd_jetzt": 4161.1346
-      },
-      {
-        "id": "KON-0906-214448-ElonCoin",
-        "arm": "kontrolle",
-        "scan_idx": 65,
-        "opened_ts": "2026-09-06T21:44:48.847923+00:00",
-        "symbol": "ElonCoin",
-        "pool_address": "A4NAVQ5BsMQt2QRepENd1NC4sfQh2Xsiu9SV7nUvaaqy",
-        "token_address": "819453T3xP4z6F3D4HbvMJMRdpjrkx2YoTRtf97uWcP1",
-        "entry_price_usd": 2.1033718442722093e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +59.4%",
-          "1h +59.4%",
-          "Buy-Ratio 76%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 26554.5444,
-        "age_minutes": 5.5,
-        "status": "open",
-        "current_price_usd": 2.1033718442722093e-05,
-        "pnl_pct": 0.0,
+        "current_price_usd": 0.18807745083954713,
+        "pnl_pct": 1.17,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
+        "liquidity_usd_jetzt": 4161.8959
       },
       {
         "id": "KON-0906-214448-QSTRAT",
@@ -80,36 +54,62 @@
         "current_price_usd": 2.2112782930988292e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
+        "liquidity_usd_jetzt": 28421.4353
+      },
       {
-        "id": "ALT-0906-214448-QSTRAT",
-        "arm": "alt",
-        "scan_idx": 65,
-        "opened_ts": "2026-09-06T21:44:48.847923+00:00",
-        "symbol": "QSTRAT",
-        "pool_address": "3sC6zuP58zAJVjNFYrbZHYtHWRzeXHJ5WeHdkjbxkMXq",
-        "token_address": "XqFxYtsmnM7UdFszZ2twEZtqcZovVE3bSNdxzwqXmaC",
-        "entry_price_usd": 3.209613552239243e-05,
-        "score": 8,
+        "id": "KON-0906-231325-CHIPS",
+        "arm": "kontrolle",
+        "scan_idx": 66,
+        "opened_ts": "2026-09-06T23:13:25.051073+00:00",
+        "symbol": "CHIPS",
+        "pool_address": "66rtgX3yH52FqP9hiHmex6UWpu27veg66uBg5AvEtdoq",
+        "token_address": "B8tm5mJNPgzaA9NdWtVTzifsEnV6KteicJdU5uXUWBSt",
+        "entry_price_usd": 8.081264590852726e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +151.2%",
-          "1h +151.2%",
-          "Buy-Ratio 74%",
+          "5m +79.5%",
+          "1h +79.5%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 28052.9457,
-        "age_minutes": 4.0,
+        "liquidity_usd": 18825.1068,
+        "age_minutes": 4.2,
         "status": "open",
-        "current_price_usd": 3.209613552239243e-05,
+        "current_price_usd": 8.081264590852726e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       },
+      {
+        "id": "KON-0906-231325-QSTRAT",
+        "arm": "kontrolle",
+        "scan_idx": 66,
+        "opened_ts": "2026-09-06T23:13:25.051073+00:00",
+        "symbol": "QSTRAT",
+        "pool_address": "6tnFdzirqsA7Pfu7sqUwxanfxgcqQwqTeQjbiAQ5tLYj",
+        "token_address": "BzjZBEp6LhEZmFHApzXg6Gp1qR59E1Yrs9gpuPZyCWXM",
+        "entry_price_usd": 1.3095956986815692e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +44.2%",
+          "1h +44.2%",
+          "Buy-Ratio 89%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21539.4325,
+        "age_minutes": 6.6,
+        "status": "open",
+        "current_price_usd": 1.3095956986815692e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
       {
         "id": "ALT-0906-214448-BEAST",
         "arm": "alt",
@@ -130,7 +130,60 @@
         "liquidity_usd": 12273.0903,
         "age_minutes": 5.5,
         "status": "open",
-        "current_price_usd": 5.012718774871578e-06,
+        "current_price_usd": 5.012471698196823e-06,
+        "pnl_pct": -0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
+        "liquidity_usd_jetzt": 5078.7977
+      },
+      {
+        "id": "ALT-0906-231325-ARGSTR",
+        "arm": "alt",
+        "scan_idx": 66,
+        "opened_ts": "2026-09-06T23:13:25.051073+00:00",
+        "symbol": "ARGSTR",
+        "pool_address": "6kFs8PugfUoi4P8JKHkEeB9wTgyuUnAYvdtdEqgjq6sz",
+        "token_address": "6QupeMtzcfNHxtgXJAUD69nsxdzByJ58p7Uy3NPQoUCW",
+        "entry_price_usd": 1.5268211534992976e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +109.6%",
+          "1h +109.6%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 24161.2767,
+        "age_minutes": 6.9,
+        "status": "open",
+        "current_price_usd": 1.5268211534992976e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-0906-231325-SOL",
+        "arm": "alt",
+        "scan_idx": 66,
+        "opened_ts": "2026-09-06T23:13:25.051073+00:00",
+        "symbol": "SOL",
+        "pool_address": "3vuWfi6WmKxo2rmf3futrjgmgZTEATLM2x2icLECA1tb",
+        "token_address": "2hrWRoRXQfMQhKvGsBewPK54szMRFP3zdEbRSuAhF8cu",
+        "entry_price_usd": 1.4767735983012328e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +36.1%",
+          "1h +49.4%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23381.9367,
+        "age_minutes": 5.0,
+        "status": "open",
+        "current_price_usd": 1.4767735983012328e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -160,7 +213,7 @@
         "current_price_usd": 5.084239223384348e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
         "v2_score": 11,
         "v2_warum": [
           "Telegram vorhanden (8,94x-Lift)",
@@ -177,7 +230,8 @@
           "telegram": true,
           "creator_haelt": true,
           "risiko_score": 34
-        }
+        },
+        "liquidity_usd_jetzt": 45765.3597
       },
       {
         "id": "NEU-0906-214448-stonksca",
@@ -197,10 +251,10 @@
         "liquidity_usd": 2457.3292,
         "age_minutes": 5.5,
         "status": "open",
-        "current_price_usd": 2.9988777656182543e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 2.9761901489368996e-06,
+        "pnl_pct": -0.76,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -209,6 +263,42 @@
         "v2_signale": {
           "top10_pct": 100.0,
           "halter": 26,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2356.085
+      },
+      {
+        "id": "NEU-0906-231325-BONK'D",
+        "arm": "neu",
+        "scan_idx": 66,
+        "opened_ts": "2026-09-06T23:13:25.051073+00:00",
+        "symbol": "BONK'D",
+        "pool_address": "3dARVDWnXzeMBHhsZWCtekJQjdrXVSk34BJy15q15jSN",
+        "token_address": "AvxKa2N3X87CepjS45aZTLC4GJ5CRsBCsR471wgdpump",
+        "entry_price_usd": 2.9913156192876444e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2373.2163,
+        "age_minutes": 4.9,
+        "status": "open",
+        "current_price_usd": 2.9913156192876444e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 2,
+        "v2_warum": [
+          "Website vorhanden",
+          "84 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 84,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -1834,6 +1924,35 @@
         "liquidity_usd_jetzt": 20697.6885,
         "closed_ts": "2026-09-06T21:44:23.073890+00:00",
         "close_reason": "Horizont erreicht (369 min)"
+      },
+      {
+        "id": "KON-0906-214448-ElonCoin",
+        "arm": "kontrolle",
+        "scan_idx": 65,
+        "opened_ts": "2026-09-06T21:44:48.847923+00:00",
+        "symbol": "ElonCoin",
+        "pool_address": "A4NAVQ5BsMQt2QRepENd1NC4sfQh2Xsiu9SV7nUvaaqy",
+        "token_address": "819453T3xP4z6F3D4HbvMJMRdpjrkx2YoTRtf97uWcP1",
+        "entry_price_usd": 2.1033718442722093e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +59.4%",
+          "1h +59.4%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 26554.5444,
+        "age_minutes": 5.5,
+        "status": "rug",
+        "current_price_usd": 3.776512900241538e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
+        "liquidity_usd_jetzt": 5.471624946e-07,
+        "closed_ts": "2026-09-06T23:12:44.415357+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 26555 $) — kein Ausstieg. Schein-PnL waere +79.5% gewesen."
       }
     ],
     "alt": [
@@ -3550,6 +3669,35 @@
         "liquidity_usd_jetzt": 0.0425,
         "closed_ts": "2026-09-06T21:44:23.073890+00:00",
         "close_reason": "Liquiditaet 0.04 $ (Start 90896 $) — kein Ausstieg. Schein-PnL waere -2.8% gewesen."
+      },
+      {
+        "id": "ALT-0906-214448-QSTRAT",
+        "arm": "alt",
+        "scan_idx": 65,
+        "opened_ts": "2026-09-06T21:44:48.847923+00:00",
+        "symbol": "QSTRAT",
+        "pool_address": "3sC6zuP58zAJVjNFYrbZHYtHWRzeXHJ5WeHdkjbxkMXq",
+        "token_address": "XqFxYtsmnM7UdFszZ2twEZtqcZovVE3bSNdxzwqXmaC",
+        "entry_price_usd": 3.209613552239243e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +151.2%",
+          "1h +151.2%",
+          "Buy-Ratio 74%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 28052.9457,
+        "age_minutes": 4.0,
+        "status": "tp",
+        "current_price_usd": 5.445014607031136e-05,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-06T23:12:44.415357+00:00",
+        "liquidity_usd_jetzt": 46878.3574,
+        "closed_ts": "2026-09-06T23:12:44.415357+00:00",
+        "close_reason": "Take-Profit erreicht (roh +69.6%)"
       }
     ],
     "neu": [
