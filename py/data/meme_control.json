@@ -1,58 +1,10 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 70,
-  "last_scan": "2026-09-07T12:48:23.943404+00:00",
+  "scans": 71,
+  "last_scan": "2026-09-07T18:14:02.201064+00:00",
   "offen": {
     "kontrolle": [
-      {
-        "id": "KON-0907-010925-ZEC",
-        "arm": "kontrolle",
-        "scan_idx": 67,
-        "opened_ts": "2026-09-07T01:09:25.354391+00:00",
-        "symbol": "ZEC",
-        "pool_address": "CADeVx1JfDiQ8ED2yHTvCaDcyFpQCWb9jjfvTP3bDEJK",
-        "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-        "entry_price_usd": 1183.9372258178385,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 14086.9748,
-        "age_minutes": 4.8,
-        "status": "open",
-        "current_price_usd": 1199.8721913632387,
-        "pnl_pct": 1.35,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-07T12:47:55.674458+00:00",
-        "liquidity_usd_jetzt": 4084.857
-      },
-      {
-        "id": "KON-0907-124823-南北绿豆",
-        "arm": "kontrolle",
-        "scan_idx": 69,
-        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
-        "symbol": "南北绿豆",
-        "pool_address": "ERqunFs4mwNa5YRuJpB8ChjgYSjqBmNjfTaBnzF3uT8u",
-        "token_address": "CEp5JwBTM3LLQXUxnNG5tywndpqPjMAW14GJGVAKDJMk",
-        "entry_price_usd": 1.4006962341254005e-05,
-        "score": 6,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Buy-Ratio 68%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 18272.5117,
-        "age_minutes": 2.8,
-        "status": "open",
-        "current_price_usd": 1.4006962341254005e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
       {
         "id": "KON-0907-124823-宇宙",
         "arm": "kontrolle",
@@ -76,8 +28,8 @@
         "status": "open",
         "current_price_usd": 9.486417579928095e-06,
         "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00"
       }
     ],
     "alt": [
@@ -102,110 +54,14 @@
         "liquidity_usd": 20864.8072,
         "age_minutes": 3.9,
         "status": "open",
-        "current_price_usd": 1.1372214361587451e-05,
-        "pnl_pct": 0.0,
+        "current_price_usd": 1.3376113455763754e-05,
+        "pnl_pct": 17.62,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "ALT-0907-124823-Baton",
-        "arm": "alt",
-        "scan_idx": 69,
-        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
-        "symbol": "Baton",
-        "pool_address": "H9zXr7Z2jUXXLXfR5tEtPVW1QipQTHNjWtvzCwtbyprG",
-        "token_address": "DDRwLZAoSVn57CNTKpyUacQ7jem15JRvHpHCVh3ftqo1",
-        "entry_price_usd": 8.016293222951707e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +46.6%",
-          "1h +46.6%",
-          "Buy-Ratio 76%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 22283.6741,
-        "age_minutes": 3.7,
-        "status": "open",
-        "current_price_usd": 8.016293222951707e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "liquidity_usd_jetzt": 21732.4747
       }
     ],
-    "neu": [
-      {
-        "id": "NEU-0907-124823-Nasduck",
-        "arm": "neu",
-        "scan_idx": 69,
-        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
-        "symbol": "Nasduck",
-        "pool_address": "937nYYCPzqygDm71FX5XJzepDCnJLca9GSfe5essZK2H",
-        "token_address": "7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze",
-        "entry_price_usd": 0.0008606361849772354,
-        "score": 1,
-        "signals": [
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 96704.6795,
-        "age_minutes": 722.9,
-        "status": "open",
-        "current_price_usd": 0.0008606361849772354,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 8,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 20 % bei reifem Token",
-          "15035 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 20.32,
-          "halter": 15035,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      },
-      {
-        "id": "NEU-0907-124823-CatGPT",
-        "arm": "neu",
-        "scan_idx": 69,
-        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
-        "symbol": "CatGPT",
-        "pool_address": "DJ9xnmQU1gP6XXqmCZrtHsf89YS1B9PwkTWUXipuzaSr",
-        "token_address": "9GGGhze1NnQwcABTzxdxx89BEFLFtDueHhkwh6japump",
-        "entry_price_usd": 0.00027718630039530315,
-        "score": 1,
-        "signals": [
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 51278.2958,
-        "age_minutes": 599.7,
-        "status": "open",
-        "current_price_usd": 0.00027718630039530315,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 8,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 27 % bei reifem Token",
-          "9029 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 27.02,
-          "halter": 9029,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -2047,6 +1903,59 @@
         "liquidity_usd_jetzt": 0.002107413044,
         "closed_ts": "2026-09-07T12:47:55.674458+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 11337 $) — kein Ausstieg. Schein-PnL waere -81.4% gewesen."
+      },
+      {
+        "id": "KON-0907-124823-南北绿豆",
+        "arm": "kontrolle",
+        "scan_idx": 69,
+        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
+        "symbol": "南北绿豆",
+        "pool_address": "ERqunFs4mwNa5YRuJpB8ChjgYSjqBmNjfTaBnzF3uT8u",
+        "token_address": "CEp5JwBTM3LLQXUxnNG5tywndpqPjMAW14GJGVAKDJMk",
+        "entry_price_usd": 1.4006962341254005e-05,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 68%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18272.5117,
+        "age_minutes": 2.8,
+        "status": "tp",
+        "current_price_usd": 2.423511454812503e-05,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "liquidity_usd_jetzt": 26900.5154,
+        "closed_ts": "2026-09-07T18:13:21.922840+00:00",
+        "close_reason": "Take-Profit erreicht (roh +73.0%)"
+      },
+      {
+        "id": "KON-0907-010925-ZEC",
+        "arm": "kontrolle",
+        "scan_idx": 67,
+        "opened_ts": "2026-09-07T01:09:25.354391+00:00",
+        "symbol": "ZEC",
+        "pool_address": "CADeVx1JfDiQ8ED2yHTvCaDcyFpQCWb9jjfvTP3bDEJK",
+        "token_address": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+        "entry_price_usd": 1183.9372258178385,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 14086.9748,
+        "age_minutes": 4.8,
+        "status": "expired",
+        "current_price_usd": 1193.7122819251504,
+        "pnl_pct": 0.83,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "liquidity_usd_jetzt": 3822.6056,
+        "closed_ts": "2026-09-07T18:13:21.922840+00:00",
+        "close_reason": "Horizont erreicht (1024 min)"
       }
     ],
     "alt": [
@@ -3994,6 +3903,35 @@
         "liquidity_usd_jetzt": 5040.896,
         "closed_ts": "2026-09-07T12:47:55.674458+00:00",
         "close_reason": "Horizont erreicht (903 min)"
+      },
+      {
+        "id": "ALT-0907-124823-Baton",
+        "arm": "alt",
+        "scan_idx": 69,
+        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
+        "symbol": "Baton",
+        "pool_address": "H9zXr7Z2jUXXLXfR5tEtPVW1QipQTHNjWtvzCwtbyprG",
+        "token_address": "DDRwLZAoSVn57CNTKpyUacQ7jem15JRvHpHCVh3ftqo1",
+        "entry_price_usd": 8.016293222951707e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +46.6%",
+          "1h +46.6%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 22283.6741,
+        "age_minutes": 3.7,
+        "status": "rug",
+        "current_price_usd": 0.00033266118668263196,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "liquidity_usd_jetzt": 0.0010952573250118,
+        "closed_ts": "2026-09-07T18:13:21.922840+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 22284 $) — kein Ausstieg. Schein-PnL waere +315.0% gewesen."
       }
     ],
     "neu": [
@@ -6338,6 +6276,82 @@
         "liquidity_usd_jetzt": 45423.8251,
         "closed_ts": "2026-09-07T12:47:55.674458+00:00",
         "close_reason": "Horizont erreicht (903 min)"
+      },
+      {
+        "id": "NEU-0907-124823-Nasduck",
+        "arm": "neu",
+        "scan_idx": 69,
+        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
+        "symbol": "Nasduck",
+        "pool_address": "937nYYCPzqygDm71FX5XJzepDCnJLca9GSfe5essZK2H",
+        "token_address": "7Y7V1a4m2nWK7BMgbka5B4vR1pDvCK7yva3Hnrqkraze",
+        "entry_price_usd": 0.0008606361849772354,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 96704.6795,
+        "age_minutes": 722.9,
+        "status": "tp",
+        "current_price_usd": 0.002003247830962049,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 20 % bei reifem Token",
+          "15035 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 20.32,
+          "halter": 15035,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 147926.4383,
+        "closed_ts": "2026-09-07T18:13:21.922840+00:00",
+        "close_reason": "Take-Profit erreicht (roh +132.8%)"
+      },
+      {
+        "id": "NEU-0907-124823-CatGPT",
+        "arm": "neu",
+        "scan_idx": 69,
+        "opened_ts": "2026-09-07T12:48:23.943404+00:00",
+        "symbol": "CatGPT",
+        "pool_address": "DJ9xnmQU1gP6XXqmCZrtHsf89YS1B9PwkTWUXipuzaSr",
+        "token_address": "9GGGhze1NnQwcABTzxdxx89BEFLFtDueHhkwh6japump",
+        "entry_price_usd": 0.00027718630039530315,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 51278.2958,
+        "age_minutes": 599.7,
+        "status": "tp",
+        "current_price_usd": 0.00048333888704085156,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-07T18:13:21.922840+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 27 % bei reifem Token",
+          "9029 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 27.02,
+          "halter": 9029,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 68930.8064,
+        "closed_ts": "2026-09-07T18:13:21.922840+00:00",
+        "close_reason": "Take-Profit erreicht (roh +74.4%)"
       }
     ]
   }
