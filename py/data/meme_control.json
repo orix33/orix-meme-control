@@ -1,141 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 94,
-  "last_scan": "2026-09-11T00:34:16.329092+00:00",
+  "scans": 95,
+  "last_scan": "2026-09-11T05:17:15.565830+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0911-003416-5",
-        "arm": "kontrolle",
-        "scan_idx": 93,
-        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
-        "symbol": "5",
-        "pool_address": "FmSDgXDKBbCSJ5EeVCAxyNAoCWmTJUvtK8JDq6uy4bka",
-        "token_address": "CWrnfqkx7kqZSwMCNcxJCcXbz8x2UW9QRcqhY3c4pump",
-        "entry_price_usd": 2.7379508368756904e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +585.4%",
-          "1h +585.4%",
-          "Buy-Ratio 76%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 7049.8159,
-        "age_minutes": 3.6,
-        "status": "open",
-        "current_price_usd": 2.7379508368756904e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-0911-003416-JUGGER67",
-        "arm": "alt",
-        "scan_idx": 93,
-        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
-        "symbol": "JUGGER67",
-        "pool_address": "9uau79TJJnwmfSVudDrnaf9jnsUyr6n3RccYDSP8XCLZ",
-        "token_address": "4eFdaQK59uDMqQ2mZifiRwYcYt8Yi27zKgRg7fpSpump",
-        "entry_price_usd": 5.46861434856022e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +19.7%",
-          "1h +19.7%",
-          "Buy-Ratio 61%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 18852.9332,
-        "age_minutes": 3.6,
-        "status": "open",
-        "current_price_usd": 5.46861434856022e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-0910-222742-PENGU",
-        "arm": "neu",
-        "scan_idx": 92,
-        "opened_ts": "2026-09-10T22:27:42.930954+00:00",
-        "symbol": "PENGU",
-        "pool_address": "ByKfqBGyHQj1hmEUouXfueLJEU1SHdJz3uMtd1yXGunS",
-        "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
-        "entry_price_usd": 0.007460105650481122,
-        "score": 1,
-        "signals": [
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 120201.2593,
-        "age_minutes": 422.4,
-        "status": "open",
-        "current_price_usd": 0.00742248085856251,
-        "pnl_pct": -0.5,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-11T00:33:47.581792+00:00",
-        "v2_score": 6,
-        "v2_warum": [
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "Top-10 46 %",
-          "1975018 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 45.54,
-          "halter": 1975018,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 122470.7379
-      },
-      {
-        "id": "NEU-0911-003416-牛来",
-        "arm": "neu",
-        "scan_idx": 93,
-        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
-        "symbol": "牛来",
-        "pool_address": "CsbRSTNSQLMARYFj4zoZfntpjm5FkYeydX1hik6UHTcd",
-        "token_address": "4rYbfpRxWt9DZxKAmEEGFypYoA1iCVa92Y1v6RztSpeg",
-        "entry_price_usd": 5.826612162858014e-06,
-        "score": 6,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Buy-Ratio 68%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 6012.8328,
-        "age_minutes": 3.3,
-        "status": "open",
-        "current_price_usd": 5.826612162858014e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 7,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "152 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 57 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 77.94,
-          "halter": 152,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 57
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -2745,6 +2616,35 @@
         "liquidity_usd_jetzt": 3173.8931,
         "closed_ts": "2026-09-11T00:33:47.581792+00:00",
         "close_reason": "Horizont erreicht (440 min)"
+      },
+      {
+        "id": "KON-0911-003416-5",
+        "arm": "kontrolle",
+        "scan_idx": 93,
+        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
+        "symbol": "5",
+        "pool_address": "FmSDgXDKBbCSJ5EeVCAxyNAoCWmTJUvtK8JDq6uy4bka",
+        "token_address": "CWrnfqkx7kqZSwMCNcxJCcXbz8x2UW9QRcqhY3c4pump",
+        "entry_price_usd": 2.7379508368756904e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +585.4%",
+          "1h +585.4%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7049.8159,
+        "age_minutes": 3.6,
+        "status": "sl",
+        "current_price_usd": 2.7948745523946866e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-11T05:17:07.580736+00:00",
+        "liquidity_usd_jetzt": 2225.161,
+        "closed_ts": "2026-09-11T05:17:07.580736+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -89.8%)"
       }
     ],
     "alt": [
@@ -5467,6 +5367,35 @@
         "liquidity_usd_jetzt": 0.00200861863,
         "closed_ts": "2026-09-11T00:33:47.581792+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 18978 $) — kein Ausstieg. Schein-PnL waere -97.7% gewesen."
+      },
+      {
+        "id": "ALT-0911-003416-JUGGER67",
+        "arm": "alt",
+        "scan_idx": 93,
+        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
+        "symbol": "JUGGER67",
+        "pool_address": "9uau79TJJnwmfSVudDrnaf9jnsUyr6n3RccYDSP8XCLZ",
+        "token_address": "4eFdaQK59uDMqQ2mZifiRwYcYt8Yi27zKgRg7fpSpump",
+        "entry_price_usd": 5.46861434856022e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +19.7%",
+          "1h +19.7%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18852.9332,
+        "age_minutes": 3.6,
+        "status": "sl",
+        "current_price_usd": 2.024457336079286e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-11T05:17:07.580736+00:00",
+        "liquidity_usd_jetzt": 2198.5722,
+        "closed_ts": "2026-09-11T05:17:07.580736+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -96.3%)"
       }
     ],
     "neu": [
@@ -8881,6 +8810,85 @@
         "liquidity_usd_jetzt": 2218.664,
         "closed_ts": "2026-09-11T00:33:47.581792+00:00",
         "close_reason": "Stop-Loss erreicht (roh -57.2%)"
+      },
+      {
+        "id": "NEU-0911-003416-牛来",
+        "arm": "neu",
+        "scan_idx": 93,
+        "opened_ts": "2026-09-11T00:34:16.329092+00:00",
+        "symbol": "牛来",
+        "pool_address": "CsbRSTNSQLMARYFj4zoZfntpjm5FkYeydX1hik6UHTcd",
+        "token_address": "4rYbfpRxWt9DZxKAmEEGFypYoA1iCVa92Y1v6RztSpeg",
+        "entry_price_usd": 5.826612162858014e-06,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 68%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6012.8328,
+        "age_minutes": 3.3,
+        "status": "rug",
+        "current_price_usd": 5.826612162858014e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-11T05:17:07.580736+00:00",
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "152 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 57 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 77.94,
+          "halter": 152,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 57
+        },
+        "liquidity_usd_jetzt": 1.71119123e-07,
+        "closed_ts": "2026-09-11T05:17:07.580736+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 6013 $) — kein Ausstieg. Schein-PnL waere +0.0% gewesen."
+      },
+      {
+        "id": "NEU-0910-222742-PENGU",
+        "arm": "neu",
+        "scan_idx": 92,
+        "opened_ts": "2026-09-10T22:27:42.930954+00:00",
+        "symbol": "PENGU",
+        "pool_address": "ByKfqBGyHQj1hmEUouXfueLJEU1SHdJz3uMtd1yXGunS",
+        "token_address": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+        "entry_price_usd": 0.007460105650481122,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 120201.2593,
+        "age_minutes": 422.4,
+        "status": "expired",
+        "current_price_usd": 0.007468117788569827,
+        "pnl_pct": 0.11,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-11T05:17:07.580736+00:00",
+        "v2_score": 6,
+        "v2_warum": [
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "Top-10 46 %",
+          "1975018 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 45.54,
+          "halter": 1975018,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 81677.5453,
+        "closed_ts": "2026-09-11T05:17:07.580736+00:00",
+        "close_reason": "Horizont erreicht (409 min)"
       }
     ]
   }
