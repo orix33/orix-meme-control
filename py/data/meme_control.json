@@ -1,111 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 100,
-  "last_scan": "2026-09-11T23:11:04.290882+00:00",
+  "scans": 101,
+  "last_scan": "2026-09-12T01:16:26.818682+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0911-231104-Anthropi",
-        "arm": "kontrolle",
-        "scan_idx": 99,
-        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
-        "symbol": "Anthropic",
-        "pool_address": "9fT9peK2eEsWb76EjyQLi6wdV8MSzQUyPGEA4kByhRDB",
-        "token_address": "QB4EQ8mTF1vt84whWSnjfFim5Khex4JdY6XjZ5cpump",
-        "entry_price_usd": 0.015617577773215697,
-        "score": 6,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Buy-Ratio 100%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 333287.170476503,
-        "age_minutes": 2.1,
-        "status": "open",
-        "current_price_usd": 0.015617577773215697,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "KON-0911-231104-Stunk",
-        "arm": "kontrolle",
-        "scan_idx": 99,
-        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
-        "symbol": "Stunk",
-        "pool_address": "8Tfvhwk6swWCjo7DNKrp89wWqrTdj6o9HBoDhfXT2dy6",
-        "token_address": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
-        "entry_price_usd": 0.0023772278106317206,
-        "score": 3,
-        "signals": [
-          "Alter<6h",
-          "Buy-Ratio 75%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 137735.6943,
-        "age_minutes": 298.6,
-        "status": "open",
-        "current_price_usd": 0.0023772278106317206,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-0911-231104-Snailcat",
-        "arm": "alt",
-        "scan_idx": 99,
-        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
-        "symbol": "Snailcat",
-        "pool_address": "7oqX2DnKkQd9c9oqKzmpuvKpY71du3fEBVArxJuw3ThF",
-        "token_address": "FRW3SP35UEVL6df3WzdyKX3bi5syxAx9QZ5Jg9JFHZnv",
-        "entry_price_usd": 1.3916630225653438e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +53.2%",
-          "1h +53.2%",
-          "Buy-Ratio 62%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 21337.8163,
-        "age_minutes": 3.5,
-        "status": "open",
-        "current_price_usd": 1.3916630225653438e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "ALT-0911-231104-WMR",
-        "arm": "alt",
-        "scan_idx": 99,
-        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
-        "symbol": "WMR",
-        "pool_address": "93h1iAp8zQjWRvqxRTqzHEVKL5j8ZJPa9iNhLCkB9sX6",
-        "token_address": "F9pf1AQ8GWurjxNcz2v9m4Hks3nesnTCbKoBDwF3errz",
-        "entry_price_usd": 1.3615309577773321e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +42.9%",
-          "1h +42.9%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 21088.3166,
-        "age_minutes": 3.0,
-        "status": "open",
-        "current_price_usd": 1.3615309577773321e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": [
       {
         "id": "NEU-0911-231104-SPRITEBO",
@@ -125,10 +25,10 @@
         "liquidity_usd": 2358.8515,
         "age_minutes": 3.4,
         "status": "open",
-        "current_price_usd": 2.9725866141155095e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.0507015080294516e-06,
+        "pnl_pct": 2.63,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-09-12T01:16:15.989441+00:00",
         "v2_score": 4,
         "v2_warum": [
           "Twitter vorhanden",
@@ -141,7 +41,8 @@
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
-        }
+        },
+        "liquidity_usd_jetzt": 2421.078
       }
     ]
   },
@@ -2836,6 +2737,59 @@
         "liquidity_usd_jetzt": 3.223607127e-07,
         "closed_ts": "2026-09-11T20:53:18.434192+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 19219 $) — kein Ausstieg. Schein-PnL waere +16.3% gewesen."
+      },
+      {
+        "id": "KON-0911-231104-Anthropi",
+        "arm": "kontrolle",
+        "scan_idx": 99,
+        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
+        "symbol": "Anthropic",
+        "pool_address": "9fT9peK2eEsWb76EjyQLi6wdV8MSzQUyPGEA4kByhRDB",
+        "token_address": "QB4EQ8mTF1vt84whWSnjfFim5Khex4JdY6XjZ5cpump",
+        "entry_price_usd": 0.015617577773215697,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 100%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 333287.170476503,
+        "age_minutes": 2.1,
+        "status": "tp",
+        "current_price_usd": 0.02175028070634875,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T01:16:15.989441+00:00",
+        "liquidity_usd_jetzt": 394932.7987,
+        "closed_ts": "2026-09-12T01:16:15.989441+00:00",
+        "close_reason": "Take-Profit erreicht (roh +39.3%)"
+      },
+      {
+        "id": "KON-0911-231104-Stunk",
+        "arm": "kontrolle",
+        "scan_idx": 99,
+        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
+        "symbol": "Stunk",
+        "pool_address": "8Tfvhwk6swWCjo7DNKrp89wWqrTdj6o9HBoDhfXT2dy6",
+        "token_address": "FLk6FKAN26m1FT4ucguwy3uHBMzLKcEu8KMTYD2Zpump",
+        "entry_price_usd": 0.0023772278106317206,
+        "score": 3,
+        "signals": [
+          "Alter<6h",
+          "Buy-Ratio 75%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 137735.6943,
+        "age_minutes": 298.6,
+        "status": "sl",
+        "current_price_usd": 0.0020020338368122513,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T01:16:15.989441+00:00",
+        "liquidity_usd_jetzt": 126815.086,
+        "closed_ts": "2026-09-12T01:16:15.989441+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -15.8%)"
       }
     ],
     "alt": [
@@ -5645,6 +5599,63 @@
         "liquidity_usd_jetzt": 36696.857,
         "closed_ts": "2026-09-11T20:53:18.434192+00:00",
         "close_reason": "Take-Profit erreicht (roh +69.3%)"
+      },
+      {
+        "id": "ALT-0911-231104-Snailcat",
+        "arm": "alt",
+        "scan_idx": 99,
+        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
+        "symbol": "Snailcat",
+        "pool_address": "7oqX2DnKkQd9c9oqKzmpuvKpY71du3fEBVArxJuw3ThF",
+        "token_address": "FRW3SP35UEVL6df3WzdyKX3bi5syxAx9QZ5Jg9JFHZnv",
+        "entry_price_usd": 1.3916630225653438e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +53.2%",
+          "1h +53.2%",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21337.8163,
+        "age_minutes": 3.5,
+        "status": "rug",
+        "current_price_usd": 1.9245691107753984,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T01:16:15.989441+00:00",
+        "liquidity_usd_jetzt": 0.0306,
+        "closed_ts": "2026-09-12T01:16:15.989441+00:00",
+        "close_reason": "Liquiditaet 0.03 $ (Start 21338 $) — kein Ausstieg. Schein-PnL waere +13829175.3% gewesen."
+      },
+      {
+        "id": "ALT-0911-231104-WMR",
+        "arm": "alt",
+        "scan_idx": 99,
+        "opened_ts": "2026-09-11T23:11:04.290882+00:00",
+        "symbol": "WMR",
+        "pool_address": "93h1iAp8zQjWRvqxRTqzHEVKL5j8ZJPa9iNhLCkB9sX6",
+        "token_address": "F9pf1AQ8GWurjxNcz2v9m4Hks3nesnTCbKoBDwF3errz",
+        "entry_price_usd": 1.3615309577773321e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +42.9%",
+          "1h +42.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21088.3166,
+        "age_minutes": 3.0,
+        "status": "tp",
+        "current_price_usd": 3.4200714338696035e-05,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T01:16:15.989441+00:00",
+        "liquidity_usd_jetzt": 36342.9663,
+        "closed_ts": "2026-09-12T01:16:15.989441+00:00",
+        "close_reason": "Take-Profit erreicht (roh +151.2%)"
       }
     ],
     "neu": [
