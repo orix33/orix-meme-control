@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 104,
-  "last_scan": "2026-09-12T13:44:43.541368+00:00",
+  "scans": 105,
+  "last_scan": "2026-09-12T16:31:31.701268+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -26,10 +26,11 @@
         "liquidity_usd": 113961.5953,
         "age_minutes": 3.2,
         "status": "open",
-        "current_price_usd": 0.001875202512037749,
-        "pnl_pct": 0.0,
+        "current_price_usd": 0.0020273553741959344,
+        "pnl_pct": 8.11,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00",
+        "liquidity_usd_jetzt": 118326.4088
       },
       {
         "id": "KON-0912-134443-Henry",
@@ -53,146 +54,12 @@
         "status": "open",
         "current_price_usd": 2.995130636741177e-05,
         "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00"
       }
     ],
-    "alt": [
-      {
-        "id": "ALT-0912-134443-DOLWAR",
-        "arm": "alt",
-        "scan_idx": 103,
-        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
-        "symbol": "DOLWAR",
-        "pool_address": "8tPn6yjnAgptwpR5vty7SW9ZM3GfMAyKyU5x7VaZDqVp",
-        "token_address": "5VnUZfwoqm8GfBviY97o6z6TovFmweQjNZfsXvNdpump",
-        "entry_price_usd": 0.06970387229267817,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +60.6%",
-          "1h +60.6%",
-          "Buy-Ratio 84%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 86851.7243,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 0.06970387229267817,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "ALT-0912-134443-TOPBLAST",
-        "arm": "alt",
-        "scan_idx": 103,
-        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
-        "symbol": "TOPBLAST",
-        "pool_address": "Bnd8ZyJruKmGoFV3rB52KYiu3wve5G7cFZYVnDyFMCLk",
-        "token_address": "2AgSbcwiFEZoir9ysopZywCJVcfVHhQtBZmksb3E6JCf",
-        "entry_price_usd": 3.8245208774550704e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +322.5%",
-          "1h +322.5%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 34693.5739,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 3.8245208774550704e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-0912-134443-DATADOG",
-        "arm": "neu",
-        "scan_idx": 103,
-        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
-        "symbol": "DATADOG",
-        "pool_address": "BDKr4LGpkeHfbUbNuobaLNEJNW9KfDYmoNu7ErFritdE",
-        "token_address": "12ZGJvtnk3TqRDyhjok4MakPAgx6w8uztJtGFhyspump",
-        "entry_price_usd": 0.00015595051799719914,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +94.4%",
-          "1h +94.4%",
-          "Buy-Ratio 93%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 31977.4652,
-        "age_minutes": 2.0,
-        "status": "open",
-        "current_price_usd": 0.00015595051799719914,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 7,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "476 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 56 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 88.73,
-          "halter": 476,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 56
-        }
-      },
-      {
-        "id": "NEU-0912-134443-NASBAYC",
-        "arm": "neu",
-        "scan_idx": 103,
-        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
-        "symbol": "NASBAYC",
-        "pool_address": "AFD2eQ2nz6wnrCiZHmK2BePoh55xPT3ohfF6BLUxwWri",
-        "token_address": "676n1jJQkf49TX9zGg38nHcx4WEUTNs66KW57KDAvbY3",
-        "entry_price_usd": 9.328952715120322e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +83.2%",
-          "1h +83.2%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2675.6022,
-        "age_minutes": 3.0,
-        "status": "open",
-        "current_price_usd": 9.328952715120322e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 7,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "211 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 25 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 92.88,
-          "halter": 211,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 25
-        }
-      }
-    ]
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -5975,6 +5842,63 @@
         "liquidity_usd_jetzt": 17600.8715,
         "closed_ts": "2026-09-12T13:44:32.885448+00:00",
         "close_reason": "Horizont erreicht (468 min)"
+      },
+      {
+        "id": "ALT-0912-134443-DOLWAR",
+        "arm": "alt",
+        "scan_idx": 103,
+        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
+        "symbol": "DOLWAR",
+        "pool_address": "8tPn6yjnAgptwpR5vty7SW9ZM3GfMAyKyU5x7VaZDqVp",
+        "token_address": "5VnUZfwoqm8GfBviY97o6z6TovFmweQjNZfsXvNdpump",
+        "entry_price_usd": 0.06970387229267817,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +60.6%",
+          "1h +60.6%",
+          "Buy-Ratio 84%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 86851.7243,
+        "age_minutes": 2.5,
+        "status": "rug",
+        "current_price_usd": 0.09926077426397671,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00",
+        "liquidity_usd_jetzt": 0.0306,
+        "closed_ts": "2026-09-12T16:31:06.206018+00:00",
+        "close_reason": "Liquiditaet 0.03 $ (Start 86852 $) — kein Ausstieg. Schein-PnL waere +42.4% gewesen."
+      },
+      {
+        "id": "ALT-0912-134443-TOPBLAST",
+        "arm": "alt",
+        "scan_idx": 103,
+        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
+        "symbol": "TOPBLAST",
+        "pool_address": "Bnd8ZyJruKmGoFV3rB52KYiu3wve5G7cFZYVnDyFMCLk",
+        "token_address": "2AgSbcwiFEZoir9ysopZywCJVcfVHhQtBZmksb3E6JCf",
+        "entry_price_usd": 3.8245208774550704e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +322.5%",
+          "1h +322.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 34693.5739,
+        "age_minutes": 2.5,
+        "status": "tp",
+        "current_price_usd": 7.20876210781984e-05,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00",
+        "liquidity_usd_jetzt": 49757.7596,
+        "closed_ts": "2026-09-12T16:31:06.206018+00:00",
+        "close_reason": "Take-Profit erreicht (roh +88.5%)"
       }
     ],
     "neu": [
@@ -9715,6 +9639,93 @@
         "liquidity_usd_jetzt": 162463.5941,
         "closed_ts": "2026-09-12T13:44:32.885448+00:00",
         "close_reason": "Horizont erreicht (468 min)"
+      },
+      {
+        "id": "NEU-0912-134443-DATADOG",
+        "arm": "neu",
+        "scan_idx": 103,
+        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
+        "symbol": "DATADOG",
+        "pool_address": "BDKr4LGpkeHfbUbNuobaLNEJNW9KfDYmoNu7ErFritdE",
+        "token_address": "12ZGJvtnk3TqRDyhjok4MakPAgx6w8uztJtGFhyspump",
+        "entry_price_usd": 0.00015595051799719914,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +94.4%",
+          "1h +94.4%",
+          "Buy-Ratio 93%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 31977.4652,
+        "age_minutes": 2.0,
+        "status": "sl",
+        "current_price_usd": 1.8584262619964105e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00",
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "476 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 56 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 88.73,
+          "halter": 476,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 56
+        },
+        "liquidity_usd_jetzt": 1889.6205,
+        "closed_ts": "2026-09-12T16:31:06.206018+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -98.8%)"
+      },
+      {
+        "id": "NEU-0912-134443-NASBAYC",
+        "arm": "neu",
+        "scan_idx": 103,
+        "opened_ts": "2026-09-12T13:44:43.541368+00:00",
+        "symbol": "NASBAYC",
+        "pool_address": "AFD2eQ2nz6wnrCiZHmK2BePoh55xPT3ohfF6BLUxwWri",
+        "token_address": "676n1jJQkf49TX9zGg38nHcx4WEUTNs66KW57KDAvbY3",
+        "entry_price_usd": 9.328952715120322e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +83.2%",
+          "1h +83.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2675.6022,
+        "age_minutes": 3.0,
+        "status": "rug",
+        "current_price_usd": 4.179488624573983e-10,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-12T16:31:06.206018+00:00",
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "211 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 25 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 92.88,
+          "halter": 211,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 25
+        },
+        "liquidity_usd_jetzt": 0.7649,
+        "closed_ts": "2026-09-12T16:31:06.206018+00:00",
+        "close_reason": "Liquiditaet 0.76 $ (Start 2676 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
       }
     ]
   }
