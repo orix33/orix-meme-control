@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 110,
-  "last_scan": "2026-09-13T05:58:12.865788+00:00",
+  "scans": 111,
+  "last_scan": "2026-09-13T11:40:17.382431+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -27,31 +27,57 @@
         "current_price_usd": 1.0749673438457733e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T11:40:12.021442+00:00",
+        "liquidity_usd_jetzt": 10594.3999
+      },
+      {
+        "id": "KON-0913-114017-Caton",
+        "arm": "kontrolle",
+        "scan_idx": 110,
+        "opened_ts": "2026-09-13T11:40:17.382431+00:00",
+        "symbol": "Caton",
+        "pool_address": "DY3i2LT959bQr1J7DbYJ3zCo9HmzA9isaUDu2JF4o1Pb",
+        "token_address": "9KhUupLsmrJsDgwWmRSRb5mRpKDxSGk5jXFM1id5pump",
+        "entry_price_usd": 4.9774678441178536e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +18.6%",
+          "1h +18.6%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17100.4281,
+        "age_minutes": 3.3,
+        "status": "open",
+        "current_price_usd": 4.9774678441178536e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
     "alt": [
       {
-        "id": "ALT-0913-055812-Verity",
+        "id": "ALT-0913-114017-WOFI",
         "arm": "alt",
-        "scan_idx": 109,
-        "opened_ts": "2026-09-13T05:58:12.865788+00:00",
-        "symbol": "Verity",
-        "pool_address": "7VqDm4z2ApCiASjssyk1Ga4JcBWvYBiGun7kGLTFMM7t",
-        "token_address": "32jc95UVWcvfPgy8uDk2Zxs3Z36zJBKe85qsN4pF6PAm",
-        "entry_price_usd": 4.281554706926046e-06,
-        "score": 7,
+        "scan_idx": 110,
+        "opened_ts": "2026-09-13T11:40:17.382431+00:00",
+        "symbol": "WOFI",
+        "pool_address": "FPnmBZc8ZzZGhpqP6URLpgfMkr1mbkw2QMoUQSavPqwd",
+        "token_address": "TuLeyVQHpcd9fspwqpQYV2msAKfSfhtvSJmWNgypump",
+        "entry_price_usd": 0.35180009022421643,
+        "score": 6,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +492.6%",
-          "1h +492.6%",
+          "Buy-Ratio 100%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 62899.109,
-        "age_minutes": 4.1,
+        "liquidity_usd": 1570583.4767,
+        "age_minutes": 3.1,
         "status": "open",
-        "current_price_usd": 4.281554706926046e-06,
+        "current_price_usd": 0.35180009022421643,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -59,41 +85,39 @@
     ],
     "neu": [
       {
-        "id": "NEU-0913-055812-Tulip",
+        "id": "NEU-0913-114017-TWINE",
         "arm": "neu",
-        "scan_idx": 109,
-        "opened_ts": "2026-09-13T05:58:12.865788+00:00",
-        "symbol": "Tulip",
-        "pool_address": "r9cBueKD9ZLzN2kXyNCzpX5iJmYLw5fWhDzCtbDCz6K",
-        "token_address": "7vSG4GX8qz5V36noSde5Z9xV8xAXAGqivDyaNytPVDJf",
-        "entry_price_usd": 0.0008143590203828132,
-        "score": 4,
+        "scan_idx": 110,
+        "opened_ts": "2026-09-13T11:40:17.382431+00:00",
+        "symbol": "TWINE",
+        "pool_address": "5x74XfDESP5j2vfr7nW76mqgQkKMUJUhGWXog4FaJs9X",
+        "token_address": "CNWxmoBSQZo2Sgp5KSAK5m9FwSqDbXQRP4CNMuoe78Gm",
+        "entry_price_usd": 0.0009205034873475302,
+        "score": 1,
         "signals": [
-          "5m +15.2%",
-          "1h +8.7%",
-          "Buy-Ratio 69%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 109840.7963,
-        "age_minutes": 710.9,
+        "liquidity_usd": 96665.1928,
+        "age_minutes": 964.4,
         "status": "open",
-        "current_price_usd": 0.0008143590203828132,
+        "current_price_usd": 0.0009205034873475302,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 5,
+        "v2_score": 4,
         "v2_warum": [
           "Twitter vorhanden",
-          "Top-10 nur 27 % bei reifem Token",
-          "14282 Halter",
-          "4 Insider-Netzwerke"
+          "Website vorhanden",
+          "Top-10 52 %",
+          "8264 Halter",
+          "RugCheck-Risiko 35 (hoch)"
         ],
         "v2_signale": {
-          "top10_pct": 27.27,
-          "halter": 14282,
+          "top10_pct": 52.44,
+          "halter": 8264,
           "telegram": false,
           "creator_haelt": false,
-          "risiko_score": 7
+          "risiko_score": 35
         }
       }
     ]
@@ -6247,6 +6271,34 @@
         "liquidity_usd_jetzt": 2271.81,
         "closed_ts": "2026-09-13T05:57:58.407925+00:00",
         "close_reason": "Stop-Loss erreicht (roh -47.2%)"
+      },
+      {
+        "id": "ALT-0913-055812-Verity",
+        "arm": "alt",
+        "scan_idx": 109,
+        "opened_ts": "2026-09-13T05:58:12.865788+00:00",
+        "symbol": "Verity",
+        "pool_address": "7VqDm4z2ApCiASjssyk1Ga4JcBWvYBiGun7kGLTFMM7t",
+        "token_address": "32jc95UVWcvfPgy8uDk2Zxs3Z36zJBKe85qsN4pF6PAm",
+        "entry_price_usd": 4.281554706926046e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +492.6%",
+          "1h +492.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 62899.109,
+        "age_minutes": 4.1,
+        "status": "rug",
+        "current_price_usd": 5.933420773150355e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T11:40:12.021442+00:00",
+        "liquidity_usd_jetzt": 1.85064712003682e-07,
+        "closed_ts": "2026-09-13T11:40:12.021442+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 62899 $) — kein Ausstieg. Schein-PnL waere +38.6% gewesen."
       }
     ],
     "neu": [
@@ -10233,6 +10285,47 @@
         "liquidity_usd_jetzt": 6086.3461,
         "closed_ts": "2026-09-13T05:57:58.407925+00:00",
         "close_reason": "Stop-Loss erreicht (roh -58.0%)"
+      },
+      {
+        "id": "NEU-0913-055812-Tulip",
+        "arm": "neu",
+        "scan_idx": 109,
+        "opened_ts": "2026-09-13T05:58:12.865788+00:00",
+        "symbol": "Tulip",
+        "pool_address": "r9cBueKD9ZLzN2kXyNCzpX5iJmYLw5fWhDzCtbDCz6K",
+        "token_address": "7vSG4GX8qz5V36noSde5Z9xV8xAXAGqivDyaNytPVDJf",
+        "entry_price_usd": 0.0008143590203828132,
+        "score": 4,
+        "signals": [
+          "5m +15.2%",
+          "1h +8.7%",
+          "Buy-Ratio 69%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 109840.7963,
+        "age_minutes": 710.9,
+        "status": "sl",
+        "current_price_usd": 0.0006885054957008134,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T11:40:12.021442+00:00",
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Top-10 nur 27 % bei reifem Token",
+          "14282 Halter",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 27.27,
+          "halter": 14282,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 7
+        },
+        "liquidity_usd_jetzt": 87882.7542,
+        "closed_ts": "2026-09-13T11:40:12.021442+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -15.5%)"
       }
     ]
   }
