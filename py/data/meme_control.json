@@ -1,111 +1,185 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 108,
-  "last_scan": "2026-09-12T22:58:13.312826+00:00",
+  "scans": 109,
+  "last_scan": "2026-09-13T00:51:35.914728+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-0912-184654-RETIRE",
+        "id": "KON-0913-005135-MIRAGE",
         "arm": "kontrolle",
-        "scan_idx": 105,
-        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
-        "symbol": "RETIRE",
-        "pool_address": "EbH1V4KuQnftfhxzuxfR51ZWtCTaiAbt8JkswozTuX7K",
-        "token_address": "AYv8SSDoxVA5GoCXMr6i9hwZXg4ermAbiWrEcqSKjuPe",
-        "entry_price_usd": 4.992161738316172e-06,
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "MIRAGE",
+        "pool_address": "H5qwsyTCUSXpMaQGeLRWiVyJFRqxXkzetZa1yQsxWZk2",
+        "token_address": "HBscgxFsZxp3wcu9fuiShkp6UGC9qTDWXpiNXMmipump",
+        "entry_price_usd": 1.0986279120555195e-05,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 85%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 61438.9857,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 1.0986279120555195e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-0913-005135-MIRAGE",
+        "arm": "kontrolle",
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "MIRAGE",
+        "pool_address": "6LtmVtKWRrKCyFrr7Wgbge6DHgK8V5Kht57zafFvmpzm",
+        "token_address": "GMgo9qHo8gsMjeGjx19Vf1EjrhGvs1S5soMg7GhLpump",
+        "entry_price_usd": 3.0196833786203404e-06,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 3905.8857,
-        "age_minutes": 6.0,
+        "liquidity_usd": 2395.4013,
+        "age_minutes": 2.9,
         "status": "open",
-        "current_price_usd": 4.752709273777819e-06,
-        "pnl_pct": -4.8,
+        "current_price_usd": 3.0196833786203404e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-12T22:57:45.203168+00:00",
-        "liquidity_usd_jetzt": 3743.6002
+        "letzte_pruefung": null
       }
     ],
-    "alt": [],
-    "neu": [
+    "alt": [
       {
-        "id": "NEU-0912-184654-DKNG",
-        "arm": "neu",
-        "scan_idx": 105,
-        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
-        "symbol": "DKNG",
-        "pool_address": "6zCSdnTE8c3KXWuosxSnBt4wWsN9zTA73umKijP2p6au",
-        "token_address": "CdAoD87kYKHbtRFawiSqQJMX1pbKisoG7Ha1oJ47kB26",
-        "entry_price_usd": 0.00037817344363686627,
-        "score": 3,
+        "id": "ALT-0913-005135-TSLA",
+        "arm": "alt",
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "TSLA",
+        "pool_address": "DDQQ2FcwZQUon4nNLbhX6yEdD22ch2NNuZ8WtJTSpXVm",
+        "token_address": "DSco4f419TBESLAv225xLoy43SikhhNfnopA1ierRd4E",
+        "entry_price_usd": 2.465956201589172e-05,
+        "score": 8,
         "signals": [
-          "5m +9.4%",
-          "Buy-Ratio 67%",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +53.1%",
+          "1h +53.1%",
+          "Buy-Ratio 88%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 55436.3878,
-        "age_minutes": 1360.7,
+        "liquidity_usd": 74659.0591,
+        "age_minutes": 3.2,
         "status": "open",
-        "current_price_usd": 0.0004203610453424329,
-        "pnl_pct": 11.16,
+        "current_price_usd": 2.465956201589172e-05,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-12T22:57:45.203168+00:00",
-        "v2_score": 8,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 24 % bei reifem Token",
-          "8785 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 23.53,
-          "halter": 8785,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 7
-        },
-        "liquidity_usd_jetzt": 58573.8189
+        "letzte_pruefung": null
       },
       {
-        "id": "NEU-0912-184654-ALLINU",
-        "arm": "neu",
-        "scan_idx": 105,
-        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
-        "symbol": "ALLINU",
-        "pool_address": "5752ia7jC3ZU1c8ycytaSyi5D4nVhApSKvreGbs7pwWL",
-        "token_address": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
-        "entry_price_usd": 0.0006280370073493641,
-        "score": 4,
+        "id": "ALT-0913-005135-MIRAGE",
+        "arm": "alt",
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "MIRAGE",
+        "pool_address": "BDtofrAVe3LaPfgtsX9cN1xpa5Mg6Cs4TspabXLAUud4",
+        "token_address": "3vsvJB9AzDhTaLKjPhQsJfkBmYwKiL1NND5AEHv7pump",
+        "entry_price_usd": 5.441867069020537e-06,
+        "score": 7,
         "signals": [
+          "Alter<1h",
           "Volumen-Beschleunigung",
-          "Buy-Ratio 73%",
+          "5m +55.3%",
+          "1h +55.3%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 75826.9647,
-        "age_minutes": 1364.8,
+        "liquidity_usd": 4024.3424,
+        "age_minutes": 2.8,
         "status": "open",
-        "current_price_usd": 0.0007836442961771016,
-        "pnl_pct": 24.78,
+        "current_price_usd": 5.441867069020537e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-12T22:57:45.203168+00:00",
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-0913-005135-Samsung",
+        "arm": "neu",
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "Samsung",
+        "pool_address": "ApXppGsbXV6ES66HioeiUx1qGGztgHYSA67BUTQZ9Da3",
+        "token_address": "FULGJv4hp4AsMFqAmQFBEVLr65t7175zicCGQLkpump",
+        "entry_price_usd": 0.0013554111390724803,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 100%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 48974.3373,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 0.0013554111390724803,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
         "v2_score": 7,
         "v2_warum": [
           "Twitter vorhanden",
-          "Top-10 nur 20 % bei reifem Token",
-          "13655 Halter"
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "495 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 59 (hoch)"
         ],
         "v2_signale": {
-          "top10_pct": 20.09,
-          "halter": 13655,
+          "top10_pct": 99.98,
+          "halter": 495,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 59
+        }
+      },
+      {
+        "id": "NEU-0913-005135-ACTX",
+        "arm": "neu",
+        "scan_idx": 108,
+        "opened_ts": "2026-09-13T00:51:35.914728+00:00",
+        "symbol": "ACTX",
+        "pool_address": "CVSFAUTS2z4q4bv4uobAMVGf1SzstPQKRmMATJAYAqNB",
+        "token_address": "DDYsUN5DtMWRb2FFs9emXtFKSFL8C1JySHZmSUZL92g8",
+        "entry_price_usd": 1.1673884780354317e-05,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 22613.2937,
+        "age_minutes": 4.4,
+        "status": "open",
+        "current_price_usd": 1.1673884780354317e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "1323 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 59.52,
+          "halter": 1323,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 7
-        },
-        "liquidity_usd_jetzt": 85812.6323
+        }
       }
     ]
   },
@@ -3052,6 +3126,32 @@
         "liquidity_usd_jetzt": 6.01893269793034e-07,
         "closed_ts": "2026-09-12T22:57:45.203168+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 24087 $) — kein Ausstieg. Schein-PnL waere +285.7% gewesen."
+      },
+      {
+        "id": "KON-0912-184654-RETIRE",
+        "arm": "kontrolle",
+        "scan_idx": 105,
+        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
+        "symbol": "RETIRE",
+        "pool_address": "EbH1V4KuQnftfhxzuxfR51ZWtCTaiAbt8JkswozTuX7K",
+        "token_address": "AYv8SSDoxVA5GoCXMr6i9hwZXg4ermAbiWrEcqSKjuPe",
+        "entry_price_usd": 4.992161738316172e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3905.8857,
+        "age_minutes": 6.0,
+        "status": "expired",
+        "current_price_usd": 4.752709273777819e-06,
+        "pnl_pct": -4.8,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T00:51:30.230888+00:00",
+        "liquidity_usd_jetzt": 3749.3608,
+        "closed_ts": "2026-09-13T00:51:30.230888+00:00",
+        "close_reason": "Horizont erreicht (365 min)"
       }
     ],
     "alt": [
@@ -9975,6 +10075,85 @@
         "liquidity_usd_jetzt": 0.7649,
         "closed_ts": "2026-09-12T16:31:06.206018+00:00",
         "close_reason": "Liquiditaet 0.76 $ (Start 2676 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
+      },
+      {
+        "id": "NEU-0912-184654-DKNG",
+        "arm": "neu",
+        "scan_idx": 105,
+        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
+        "symbol": "DKNG",
+        "pool_address": "6zCSdnTE8c3KXWuosxSnBt4wWsN9zTA73umKijP2p6au",
+        "token_address": "CdAoD87kYKHbtRFawiSqQJMX1pbKisoG7Ha1oJ47kB26",
+        "entry_price_usd": 0.00037817344363686627,
+        "score": 3,
+        "signals": [
+          "5m +9.4%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 55436.3878,
+        "age_minutes": 1360.7,
+        "status": "expired",
+        "current_price_usd": 0.00039288645935567227,
+        "pnl_pct": 3.89,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T00:51:30.230888+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 24 % bei reifem Token",
+          "8785 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 23.53,
+          "halter": 8785,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 7
+        },
+        "liquidity_usd_jetzt": 56883.3335,
+        "closed_ts": "2026-09-13T00:51:30.230888+00:00",
+        "close_reason": "Horizont erreicht (365 min)"
+      },
+      {
+        "id": "NEU-0912-184654-ALLINU",
+        "arm": "neu",
+        "scan_idx": 105,
+        "opened_ts": "2026-09-12T18:46:54.424387+00:00",
+        "symbol": "ALLINU",
+        "pool_address": "5752ia7jC3ZU1c8ycytaSyi5D4nVhApSKvreGbs7pwWL",
+        "token_address": "4MMQY9bwkxxTtsK3W227Q5ABT6yFY8Pmn9Ze7wmAXKY8",
+        "entry_price_usd": 0.0006280370073493641,
+        "score": 4,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 73%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 75826.9647,
+        "age_minutes": 1364.8,
+        "status": "expired",
+        "current_price_usd": 0.0007376724452221988,
+        "pnl_pct": 17.46,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-13T00:51:30.230888+00:00",
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Top-10 nur 20 % bei reifem Token",
+          "13655 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 20.09,
+          "halter": 13655,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 7
+        },
+        "liquidity_usd_jetzt": 82273.5346,
+        "closed_ts": "2026-09-13T00:51:30.230888+00:00",
+        "close_reason": "Horizont erreicht (365 min)"
       }
     ]
   }
