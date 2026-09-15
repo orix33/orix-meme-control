@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 126,
-  "last_scan": "2026-09-15T21:46:32.763161+00:00",
+  "scans": 127,
+  "last_scan": "2026-09-15T23:45:53.118548+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -29,8 +29,8 @@
         "current_price_usd": 7.395721390803299e-06,
         "pnl_pct": -0.44,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-15T21:46:07.263731+00:00",
-        "liquidity_usd_jetzt": 3565.3763
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "liquidity_usd_jetzt": 3589.5836
       },
       {
         "id": "KON-0915-182908-CAT",
@@ -55,84 +55,11 @@
         "status": "open",
         "current_price_usd": 1.9479572765750106e-05,
         "pnl_pct": 0.0,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-15T21:46:07.263731+00:00"
-      },
-      {
-        "id": "KON-0915-214632-binderz",
-        "arm": "kontrolle",
-        "scan_idx": 125,
-        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
-        "symbol": "binderz",
-        "pool_address": "AkVsYRu2VtP9AUM8QpwSwRGiWZcadjJy3Z7j7gBTphc3",
-        "token_address": "jJbuYkqVY1QH7ThDWcQnKtF7gbaXzqXXNYJM4gxpump",
-        "entry_price_usd": 1.4842489432033006e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +39.5%",
-          "1h +39.5%",
-          "Buy-Ratio 69%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 6289.79,
-        "age_minutes": 1.8,
-        "status": "open",
-        "current_price_usd": 1.4842489432033006e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "KON-0915-214632-HUHCAT",
-        "arm": "kontrolle",
-        "scan_idx": 125,
-        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
-        "symbol": "HUHCAT",
-        "pool_address": "BNpwtuYGve7G1v2NFaRQVCFvcU4CzjvwAmdUxEVQYvrd",
-        "token_address": "A9AHYeqb7nQk7LZUraw7rBCzYRjy2DRvE6NqWfFHKRdH",
-        "entry_price_usd": 0.0015486663962572238,
-        "score": 2,
-        "signals": [
-          "Buy-Ratio 61%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 121187.0882,
-        "age_minutes": 1174.6,
-        "status": "open",
-        "current_price_usd": 0.0015486663962572238,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "unknown_strikes": 2,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00"
       }
     ],
     "alt": [
-      {
-        "id": "ALT-0915-214632-WWR",
-        "arm": "alt",
-        "scan_idx": 125,
-        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
-        "symbol": "WWR",
-        "pool_address": "9rZj4YWxkFSdD4fBAAtkv3aaNSPFGKzHPEWwmPAh3GAr",
-        "token_address": "9Sod2v7cBDoV5y8BTw6KDN6rKvWpQNvJnM4J4UVMpump",
-        "entry_price_usd": 0.0007790893391470319,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +341.7%",
-          "1h +341.7%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 70625.3744,
-        "age_minutes": 1.9,
-        "status": "open",
-        "current_price_usd": 0.0007790893391470319,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
       {
         "id": "ALT-0915-214632-TOGI",
         "arm": "alt",
@@ -153,10 +80,11 @@
         "liquidity_usd": 3083.3291,
         "age_minutes": 2.1,
         "status": "open",
-        "current_price_usd": 3.698425295801728e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.146040337200364e-06,
+        "pnl_pct": -14.94,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "liquidity_usd_jetzt": 2505.5808
       }
     ],
     "neu": [
@@ -180,8 +108,8 @@
         "status": "open",
         "current_price_usd": 0.0008921284542699908,
         "pnl_pct": 17.44,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-15T21:46:07.263731+00:00",
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
         "v2_score": 8,
         "v2_warum": [
           "Twitter vorhanden",
@@ -197,43 +125,6 @@
           "risiko_score": 7
         },
         "liquidity_usd_jetzt": 84932.1357
-      },
-      {
-        "id": "NEU-0915-214632-CAT",
-        "arm": "neu",
-        "scan_idx": 125,
-        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
-        "symbol": "CAT",
-        "pool_address": "DnRFZMR8ArYEc4w4tGqtC2SZ6onfaHB3ofznK8JPUB5a",
-        "token_address": "Ci6vL212qisRybMjGBUTF3Ysq2MpJkPGH5wYawg95AAC",
-        "entry_price_usd": 4.120309419084136e-06,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +12.3%",
-          "1h +12.3%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 3592.6995,
-        "age_minutes": 1.8,
-        "status": "open",
-        "current_price_usd": 4.120309419084136e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 3,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "79 Halter (jung)"
-        ],
-        "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 79,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
       },
       {
         "id": "NEU-0915-214632-HODL",
@@ -253,10 +144,10 @@
         "liquidity_usd": 2195.0039,
         "age_minutes": 2.3,
         "status": "open",
-        "current_price_usd": 2.7921660936698445e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 2.7218761457681237e-06,
+        "pnl_pct": -2.52,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -268,7 +159,8 @@
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
-        }
+        },
+        "liquidity_usd_jetzt": 2168.1858
       }
     ]
   },
@@ -3763,6 +3655,60 @@
         "liquidity_usd_jetzt": 3.8555233985074e-07,
         "closed_ts": "2026-09-15T14:29:20.718230+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 292560 $) — kein Ausstieg. Schein-PnL waere +108.3% gewesen."
+      },
+      {
+        "id": "KON-0915-214632-binderz",
+        "arm": "kontrolle",
+        "scan_idx": 125,
+        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
+        "symbol": "binderz",
+        "pool_address": "AkVsYRu2VtP9AUM8QpwSwRGiWZcadjJy3Z7j7gBTphc3",
+        "token_address": "jJbuYkqVY1QH7ThDWcQnKtF7gbaXzqXXNYJM4gxpump",
+        "entry_price_usd": 1.4842489432033006e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +39.5%",
+          "1h +39.5%",
+          "Buy-Ratio 69%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6289.79,
+        "age_minutes": 1.8,
+        "status": "sl",
+        "current_price_usd": 2.7134714367367e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "liquidity_usd_jetzt": 2160.3996,
+        "closed_ts": "2026-09-15T23:44:56.093360+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -81.7%)"
+      },
+      {
+        "id": "KON-0915-214632-HUHCAT",
+        "arm": "kontrolle",
+        "scan_idx": 125,
+        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
+        "symbol": "HUHCAT",
+        "pool_address": "BNpwtuYGve7G1v2NFaRQVCFvcU4CzjvwAmdUxEVQYvrd",
+        "token_address": "A9AHYeqb7nQk7LZUraw7rBCzYRjy2DRvE6NqWfFHKRdH",
+        "entry_price_usd": 0.0015486663962572238,
+        "score": 2,
+        "signals": [
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 121187.0882,
+        "age_minutes": 1174.6,
+        "status": "tp",
+        "current_price_usd": 0.002407320898904982,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "liquidity_usd_jetzt": 155593.9615,
+        "closed_ts": "2026-09-15T23:44:56.093360+00:00",
+        "close_reason": "Take-Profit erreicht (roh +55.4%)"
       }
     ],
     "alt": [
@@ -7484,6 +7430,34 @@
         "liquidity_usd_jetzt": 0.6588,
         "closed_ts": "2026-09-15T21:46:07.263731+00:00",
         "close_reason": "Liquiditaet 0.66 $ (Start 2260 $) — kein Ausstieg. Schein-PnL waere -2.1% gewesen."
+      },
+      {
+        "id": "ALT-0915-214632-WWR",
+        "arm": "alt",
+        "scan_idx": 125,
+        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
+        "symbol": "WWR",
+        "pool_address": "9rZj4YWxkFSdD4fBAAtkv3aaNSPFGKzHPEWwmPAh3GAr",
+        "token_address": "9Sod2v7cBDoV5y8BTw6KDN6rKvWpQNvJnM4J4UVMpump",
+        "entry_price_usd": 0.0007790893391470319,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +341.7%",
+          "1h +341.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 70625.3744,
+        "age_minutes": 1.9,
+        "status": "rug",
+        "current_price_usd": 1.7501150412976355e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "liquidity_usd_jetzt": 1765.4533,
+        "closed_ts": "2026-09-15T23:44:56.093360+00:00",
+        "close_reason": "Liquiditaet 1765.45 $ (Start 70625 $) — kein Ausstieg. Schein-PnL waere -99.8% gewesen."
       }
     ],
     "neu": [
@@ -12040,6 +12014,46 @@
         "liquidity_usd_jetzt": 3040.1157,
         "closed_ts": "2026-09-15T21:46:07.263731+00:00",
         "close_reason": "Stop-Loss erreicht (roh -36.5%)"
+      },
+      {
+        "id": "NEU-0915-214632-CAT",
+        "arm": "neu",
+        "scan_idx": 125,
+        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
+        "symbol": "CAT",
+        "pool_address": "DnRFZMR8ArYEc4w4tGqtC2SZ6onfaHB3ofznK8JPUB5a",
+        "token_address": "Ci6vL212qisRybMjGBUTF3Ysq2MpJkPGH5wYawg95AAC",
+        "entry_price_usd": 4.120309419084136e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +12.3%",
+          "1h +12.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3592.6995,
+        "age_minutes": 1.8,
+        "status": "sl",
+        "current_price_usd": 2.893326905875448e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-15T23:44:56.093360+00:00",
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "79 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 79,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2284.8487,
+        "closed_ts": "2026-09-15T23:44:56.093360+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -29.8%)"
       }
     ]
   }
