@@ -1,49 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 128,
-  "last_scan": "2026-09-16T01:44:36.745905+00:00",
+  "scans": 129,
+  "last_scan": "2026-09-16T06:49:32.926613+00:00",
   "offen": {
     "kontrolle": [],
     "alt": [],
-    "neu": [
-      {
-        "id": "NEU-0915-214632-HODL",
-        "arm": "neu",
-        "scan_idx": 125,
-        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
-        "symbol": "HODL",
-        "pool_address": "3XvFXAnktz3hNAEwTC9f2p3v8FpjmfZCrGcrMoKEtEkT",
-        "token_address": "5wV4uCpRs6h7owrQ31FfmFhUNWrjF9AMbaRyqEQkHhxQ",
-        "entry_price_usd": 2.7921660936698445e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2195.0039,
-        "age_minutes": 2.3,
-        "status": "open",
-        "current_price_usd": 2.7218761457681237e-06,
-        "pnl_pct": -2.52,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-16T01:44:25.521653+00:00",
-        "v2_score": 3,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "55 Halter (jung)"
-        ],
-        "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 55,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 2150.958
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -12061,6 +12024,44 @@
         "liquidity_usd_jetzt": 59357.9524,
         "closed_ts": "2026-09-16T01:44:25.521653+00:00",
         "close_reason": "Stop-Loss erreicht (roh -43.8%)"
+      },
+      {
+        "id": "NEU-0915-214632-HODL",
+        "arm": "neu",
+        "scan_idx": 125,
+        "opened_ts": "2026-09-15T21:46:32.763161+00:00",
+        "symbol": "HODL",
+        "pool_address": "3XvFXAnktz3hNAEwTC9f2p3v8FpjmfZCrGcrMoKEtEkT",
+        "token_address": "5wV4uCpRs6h7owrQ31FfmFhUNWrjF9AMbaRyqEQkHhxQ",
+        "entry_price_usd": 2.7921660936698445e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2195.0039,
+        "age_minutes": 2.3,
+        "status": "expired",
+        "current_price_usd": 2.7218761457681237e-06,
+        "pnl_pct": -2.52,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-16T06:49:32.494754+00:00",
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "55 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 55,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2159.1523,
+        "closed_ts": "2026-09-16T06:49:32.494754+00:00",
+        "close_reason": "Horizont erreicht (543 min)"
       }
     ]
   }
