@@ -1,78 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 131,
-  "last_scan": "2026-09-16T17:17:44.662156+00:00",
+  "scans": 132,
+  "last_scan": "2026-09-16T20:16:00.221774+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0916-123325-lockinu",
-        "arm": "kontrolle",
-        "scan_idx": 129,
-        "opened_ts": "2026-09-16T12:33:25.534030+00:00",
-        "symbol": "lockinu",
-        "pool_address": "35ZGCERUqdsyLovXqJcXWmngoCDdQUwUhuywSP9aTr4e",
-        "token_address": "HyVZjiuAbuYQT8FmmbEVptJNJGSXwseGRJLeGjKVZGzH",
-        "entry_price_usd": 1.5699814330649113e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +35.3%",
-          "1h +35.3%",
-          "Buy-Ratio 77%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 20444.1988,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 1.5699814330649113e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-16T17:17:19.226929+00:00"
-      }
-    ],
+    "kontrolle": [],
     "alt": [],
-    "neu": [
-      {
-        "id": "NEU-0916-123325-PAID",
-        "arm": "neu",
-        "scan_idx": 129,
-        "opened_ts": "2026-09-16T12:33:25.534030+00:00",
-        "symbol": "PAID",
-        "pool_address": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
-        "token_address": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
-        "entry_price_usd": 0.009592297115154547,
-        "score": 1,
-        "signals": [
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 400542.2345,
-        "age_minutes": 1031.2,
-        "status": "open",
-        "current_price_usd": 0.011584350736448002,
-        "pnl_pct": 20.77,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-16T17:17:19.226929+00:00",
-        "v2_score": 9,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "Top-10 nur 14 % bei reifem Token",
-          "35173 Halter",
-          "4 Insider-Netzwerke"
-        ],
-        "v2_signale": {
-          "top10_pct": 14.21,
-          "halter": 35173,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 456205.5609
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -3704,6 +3638,35 @@
         "liquidity_usd_jetzt": 2108.7328,
         "closed_ts": "2026-09-16T17:17:19.226929+00:00",
         "close_reason": "Stop-Loss erreicht (roh -95.2%)"
+      },
+      {
+        "id": "KON-0916-123325-lockinu",
+        "arm": "kontrolle",
+        "scan_idx": 129,
+        "opened_ts": "2026-09-16T12:33:25.534030+00:00",
+        "symbol": "lockinu",
+        "pool_address": "35ZGCERUqdsyLovXqJcXWmngoCDdQUwUhuywSP9aTr4e",
+        "token_address": "HyVZjiuAbuYQT8FmmbEVptJNJGSXwseGRJLeGjKVZGzH",
+        "entry_price_usd": 1.5699814330649113e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +35.3%",
+          "1h +35.3%",
+          "Buy-Ratio 77%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20444.1988,
+        "age_minutes": 2.5,
+        "status": "rug",
+        "current_price_usd": 0.00012371574771189342,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-16T20:15:57.493032+00:00",
+        "liquidity_usd_jetzt": 7.575100394e-07,
+        "closed_ts": "2026-09-16T20:15:57.493032+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 20444 $) — kein Ausstieg. Schein-PnL waere +688.0% gewesen."
       }
     ],
     "alt": [
@@ -12253,6 +12216,46 @@
         "liquidity_usd_jetzt": 74349.0825,
         "closed_ts": "2026-09-16T17:17:19.226929+00:00",
         "close_reason": "Take-Profit erreicht (roh +89.9%)"
+      },
+      {
+        "id": "NEU-0916-123325-PAID",
+        "arm": "neu",
+        "scan_idx": 129,
+        "opened_ts": "2026-09-16T12:33:25.534030+00:00",
+        "symbol": "PAID",
+        "pool_address": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
+        "token_address": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+        "entry_price_usd": 0.009592297115154547,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 400542.2345,
+        "age_minutes": 1031.2,
+        "status": "expired",
+        "current_price_usd": 0.009284418797680933,
+        "pnl_pct": -3.21,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-16T20:15:57.493032+00:00",
+        "v2_score": 9,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "Top-10 nur 14 % bei reifem Token",
+          "35173 Halter",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 14.21,
+          "halter": 35173,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 405336.2213,
+        "closed_ts": "2026-09-16T20:15:57.493032+00:00",
+        "close_reason": "Horizont erreicht (463 min)"
       }
     ]
   }
