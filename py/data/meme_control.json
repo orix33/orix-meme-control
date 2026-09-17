@@ -1,36 +1,10 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 138,
-  "last_scan": "2026-09-17T20:11:48.757830+00:00",
+  "scans": 139,
+  "last_scan": "2026-09-17T22:55:26.442292+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0917-201148-PIMSY",
-        "arm": "kontrolle",
-        "scan_idx": 137,
-        "opened_ts": "2026-09-17T20:11:48.757830+00:00",
-        "symbol": "PIMSY",
-        "pool_address": "HQoJHFF4Kwb9xY9BWRLez3fwY72UTfzdZkZZDHP7tuQW",
-        "token_address": "GnxzqDxH8Gzkj54FbwJGnbv7LhWEU9mKDCYB6DyCL1jR",
-        "entry_price_usd": 1.4221109880956515e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +58.1%",
-          "1h +58.1%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 21255.0449,
-        "age_minutes": 5.4,
-        "status": "open",
-        "current_price_usd": 1.4221109880956515e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
     "alt": [
       {
         "id": "ALT-0917-201148-RUM",
@@ -51,10 +25,11 @@
         "liquidity_usd": 35348.8661,
         "age_minutes": 5.6,
         "status": "open",
-        "current_price_usd": 8.833826333160964,
-        "pnl_pct": 0.0,
+        "current_price_usd": 8.733858969562403,
+        "pnl_pct": -1.13,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-09-17T22:55:23.242110+00:00",
+        "liquidity_usd_jetzt": 33287.139
       }
     ],
     "neu": []
@@ -3855,6 +3830,34 @@
         "liquidity_usd_jetzt": 3.48940678431107e-07,
         "closed_ts": "2026-09-17T20:11:45.651462+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 31850 $) — kein Ausstieg. Schein-PnL waere +20.1% gewesen."
+      },
+      {
+        "id": "KON-0917-201148-PIMSY",
+        "arm": "kontrolle",
+        "scan_idx": 137,
+        "opened_ts": "2026-09-17T20:11:48.757830+00:00",
+        "symbol": "PIMSY",
+        "pool_address": "HQoJHFF4Kwb9xY9BWRLez3fwY72UTfzdZkZZDHP7tuQW",
+        "token_address": "GnxzqDxH8Gzkj54FbwJGnbv7LhWEU9mKDCYB6DyCL1jR",
+        "entry_price_usd": 1.4221109880956515e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +58.1%",
+          "1h +58.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21255.0449,
+        "age_minutes": 5.4,
+        "status": "rug",
+        "current_price_usd": 1.4221109880956515e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-17T22:55:23.242110+00:00",
+        "liquidity_usd_jetzt": 2.50720863579724e-05,
+        "closed_ts": "2026-09-17T22:55:23.242110+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 21255 $) — kein Ausstieg. Schein-PnL waere +0.0% gewesen."
       }
     ],
     "alt": [
