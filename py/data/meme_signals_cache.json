@@ -16499,5 +16499,70 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "9rM5ALsypqpLRSY89n1S16kfHQBt374Mmgs4Q615pump": {
+    "mint": "9rM5ALsypqpLRSY89n1S16kfHQBt374Mmgs4Q615pump",
+    "_ts": 1789765356.0309906,
+    "abgerufen": "2026-09-18T21:02:36.030991+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "5qrtydhZfRCVt59SrD72bPSZadCtPFvnwWCQpVKuBDWw": {
+    "mint": "5qrtydhZfRCVt59SrD72bPSZadCtPFvnwWCQpVKuBDWw",
+    "_ts": 1789765356.3243802,
+    "abgerufen": "2026-09-18T21:02:36.324383+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 50,
+    "rugged_flag": false,
+    "top1_pct": null,
+    "top10_pct": null,
+    "halter": 0,
+    "creator": "G5854SdMs4teZmGxJw5do4XM6KGhCf9peJj4z6n747he",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 2,
+    "graph_insider": 8,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 0,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
+  },
+  "5dSX7BMahKvUQpCsQGePUUevLfAsCNUhdtSkQX6opump": {
+    "mint": "5dSX7BMahKvUQpCsQGePUUevLfAsCNUhdtSkQX6opump",
+    "_ts": 1789765359.0694225,
+    "abgerufen": "2026-09-18T21:02:39.069425+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 80,
+    "rugged_flag": false,
+    "top1_pct": null,
+    "top10_pct": null,
+    "halter": 0,
+    "creator": "CXbSoUTsRWoDaHgnLBsNG9vpJUZ5bEELDJg3nPocyHVA",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 2,
+    "graph_insider": 33,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 2552.3886439880544,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": true
+    }
   }
 }
