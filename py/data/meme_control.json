@@ -1,62 +1,114 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 147,
-  "last_scan": "2026-09-19T01:18:22.390682+00:00",
+  "scans": 148,
+  "last_scan": "2026-09-19T06:03:00.831939+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-0918-210201-ACHSUALL",
+        "id": "KON-0919-060300-Mercedes",
         "arm": "kontrolle",
-        "scan_idx": 144,
-        "opened_ts": "2026-09-18T21:02:01.864661+00:00",
-        "symbol": "ACHSUALLY",
-        "pool_address": "7bj8KFc332tXLExmGFrrMrZXr8V8JDj3au1LDDpLEek1",
-        "token_address": "5dSX7BMahKvUQpCsQGePUUevLfAsCNUhdtSkQX6opump",
-        "entry_price_usd": 3.3189713832240647e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2829.1155,
-        "age_minutes": 3.5,
-        "status": "open",
-        "current_price_usd": 3.1750411596650056e-06,
-        "pnl_pct": -4.34,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-19T01:18:16.729769+00:00",
-        "liquidity_usd_jetzt": 2497.5424
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-0918-210201-IFUN",
-        "arm": "alt",
-        "scan_idx": 144,
-        "opened_ts": "2026-09-18T21:02:01.864661+00:00",
-        "symbol": "IFUN",
-        "pool_address": "5m1b5eLaBTWqRjjDk8TjfmxGSZYWGk2yuUTJMfK4hhHo",
-        "token_address": "9rM5ALsypqpLRSY89n1S16kfHQBt374Mmgs4Q615pump",
-        "entry_price_usd": 6.19699101217373e-05,
+        "scan_idx": 147,
+        "opened_ts": "2026-09-19T06:03:00.831939+00:00",
+        "symbol": "Mercedes",
+        "pool_address": "9bp5KFWDMfn933pmomFzZJZB7Ps53BVYRoNkqzhqvM1L",
+        "token_address": "Heu3tksYJUyWL36m7hoFf7UvVsdJ7fHrJze6biy3sVAH",
+        "entry_price_usd": 3.2447822368484883e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +1354.8%",
-          "1h +1354.8%",
-          "Buy-Ratio 92%",
+          "5m +96.6%",
+          "1h +96.6%",
+          "Buy-Ratio 84%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 12995.6666971281,
-        "age_minutes": 2.2,
+        "liquidity_usd": 34313.9728,
+        "age_minutes": 2.8,
         "status": "open",
-        "current_price_usd": 6.19699101217373e-05,
+        "current_price_usd": 3.2447822368484883e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-19T01:18:16.729769+00:00",
-        "liquidity_usd_jetzt": 12885.0187
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-0919-060300-INURANUS",
+        "arm": "kontrolle",
+        "scan_idx": 147,
+        "opened_ts": "2026-09-19T06:03:00.831939+00:00",
+        "symbol": "INURANUS",
+        "pool_address": "Ep3DxyfobHDwUK383kh16JGuKCFwqS2RmeHoRjQ964jd",
+        "token_address": "HP6gXwN2kMmnStoUj5PpQPuZoPTXBaXvhc5WBnMGyXdZ",
+        "entry_price_usd": 4.2277277169116524e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.6%",
+          "1h +8.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2453.2839,
+        "age_minutes": 2.3,
+        "status": "open",
+        "current_price_usd": 4.2277277169116524e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-0919-060300-Damo",
+        "arm": "alt",
+        "scan_idx": 147,
+        "opened_ts": "2026-09-19T06:03:00.831939+00:00",
+        "symbol": "Damo",
+        "pool_address": "3vfjXZx5Q7PqFL72ipURpSGpXeyEugee9XPALew3dfof",
+        "token_address": "32x27g6M6vMX3cbc8abbYcRpkjGFEvQ4NN1mJkWNdzo6",
+        "entry_price_usd": 1.2214665788790212e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +22.3%",
+          "1h +22.3%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20617.0306,
+        "age_minutes": 2.4,
+        "status": "open",
+        "current_price_usd": 1.2214665788790212e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-0919-060300-Shvolc",
+        "arm": "alt",
+        "scan_idx": 147,
+        "opened_ts": "2026-09-19T06:03:00.831939+00:00",
+        "symbol": "Shvolc",
+        "pool_address": "EbW92Sxgg65nSP8Ug7JS7Udi1rtk5nVoqaTd9mERvwcx",
+        "token_address": "CZQZqfLUox77fVUjg7TDBEYiGzkE4aHN8CVF7pumbonk",
+        "entry_price_usd": 0.09081894221446017,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.7%",
+          "1h +28.7%",
+          "Buy-Ratio 81%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 112160.9115,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 0.09081894221446017,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
       }
     ],
     "neu": []
@@ -4046,6 +4098,32 @@
         "liquidity_usd_jetzt": 456618.7646,
         "closed_ts": "2026-09-19T01:18:16.729769+00:00",
         "close_reason": "Horizont erreicht (419 min)"
+      },
+      {
+        "id": "KON-0918-210201-ACHSUALL",
+        "arm": "kontrolle",
+        "scan_idx": 144,
+        "opened_ts": "2026-09-18T21:02:01.864661+00:00",
+        "symbol": "ACHSUALLY",
+        "pool_address": "7bj8KFc332tXLExmGFrrMrZXr8V8JDj3au1LDDpLEek1",
+        "token_address": "5dSX7BMahKvUQpCsQGePUUevLfAsCNUhdtSkQX6opump",
+        "entry_price_usd": 3.3189713832240647e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2829.1155,
+        "age_minutes": 3.5,
+        "status": "expired",
+        "current_price_usd": 3.1750411596650056e-06,
+        "pnl_pct": -4.34,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-19T06:02:58.055414+00:00",
+        "liquidity_usd_jetzt": 2496.0546,
+        "closed_ts": "2026-09-19T06:02:58.055414+00:00",
+        "close_reason": "Horizont erreicht (541 min)"
       }
     ],
     "alt": [
@@ -8222,6 +8300,35 @@
         "liquidity_usd_jetzt": 2552.6957,
         "closed_ts": "2026-09-18T21:01:53.782722+00:00",
         "close_reason": "Stop-Loss erreicht (roh -72.2%)"
+      },
+      {
+        "id": "ALT-0918-210201-IFUN",
+        "arm": "alt",
+        "scan_idx": 144,
+        "opened_ts": "2026-09-18T21:02:01.864661+00:00",
+        "symbol": "IFUN",
+        "pool_address": "5m1b5eLaBTWqRjjDk8TjfmxGSZYWGk2yuUTJMfK4hhHo",
+        "token_address": "9rM5ALsypqpLRSY89n1S16kfHQBt374Mmgs4Q615pump",
+        "entry_price_usd": 6.19699101217373e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +1354.8%",
+          "1h +1354.8%",
+          "Buy-Ratio 92%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 12995.6666971281,
+        "age_minutes": 2.2,
+        "status": "expired",
+        "current_price_usd": 6.19699101217373e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-19T06:02:58.055414+00:00",
+        "liquidity_usd_jetzt": 12877.3433,
+        "closed_ts": "2026-09-19T06:02:58.055414+00:00",
+        "close_reason": "Horizont erreicht (541 min)"
       }
     ],
     "neu": [
