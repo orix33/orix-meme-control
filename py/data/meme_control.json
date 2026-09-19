@@ -1,11 +1,110 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 150,
-  "last_scan": "2026-09-19T14:19:10.031341+00:00",
+  "scans": 151,
+  "last_scan": "2026-09-19T17:20:03.284900+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
+    "kontrolle": [
+      {
+        "id": "KON-0919-172003-CZAR",
+        "arm": "kontrolle",
+        "scan_idx": 150,
+        "opened_ts": "2026-09-19T17:20:03.284900+00:00",
+        "symbol": "CZAR",
+        "pool_address": "H73KHK6fwnoztEgzu3cHTkzwTTuvLLpZ6fJ4yuS8moV7",
+        "token_address": "BK3T49djD62XsEJjzg6C43v9HjFJ8X24gqfF9pfZosBn",
+        "entry_price_usd": 4.688384130605439e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4217.0924,
+        "age_minutes": 1.7,
+        "status": "open",
+        "current_price_usd": 4.688384130605439e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-0919-172003-Czar",
+        "arm": "kontrolle",
+        "scan_idx": 150,
+        "opened_ts": "2026-09-19T17:20:03.284900+00:00",
+        "symbol": "Czar",
+        "pool_address": "DNfa4R1KnHeAmJ9KVikU9GbjBVcSvCdZnVaN6q5pWvwt",
+        "token_address": "D6LcbjTX4A76c4DHq1NHSRENmyM8GnfNVC4nnbyjLUZm",
+        "entry_price_usd": 3.914367023199129e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4144.4874,
+        "age_minutes": 2.3,
+        "status": "open",
+        "current_price_usd": 3.914367023199129e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-0919-172003-TIPPED",
+        "arm": "alt",
+        "scan_idx": 150,
+        "opened_ts": "2026-09-19T17:20:03.284900+00:00",
+        "symbol": "TIPPED",
+        "pool_address": "rwQVYaGno7AtbK5rqo3EjKBVmPrBLTAKfqoyUqTdP5o",
+        "token_address": "3Dr1Rn5eUWWnxjLg8PsGgmJLjnYEo2wioqAxGwY4p6rG",
+        "entry_price_usd": 2.2361954142504655e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +109.1%",
+          "1h +109.1%",
+          "Buy-Ratio 81%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 27892.4588,
+        "age_minutes": 3.4,
+        "status": "open",
+        "current_price_usd": 2.2361954142504655e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-0919-172003-AIFRUITS",
+        "arm": "alt",
+        "scan_idx": 150,
+        "opened_ts": "2026-09-19T17:20:03.284900+00:00",
+        "symbol": "AIFRUITS",
+        "pool_address": "HPR6sWmu6KQ6HCKwxNbyNtRXUpmb43o7bFMhdWNG4ZZM",
+        "token_address": "Gv7B7LJpkuSJXHxCykxfFvJegx1C29TGCg18zriLpump",
+        "entry_price_usd": 3.6336612696394583e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +5.6%",
+          "1h +5.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2888.1047,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 3.6336612696394583e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": []
   },
   "geschlossen": {
