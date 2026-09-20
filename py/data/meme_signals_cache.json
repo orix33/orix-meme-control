@@ -18112,5 +18112,88 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "z61a8LECxxCyDoiEn8U1BbLHwfLPzCafEKbpEhLfLp1": {
+    "mint": "z61a8LECxxCyDoiEn8U1BbLHwfLPzCafEKbpEhLfLp1",
+    "_ts": 1789939703.3000672,
+    "abgerufen": "2026-09-20T21:28:23.300067+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": null,
+    "top10_pct": null,
+    "halter": 0,
+    "creator": "HhKP4SgXvL4S9B4bxrkaqfmURMJVn62JAEh8osXxbtNU",
+    "creator_haelt": true,
+    "creator_balance_roh": 330153846130989,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 9105.534212058437,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "2M58Jsc5wEKnRfAyVEkx1KgcQSPUWocx6jYYLMjXPKt3": {
+    "mint": "2M58Jsc5wEKnRfAyVEkx1KgcQSPUWocx6jYYLMjXPKt3",
+    "_ts": 1789939704.8589926,
+    "abgerufen": "2026-09-20T21:28:24.858996+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": null,
+    "top10_pct": null,
+    "halter": 0,
+    "creator": "HgEuC6EZ21CbzJfLSibAo2BjLMQa1jjsdXe6vWA7MX5G",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 2930.9056149011562,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
+  },
+  "A7GuGntom1g1nxNHhnYiFie5N6V9bRTxzh1r5a3CRtwB": {
+    "mint": "A7GuGntom1g1nxNHhnYiFie5N6V9bRTxzh1r5a3CRtwB",
+    "_ts": 1789939707.8697603,
+    "abgerufen": "2026-09-20T21:28:27.869763+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 10,
+    "rugged_flag": false,
+    "top1_pct": null,
+    "top10_pct": null,
+    "halter": 0,
+    "creator": "HJhrYuoD385bjLRzEq2zfZdLDVcC8nFzyypZNF5dUbrE",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 3,
+    "graph_insider": 22,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 641.6149156961476,
+    "launchpad": "stonk_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
   }
 }
