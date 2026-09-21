@@ -1,11 +1,65 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 164,
-  "last_scan": "2026-09-21T14:22:25.243771+00:00",
+  "scans": 165,
+  "last_scan": "2026-09-21T19:36:10.017658+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
+    "kontrolle": [
+      {
+        "id": "KON-0921-193610-OGCAT",
+        "arm": "kontrolle",
+        "scan_idx": 164,
+        "opened_ts": "2026-09-21T19:36:10.017658+00:00",
+        "symbol": "OGCAT",
+        "pool_address": "FsPU4SsBwz8HKikNXbMxq7B7ojSjZ7A9nnuDfVajbeDa",
+        "token_address": "7WU8PeLaP9iouKEU4TYgKyPcnFHTQ2eW3kMw3uyx7Me",
+        "entry_price_usd": 1.5138783807259506e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +343.8%",
+          "1h +343.8%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 9751.209,
+        "age_minutes": 3.1,
+        "status": "open",
+        "current_price_usd": 1.5138783807259506e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-0921-193610-Garlic",
+        "arm": "alt",
+        "scan_idx": 164,
+        "opened_ts": "2026-09-21T19:36:10.017658+00:00",
+        "symbol": "Garlic",
+        "pool_address": "3GekJ7xXS6ziTxqwUxvw1zjKTGkAkde8PTPadxR3nQMP",
+        "token_address": "ERmy5M8a3WMJg4HpZGEc3D457Kzhy7vSxH4Sc3puWnDT",
+        "entry_price_usd": 1.7742278549936366e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +72.4%",
+          "1h +72.4%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 26332.7565,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 1.7742278549936366e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": []
   },
   "geschlossen": {
