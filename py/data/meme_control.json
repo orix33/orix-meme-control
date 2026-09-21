@@ -1,150 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 163,
-  "last_scan": "2026-09-21T07:12:55.046290+00:00",
+  "scans": 164,
+  "last_scan": "2026-09-21T14:22:25.243771+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0920-233236-STONK",
-        "arm": "kontrolle",
-        "scan_idx": 160,
-        "opened_ts": "2026-09-20T23:32:36.831218+00:00",
-        "symbol": "STONK",
-        "pool_address": "2X9PGSHjMHbuYWY8cSkjYduVVAoUSXYMQQ8cxvJiSM9e",
-        "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-        "entry_price_usd": 0.3362371874654443,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 20127.5411,
-        "age_minutes": 4.4,
-        "status": "open",
-        "current_price_usd": 0.36473981646508735,
-        "pnl_pct": 8.48,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-21T07:12:14.965163+00:00",
-        "liquidity_usd_jetzt": 8358.3697
-      },
-      {
-        "id": "KON-0921-071255-Margay",
-        "arm": "kontrolle",
-        "scan_idx": 162,
-        "opened_ts": "2026-09-21T07:12:55.046290+00:00",
-        "symbol": "Margay",
-        "pool_address": "6sNiEvULYpTxqkM1uNYtSSxHz2xuPVyc39KvuqsatxP8",
-        "token_address": "G8kmGcXvFq4UB3jWyDAgpVt65UQe99mupnXRkRrWenFi",
-        "entry_price_usd": 1.2059682813137809e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +29.6%",
-          "1h +29.6%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 23157.7026,
-        "age_minutes": 2.1,
-        "status": "open",
-        "current_price_usd": 1.2059682813137809e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-0920-233236-FANFEE",
-        "arm": "alt",
-        "scan_idx": 160,
-        "opened_ts": "2026-09-20T23:32:36.831218+00:00",
-        "symbol": "FANFEE",
-        "pool_address": "B6XQVQtjoiRhZJGbnsiRL633viN9sbohRXsZdkv6tsvP",
-        "token_address": "Bz6E6wo1JkZHCjiz42eMcPGEWmTi8UQ9umw19DVWpump",
-        "entry_price_usd": 3.108926411241713e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2467.0419,
-        "age_minutes": 5.2,
-        "status": "open",
-        "current_price_usd": 3.1248185259518206e-06,
-        "pnl_pct": 0.51,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-09-21T07:12:14.965163+00:00",
-        "liquidity_usd_jetzt": 2499.3493
-      },
-      {
-        "id": "ALT-0921-071255-Chimera",
-        "arm": "alt",
-        "scan_idx": 162,
-        "opened_ts": "2026-09-21T07:12:55.046290+00:00",
-        "symbol": "Chimera",
-        "pool_address": "JBcWpvkuwaCgojvWZ7bYrnk6gSqGtJdkusWrbZSpY8DA",
-        "token_address": "GLFvGpev9p4Bz8zvVsyg94mMC98VR9qqxhASjTG2whks",
-        "entry_price_usd": 1.3137101922809578e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +77.1%",
-          "1h +193.4%",
-          "Buy-Ratio 66%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 6410.6127,
-        "age_minutes": 10.4,
-        "status": "open",
-        "current_price_usd": 1.3137101922809578e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-0921-014150-AVAX",
-        "arm": "neu",
-        "scan_idx": 161,
-        "opened_ts": "2026-09-21T01:41:50.646378+00:00",
-        "symbol": "AVAX",
-        "pool_address": "8mGMhsEFszKgEmVPtYaGR1Vt88arco97x1sPYuXkgPrr",
-        "token_address": "avaxGHCq3T7hoxd73oY2KY9hJSTaeMibXvHy5KNzh5D",
-        "entry_price_usd": 11.56034187127833,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 14808.0331,
-        "age_minutes": 3.0,
-        "status": "open",
-        "current_price_usd": 11.07382702517972,
-        "pnl_pct": -4.21,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-09-21T07:12:14.965163+00:00",
-        "v2_score": 1,
-        "v2_warum": [
-          "1833 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 74 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 6.42,
-          "halter": 1833,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 74
-        },
-        "liquidity_usd_jetzt": 4807.6029
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -4706,6 +4568,60 @@
         "liquidity_usd_jetzt": 268884.3068,
         "closed_ts": "2026-09-21T07:12:14.965163+00:00",
         "close_reason": "Stop-Loss erreicht (roh -48.1%)"
+      },
+      {
+        "id": "KON-0921-071255-Margay",
+        "arm": "kontrolle",
+        "scan_idx": 162,
+        "opened_ts": "2026-09-21T07:12:55.046290+00:00",
+        "symbol": "Margay",
+        "pool_address": "6sNiEvULYpTxqkM1uNYtSSxHz2xuPVyc39KvuqsatxP8",
+        "token_address": "G8kmGcXvFq4UB3jWyDAgpVt65UQe99mupnXRkRrWenFi",
+        "entry_price_usd": 1.2059682813137809e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +29.6%",
+          "1h +29.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23157.7026,
+        "age_minutes": 2.1,
+        "status": "rug",
+        "current_price_usd": 1.9623257450381395e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-21T14:22:13.562747+00:00",
+        "liquidity_usd_jetzt": 0.000124519929223093,
+        "closed_ts": "2026-09-21T14:22:13.562747+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 23158 $) — kein Ausstieg. Schein-PnL waere +62.7% gewesen."
+      },
+      {
+        "id": "KON-0920-233236-STONK",
+        "arm": "kontrolle",
+        "scan_idx": 160,
+        "opened_ts": "2026-09-20T23:32:36.831218+00:00",
+        "symbol": "STONK",
+        "pool_address": "2X9PGSHjMHbuYWY8cSkjYduVVAoUSXYMQQ8cxvJiSM9e",
+        "token_address": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+        "entry_price_usd": 0.3362371874654443,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20127.5411,
+        "age_minutes": 4.4,
+        "status": "expired",
+        "current_price_usd": 0.3642616321831555,
+        "pnl_pct": 8.33,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-21T14:22:13.562747+00:00",
+        "liquidity_usd_jetzt": 14904.961,
+        "closed_ts": "2026-09-21T14:22:13.562747+00:00",
+        "close_reason": "Horizont erreicht (890 min)"
       }
     ],
     "alt": [
@@ -9486,6 +9402,61 @@
         "liquidity_usd_jetzt": 271304.13,
         "closed_ts": "2026-09-21T07:12:14.965163+00:00",
         "close_reason": "Take-Profit erreicht (roh +41.8%)"
+      },
+      {
+        "id": "ALT-0921-071255-Chimera",
+        "arm": "alt",
+        "scan_idx": 162,
+        "opened_ts": "2026-09-21T07:12:55.046290+00:00",
+        "symbol": "Chimera",
+        "pool_address": "JBcWpvkuwaCgojvWZ7bYrnk6gSqGtJdkusWrbZSpY8DA",
+        "token_address": "GLFvGpev9p4Bz8zvVsyg94mMC98VR9qqxhASjTG2whks",
+        "entry_price_usd": 1.3137101922809578e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +77.1%",
+          "1h +193.4%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6410.6127,
+        "age_minutes": 10.4,
+        "status": "sl",
+        "current_price_usd": 3.28075993494442e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-21T14:22:13.562747+00:00",
+        "liquidity_usd_jetzt": 2643.3225,
+        "closed_ts": "2026-09-21T14:22:13.562747+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -75.0%)"
+      },
+      {
+        "id": "ALT-0920-233236-FANFEE",
+        "arm": "alt",
+        "scan_idx": 160,
+        "opened_ts": "2026-09-20T23:32:36.831218+00:00",
+        "symbol": "FANFEE",
+        "pool_address": "B6XQVQtjoiRhZJGbnsiRL633viN9sbohRXsZdkv6tsvP",
+        "token_address": "Bz6E6wo1JkZHCjiz42eMcPGEWmTi8UQ9umw19DVWpump",
+        "entry_price_usd": 3.108926411241713e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2467.0419,
+        "age_minutes": 5.2,
+        "status": "expired",
+        "current_price_usd": 3.124818526e-06,
+        "pnl_pct": 0.51,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-21T14:22:13.562747+00:00",
+        "liquidity_usd_jetzt": 2618.8912,
+        "closed_ts": "2026-09-21T14:22:13.562747+00:00",
+        "close_reason": "Horizont erreicht (890 min)"
       }
     ],
     "neu": [
@@ -14280,6 +14251,44 @@
         "liquidity_usd_jetzt": 6780.8414,
         "closed_ts": "2026-09-18T11:05:29.469865+00:00",
         "close_reason": "Horizont erreicht (592 min)"
+      },
+      {
+        "id": "NEU-0921-014150-AVAX",
+        "arm": "neu",
+        "scan_idx": 161,
+        "opened_ts": "2026-09-21T01:41:50.646378+00:00",
+        "symbol": "AVAX",
+        "pool_address": "8mGMhsEFszKgEmVPtYaGR1Vt88arco97x1sPYuXkgPrr",
+        "token_address": "avaxGHCq3T7hoxd73oY2KY9hJSTaeMibXvHy5KNzh5D",
+        "entry_price_usd": 11.56034187127833,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 14808.0331,
+        "age_minutes": 3.0,
+        "status": "expired",
+        "current_price_usd": 11.418506433241307,
+        "pnl_pct": -1.23,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-21T14:22:13.562747+00:00",
+        "v2_score": 1,
+        "v2_warum": [
+          "1833 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 74 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 6.42,
+          "halter": 1833,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 74
+        },
+        "liquidity_usd_jetzt": 5012.2245,
+        "closed_ts": "2026-09-21T14:22:13.562747+00:00",
+        "close_reason": "Horizont erreicht (760 min)"
       }
     ]
   }
