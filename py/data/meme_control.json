@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 169,
-  "last_scan": "2026-09-22T12:32:34.337592+00:00",
+  "scans": 170,
+  "last_scan": "2026-09-22T17:18:23.910199+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -23,7 +23,33 @@
         "liquidity_usd": 3068.9617,
         "age_minutes": 5.1,
         "status": "open",
-        "current_price_usd": 3.632122846789109e-06,
+        "current_price_usd": 3.2780421855359637e-06,
+        "pnl_pct": -9.75,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-22T17:18:21.090393+00:00",
+        "liquidity_usd_jetzt": 2611.3409
+      },
+      {
+        "id": "KON-0922-171823-betbolt",
+        "arm": "kontrolle",
+        "scan_idx": 169,
+        "opened_ts": "2026-09-22T17:18:23.910199+00:00",
+        "symbol": "betbolt",
+        "pool_address": "9P95sTGqCgrF2jGqM4YtJuNeApdDvhRwCTerV8DY636x",
+        "token_address": "5VgpvucCX2ZCEqAo7RKqKzd9G5PUm3AcWvsQy393S72V",
+        "entry_price_usd": 3.6508846614670855e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +44.1%",
+          "1h +204.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 32464.3846,
+        "age_minutes": 4.5,
+        "status": "open",
+        "current_price_usd": 3.6508846614670855e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -31,27 +57,27 @@
     ],
     "alt": [
       {
-        "id": "ALT-0922-123234-Haha",
+        "id": "ALT-0922-171823-claude",
         "arm": "alt",
-        "scan_idx": 168,
-        "opened_ts": "2026-09-22T12:32:34.337592+00:00",
-        "symbol": "Haha",
-        "pool_address": "D7Njo7peHSgnjYMeR6DAB8cWiXu9sALt9tHGu7ZEzvoC",
-        "token_address": "B1D5rqemNpRmUVMAqs7CFvjuvaWqdiYULN3QhnSarVoH",
-        "entry_price_usd": 1.9285251072978884e-05,
+        "scan_idx": 169,
+        "opened_ts": "2026-09-22T17:18:23.910199+00:00",
+        "symbol": "claude",
+        "pool_address": "GQJxcjKM5tdYSJk1Ao81KoCXiftB4yQCDsMHC5Mi4RBY",
+        "token_address": "4HacF9AQDHzXaDhWbzwuky93Gnj8LksuCtDx7qU4yxr1",
+        "entry_price_usd": 1.8718379640002194e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +15.8%",
-          "1h +115.0%",
-          "Buy-Ratio 84%",
+          "5m +9.8%",
+          "1h +23.9%",
+          "Buy-Ratio 86%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 30515.6926,
-        "age_minutes": 6.6,
+        "liquidity_usd": 28776.4788,
+        "age_minutes": 4.3,
         "status": "open",
-        "current_price_usd": 1.9285251072978884e-05,
+        "current_price_usd": 1.8718379640002194e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -9784,6 +9810,35 @@
         "liquidity_usd_jetzt": 0.0004255027886,
         "closed_ts": "2026-09-22T12:32:31.230205+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 25983 $) — kein Ausstieg. Schein-PnL waere -42.7% gewesen."
+      },
+      {
+        "id": "ALT-0922-123234-Haha",
+        "arm": "alt",
+        "scan_idx": 168,
+        "opened_ts": "2026-09-22T12:32:34.337592+00:00",
+        "symbol": "Haha",
+        "pool_address": "D7Njo7peHSgnjYMeR6DAB8cWiXu9sALt9tHGu7ZEzvoC",
+        "token_address": "B1D5rqemNpRmUVMAqs7CFvjuvaWqdiYULN3QhnSarVoH",
+        "entry_price_usd": 1.9285251072978884e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +15.8%",
+          "1h +115.0%",
+          "Buy-Ratio 84%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 30515.6926,
+        "age_minutes": 6.6,
+        "status": "rug",
+        "current_price_usd": 3.0287056901361827e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-22T17:18:21.090393+00:00",
+        "liquidity_usd_jetzt": 4.823935983e-07,
+        "closed_ts": "2026-09-22T17:18:21.090393+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 30516 $) — kein Ausstieg. Schein-PnL waere +57.0% gewesen."
       }
     ],
     "neu": [
