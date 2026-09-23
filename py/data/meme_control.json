@@ -1,11 +1,64 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 176,
-  "last_scan": "2026-09-23T16:46:33.099452+00:00",
+  "scans": 177,
+  "last_scan": "2026-09-23T19:51:39.300325+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
+    "kontrolle": [
+      {
+        "id": "KON-0923-195139-AFTERIMA",
+        "arm": "kontrolle",
+        "scan_idx": 176,
+        "opened_ts": "2026-09-23T19:51:39.300325+00:00",
+        "symbol": "AFTERIMAGE",
+        "pool_address": "2uzsgxERtE2GbRA6Ya4yaoq6u9mM23b5qNM6vhR4oFBJ",
+        "token_address": "2wuKTgU6UzxsghmdudR8hnZrJEJxF5RUepYESsLVpjY4",
+        "entry_price_usd": 8.190450906275958e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +48.9%",
+          "1h +48.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3274.6854,
+        "age_minutes": 3.0,
+        "status": "open",
+        "current_price_usd": 8.190450906275958e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-0923-195139-jev",
+        "arm": "alt",
+        "scan_idx": 176,
+        "opened_ts": "2026-09-23T19:51:39.300325+00:00",
+        "symbol": "jev",
+        "pool_address": "CzvmFYXvXjrsFyTPuCThUSHwUcSJofo8wvUWayPGz127",
+        "token_address": "5MuHKL781YgUpFP8JisLTqKDuxwq6aqG8uAcVy5t16BN",
+        "entry_price_usd": 1.1145537484042238e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +22.8%",
+          "1h +22.8%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21750.0525,
+        "age_minutes": 3.0,
+        "status": "open",
+        "current_price_usd": 1.1145537484042238e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": []
   },
   "geschlossen": {
