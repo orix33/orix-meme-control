@@ -1,101 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 188,
-  "last_scan": "2026-09-25T17:21:16.672199+00:00",
+  "scans": 189,
+  "last_scan": "2026-09-25T20:34:08.041395+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-0925-172116-TTP",
-        "arm": "kontrolle",
-        "scan_idx": 187,
-        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
-        "symbol": "TTP",
-        "pool_address": "359UV3H3g2ZVff14AnZTWGeKaykLGdd7Ze3Kar68n6xR",
-        "token_address": "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump",
-        "entry_price_usd": 0.00045346689980827376,
-        "score": 3,
-        "signals": [
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 68914.0999,
-        "age_minutes": 1003.0,
-        "status": "open",
-        "current_price_usd": 0.00045346689980827376,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-0925-172116-CSGO",
-        "arm": "alt",
-        "scan_idx": 187,
-        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
-        "symbol": "CSGO",
-        "pool_address": "7KR3iHJjx6R3qFo7KEiPeA5oQY38s4TbDw6VECnkcihE",
-        "token_address": "Bk8kLmroqQhjwAwGJL6DBksA9CcQTJMWVVEZHRibpump",
-        "entry_price_usd": 2.0379265836390514e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +38.8%",
-          "1h +38.8%",
-          "Buy-Ratio 75%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 8852.07164846332,
-        "age_minutes": 2.1,
-        "status": "open",
-        "current_price_usd": 2.0379265836390514e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-0925-172116-SWARM",
-        "arm": "neu",
-        "scan_idx": 187,
-        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
-        "symbol": "SWARM",
-        "pool_address": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
-        "token_address": "5g9PWcRUHpmqm5uKycpShKXJB18sGLeCEzgB3qrRpump",
-        "entry_price_usd": 0.0010195024639014438,
-        "score": 3,
-        "signals": [
-          "5m +12.2%",
-          "Buy-Ratio 63%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 103623.806,
-        "age_minutes": 514.2,
-        "status": "open",
-        "current_price_usd": 0.0010195024639014438,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 11,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "Top-10 nur 25 % bei reifem Token",
-          "10881 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 25.07,
-          "halter": 10881,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 1
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -5344,6 +5255,31 @@
         "liquidity_usd_jetzt": 2691.942,
         "closed_ts": "2026-09-25T12:16:00.480348+00:00",
         "close_reason": "Horizont erreicht (637 min)"
+      },
+      {
+        "id": "KON-0925-172116-TTP",
+        "arm": "kontrolle",
+        "scan_idx": 187,
+        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
+        "symbol": "TTP",
+        "pool_address": "359UV3H3g2ZVff14AnZTWGeKaykLGdd7Ze3Kar68n6xR",
+        "token_address": "5iqjhP5ig6JWdXQf6hYAwojZeMf11pTCvH87gCQtpump",
+        "entry_price_usd": 0.00045346689980827376,
+        "score": 3,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 68914.0999,
+        "age_minutes": 1003.0,
+        "status": "sl",
+        "current_price_usd": 0.0002482246623942692,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-25T20:34:02.527965+00:00",
+        "liquidity_usd_jetzt": 51134.48,
+        "closed_ts": "2026-09-25T20:34:02.527965+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -45.3%)"
       }
     ],
     "alt": [
@@ -10834,6 +10770,35 @@
         "liquidity_usd_jetzt": 1.10984239e-06,
         "closed_ts": "2026-09-25T06:37:18.018917+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 45847 $) — kein Ausstieg. Schein-PnL waere -49.0% gewesen."
+      },
+      {
+        "id": "ALT-0925-172116-CSGO",
+        "arm": "alt",
+        "scan_idx": 187,
+        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
+        "symbol": "CSGO",
+        "pool_address": "7KR3iHJjx6R3qFo7KEiPeA5oQY38s4TbDw6VECnkcihE",
+        "token_address": "Bk8kLmroqQhjwAwGJL6DBksA9CcQTJMWVVEZHRibpump",
+        "entry_price_usd": 2.0379265836390514e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +38.8%",
+          "1h +38.8%",
+          "Buy-Ratio 75%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 8852.07164846332,
+        "age_minutes": 2.1,
+        "status": "sl",
+        "current_price_usd": 3.4397622599439323e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-25T20:34:02.527965+00:00",
+        "liquidity_usd_jetzt": 2738.587,
+        "closed_ts": "2026-09-25T20:34:02.527965+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -83.1%)"
       }
     ],
     "neu": [
@@ -15948,6 +15913,47 @@
         "liquidity_usd_jetzt": 1.697017564e-07,
         "closed_ts": "2026-09-25T06:37:18.018917+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 161189 $) — kein Ausstieg. Schein-PnL waere +91.9% gewesen."
+      },
+      {
+        "id": "NEU-0925-172116-SWARM",
+        "arm": "neu",
+        "scan_idx": 187,
+        "opened_ts": "2026-09-25T17:21:16.672199+00:00",
+        "symbol": "SWARM",
+        "pool_address": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
+        "token_address": "5g9PWcRUHpmqm5uKycpShKXJB18sGLeCEzgB3qrRpump",
+        "entry_price_usd": 0.0010195024639014438,
+        "score": 3,
+        "signals": [
+          "5m +12.2%",
+          "Buy-Ratio 63%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 103623.806,
+        "age_minutes": 514.2,
+        "status": "sl",
+        "current_price_usd": 0.000516396563341525,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-09-25T20:34:02.527965+00:00",
+        "v2_score": 11,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "Top-10 nur 25 % bei reifem Token",
+          "10881 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 25.07,
+          "halter": 10881,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 74184.6514,
+        "closed_ts": "2026-09-25T20:34:02.527965+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -49.3%)"
       }
     ]
   }
