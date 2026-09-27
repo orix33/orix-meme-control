@@ -22293,5 +22293,68 @@
       "website": true,
       "beschreibung": true
     }
+  },
+  "EFhTcBs5317L3ZBJPg9Gyh1ZeWZu5Rfd3NcbC98fpump": {
+    "mint": "EFhTcBs5317L3ZBJPg9Gyh1ZeWZu5Rfd3NcbC98fpump",
+    "_ts": 1790528008.273412,
+    "abgerufen": "2026-09-27T16:53:28.273413+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "DGqT1ACb6BpfMrfR2RUyvhG4Lq9MKDqiVxx8vDmcpump": {
+    "mint": "DGqT1ACb6BpfMrfR2RUyvhG4Lq9MKDqiVxx8vDmcpump",
+    "_ts": 1790528008.5593581,
+    "abgerufen": "2026-09-27T16:53:28.559361+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "6APAu3YcTVySUfAvQDnu8164ptKMqDDu4X6h3Tjdpump": {
+    "mint": "6APAu3YcTVySUfAvQDnu8164ptKMqDDu4X6h3Tjdpump",
+    "_ts": 1790528010.064746,
+    "abgerufen": "2026-09-27T16:53:30.064748+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "6wsGkVvYYob4C8rsB6ZUf3zRAsM5ynU28RL3qd7qjga5": {
+    "mint": "6wsGkVvYYob4C8rsB6ZUf3zRAsM5ynU28RL3qd7qjga5",
+    "_ts": 1790528011.535238,
+    "abgerufen": "2026-09-27T16:53:31.535241+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "2RnXY5P7op5ZWcYGX8cPPVrMNUkHootMqGPh7Nmu3UFn": {
+    "mint": "2RnXY5P7op5ZWcYGX8cPPVrMNUkHootMqGPh7Nmu3UFn",
+    "_ts": 1790528013.0414717,
+    "abgerufen": "2026-09-27T16:53:33.041475+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "4ym5SAPuegPtFhPjYkdnX4fn72odzwr8gqb6mgCzpump": {
+    "mint": "4ym5SAPuegPtFhPjYkdnX4fn72odzwr8gqb6mgCzpump",
+    "_ts": 1790528014.5742176,
+    "abgerufen": "2026-09-27T16:53:34.574220+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "ELNiBGSfWGcdzFbm3GcCJWDimteoUhJrh4aTdMo3tbr6": {
+    "mint": "ELNiBGSfWGcdzFbm3GcCJWDimteoUhJrh4aTdMo3tbr6",
+    "_ts": 1790528016.0626943,
+    "abgerufen": "2026-09-27T16:53:36.062697+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "Ed6paKKFexa48gtmi8wPai4VYfWMVsdxN8CEPPHExwSK": {
+    "mint": "Ed6paKKFexa48gtmi8wPai4VYfWMVsdxN8CEPPHExwSK",
+    "_ts": 1790528017.540376,
+    "abgerufen": "2026-09-27T16:53:37.540378+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "5jriPE7r49BK6y4nax1JWt2BX74UE1khRr1WoSjqtVgg": {
+    "mint": "5jriPE7r49BK6y4nax1JWt2BX74UE1khRr1WoSjqtVgg",
+    "_ts": 1790528019.0617867,
+    "abgerufen": "2026-09-27T16:53:39.061789+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
