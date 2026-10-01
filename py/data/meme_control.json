@@ -1,31 +1,31 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 216,
-  "last_scan": "2026-10-01T00:11:29.722228+00:00",
+  "scans": 217,
+  "last_scan": "2026-10-01T06:11:53.550373+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1001-001129-Pongpong",
+        "id": "KON-1001-061153-Pelusa",
         "arm": "kontrolle",
-        "scan_idx": 215,
-        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
-        "symbol": "Pongpong",
-        "pool_address": "3ffZPdEJTpEKdgVakfVzDramdkFLNahS21D98gMzhKpF",
-        "token_address": "HTn3AGe6t2cwYfFW8UEbMqyqbRTsccv6ij3bwKb7pump",
-        "entry_price_usd": 7.81530127908222e-05,
+        "scan_idx": 216,
+        "opened_ts": "2026-10-01T06:11:53.550373+00:00",
+        "symbol": "Pelusa",
+        "pool_address": "9V18AGvS3gGxiMjMwYy6UcWGYmtcLDoZ6WqfstCJtkeU",
+        "token_address": "BkzU1zCy339CYjVpSfVq5NwhVhz3UEcCrALvHKme7yka",
+        "entry_price_usd": 1.8625392496712613e-05,
         "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +50.1%",
-          "1h +50.1%",
+          "5m +68.9%",
+          "1h +324.9%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 23380.762,
-        "age_minutes": 2.0,
+        "liquidity_usd": 8334.8069,
+        "age_minutes": 6.8,
         "status": "open",
-        "current_price_usd": 7.81530127908222e-05,
+        "current_price_usd": 1.8625392496712613e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -33,25 +33,26 @@
     ],
     "alt": [
       {
-        "id": "ALT-1001-001129-Collater",
+        "id": "ALT-1001-061153-Topless",
         "arm": "alt",
-        "scan_idx": 215,
-        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
-        "symbol": "Collateral",
-        "pool_address": "84EGAwMQhs4Jnz3dEdxvVuk3fPD3g5qA8zyskPTZkRMZ",
-        "token_address": "8kVuY7Yir9NLaai9V73ZejscWdJ9q7aczidLtr38oL4r",
-        "entry_price_usd": 6.173660943509674e-05,
-        "score": 6,
+        "scan_idx": 216,
+        "opened_ts": "2026-10-01T06:11:53.550373+00:00",
+        "symbol": "Topless",
+        "pool_address": "EMiT34WfanngveFTkjpiYxGk2Pn2QaBcjSQhYXvWTJDT",
+        "token_address": "3ymJqH5Sy2unE9KxtiHdi7ZwjQzT2Vpfh8Y6FVadgSUP",
+        "entry_price_usd": 1.7104333407181164e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "Buy-Ratio 62%",
+          "5m +4.8%",
+          "1h +78.3%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 18820.0385,
-        "age_minutes": 1.5,
+        "liquidity_usd": 27651.7126,
+        "age_minutes": 5.4,
         "status": "open",
-        "current_price_usd": 6.173660943509674e-05,
+        "current_price_usd": 1.7104333407181164e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -59,34 +60,36 @@
     ],
     "neu": [
       {
-        "id": "NEU-1001-001129-BANDIT",
+        "id": "NEU-1001-061153-TITTY",
         "arm": "neu",
-        "scan_idx": 215,
-        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
-        "symbol": "BANDIT",
-        "pool_address": "6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP",
-        "token_address": "JCX5nDG99k1CWB9AttJ3U57NmjSgnCoagFaZhqfEf7Ah",
-        "entry_price_usd": 0.0003056644770955961,
-        "score": 2,
+        "scan_idx": 216,
+        "opened_ts": "2026-10-01T06:11:53.550373+00:00",
+        "symbol": "TITTY",
+        "pool_address": "3b9QKnpooSRnwHvrMELGX7XzcZ9mp7Tr75SfWnqkQ4Yn",
+        "token_address": "9m8zxq65G8fvn5ZChLu2N2ZgYYXv6mhHkebiCFddpump",
+        "entry_price_usd": 3.3745878060300937e-06,
+        "score": 5,
         "signals": [
-          "Alter<6h",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 59506.0034,
-        "age_minutes": 331.1,
+        "liquidity_usd": 2676.2668,
+        "age_minutes": 6.4,
         "status": "open",
-        "current_price_usd": 0.0003056644770955961,
+        "current_price_usd": 3.3745878060300937e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 6,
         "v2_warum": [
+          "Twitter vorhanden",
           "Website vorhanden",
-          "14940 Halter — viel fuer einen jungen Pool"
+          "180 Halter — viel fuer einen jungen Pool"
         ],
         "v2_signale": {
-          "top10_pct": 22.48,
-          "halter": 14940,
+          "top10_pct": 100.0,
+          "halter": 180,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -6346,6 +6349,34 @@
         "liquidity_usd_jetzt": 2.02445496619808e-05,
         "closed_ts": "2026-10-01T00:11:21.415948+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 128716 $) — kein Ausstieg. Schein-PnL waere -96.7% gewesen."
+      },
+      {
+        "id": "KON-1001-001129-Pongpong",
+        "arm": "kontrolle",
+        "scan_idx": 215,
+        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
+        "symbol": "Pongpong",
+        "pool_address": "3ffZPdEJTpEKdgVakfVzDramdkFLNahS21D98gMzhKpF",
+        "token_address": "HTn3AGe6t2cwYfFW8UEbMqyqbRTsccv6ij3bwKb7pump",
+        "entry_price_usd": 7.81530127908222e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +50.1%",
+          "1h +50.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23380.762,
+        "age_minutes": 2.0,
+        "status": "sl",
+        "current_price_usd": 2.5229610234983306e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-01T06:11:48.148479+00:00",
+        "liquidity_usd_jetzt": 2630.8439,
+        "closed_ts": "2026-10-01T06:11:48.148479+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -96.8%)"
       }
     ],
     "alt": [
@@ -12887,6 +12918,33 @@
         "liquidity_usd_jetzt": 520411.5617,
         "closed_ts": "2026-10-01T00:11:21.415948+00:00",
         "close_reason": "Horizont erreicht (500 min)"
+      },
+      {
+        "id": "ALT-1001-001129-Collater",
+        "arm": "alt",
+        "scan_idx": 215,
+        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
+        "symbol": "Collateral",
+        "pool_address": "84EGAwMQhs4Jnz3dEdxvVuk3fPD3g5qA8zyskPTZkRMZ",
+        "token_address": "8kVuY7Yir9NLaai9V73ZejscWdJ9q7aczidLtr38oL4r",
+        "entry_price_usd": 6.173660943509674e-05,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18820.0385,
+        "age_minutes": 1.5,
+        "status": "sl",
+        "current_price_usd": 1.852048503187076e-05,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-01T06:11:48.148479+00:00",
+        "liquidity_usd_jetzt": 12004.2424,
+        "closed_ts": "2026-10-01T06:11:48.148479+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -70.0%)"
       }
     ],
     "neu": [
@@ -19123,6 +19181,43 @@
         "liquidity_usd_jetzt": 2631.4141,
         "closed_ts": "2026-10-01T00:11:21.415948+00:00",
         "close_reason": "Stop-Loss erreicht (roh -82.7%)"
+      },
+      {
+        "id": "NEU-1001-001129-BANDIT",
+        "arm": "neu",
+        "scan_idx": 215,
+        "opened_ts": "2026-10-01T00:11:29.722228+00:00",
+        "symbol": "BANDIT",
+        "pool_address": "6L2q7ZrUQCzUBm7RHV2w336ZCVVrVGqA6z5oNmQmUidP",
+        "token_address": "JCX5nDG99k1CWB9AttJ3U57NmjSgnCoagFaZhqfEf7Ah",
+        "entry_price_usd": 0.0003056644770955961,
+        "score": 2,
+        "signals": [
+          "Alter<6h",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 59506.0034,
+        "age_minutes": 331.1,
+        "status": "tp",
+        "current_price_usd": 0.0006087166824859286,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-01T06:11:48.148479+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Website vorhanden",
+          "14940 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 22.48,
+          "halter": 14940,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 87312.4106,
+        "closed_ts": "2026-10-01T06:11:48.148479+00:00",
+        "close_reason": "Take-Profit erreicht (roh +99.1%)"
       }
     ]
   }
