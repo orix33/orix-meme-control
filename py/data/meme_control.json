@@ -1,29 +1,31 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 220,
-  "last_scan": "2026-10-01T23:05:18.187255+00:00",
+  "scans": 221,
+  "last_scan": "2026-10-02T02:09:32.978408+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1001-230518-ATS",
+        "id": "KON-1002-020932-mote",
         "arm": "kontrolle",
-        "scan_idx": 219,
-        "opened_ts": "2026-10-01T23:05:18.187255+00:00",
-        "symbol": "ATS",
-        "pool_address": "GN7wrgp5vMzhzCx38TpyS3c3kFXat2PYhPDLd7FDFuWi",
-        "token_address": "Ake2xFaB6A1vtG5CekMapABwDKdEcHQAbsv5Xgtcpump",
-        "entry_price_usd": 2.0523240151816314e-05,
-        "score": 4,
+        "scan_idx": 220,
+        "opened_ts": "2026-10-02T02:09:32.978408+00:00",
+        "symbol": "mote",
+        "pool_address": "Crdbf2g58ommz5ZT1of8oJoPaToA81jyeM6Evfuo226B",
+        "token_address": "BovxSkGzfjnEHdpvskP7qRu9SSGRECD888emTxamWL9a",
+        "entry_price_usd": 0.00040598760981248487,
+        "score": 7,
         "signals": [
           "Alter<1h",
-          "5m +118.6%",
+          "Volumen-Beschleunigung",
+          "5m +85.8%",
+          "1h +494.2%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 8714.4847,
-        "age_minutes": 9.1,
+        "liquidity_usd": 7694.2039,
+        "age_minutes": 8.0,
         "status": "open",
-        "current_price_usd": 2.0523240151816314e-05,
+        "current_price_usd": 0.00040598760981248487,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -31,49 +33,26 @@
     ],
     "alt": [
       {
-        "id": "ALT-1001-190250-ACUITA",
+        "id": "ALT-1002-020932-BREAD",
         "arm": "alt",
-        "scan_idx": 218,
-        "opened_ts": "2026-10-01T19:02:50.102088+00:00",
-        "symbol": "ACUITA",
-        "pool_address": "HNzJAp7kCJYdYFJrnCQAsXT7hnUmL1YH4yWywBPiKwJs",
-        "token_address": "PVWtu11wvf8JKcHqaSEy7mqCa2BaftY7pKxxAHZpump",
-        "entry_price_usd": 3.463160728377366e-06,
-        "score": 5,
+        "scan_idx": 220,
+        "opened_ts": "2026-10-02T02:09:32.978408+00:00",
+        "symbol": "BREAD",
+        "pool_address": "G34eQ2YCSPFYVxKnHWRzvktgPbp3J48qz26MnvFGG4Uu",
+        "token_address": "5DCZ7wXKN41sWdRXUv7nuvcn1zPmn9Ydqah4UdZ9Kby3",
+        "entry_price_usd": 4.708399705444401e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
+          "5m +186.7%",
+          "1h +186.7%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2754.2517,
-        "age_minutes": 14.1,
+        "liquidity_usd": 42412.9761,
+        "age_minutes": 7.9,
         "status": "open",
-        "current_price_usd": 3.3898125539577137e-06,
-        "pnl_pct": -2.12,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-01T23:05:15.031475+00:00",
-        "liquidity_usd_jetzt": 2690.7651
-      },
-      {
-        "id": "ALT-1001-230518-$HALLOWE",
-        "arm": "alt",
-        "scan_idx": 219,
-        "opened_ts": "2026-10-01T23:05:18.187255+00:00",
-        "symbol": "$HALLOWEEN",
-        "pool_address": "rRb12KMPmU9hW31EgbUfPPsnfBmnbgNWnjU88jxf2z2",
-        "token_address": "5BX2NPpEUckkB6R9nXHf7PkhUNfmCft2p2AMf1Uipump",
-        "entry_price_usd": 1.3483352596332534e-05,
-        "score": 6,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Buy-Ratio 87%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 11942.4828,
-        "age_minutes": 9.0,
-        "status": "open",
-        "current_price_usd": 1.3483352596332534e-05,
+        "current_price_usd": 4.708399705444401e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -98,10 +77,10 @@
         "liquidity_usd": 2815.3671,
         "age_minutes": 7.5,
         "status": "open",
-        "current_price_usd": 3.6407012770674044e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.451599211990643e-06,
+        "pnl_pct": -5.19,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-10-02T02:09:24.464706+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -112,6 +91,45 @@
           "halter": 45,
           "telegram": false,
           "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2763.5355
+      },
+      {
+        "id": "NEU-1002-020932-Ansemmas",
+        "arm": "neu",
+        "scan_idx": 220,
+        "opened_ts": "2026-10-02T02:09:32.978408+00:00",
+        "symbol": "Ansemmas",
+        "pool_address": "6qirp44Q2T8B1CfbGmnqeXCLdQhFqmNCfAFfpKG4N156",
+        "token_address": "HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS",
+        "entry_price_usd": 0.0005106475193780536,
+        "score": 4,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 72108.9647,
+        "age_minutes": 553.9,
+        "status": "open",
+        "current_price_usd": 0.0005106475193780536,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 11,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "Top-10 nur 24 % bei reifem Token",
+          "10815 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 23.84,
+          "halter": 10815,
+          "telegram": false,
+          "creator_haelt": true,
           "risiko_score": 1
         }
       }
@@ -6478,6 +6496,32 @@
         "liquidity_usd_jetzt": 79707.732,
         "closed_ts": "2026-10-01T23:05:15.031475+00:00",
         "close_reason": "Stop-Loss erreicht (roh -19.2%)"
+      },
+      {
+        "id": "KON-1001-230518-ATS",
+        "arm": "kontrolle",
+        "scan_idx": 219,
+        "opened_ts": "2026-10-01T23:05:18.187255+00:00",
+        "symbol": "ATS",
+        "pool_address": "GN7wrgp5vMzhzCx38TpyS3c3kFXat2PYhPDLd7FDFuWi",
+        "token_address": "Ake2xFaB6A1vtG5CekMapABwDKdEcHQAbsv5Xgtcpump",
+        "entry_price_usd": 2.0523240151816314e-05,
+        "score": 4,
+        "signals": [
+          "Alter<1h",
+          "5m +118.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 8714.4847,
+        "age_minutes": 9.1,
+        "status": "sl",
+        "current_price_usd": 3.0951819346023987e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-02T02:09:24.464706+00:00",
+        "liquidity_usd_jetzt": 3023.5284,
+        "closed_ts": "2026-10-02T02:09:24.464706+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -84.9%)"
       }
     ],
     "alt": [
@@ -13102,6 +13146,59 @@
         "liquidity_usd_jetzt": 2646.1103,
         "closed_ts": "2026-10-01T19:02:44.377335+00:00",
         "close_reason": "Stop-Loss erreicht (roh -48.5%)"
+      },
+      {
+        "id": "ALT-1001-230518-$HALLOWE",
+        "arm": "alt",
+        "scan_idx": 219,
+        "opened_ts": "2026-10-01T23:05:18.187255+00:00",
+        "symbol": "$HALLOWEEN",
+        "pool_address": "rRb12KMPmU9hW31EgbUfPPsnfBmnbgNWnjU88jxf2z2",
+        "token_address": "5BX2NPpEUckkB6R9nXHf7PkhUNfmCft2p2AMf1Uipump",
+        "entry_price_usd": 1.3483352596332534e-05,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 87%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 11942.4828,
+        "age_minutes": 9.0,
+        "status": "sl",
+        "current_price_usd": 2.4850849355451862e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-02T02:09:24.464706+00:00",
+        "liquidity_usd_jetzt": 2515.2794,
+        "closed_ts": "2026-10-02T02:09:24.464706+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -81.6%)"
+      },
+      {
+        "id": "ALT-1001-190250-ACUITA",
+        "arm": "alt",
+        "scan_idx": 218,
+        "opened_ts": "2026-10-01T19:02:50.102088+00:00",
+        "symbol": "ACUITA",
+        "pool_address": "HNzJAp7kCJYdYFJrnCQAsXT7hnUmL1YH4yWywBPiKwJs",
+        "token_address": "PVWtu11wvf8JKcHqaSEy7mqCa2BaftY7pKxxAHZpump",
+        "entry_price_usd": 3.463160728377366e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2754.2517,
+        "age_minutes": 14.1,
+        "status": "expired",
+        "current_price_usd": 3.400722366398356e-06,
+        "pnl_pct": -1.8,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-02T02:09:24.464706+00:00",
+        "liquidity_usd_jetzt": 2710.4428,
+        "closed_ts": "2026-10-02T02:09:24.464706+00:00",
+        "close_reason": "Horizont erreicht (427 min)"
       }
     ],
     "neu": [
