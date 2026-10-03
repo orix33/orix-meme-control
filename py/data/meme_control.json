@@ -1,12 +1,181 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 228,
-  "last_scan": "2026-10-03T13:32:18.907793+00:00",
+  "scans": 229,
+  "last_scan": "2026-10-03T17:37:40.000006+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1003-173740-weirds",
+        "arm": "kontrolle",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "weirds",
+        "pool_address": "HkV1iBCrR4bu3gWnw9QHJKEQmgEAuWCqS4io6EnrZDUp",
+        "token_address": "783WP8YgbYfkejwZ9dq1vAE9Z2kpdQeG1upL5sLApump",
+        "entry_price_usd": 3.5265313811516166e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3137.4543,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 3.5265313811516166e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1003-173740-PRINTR",
+        "arm": "kontrolle",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "PRINTR",
+        "pool_address": "BoiL8W7CfhoGfjr3VHFH34GfKdkmGm7y1YyXbweLfcX7",
+        "token_address": "8Y6pHi3cMhxhtHuzgGAsWgAJMyw3zaQLeFFf3qvRpump",
+        "entry_price_usd": 0.00014421486081349108,
+        "score": 2,
+        "signals": [
+          "1h +61.0%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 36463.3891,
+        "age_minutes": 729.0,
+        "status": "open",
+        "current_price_usd": 0.00014421486081349108,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1003-173740-Rasmr",
+        "arm": "alt",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "Rasmr",
+        "pool_address": "2iFpMX861BsWYC2xkPVeUTDZnNZ6xR9TRRE5YNHqeNXU",
+        "token_address": "B8EvTNh2tSZzq1mhYujs3maKuJpRgjFVMNfJS5a4E8Qh",
+        "entry_price_usd": 1.0076298905032105e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +203.7%",
+          "1h +203.7%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6866.8392,
+        "age_minutes": 1.6,
+        "status": "open",
+        "current_price_usd": 1.0076298905032105e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1003-173740-JOI",
+        "arm": "alt",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "JOI",
+        "pool_address": "9JhqtVpNr2pksNex8cPdmcQRzrBpLaLghxpkFbnNAF7J",
+        "token_address": "BEZaLopJNFroqddhKZV35vJ4ozNQXZ7rQNaFTgyeFukc",
+        "entry_price_usd": 4.8157080407389236e-05,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17423.7527,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 4.8157080407389236e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1003-173740-DUST",
+        "arm": "neu",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "DUST",
+        "pool_address": "9KBF3KqYErfs1NXRK35gb4J8wnAD2i9ePZAzcwn7yhFT",
+        "token_address": "HAcEqEVru6dRbe1grLFTPBxjxGgjn1tVpR7bLgYXdust",
+        "entry_price_usd": 0.0001321121894986487,
+        "score": 4,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 36964.3347,
+        "age_minutes": 618.4,
+        "status": "open",
+        "current_price_usd": 0.0001321121894986487,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 34 % bei reifem Token",
+          "13455 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 33.73,
+          "halter": 13455,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1003-173740-Gordon",
+        "arm": "neu",
+        "scan_idx": 228,
+        "opened_ts": "2026-10-03T17:37:40.000006+00:00",
+        "symbol": "Gordon",
+        "pool_address": "B9c6XsSjL8U91nJ3t8oxUnzHiRj8V1wnVnAvhsQE1CPu",
+        "token_address": "Hzpw4fd3jMJPXoNV6qrtvGh7xuvmLGckmyeA38bgCH4X",
+        "entry_price_usd": 3.3616348851791262e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2666.8469,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 3.3616348851791262e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 43,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
