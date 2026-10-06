@@ -1,12 +1,99 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 242,
-  "last_scan": "2026-10-06T08:52:41.767791+00:00",
+  "scans": 243,
+  "last_scan": "2026-10-06T15:50:48.248747+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1006-155048-CAESAR",
+        "arm": "kontrolle",
+        "scan_idx": 242,
+        "opened_ts": "2026-10-06T15:50:48.248747+00:00",
+        "symbol": "CAESAR",
+        "pool_address": "9ebYNt7c7aZtaKQS8UPbCT6gdzyXWAje3x8Ca28ysyGT",
+        "token_address": "8cp1WhUDxTbfX8nDe1kAB1ogPUyQvUSKgzFz365LbQyZ",
+        "entry_price_usd": 0.0002816645622857472,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 53655.4697,
+        "age_minutes": 659.9,
+        "status": "open",
+        "current_price_usd": 0.0002816645622857472,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1006-155048-Hero",
+        "arm": "alt",
+        "scan_idx": 242,
+        "opened_ts": "2026-10-06T15:50:48.248747+00:00",
+        "symbol": "Hero",
+        "pool_address": "2ovmMggwrMpqCnBZruZdGmJZiePmw1zUrChbZerdxqDS",
+        "token_address": "A4ZL22sPg3kjW6H3fZdr8RKhsU5LdLZjHEGZk1buQ4Cz",
+        "entry_price_usd": 1.500959325155087e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +50.7%",
+          "1h +50.7%",
+          "Buy-Ratio 63%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21979.0356,
+        "age_minutes": 2.1,
+        "status": "open",
+        "current_price_usd": 1.500959325155087e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1006-155048-phubber",
+        "arm": "neu",
+        "scan_idx": 242,
+        "opened_ts": "2026-10-06T15:50:48.248747+00:00",
+        "symbol": "phubber",
+        "pool_address": "BaiHzFqngF1EspbdcVUCH9iKyLcKQZDwWPh7ZmZsqJ5t",
+        "token_address": "CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump",
+        "entry_price_usd": 0.0004158868289603839,
+        "score": 2,
+        "signals": [
+          "5m +3.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 69761.0713,
+        "age_minutes": 932.6,
+        "status": "open",
+        "current_price_usd": 0.0004158868289603839,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 25 % bei reifem Token",
+          "12585 Halter",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 25.11,
+          "halter": 12585,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
