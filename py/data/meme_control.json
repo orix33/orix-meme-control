@@ -1,99 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 246,
-  "last_scan": "2026-10-07T06:30:24.661579+00:00",
+  "scans": 247,
+  "last_scan": "2026-10-07T13:57:24.419804+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1007-063024-AUTON",
-        "arm": "kontrolle",
-        "scan_idx": 245,
-        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
-        "symbol": "AUTON",
-        "pool_address": "AECVu5BJndph7k61MmGWeidDh2PVeaHJysXzb2avXwBW",
-        "token_address": "39ahtL8ynzE4amH26J29C93PA5172V3ft9UuUcqQS8fz",
-        "entry_price_usd": 0.004261505813299367,
-        "score": 2,
-        "signals": [
-          "Buy-Ratio 80%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 475143.644,
-        "age_minutes": 578.4,
-        "status": "open",
-        "current_price_usd": 0.004261505813299367,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1007-063024-SINS",
-        "arm": "alt",
-        "scan_idx": 245,
-        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
-        "symbol": "SINS",
-        "pool_address": "4DjsnRGXeUSDMfXbS45R3GkFFv3r7a87Rg5CsZL3FuzZ",
-        "token_address": "Ak1P1RVTHtd8h4uBtf1E4pS15Liwm5kPAB67bKvJPhwp",
-        "entry_price_usd": 1.282569941831961e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +24.2%",
-          "1h +24.2%",
-          "Buy-Ratio 60%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 23230.1941,
-        "age_minutes": 2.8,
-        "status": "open",
-        "current_price_usd": 1.282569941831961e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1007-063024-TWEETCRA",
-        "arm": "neu",
-        "scan_idx": 245,
-        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
-        "symbol": "TWEETCRAFT",
-        "pool_address": "3NBq9zynLPDQQDvYf8xiMbWywQfKZD7m7fyprY524efq",
-        "token_address": "HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy",
-        "entry_price_usd": 0.0008877419507199173,
-        "score": 3,
-        "signals": [
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 107950.3102,
-        "age_minutes": 603.5,
-        "status": "open",
-        "current_price_usd": 0.0008877419507199173,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 8,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 22 % bei reifem Token",
-          "14384 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 21.86,
-          "halter": 14384,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -7242,6 +7155,31 @@
         "liquidity_usd_jetzt": 0.0712,
         "closed_ts": "2026-10-07T06:30:18.960116+00:00",
         "close_reason": "Liquiditaet 0.07 $ (Start 138997 $) — kein Ausstieg. Schein-PnL waere +6.7% gewesen."
+      },
+      {
+        "id": "KON-1007-063024-AUTON",
+        "arm": "kontrolle",
+        "scan_idx": 245,
+        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
+        "symbol": "AUTON",
+        "pool_address": "AECVu5BJndph7k61MmGWeidDh2PVeaHJysXzb2avXwBW",
+        "token_address": "39ahtL8ynzE4amH26J29C93PA5172V3ft9UuUcqQS8fz",
+        "entry_price_usd": 0.004261505813299367,
+        "score": 2,
+        "signals": [
+          "Buy-Ratio 80%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 475143.644,
+        "age_minutes": 578.4,
+        "status": "sl",
+        "current_price_usd": 0.0031437685318963147,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-07T13:57:18.902728+00:00",
+        "liquidity_usd_jetzt": 331446.0138,
+        "closed_ts": "2026-10-07T13:57:18.902728+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -26.2%)"
       }
     ],
     "alt": [
@@ -14737,6 +14675,35 @@
         "liquidity_usd_jetzt": 0.000190886842992233,
         "closed_ts": "2026-10-07T06:30:18.960116+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 23790 $) — kein Ausstieg. Schein-PnL waere +20.7% gewesen."
+      },
+      {
+        "id": "ALT-1007-063024-SINS",
+        "arm": "alt",
+        "scan_idx": 245,
+        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
+        "symbol": "SINS",
+        "pool_address": "4DjsnRGXeUSDMfXbS45R3GkFFv3r7a87Rg5CsZL3FuzZ",
+        "token_address": "Ak1P1RVTHtd8h4uBtf1E4pS15Liwm5kPAB67bKvJPhwp",
+        "entry_price_usd": 1.282569941831961e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +24.2%",
+          "1h +24.2%",
+          "Buy-Ratio 60%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23230.1941,
+        "age_minutes": 2.8,
+        "status": "rug",
+        "current_price_usd": 1.3658823653654023e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-07T13:57:18.902728+00:00",
+        "liquidity_usd_jetzt": 3.773880485e-07,
+        "closed_ts": "2026-10-07T13:57:18.902728+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 23230 $) — kein Ausstieg. Schein-PnL waere +6.5% gewesen."
       }
     ],
     "neu": [
@@ -22003,6 +21970,45 @@
         "liquidity_usd_jetzt": 3105.7222,
         "closed_ts": "2026-10-07T06:30:18.960116+00:00",
         "close_reason": "Stop-Loss erreicht (roh -52.3%)"
+      },
+      {
+        "id": "NEU-1007-063024-TWEETCRA",
+        "arm": "neu",
+        "scan_idx": 245,
+        "opened_ts": "2026-10-07T06:30:24.661579+00:00",
+        "symbol": "TWEETCRAFT",
+        "pool_address": "3NBq9zynLPDQQDvYf8xiMbWywQfKZD7m7fyprY524efq",
+        "token_address": "HzYCHqAN2uoHGRnL9v2ChCfFQX3bvJuJd5zu2Hd5MZQy",
+        "entry_price_usd": 0.0008877419507199173,
+        "score": 3,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 107950.3102,
+        "age_minutes": 603.5,
+        "status": "tp",
+        "current_price_usd": 0.0020503354465983017,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-07T13:57:18.902728+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 22 % bei reifem Token",
+          "14384 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 21.86,
+          "halter": 14384,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 168328.3334,
+        "closed_ts": "2026-10-07T13:57:18.902728+00:00",
+        "close_reason": "Take-Profit erreicht (roh +131.0%)"
       }
     ]
   }
