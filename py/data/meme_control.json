@@ -1,11 +1,114 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 248,
-  "last_scan": "2026-10-07T19:53:16.416980+00:00",
+  "scans": 249,
+  "last_scan": "2026-10-08T00:07:34.736875+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
+    "kontrolle": [
+      {
+        "id": "KON-1008-000734-SharkTan",
+        "arm": "kontrolle",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "SharkTank",
+        "pool_address": "A8bDHneGAGztz2RdZewdQQXFb33dcDYNb2T14rNdCEiD",
+        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
+        "entry_price_usd": 1.5136161935086185e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +354.1%",
+          "1h +354.1%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7942.0212,
+        "age_minutes": 2.2,
+        "status": "open",
+        "current_price_usd": 1.5136161935086185e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1008-000734-CLAUDIA",
+        "arm": "kontrolle",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "CLAUDIA",
+        "pool_address": "Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr",
+        "token_address": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+        "entry_price_usd": 0.00037475624361543166,
+        "score": 3,
+        "signals": [
+          "1h +16.0%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 65663.5529,
+        "age_minutes": 1343.3,
+        "status": "open",
+        "current_price_usd": 0.00037475624361543166,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1008-000734-cowe",
+        "arm": "alt",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "cowe",
+        "pool_address": "7dufVwKQSoUqjsSkdiz359rcgggTYE4bAUiRmJ5ZFN1f",
+        "token_address": "FpXVkwLNk4k6YgNDhJuPHfe8rEinSLrYksx5GZcppump",
+        "entry_price_usd": 8.548469416202928e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +67.5%",
+          "1h +67.5%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5462.8487,
+        "age_minutes": 1.3,
+        "status": "open",
+        "current_price_usd": 8.548469416202928e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1008-000734-Aya",
+        "arm": "alt",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "Aya",
+        "pool_address": "FVxAcX3bxv8E7Eu5qQhZBfzqEaQzEvxBCf8wDu3DYp3m",
+        "token_address": "FDQ6JUoBn6rzd9AVZHceh64wfMGtL8WPDDLS8KA4xBrk",
+        "entry_price_usd": 6.257489766400106e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +36.3%",
+          "1h +36.3%",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5253.1071,
+        "age_minutes": 2.0,
+        "status": "open",
+        "current_price_usd": 6.257489766400106e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": []
   },
   "geschlossen": {
