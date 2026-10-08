@@ -1,29 +1,29 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 250,
-  "last_scan": "2026-10-08T06:20:57.251449+00:00",
+  "scans": 251,
+  "last_scan": "2026-10-08T13:45:48.538149+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1008-062057-Reapurr",
+        "id": "KON-1008-134548-ZKDARK",
         "arm": "kontrolle",
-        "scan_idx": 249,
-        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
-        "symbol": "Reapurr",
-        "pool_address": "E4sQX5gTFHSTisVNdUodWZF71Jef3BVrupMbx1bJW3zJ",
-        "token_address": "A8Js8RTt49vPscLb6rD7mqYyYokDPxQMH9hstepdpump",
-        "entry_price_usd": 3.5335982976362988e-06,
-        "score": 5,
+        "scan_idx": 250,
+        "opened_ts": "2026-10-08T13:45:48.538149+00:00",
+        "symbol": "ZKDARK",
+        "pool_address": "CR5dTgvTddGAqDjP8dGHTL51N6PKRaXqxFBp9FQ5PrKn",
+        "token_address": "HXqxTwCzREUXNK4CbNDgNEUEh2jLzFKdC4tvTuojpump",
+        "entry_price_usd": 0.0007829708961467836,
+        "score": 3,
         "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
+          "1h +13.2%",
+          "Buy-Ratio 68%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2804.7669,
-        "age_minutes": 3.0,
+        "liquidity_usd": 79873.6934,
+        "age_minutes": 816.5,
         "status": "open",
-        "current_price_usd": 3.5335982976362988e-06,
+        "current_price_usd": 0.0007829708961467836,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -31,27 +31,27 @@
     ],
     "alt": [
       {
-        "id": "ALT-1008-062057-Vampurr",
+        "id": "ALT-1008-134548-uBTC",
         "arm": "alt",
-        "scan_idx": 249,
-        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
-        "symbol": "Vampurr",
-        "pool_address": "49ZKyzRdVvhWyRU4iwT5guhDnGhRMQw9VvAYDU8Zr5uW",
-        "token_address": "2UFyGwKXqN9QtWZkZ1JF2VGGsipcVjcuVx1NMhsAZZHG",
-        "entry_price_usd": 1.234183824945958e-05,
+        "scan_idx": 250,
+        "opened_ts": "2026-10-08T13:45:48.538149+00:00",
+        "symbol": "uBTC",
+        "pool_address": "C7oDHS4cuPm6eWqihbZ2NKTKC4ZLhfYrLmwfCvYUN2uL",
+        "token_address": "DKcmhRLBdYHpzAfzJaN6avhig6GP5vkHqCqymYaRHyF5",
+        "entry_price_usd": 1.3215439000341302e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +160.8%",
-          "1h +160.8%",
-          "Buy-Ratio 64%",
+          "5m +33.2%",
+          "1h +33.2%",
+          "Buy-Ratio 62%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 5581.9766,
-        "age_minutes": 2.6,
+        "liquidity_usd": 22573.041,
+        "age_minutes": 2.8,
         "status": "open",
-        "current_price_usd": 1.234183824945958e-05,
+        "current_price_usd": 1.3215439000341302e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -59,25 +59,22 @@
     ],
     "neu": [
       {
-        "id": "NEU-1008-062057-SharkTan",
+        "id": "NEU-1008-134548-BORDR",
         "arm": "neu",
-        "scan_idx": 249,
-        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
-        "symbol": "SharkTank",
-        "pool_address": "65GHmCbyRME3XwKjTqDB7pMJw2gvj2LZryfWKczoAqFR",
-        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
-        "entry_price_usd": 0.0005874823892360904,
-        "score": 5,
+        "scan_idx": 250,
+        "opened_ts": "2026-10-08T13:45:48.538149+00:00",
+        "symbol": "BORDR",
+        "pool_address": "4xp7kN4nVt19caq4kM629vL8vJEqpSFVdZAh27wvYPh8",
+        "token_address": "6Mix12LiHrQFojaQEnfPUC65Qkwd6X4Y5Qg93oFbordr",
+        "entry_price_usd": 0.0007777160200523851,
+        "score": 1,
         "signals": [
-          "Volumen-Beschleunigung",
-          "5m +5.0%",
-          "1h +74.8%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 83427.3424,
-        "age_minutes": 362.1,
+        "liquidity_usd": 85022.2436,
+        "age_minutes": 747.1,
         "status": "open",
-        "current_price_usd": 0.0005874823892360904,
+        "current_price_usd": 0.0007777160200523851,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
@@ -85,12 +82,12 @@
         "v2_warum": [
           "Twitter vorhanden",
           "Website vorhanden",
-          "Top-10 nur 27 % bei reifem Token",
-          "9468 Halter"
+          "Top-10 nur 28 % bei reifem Token",
+          "9346 Halter"
         ],
         "v2_signale": {
-          "top10_pct": 27.41,
-          "halter": 9468,
+          "top10_pct": 27.7,
+          "halter": 9346,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -7325,6 +7322,32 @@
         "liquidity_usd_jetzt": 76598.1201,
         "closed_ts": "2026-10-08T06:20:48.805583+00:00",
         "close_reason": "Take-Profit erreicht (roh +30.0%)"
+      },
+      {
+        "id": "KON-1008-062057-Reapurr",
+        "arm": "kontrolle",
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "Reapurr",
+        "pool_address": "E4sQX5gTFHSTisVNdUodWZF71Jef3BVrupMbx1bJW3zJ",
+        "token_address": "A8Js8RTt49vPscLb6rD7mqYyYokDPxQMH9hstepdpump",
+        "entry_price_usd": 3.5335982976362988e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2804.7669,
+        "age_minutes": 3.0,
+        "status": "expired",
+        "current_price_usd": 3.212214554813752e-06,
+        "pnl_pct": -9.1,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T13:45:42.867959+00:00",
+        "liquidity_usd_jetzt": 2489.18,
+        "closed_ts": "2026-10-08T13:45:42.867959+00:00",
+        "close_reason": "Horizont erreicht (445 min)"
       }
     ],
     "alt": [
@@ -14907,6 +14930,35 @@
         "liquidity_usd_jetzt": 2562.437,
         "closed_ts": "2026-10-08T06:20:48.805583+00:00",
         "close_reason": "Stop-Loss erreicht (roh -48.4%)"
+      },
+      {
+        "id": "ALT-1008-062057-Vampurr",
+        "arm": "alt",
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "Vampurr",
+        "pool_address": "49ZKyzRdVvhWyRU4iwT5guhDnGhRMQw9VvAYDU8Zr5uW",
+        "token_address": "2UFyGwKXqN9QtWZkZ1JF2VGGsipcVjcuVx1NMhsAZZHG",
+        "entry_price_usd": 1.234183824945958e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +160.8%",
+          "1h +160.8%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5581.9766,
+        "age_minutes": 2.6,
+        "status": "sl",
+        "current_price_usd": 3.2580320490916495e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T13:45:42.867959+00:00",
+        "liquidity_usd_jetzt": 2519.9476,
+        "closed_ts": "2026-10-08T13:45:42.867959+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -73.6%)"
       }
     ],
     "neu": [
@@ -22212,6 +22264,47 @@
         "liquidity_usd_jetzt": 168328.3334,
         "closed_ts": "2026-10-07T13:57:18.902728+00:00",
         "close_reason": "Take-Profit erreicht (roh +131.0%)"
+      },
+      {
+        "id": "NEU-1008-062057-SharkTan",
+        "arm": "neu",
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "SharkTank",
+        "pool_address": "65GHmCbyRME3XwKjTqDB7pMJw2gvj2LZryfWKczoAqFR",
+        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
+        "entry_price_usd": 0.0005874823892360904,
+        "score": 5,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "5m +5.0%",
+          "1h +74.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 83427.3424,
+        "age_minutes": 362.1,
+        "status": "sl",
+        "current_price_usd": 0.00024215621311788314,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T13:45:42.867959+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 27 % bei reifem Token",
+          "9468 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 27.41,
+          "halter": 9468,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 50745.4694,
+        "closed_ts": "2026-10-08T13:45:42.867959+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -58.8%)"
       }
     ]
   }
