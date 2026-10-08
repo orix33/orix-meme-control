@@ -1,55 +1,29 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 249,
-  "last_scan": "2026-10-08T00:07:34.736875+00:00",
+  "scans": 250,
+  "last_scan": "2026-10-08T06:20:57.251449+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1008-000734-SharkTan",
+        "id": "KON-1008-062057-Reapurr",
         "arm": "kontrolle",
-        "scan_idx": 248,
-        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
-        "symbol": "SharkTank",
-        "pool_address": "A8bDHneGAGztz2RdZewdQQXFb33dcDYNb2T14rNdCEiD",
-        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
-        "entry_price_usd": 1.5136161935086185e-05,
-        "score": 8,
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "Reapurr",
+        "pool_address": "E4sQX5gTFHSTisVNdUodWZF71Jef3BVrupMbx1bJW3zJ",
+        "token_address": "A8Js8RTt49vPscLb6rD7mqYyYokDPxQMH9hstepdpump",
+        "entry_price_usd": 3.5335982976362988e-06,
+        "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +354.1%",
-          "1h +354.1%",
-          "Buy-Ratio 64%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 7942.0212,
-        "age_minutes": 2.2,
+        "liquidity_usd": 2804.7669,
+        "age_minutes": 3.0,
         "status": "open",
-        "current_price_usd": 1.5136161935086185e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "KON-1008-000734-CLAUDIA",
-        "arm": "kontrolle",
-        "scan_idx": 248,
-        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
-        "symbol": "CLAUDIA",
-        "pool_address": "Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr",
-        "token_address": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
-        "entry_price_usd": 0.00037475624361543166,
-        "score": 3,
-        "signals": [
-          "1h +16.0%",
-          "Buy-Ratio 64%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 65663.5529,
-        "age_minutes": 1343.3,
-        "status": "open",
-        "current_price_usd": 0.00037475624361543166,
+        "current_price_usd": 3.5335982976362988e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -57,59 +31,72 @@
     ],
     "alt": [
       {
-        "id": "ALT-1008-000734-cowe",
+        "id": "ALT-1008-062057-Vampurr",
         "arm": "alt",
-        "scan_idx": 248,
-        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
-        "symbol": "cowe",
-        "pool_address": "7dufVwKQSoUqjsSkdiz359rcgggTYE4bAUiRmJ5ZFN1f",
-        "token_address": "FpXVkwLNk4k6YgNDhJuPHfe8rEinSLrYksx5GZcppump",
-        "entry_price_usd": 8.548469416202928e-06,
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "Vampurr",
+        "pool_address": "49ZKyzRdVvhWyRU4iwT5guhDnGhRMQw9VvAYDU8Zr5uW",
+        "token_address": "2UFyGwKXqN9QtWZkZ1JF2VGGsipcVjcuVx1NMhsAZZHG",
+        "entry_price_usd": 1.234183824945958e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +67.5%",
-          "1h +67.5%",
-          "Buy-Ratio 66%",
+          "5m +160.8%",
+          "1h +160.8%",
+          "Buy-Ratio 64%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 5462.8487,
-        "age_minutes": 1.3,
+        "liquidity_usd": 5581.9766,
+        "age_minutes": 2.6,
         "status": "open",
-        "current_price_usd": 8.548469416202928e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "ALT-1008-000734-Aya",
-        "arm": "alt",
-        "scan_idx": 248,
-        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
-        "symbol": "Aya",
-        "pool_address": "FVxAcX3bxv8E7Eu5qQhZBfzqEaQzEvxBCf8wDu3DYp3m",
-        "token_address": "FDQ6JUoBn6rzd9AVZHceh64wfMGtL8WPDDLS8KA4xBrk",
-        "entry_price_usd": 6.257489766400106e-06,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +36.3%",
-          "1h +36.3%",
-          "Buy-Ratio 62%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 5253.1071,
-        "age_minutes": 2.0,
-        "status": "open",
-        "current_price_usd": 6.257489766400106e-06,
+        "current_price_usd": 1.234183824945958e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": []
+    "neu": [
+      {
+        "id": "NEU-1008-062057-SharkTan",
+        "arm": "neu",
+        "scan_idx": 249,
+        "opened_ts": "2026-10-08T06:20:57.251449+00:00",
+        "symbol": "SharkTank",
+        "pool_address": "65GHmCbyRME3XwKjTqDB7pMJw2gvj2LZryfWKczoAqFR",
+        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
+        "entry_price_usd": 0.0005874823892360904,
+        "score": 5,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "5m +5.0%",
+          "1h +74.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 83427.3424,
+        "age_minutes": 362.1,
+        "status": "open",
+        "current_price_usd": 0.0005874823892360904,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 27 % bei reifem Token",
+          "9468 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 27.41,
+          "halter": 9468,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -7283,6 +7270,61 @@
         "liquidity_usd_jetzt": 331446.0138,
         "closed_ts": "2026-10-07T13:57:18.902728+00:00",
         "close_reason": "Stop-Loss erreicht (roh -26.2%)"
+      },
+      {
+        "id": "KON-1008-000734-SharkTan",
+        "arm": "kontrolle",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "SharkTank",
+        "pool_address": "A8bDHneGAGztz2RdZewdQQXFb33dcDYNb2T14rNdCEiD",
+        "token_address": "HaQdrXRUoxxk1qLFZJNrSyzWNjn16o1r1np5h6jipump",
+        "entry_price_usd": 1.5136161935086185e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +354.1%",
+          "1h +354.1%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7942.0212,
+        "age_minutes": 2.2,
+        "status": "rug",
+        "current_price_usd": 4.767768778896254e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T06:20:48.805583+00:00",
+        "liquidity_usd_jetzt": 0.0,
+        "closed_ts": "2026-10-08T06:20:48.805583+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 7942 $) — kein Ausstieg. Schein-PnL waere +215.0% gewesen."
+      },
+      {
+        "id": "KON-1008-000734-CLAUDIA",
+        "arm": "kontrolle",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "CLAUDIA",
+        "pool_address": "Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr",
+        "token_address": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+        "entry_price_usd": 0.00037475624361543166,
+        "score": 3,
+        "signals": [
+          "1h +16.0%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 65663.5529,
+        "age_minutes": 1343.3,
+        "status": "tp",
+        "current_price_usd": 0.00048717850386798743,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T06:20:48.805583+00:00",
+        "liquidity_usd_jetzt": 76598.1201,
+        "closed_ts": "2026-10-08T06:20:48.805583+00:00",
+        "close_reason": "Take-Profit erreicht (roh +30.0%)"
       }
     ],
     "alt": [
@@ -14807,6 +14849,64 @@
         "liquidity_usd_jetzt": 3.773880485e-07,
         "closed_ts": "2026-10-07T13:57:18.902728+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 23230 $) — kein Ausstieg. Schein-PnL waere +6.5% gewesen."
+      },
+      {
+        "id": "ALT-1008-000734-cowe",
+        "arm": "alt",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "cowe",
+        "pool_address": "7dufVwKQSoUqjsSkdiz359rcgggTYE4bAUiRmJ5ZFN1f",
+        "token_address": "FpXVkwLNk4k6YgNDhJuPHfe8rEinSLrYksx5GZcppump",
+        "entry_price_usd": 8.548469416202928e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +67.5%",
+          "1h +67.5%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5462.8487,
+        "age_minutes": 1.3,
+        "status": "sl",
+        "current_price_usd": 3.314003458322727e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T06:20:48.805583+00:00",
+        "liquidity_usd_jetzt": 2590.4134,
+        "closed_ts": "2026-10-08T06:20:48.805583+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -61.2%)"
+      },
+      {
+        "id": "ALT-1008-000734-Aya",
+        "arm": "alt",
+        "scan_idx": 248,
+        "opened_ts": "2026-10-08T00:07:34.736875+00:00",
+        "symbol": "Aya",
+        "pool_address": "FVxAcX3bxv8E7Eu5qQhZBfzqEaQzEvxBCf8wDu3DYp3m",
+        "token_address": "FDQ6JUoBn6rzd9AVZHceh64wfMGtL8WPDDLS8KA4xBrk",
+        "entry_price_usd": 6.257489766400106e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +36.3%",
+          "1h +36.3%",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5253.1071,
+        "age_minutes": 2.0,
+        "status": "sl",
+        "current_price_usd": 3.228891878423151e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-08T06:20:48.805583+00:00",
+        "liquidity_usd_jetzt": 2562.437,
+        "closed_ts": "2026-10-08T06:20:48.805583+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -48.4%)"
       }
     ],
     "neu": [
