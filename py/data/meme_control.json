@@ -1,34 +1,10 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 257,
-  "last_scan": "2026-10-09T22:56:06.787689+00:00",
+  "scans": 258,
+  "last_scan": "2026-10-10T02:15:21.763117+00:00",
   "offen": {
     "kontrolle": [
-      {
-        "id": "KON-1009-184640-vamp",
-        "arm": "kontrolle",
-        "scan_idx": 255,
-        "opened_ts": "2026-10-09T18:46:40.079439+00:00",
-        "symbol": "vamp",
-        "pool_address": "5vAG7KRu7dwWpmP9xM3NjeQQCUcfHgCJnvGBvkZRJn4T",
-        "token_address": "H72pex1VtfY2M7v2Tfk9D9PgvCocRuFN3owCveERSa4s",
-        "entry_price_usd": 0.00010935698091131748,
-        "score": 5,
-        "signals": [
-          "Volumen-Beschleunigung",
-          "5m +3.5%",
-          "1h +11.0%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 31474.9552,
-        "age_minutes": 1233.5,
-        "status": "open",
-        "current_price_usd": 0.00010935698091131748,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-10-09T22:55:26.531437+00:00"
-      },
       {
         "id": "KON-1009-225606-it",
         "arm": "kontrolle",
@@ -47,40 +23,14 @@
         "liquidity_usd": 2701.8347,
         "age_minutes": 4.9,
         "status": "open",
-        "current_price_usd": 3.4126508643489174e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.087682900408056e-06,
+        "pnl_pct": -9.52,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-10-10T02:15:13.135322+00:00",
+        "liquidity_usd_jetzt": 2466.7846
       }
     ],
-    "alt": [
-      {
-        "id": "ALT-1009-225606-WQUANT",
-        "arm": "alt",
-        "scan_idx": 256,
-        "opened_ts": "2026-10-09T22:56:06.787689+00:00",
-        "symbol": "WQUANT",
-        "pool_address": "34cGHudNS8gD3rDzCdMGu7shtW5BfM18knQc5MJMcfNM",
-        "token_address": "68EHeh21icGjGwqzkEi9Ktha5quCrqhUSdinS7fRpump",
-        "entry_price_usd": 1.2982485527567143e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +165.8%",
-          "1h +165.8%",
-          "Buy-Ratio 63%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 6030.4383,
-        "age_minutes": 5.0,
-        "status": "open",
-        "current_price_usd": 1.2982485527567143e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "alt": [],
     "neu": [
       {
         "id": "NEU-1009-225606-CALLIT",
@@ -100,10 +50,10 @@
         "liquidity_usd": 2778.0146,
         "age_minutes": 4.7,
         "status": "open",
-        "current_price_usd": 3.514396239399254e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.058034211299416e-06,
+        "pnl_pct": -12.99,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-10-10T02:15:13.135322+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -115,7 +65,8 @@
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
-        }
+        },
+        "liquidity_usd_jetzt": 2440.7097
       }
     ]
   },
@@ -7532,6 +7483,33 @@
         "liquidity_usd_jetzt": 27705.458,
         "closed_ts": "2026-10-09T22:55:26.531437+00:00",
         "close_reason": "Stop-Loss erreicht (roh -28.2%)"
+      },
+      {
+        "id": "KON-1009-184640-vamp",
+        "arm": "kontrolle",
+        "scan_idx": 255,
+        "opened_ts": "2026-10-09T18:46:40.079439+00:00",
+        "symbol": "vamp",
+        "pool_address": "5vAG7KRu7dwWpmP9xM3NjeQQCUcfHgCJnvGBvkZRJn4T",
+        "token_address": "H72pex1VtfY2M7v2Tfk9D9PgvCocRuFN3owCveERSa4s",
+        "entry_price_usd": 0.00010935698091131748,
+        "score": 5,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "5m +3.5%",
+          "1h +11.0%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 31474.9552,
+        "age_minutes": 1233.5,
+        "status": "sl",
+        "current_price_usd": 4.87480486065567e-05,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-10T02:15:13.135322+00:00",
+        "liquidity_usd_jetzt": 20959.1677,
+        "closed_ts": "2026-10-10T02:15:13.135322+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -55.4%)"
       }
     ],
     "alt": [
@@ -15346,6 +15324,35 @@
         "liquidity_usd_jetzt": 9.231289313e-05,
         "closed_ts": "2026-10-09T22:55:26.531437+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 29092 $) — kein Ausstieg. Schein-PnL waere +9.3% gewesen."
+      },
+      {
+        "id": "ALT-1009-225606-WQUANT",
+        "arm": "alt",
+        "scan_idx": 256,
+        "opened_ts": "2026-10-09T22:56:06.787689+00:00",
+        "symbol": "WQUANT",
+        "pool_address": "34cGHudNS8gD3rDzCdMGu7shtW5BfM18knQc5MJMcfNM",
+        "token_address": "68EHeh21icGjGwqzkEi9Ktha5quCrqhUSdinS7fRpump",
+        "entry_price_usd": 1.2982485527567143e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +165.8%",
+          "1h +165.8%",
+          "Buy-Ratio 63%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6030.4383,
+        "age_minutes": 5.0,
+        "status": "sl",
+        "current_price_usd": 3.1757464670137254e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-10T02:15:13.135322+00:00",
+        "liquidity_usd_jetzt": 2537.3285,
+        "closed_ts": "2026-10-10T02:15:13.135322+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -75.5%)"
       }
     ],
     "neu": [
