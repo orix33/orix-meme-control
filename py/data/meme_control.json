@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 262,
-  "last_scan": "2026-10-10T22:25:04.591549+00:00",
+  "scans": 263,
+  "last_scan": "2026-10-11T01:06:33.591448+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -27,32 +27,31 @@
         "status": "open",
         "current_price_usd": 1.3101235875285384e-05,
         "pnl_pct": 11.72,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-10T22:24:56.294272+00:00",
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
         "liquidity_usd_jetzt": 21738.2717
       },
       {
-        "id": "KON-1010-222504-PIGGER",
+        "id": "KON-1011-010633-Ollie",
         "arm": "kontrolle",
-        "scan_idx": 261,
-        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
-        "symbol": "PIGGER",
-        "pool_address": "EpYRAXZvEptzYSvk6r1QUupHAyxZgpMdhb7h5g3DkPfH",
-        "token_address": "EdciwAkYCx9bzWQvWtrBt4UmUzcHWaZHtfSrkCeFyXeE",
-        "entry_price_usd": 1.389864672259482e-05,
-        "score": 8,
+        "scan_idx": 262,
+        "opened_ts": "2026-10-11T01:06:33.591448+00:00",
+        "symbol": "Ollie",
+        "pool_address": "GKRWvWR6NLfQ3fFMveNPa4Lat2fKgzXvwdvJuJoQkE1v",
+        "token_address": "DYCyJR9CFhjd1Me6Q4Qt44H8dmWqhUTYn69Uig6rRSeY",
+        "entry_price_usd": 1.3574783793580235e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +50.4%",
-          "1h +50.4%",
-          "Buy-Ratio 84%",
+          "5m +5.1%",
+          "1h +45.4%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 23268.5879,
-        "age_minutes": 2.6,
+        "liquidity_usd": 22812.1719,
+        "age_minutes": 4.9,
         "status": "open",
-        "current_price_usd": 1.389864672259482e-05,
+        "current_price_usd": 1.3574783793580235e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -60,133 +59,33 @@
     ],
     "alt": [
       {
-        "id": "ALT-1010-185427-CALLCAT",
+        "id": "ALT-1011-010633-Starpa",
         "arm": "alt",
-        "scan_idx": 260,
-        "opened_ts": "2026-10-10T18:54:27.032675+00:00",
-        "symbol": "CALLCAT",
-        "pool_address": "J2oqkszGByBxNvLD59oS2EmBt1Tu6jpMW6QKRaXbcPPK",
-        "token_address": "4Gbia2nEhsesP5EVJerGLG6uXwp7wcUwXLvh1PkUXRcp",
-        "entry_price_usd": 3.253097115349982e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2775.9652,
-        "age_minutes": 2.3,
-        "status": "open",
-        "current_price_usd": 3.1047274503238185e-06,
-        "pnl_pct": -4.56,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-10T22:24:56.294272+00:00",
-        "liquidity_usd_jetzt": 2460.548
-      },
-      {
-        "id": "ALT-1010-222504-Worm",
-        "arm": "alt",
-        "scan_idx": 261,
-        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
-        "symbol": "Worm",
-        "pool_address": "HsLoXhWrXbkzojCGkUew4zkCpCVQf4Q3nxKS5hF8yGLN",
-        "token_address": "nz8NKcAd591iWaVjdsSPpzEYthmzXAnTrC1dA8H1LhU",
-        "entry_price_usd": 2.7330178102182783e-05,
+        "scan_idx": 262,
+        "opened_ts": "2026-10-11T01:06:33.591448+00:00",
+        "symbol": "Starpa",
+        "pool_address": "6KadTrmP3Gfqpz7w9b8XKqMSBPh6SSX4qFqLxK3DsdZM",
+        "token_address": "EvH2P2g27f6oQqTzaeiMt5CgPpNKx6enJd6cve8tBAGS",
+        "entry_price_usd": 0.06922661112033664,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +67.1%",
-          "1h +67.1%",
-          "Buy-Ratio 70%",
+          "5m +6.0%",
+          "1h +26.6%",
+          "Buy-Ratio 79%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 24301.6924,
-        "age_minutes": 2.7,
+        "liquidity_usd": 122809.0596,
+        "age_minutes": 3.9,
         "status": "open",
-        "current_price_usd": 2.7330178102182783e-05,
+        "current_price_usd": 0.06922661112033664,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": [
-      {
-        "id": "NEU-1010-185427-Altai",
-        "arm": "neu",
-        "scan_idx": 260,
-        "opened_ts": "2026-10-10T18:54:27.032675+00:00",
-        "symbol": "Altai",
-        "pool_address": "DMEUT8UV5JX8G7jB7TP9XyfBUrP5z7p6VPLSE2WbbRHt",
-        "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
-        "entry_price_usd": 0.0012894918337755998,
-        "score": 3,
-        "signals": [
-          "Alter<6h",
-          "5m +17.2%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 133686.4996,
-        "age_minutes": 302.7,
-        "status": "open",
-        "current_price_usd": 0.0012666050139654226,
-        "pnl_pct": -1.77,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-10T22:24:56.294272+00:00",
-        "v2_score": 2,
-        "v2_warum": [
-          "Website vorhanden",
-          "16053 Halter — viel fuer einen jungen Pool",
-          "6 Insider-Netzwerke"
-        ],
-        "v2_signale": {
-          "top10_pct": 19.35,
-          "halter": 16053,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 136730.3648
-      },
-      {
-        "id": "NEU-1010-222504-PUMP",
-        "arm": "neu",
-        "scan_idx": 261,
-        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
-        "symbol": "PUMP",
-        "pool_address": "2b7XebrZu1NggGpb4ek4EEyQQdyyTwoHVTtqSfWw25Np",
-        "token_address": "Ecshjpv51X7ba3GqJe5UrHVuX4Py83WMSRGw1Vzepump",
-        "entry_price_usd": 9.882527361070521e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 6710.6195,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 9.882527361070521e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 7,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "682 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 29 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 59.16,
-          "halter": 682,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 29
-        }
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -7739,6 +7638,35 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-10-10T18:54:21.204765+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 8020 $) — kein Ausstieg. Schein-PnL waere +120.0% gewesen."
+      },
+      {
+        "id": "KON-1010-222504-PIGGER",
+        "arm": "kontrolle",
+        "scan_idx": 261,
+        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
+        "symbol": "PIGGER",
+        "pool_address": "EpYRAXZvEptzYSvk6r1QUupHAyxZgpMdhb7h5g3DkPfH",
+        "token_address": "EdciwAkYCx9bzWQvWtrBt4UmUzcHWaZHtfSrkCeFyXeE",
+        "entry_price_usd": 1.389864672259482e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +50.4%",
+          "1h +50.4%",
+          "Buy-Ratio 84%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23268.5879,
+        "age_minutes": 2.6,
+        "status": "rug",
+        "current_price_usd": 0.0002683608109960321,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
+        "liquidity_usd_jetzt": 1.41652801419316e-06,
+        "closed_ts": "2026-10-11T01:06:08.375970+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 23269 $) — kein Ausstieg. Schein-PnL waere +1830.8% gewesen."
       }
     ],
     "alt": [
@@ -15666,6 +15594,61 @@
         "liquidity_usd_jetzt": 25503.9383,
         "closed_ts": "2026-10-10T22:24:56.294272+00:00",
         "close_reason": "Horizont erreicht (459 min)"
+      },
+      {
+        "id": "ALT-1010-222504-Worm",
+        "arm": "alt",
+        "scan_idx": 261,
+        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
+        "symbol": "Worm",
+        "pool_address": "HsLoXhWrXbkzojCGkUew4zkCpCVQf4Q3nxKS5hF8yGLN",
+        "token_address": "nz8NKcAd591iWaVjdsSPpzEYthmzXAnTrC1dA8H1LhU",
+        "entry_price_usd": 2.7330178102182783e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +67.1%",
+          "1h +67.1%",
+          "Buy-Ratio 70%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 24301.6924,
+        "age_minutes": 2.7,
+        "status": "rug",
+        "current_price_usd": 6.181461291554698e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
+        "liquidity_usd_jetzt": 0.000182587995,
+        "closed_ts": "2026-10-11T01:06:08.375970+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 24302 $) — kein Ausstieg. Schein-PnL waere +126.2% gewesen."
+      },
+      {
+        "id": "ALT-1010-185427-CALLCAT",
+        "arm": "alt",
+        "scan_idx": 260,
+        "opened_ts": "2026-10-10T18:54:27.032675+00:00",
+        "symbol": "CALLCAT",
+        "pool_address": "J2oqkszGByBxNvLD59oS2EmBt1Tu6jpMW6QKRaXbcPPK",
+        "token_address": "4Gbia2nEhsesP5EVJerGLG6uXwp7wcUwXLvh1PkUXRcp",
+        "entry_price_usd": 3.253097115349982e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2775.9652,
+        "age_minutes": 2.3,
+        "status": "expired",
+        "current_price_usd": 3.1047274503238185e-06,
+        "pnl_pct": -4.56,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
+        "liquidity_usd_jetzt": 2451.5826,
+        "closed_ts": "2026-10-11T01:06:08.375970+00:00",
+        "close_reason": "Horizont erreicht (372 min)"
       }
     ],
     "neu": [
@@ -23326,6 +23309,86 @@
         "liquidity_usd_jetzt": 3610.8571,
         "closed_ts": "2026-10-10T18:54:21.204765+00:00",
         "close_reason": "Stop-Loss erreicht (roh -73.4%)"
+      },
+      {
+        "id": "NEU-1010-222504-PUMP",
+        "arm": "neu",
+        "scan_idx": 261,
+        "opened_ts": "2026-10-10T22:25:04.591549+00:00",
+        "symbol": "PUMP",
+        "pool_address": "2b7XebrZu1NggGpb4ek4EEyQQdyyTwoHVTtqSfWw25Np",
+        "token_address": "Ecshjpv51X7ba3GqJe5UrHVuX4Py83WMSRGw1Vzepump",
+        "entry_price_usd": 9.882527361070521e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6710.6195,
+        "age_minutes": 2.5,
+        "status": "sl",
+        "current_price_usd": 2.5787741084510585e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "682 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 29 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 59.16,
+          "halter": 682,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 29
+        },
+        "liquidity_usd_jetzt": 2540.1902,
+        "closed_ts": "2026-10-11T01:06:08.375970+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -73.9%)"
+      },
+      {
+        "id": "NEU-1010-185427-Altai",
+        "arm": "neu",
+        "scan_idx": 260,
+        "opened_ts": "2026-10-10T18:54:27.032675+00:00",
+        "symbol": "Altai",
+        "pool_address": "DMEUT8UV5JX8G7jB7TP9XyfBUrP5z7p6VPLSE2WbbRHt",
+        "token_address": "Gyk9Z93Ri2JUjqES9HTpc7pxCJTLD7vhBhEjBhyApump",
+        "entry_price_usd": 0.0012894918337755998,
+        "score": 3,
+        "signals": [
+          "Alter<6h",
+          "5m +17.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 133686.4996,
+        "age_minutes": 302.7,
+        "status": "sl",
+        "current_price_usd": 0.0006192512190829962,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T01:06:08.375970+00:00",
+        "v2_score": 2,
+        "v2_warum": [
+          "Website vorhanden",
+          "16053 Halter — viel fuer einen jungen Pool",
+          "6 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 19.35,
+          "halter": 16053,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 96530.4433,
+        "closed_ts": "2026-10-11T01:06:08.375970+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -52.0%)"
       }
     ]
   }
