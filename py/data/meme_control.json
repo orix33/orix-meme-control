@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 266,
-  "last_scan": "2026-10-11T18:47:09.747467+00:00",
+  "scans": 267,
+  "last_scan": "2026-10-11T22:47:27.073132+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -23,80 +23,15 @@
         "liquidity_usd": 131211.7229,
         "age_minutes": 314.2,
         "status": "open",
-        "current_price_usd": 0.001456650618791122,
-        "pnl_pct": 0.0,
+        "current_price_usd": 0.0012941818323671567,
+        "pnl_pct": -11.15,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-10-11T22:47:21.631441+00:00",
+        "liquidity_usd_jetzt": 124697.2465
       }
     ],
-    "alt": [
-      {
-        "id": "ALT-1011-184709-Rocky",
-        "arm": "alt",
-        "scan_idx": 265,
-        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
-        "symbol": "Rocky",
-        "pool_address": "2V6gK7FLtqqVi2RFtabFeGFW7niKMDNwV8k3j4QVjAG2",
-        "token_address": "5LUdDn54akqM8JxybpVHuPKwbvMJ51BtZog6hNgTCSKc",
-        "entry_price_usd": 0.0003661376669608474,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +665.9%",
-          "1h +665.9%",
-          "Buy-Ratio 61%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 41383.5724,
-        "age_minutes": 2.0,
-        "status": "open",
-        "current_price_usd": 0.0003661376669608474,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1011-184709-ORIFICE",
-        "arm": "neu",
-        "scan_idx": 265,
-        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
-        "symbol": "ORIFICE",
-        "pool_address": "2yvnqUJheDFmvatUf7juFVT13dSz2ZFqAHxbzpnHerNf",
-        "token_address": "61iKq7EFer1VrG4TnFQw4cjFrr1WfPc3tAHyqtJgpump",
-        "entry_price_usd": 3.7796468888938087e-06,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +8.3%",
-          "1h +8.3%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2961.5782,
-        "age_minutes": 1.5,
-        "status": "open",
-        "current_price_usd": 3.7796468888938087e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "60 Halter (jung)"
-        ],
-        "v2_signale": {
-          "top10_pct": 99.98,
-          "halter": 60,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      }
-    ]
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -15803,6 +15738,35 @@
         "liquidity_usd_jetzt": 0.0002097574311,
         "closed_ts": "2026-10-11T13:57:58.463795+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 26708 $) — kein Ausstieg. Schein-PnL waere +146.0% gewesen."
+      },
+      {
+        "id": "ALT-1011-184709-Rocky",
+        "arm": "alt",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "Rocky",
+        "pool_address": "2V6gK7FLtqqVi2RFtabFeGFW7niKMDNwV8k3j4QVjAG2",
+        "token_address": "5LUdDn54akqM8JxybpVHuPKwbvMJ51BtZog6hNgTCSKc",
+        "entry_price_usd": 0.0003661376669608474,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +665.9%",
+          "1h +665.9%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 41383.5724,
+        "age_minutes": 2.0,
+        "status": "rug",
+        "current_price_usd": 0.0009185083482410133,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T22:47:21.631441+00:00",
+        "liquidity_usd_jetzt": 0.0111,
+        "closed_ts": "2026-10-11T22:47:21.631441+00:00",
+        "close_reason": "Liquiditaet 0.01 $ (Start 41384 $) — kein Ausstieg. Schein-PnL waere +150.9% gewesen."
       }
     ],
     "neu": [
@@ -23543,6 +23507,47 @@
         "liquidity_usd_jetzt": 96530.4433,
         "closed_ts": "2026-10-11T01:06:08.375970+00:00",
         "close_reason": "Stop-Loss erreicht (roh -52.0%)"
+      },
+      {
+        "id": "NEU-1011-184709-ORIFICE",
+        "arm": "neu",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "ORIFICE",
+        "pool_address": "2yvnqUJheDFmvatUf7juFVT13dSz2ZFqAHxbzpnHerNf",
+        "token_address": "61iKq7EFer1VrG4TnFQw4cjFrr1WfPc3tAHyqtJgpump",
+        "entry_price_usd": 3.7796468888938087e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.3%",
+          "1h +8.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2961.5782,
+        "age_minutes": 1.5,
+        "status": "sl",
+        "current_price_usd": 3.1111552569114835e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T22:47:21.631441+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "60 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.98,
+          "halter": 60,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2460.9059,
+        "closed_ts": "2026-10-11T22:47:21.631441+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -17.7%)"
       }
     ]
   }
