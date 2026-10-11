@@ -1,12 +1,102 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 265,
-  "last_scan": "2026-10-11T13:58:01.425991+00:00",
+  "scans": 266,
+  "last_scan": "2026-10-11T18:47:09.747467+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1011-184709-DOPE",
+        "arm": "kontrolle",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "DOPE",
+        "pool_address": "6iep3EgqksbZwgzMBCyAJtiVtVYkCgL9BnPBEwLR8AGQ",
+        "token_address": "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+        "entry_price_usd": 0.001456650618791122,
+        "score": 3,
+        "signals": [
+          "Alter<6h",
+          "1h +35.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 131211.7229,
+        "age_minutes": 314.2,
+        "status": "open",
+        "current_price_usd": 0.001456650618791122,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1011-184709-Rocky",
+        "arm": "alt",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "Rocky",
+        "pool_address": "2V6gK7FLtqqVi2RFtabFeGFW7niKMDNwV8k3j4QVjAG2",
+        "token_address": "5LUdDn54akqM8JxybpVHuPKwbvMJ51BtZog6hNgTCSKc",
+        "entry_price_usd": 0.0003661376669608474,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +665.9%",
+          "1h +665.9%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 41383.5724,
+        "age_minutes": 2.0,
+        "status": "open",
+        "current_price_usd": 0.0003661376669608474,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1011-184709-ORIFICE",
+        "arm": "neu",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "ORIFICE",
+        "pool_address": "2yvnqUJheDFmvatUf7juFVT13dSz2ZFqAHxbzpnHerNf",
+        "token_address": "61iKq7EFer1VrG4TnFQw4cjFrr1WfPc3tAHyqtJgpump",
+        "entry_price_usd": 3.7796468888938087e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.3%",
+          "1h +8.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2961.5782,
+        "age_minutes": 1.5,
+        "status": "open",
+        "current_price_usd": 3.7796468888938087e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "60 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.98,
+          "halter": 60,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
