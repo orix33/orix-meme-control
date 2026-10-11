@@ -1,65 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 264,
-  "last_scan": "2026-10-11T07:06:45.371195+00:00",
+  "scans": 265,
+  "last_scan": "2026-10-11T13:58:01.425991+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1011-070645-TIKTOK A",
-        "arm": "kontrolle",
-        "scan_idx": 263,
-        "opened_ts": "2026-10-11T07:06:45.371195+00:00",
-        "symbol": "TIKTOK AI",
-        "pool_address": "D5Rb2SNDRGJgY3F2xuusKFkc63GpryQ7shFJ3rh2nqRS",
-        "token_address": "3EHqkZCsWKFDaTy4kpHuU54STXekt9NKmMu66Asv9GPB",
-        "entry_price_usd": 3.569947122714757e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +14.1%",
-          "1h +42.6%",
-          "Buy-Ratio 75%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 57404.6679,
-        "age_minutes": 11.7,
-        "status": "open",
-        "current_price_usd": 3.569947122714757e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1011-070645-Incognit",
-        "arm": "alt",
-        "scan_idx": 263,
-        "opened_ts": "2026-10-11T07:06:45.371195+00:00",
-        "symbol": "Incognito",
-        "pool_address": "777WYbNqQN8qkRyMnyCQG7Cy8SvMu2fCxMcSHDfDCVzK",
-        "token_address": "5nPDvGR8TjVrfwuxmc7PYdX6fL5dBeoTKh7VbzpzmtwU",
-        "entry_price_usd": 1.9946470086468797e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +50.3%",
-          "1h +109.2%",
-          "Buy-Ratio 70%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 26707.572,
-        "age_minutes": 9.9,
-        "status": "open",
-        "current_price_usd": 1.9946470086468797e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": []
   },
   "geschlossen": {
@@ -7698,6 +7644,35 @@
         "liquidity_usd_jetzt": 21640.543,
         "closed_ts": "2026-10-11T07:06:39.853134+00:00",
         "close_reason": "Horizont erreicht (732 min)"
+      },
+      {
+        "id": "KON-1011-070645-TIKTOK A",
+        "arm": "kontrolle",
+        "scan_idx": 263,
+        "opened_ts": "2026-10-11T07:06:45.371195+00:00",
+        "symbol": "TIKTOK AI",
+        "pool_address": "D5Rb2SNDRGJgY3F2xuusKFkc63GpryQ7shFJ3rh2nqRS",
+        "token_address": "3EHqkZCsWKFDaTy4kpHuU54STXekt9NKmMu66Asv9GPB",
+        "entry_price_usd": 3.569947122714757e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +14.1%",
+          "1h +42.6%",
+          "Buy-Ratio 75%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 57404.6679,
+        "age_minutes": 11.7,
+        "status": "rug",
+        "current_price_usd": 4.1273956911260757e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T13:57:58.463795+00:00",
+        "liquidity_usd_jetzt": 4.329150527e-07,
+        "closed_ts": "2026-10-11T13:57:58.463795+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 57405 $) — kein Ausstieg. Schein-PnL waere +15.6% gewesen."
       }
     ],
     "alt": [
@@ -15709,6 +15684,35 @@
         "liquidity_usd_jetzt": 0.011,
         "closed_ts": "2026-10-11T07:06:39.853134+00:00",
         "close_reason": "Liquiditaet 0.01 $ (Start 122809 $) — kein Ausstieg. Schein-PnL waere +18.1% gewesen."
+      },
+      {
+        "id": "ALT-1011-070645-Incognit",
+        "arm": "alt",
+        "scan_idx": 263,
+        "opened_ts": "2026-10-11T07:06:45.371195+00:00",
+        "symbol": "Incognito",
+        "pool_address": "777WYbNqQN8qkRyMnyCQG7Cy8SvMu2fCxMcSHDfDCVzK",
+        "token_address": "5nPDvGR8TjVrfwuxmc7PYdX6fL5dBeoTKh7VbzpzmtwU",
+        "entry_price_usd": 1.9946470086468797e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +50.3%",
+          "1h +109.2%",
+          "Buy-Ratio 70%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 26707.572,
+        "age_minutes": 9.9,
+        "status": "rug",
+        "current_price_usd": 4.9067837915266634e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-11T13:57:58.463795+00:00",
+        "liquidity_usd_jetzt": 0.0002097574311,
+        "closed_ts": "2026-10-11T13:57:58.463795+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 26708 $) — kein Ausstieg. Schein-PnL waere +146.0% gewesen."
       }
     ],
     "neu": [
