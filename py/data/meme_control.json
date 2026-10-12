@@ -1,12 +1,153 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 269,
-  "last_scan": "2026-10-12T09:27:22.954554+00:00",
+  "scans": 270,
+  "last_scan": "2026-10-12T19:20:16.469435+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1012-192016-FIGHT",
+        "arm": "kontrolle",
+        "scan_idx": 269,
+        "opened_ts": "2026-10-12T19:20:16.469435+00:00",
+        "symbol": "FIGHT",
+        "pool_address": "BoW9h5GBqdNR55fKE3VHdzNgPLANzmYKY1eiqmx1DRLZ",
+        "token_address": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
+        "entry_price_usd": 0.0002620027558378221,
+        "score": 3,
+        "signals": [
+          "1h +6.8%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 44672.0145,
+        "age_minutes": 1049.0,
+        "status": "open",
+        "current_price_usd": 0.0002620027558378221,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1012-192016-WORM",
+        "arm": "kontrolle",
+        "scan_idx": 269,
+        "opened_ts": "2026-10-12T19:20:16.469435+00:00",
+        "symbol": "WORM",
+        "pool_address": "Cz1KiNZHaW1GKkPqF34NphgP7LuU74JpJmXzLDCJbM6B",
+        "token_address": "5JRgtF4Fwnv3eNmNPuAur6dEzh83ix6mtYP4XALupump",
+        "entry_price_usd": 2.812995725511474e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +718.7%",
+          "1h +718.7%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7675.5874,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 2.812995725511474e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1012-192016-GDN",
+        "arm": "alt",
+        "scan_idx": 269,
+        "opened_ts": "2026-10-12T19:20:16.469435+00:00",
+        "symbol": "GDN",
+        "pool_address": "2fjFL253ZhEtA2d4xC6mEKZA2VfpXyBArZmLVnAMKgvN",
+        "token_address": "RpjBhw6BcnBMoUVfb76pciChV7ciFY8d8BDDvy8pump",
+        "entry_price_usd": 0.0004470989574583549,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +5.3%",
+          "1h +5.3%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 55910.1003,
+        "age_minutes": 2.4,
+        "status": "open",
+        "current_price_usd": 0.0004470989574583549,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1012-192016-OBUMA",
+        "arm": "alt",
+        "scan_idx": 269,
+        "opened_ts": "2026-10-12T19:20:16.469435+00:00",
+        "symbol": "OBUMA",
+        "pool_address": "9yPvwSMHNbfZDx27K8FiHq8DjmVHVqLBh5dKHn2PsUwi",
+        "token_address": "ENa1EyWNC9NKHFtrXNQFwU15JBp4XH7DPvDgXmK5QiHT",
+        "entry_price_usd": 5.20008719793546e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +16.5%",
+          "1h +16.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5993.3595,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 5.20008719793546e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1012-192016-FARM",
+        "arm": "neu",
+        "scan_idx": 269,
+        "opened_ts": "2026-10-12T19:20:16.469435+00:00",
+        "symbol": "FARM",
+        "pool_address": "FZjPqFbQAoze9pSUpTLwPoCkGVAPGworfoPjkFpHoyLK",
+        "token_address": "hKyXZVKmrBDPhKKhdSaaGf1qrFwUkwjqrdzRc63farm",
+        "entry_price_usd": 5.94699184012196e-05,
+        "score": 2,
+        "signals": [
+          "1h +51.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 73781.3833,
+        "age_minutes": 1308.0,
+        "status": "open",
+        "current_price_usd": 5.94699184012196e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "Top-10 42 %",
+          "5467 Halter",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 41.79,
+          "halter": 5467,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
