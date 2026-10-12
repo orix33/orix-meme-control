@@ -1,37 +1,104 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 267,
-  "last_scan": "2026-10-11T22:47:27.073132+00:00",
+  "scans": 268,
+  "last_scan": "2026-10-12T02:16:39.417027+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1011-184709-DOPE",
+        "id": "KON-1012-021639-HERD",
         "arm": "kontrolle",
-        "scan_idx": 265,
-        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
-        "symbol": "DOPE",
-        "pool_address": "6iep3EgqksbZwgzMBCyAJtiVtVYkCgL9BnPBEwLR8AGQ",
-        "token_address": "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
-        "entry_price_usd": 0.001456650618791122,
-        "score": 3,
+        "scan_idx": 267,
+        "opened_ts": "2026-10-12T02:16:39.417027+00:00",
+        "symbol": "HERD",
+        "pool_address": "DGMR42ucUiXqLntQnS8EQ9caN3mMq5w4xjRNhY6dGQ4W",
+        "token_address": "2yS1CF7XbA6QeG67BpG8XnChybFb6QTki1DrqvEbX15h",
+        "entry_price_usd": 1.388277184235918e-05,
+        "score": 7,
         "signals": [
-          "Alter<6h",
-          "1h +35.4%",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "1h +40.7%",
+          "Buy-Ratio 84%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 131211.7229,
-        "age_minutes": 314.2,
+        "liquidity_usd": 22802.9963,
+        "age_minutes": 3.1,
         "status": "open",
-        "current_price_usd": 0.0012941818323671567,
-        "pnl_pct": -11.15,
+        "current_price_usd": 1.388277184235918e-05,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-11T22:47:21.631441+00:00",
-        "liquidity_usd_jetzt": 124697.2465
+        "letzte_pruefung": null
       }
     ],
-    "alt": [],
-    "neu": []
+    "alt": [
+      {
+        "id": "ALT-1012-021639-NVIDIA",
+        "arm": "alt",
+        "scan_idx": 267,
+        "opened_ts": "2026-10-12T02:16:39.417027+00:00",
+        "symbol": "NVIDIA",
+        "pool_address": "7NwxfLpvB4JhV9G6KvcXLUcF6S26EVKVesTfV3yufPjG",
+        "token_address": "C5Xxo87EYseCCXqEApmYkec7jsojk8aLtiKEBJECpump",
+        "entry_price_usd": 0.00044960572496070784,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +208.8%",
+          "1h +208.8%",
+          "Buy-Ratio 100%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 57233.519955447,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 0.00044960572496070784,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1012-021639-Solamian",
+        "arm": "neu",
+        "scan_idx": 267,
+        "opened_ts": "2026-10-12T02:16:39.417027+00:00",
+        "symbol": "Solamians",
+        "pool_address": "89DxSaK1YZx8TbPapMSSEgkEdhYuhYBo26BytgELrJBd",
+        "token_address": "8ZP5CzbPL1fmP8dn1GEmLd8xw1JdudUF5Dk7EpLxpump",
+        "entry_price_usd": 4.8771153103060304e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +19.9%",
+          "1h +17.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18642.0301,
+        "age_minutes": 2.2,
+        "status": "open",
+        "current_price_usd": 4.8771153103060304e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "797 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 34.73,
+          "halter": 797,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -7698,6 +7765,32 @@
         "liquidity_usd_jetzt": 4.329150527e-07,
         "closed_ts": "2026-10-11T13:57:58.463795+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 57405 $) — kein Ausstieg. Schein-PnL waere +15.6% gewesen."
+      },
+      {
+        "id": "KON-1011-184709-DOPE",
+        "arm": "kontrolle",
+        "scan_idx": 265,
+        "opened_ts": "2026-10-11T18:47:09.747467+00:00",
+        "symbol": "DOPE",
+        "pool_address": "6iep3EgqksbZwgzMBCyAJtiVtVYkCgL9BnPBEwLR8AGQ",
+        "token_address": "33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump",
+        "entry_price_usd": 0.001456650618791122,
+        "score": 3,
+        "signals": [
+          "Alter<6h",
+          "1h +35.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 131211.7229,
+        "age_minutes": 314.2,
+        "status": "tp",
+        "current_price_usd": 0.0019608322437392584,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-12T02:16:39.296802+00:00",
+        "liquidity_usd_jetzt": 157772.7357,
+        "closed_ts": "2026-10-12T02:16:39.296802+00:00",
+        "close_reason": "Take-Profit erreicht (roh +34.6%)"
       }
     ],
     "alt": [
