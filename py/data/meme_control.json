@@ -1,102 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 271,
-  "last_scan": "2026-10-13T01:28:17.064127+00:00",
+  "scans": 272,
+  "last_scan": "2026-10-13T08:28:09.945280+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1013-012817-BEPE✨",
-        "arm": "kontrolle",
-        "scan_idx": 270,
-        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
-        "symbol": "BEPE✨",
-        "pool_address": "9MYkfDC5FrAD5UnJFkqPXnZQceewA7gXqZkeA5JPK1SP",
-        "token_address": "B2j9F9SprjftMoYd9zeUwNjK6Y5TZJud87FMviyqQZLi",
-        "entry_price_usd": 6.57306371005228e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +18.1%",
-          "1h +18.1%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 3039.5275,
-        "age_minutes": 3.6,
-        "status": "open",
-        "current_price_usd": 6.57306371005228e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1013-012817-MarsX",
-        "arm": "alt",
-        "scan_idx": 270,
-        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
-        "symbol": "MarsX",
-        "pool_address": "7FYCv7haKkJjcpKtXG3PKs4K7NLd22sPFNY4KCek6Cfu",
-        "token_address": "BuzgK1bnAQQCMccEoo2mfq3nsXxXfShzJdX65sN8EnXP",
-        "entry_price_usd": 0.00016522081477420085,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +160.2%",
-          "1h +160.2%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 3938.5518,
-        "age_minutes": 3.4,
-        "status": "open",
-        "current_price_usd": 0.00016522081477420085,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1013-012817-HIRE",
-        "arm": "neu",
-        "scan_idx": 270,
-        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
-        "symbol": "HIRE",
-        "pool_address": "2U5kdozDrdgYzyGRNbTdBejGLYEeRt1FkERQmyPbV85P",
-        "token_address": "98AG3zJUawbvDnpgbDhmxpMKva43vtgPLLPSXqo1pump",
-        "entry_price_usd": 0.00045556306685701756,
-        "score": 2,
-        "signals": [
-          "5m +8.5%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 67767.791,
-        "age_minutes": 703.3,
-        "status": "open",
-        "current_price_usd": 0.00045556306685701756,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 47 %",
-          "15360 Halter",
-          "RugCheck-Risiko 51 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 46.91,
-          "halter": 15360,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 51
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -7872,6 +7782,34 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-10-13T01:28:05.775051+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 7676 $) — kein Ausstieg. Schein-PnL waere +46.5% gewesen."
+      },
+      {
+        "id": "KON-1013-012817-BEPE✨",
+        "arm": "kontrolle",
+        "scan_idx": 270,
+        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
+        "symbol": "BEPE✨",
+        "pool_address": "9MYkfDC5FrAD5UnJFkqPXnZQceewA7gXqZkeA5JPK1SP",
+        "token_address": "B2j9F9SprjftMoYd9zeUwNjK6Y5TZJud87FMviyqQZLi",
+        "entry_price_usd": 6.57306371005228e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +18.1%",
+          "1h +18.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3039.5275,
+        "age_minutes": 3.6,
+        "status": "rug",
+        "current_price_usd": 1.0049927194210794e-09,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-13T08:28:04.215414+00:00",
+        "liquidity_usd_jetzt": 1.7452,
+        "closed_ts": "2026-10-13T08:28:04.215414+00:00",
+        "close_reason": "Liquiditaet 1.75 $ (Start 3040 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
       }
     ],
     "alt": [
@@ -16027,6 +15965,34 @@
         "liquidity_usd_jetzt": 2305.6955,
         "closed_ts": "2026-10-13T01:28:05.775051+00:00",
         "close_reason": "Stop-Loss erreicht (roh -41.6%)"
+      },
+      {
+        "id": "ALT-1013-012817-MarsX",
+        "arm": "alt",
+        "scan_idx": 270,
+        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
+        "symbol": "MarsX",
+        "pool_address": "7FYCv7haKkJjcpKtXG3PKs4K7NLd22sPFNY4KCek6Cfu",
+        "token_address": "BuzgK1bnAQQCMccEoo2mfq3nsXxXfShzJdX65sN8EnXP",
+        "entry_price_usd": 0.00016522081477420085,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +160.2%",
+          "1h +160.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3938.5518,
+        "age_minutes": 3.4,
+        "status": "rug",
+        "current_price_usd": 4.930253891143068e-10,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-13T08:28:04.215414+00:00",
+        "liquidity_usd_jetzt": 0.8238,
+        "closed_ts": "2026-10-13T08:28:04.215414+00:00",
+        "close_reason": "Liquiditaet 0.82 $ (Start 3939 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
       }
     ],
     "neu": [
@@ -23890,6 +23856,46 @@
         "liquidity_usd_jetzt": 48715.9098,
         "closed_ts": "2026-10-13T01:28:05.775051+00:00",
         "close_reason": "Stop-Loss erreicht (roh -56.4%)"
+      },
+      {
+        "id": "NEU-1013-012817-HIRE",
+        "arm": "neu",
+        "scan_idx": 270,
+        "opened_ts": "2026-10-13T01:28:17.064127+00:00",
+        "symbol": "HIRE",
+        "pool_address": "2U5kdozDrdgYzyGRNbTdBejGLYEeRt1FkERQmyPbV85P",
+        "token_address": "98AG3zJUawbvDnpgbDhmxpMKva43vtgPLLPSXqo1pump",
+        "entry_price_usd": 0.00045556306685701756,
+        "score": 2,
+        "signals": [
+          "5m +8.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 67767.791,
+        "age_minutes": 703.3,
+        "status": "expired",
+        "current_price_usd": 0.0004745308755078362,
+        "pnl_pct": 4.16,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-13T08:28:04.215414+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 47 %",
+          "15360 Halter",
+          "RugCheck-Risiko 51 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 46.91,
+          "halter": 15360,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 51
+        },
+        "liquidity_usd_jetzt": 71178.4725,
+        "closed_ts": "2026-10-13T08:28:04.215414+00:00",
+        "close_reason": "Horizont erreicht (420 min)"
       }
     ]
   }
