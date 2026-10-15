@@ -1,29 +1,31 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 281,
-  "last_scan": "2026-10-15T00:54:04.689957+00:00",
+  "scans": 282,
+  "last_scan": "2026-10-15T05:48:19.314519+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1015-005404-KEK",
+        "id": "KON-1015-054819-LUMINOUS",
         "arm": "kontrolle",
-        "scan_idx": 280,
-        "opened_ts": "2026-10-15T00:54:04.689957+00:00",
-        "symbol": "KEK",
-        "pool_address": "61njVbTbk8TwtLx9cYBLtQTR3ce8GcvLB3ZtDHRErdfe",
-        "token_address": "9PyZxgKxbtgaEuQwCVBrMGpm2jE4ZJ3hUcWfWoEApump",
-        "entry_price_usd": 3.7977136067989677e-06,
-        "score": 5,
+        "scan_idx": 281,
+        "opened_ts": "2026-10-15T05:48:19.314519+00:00",
+        "symbol": "LUMINOUS",
+        "pool_address": "3Yphoa1wTzNPUr4DBbhtp62YPumfhYZyouCdmp91k4JD",
+        "token_address": "739q9aEWFxY9m3GnurKX5u6AgyiFTJXtHEE96umXpump",
+        "entry_price_usd": 1.2883635772642401e-05,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
+          "5m +131.2%",
+          "1h +131.2%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 3000.9553,
-        "age_minutes": 2.3,
+        "liquidity_usd": 6332.9502,
+        "age_minutes": 3.1,
         "status": "open",
-        "current_price_usd": 3.7977136067989677e-06,
+        "current_price_usd": 1.2883635772642401e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -31,26 +33,26 @@
     ],
     "alt": [
       {
-        "id": "ALT-1015-005404-MMW",
+        "id": "ALT-1015-054819-Katya",
         "arm": "alt",
-        "scan_idx": 280,
-        "opened_ts": "2026-10-15T00:54:04.689957+00:00",
-        "symbol": "MMW",
-        "pool_address": "4MAowDk1b8RYjXCteYTdcKg5P6Q8NWQKDp6reqU3iWKH",
-        "token_address": "BdHpetseij8UZwvTnuehrh9ZDoN9TLwueYRSUZT1pump",
-        "entry_price_usd": 5.715066736926491e-05,
+        "scan_idx": 281,
+        "opened_ts": "2026-10-15T05:48:19.314519+00:00",
+        "symbol": "Katya",
+        "pool_address": "5xq32fc7fhyH1Z3oDYFoLRhaHcJEcWDJ8H1yfjEsdip5",
+        "token_address": "HJqkLv4scBpi5p9T9dpyK55A2mkPKX2YdSm657uepump",
+        "entry_price_usd": 4.834803415814352e-06,
         "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +44.6%",
-          "1h +44.6%",
+          "5m +49.9%",
+          "1h +49.9%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 20855.3154,
-        "age_minutes": 3.3,
+        "liquidity_usd": 3551.8805,
+        "age_minutes": 3.0,
         "status": "open",
-        "current_price_usd": 5.715066736926491e-05,
+        "current_price_usd": 4.834803415814352e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -8027,6 +8029,32 @@
         "liquidity_usd_jetzt": 2265.1509,
         "closed_ts": "2026-10-14T22:39:03.582455+00:00",
         "close_reason": "Stop-Loss erreicht (roh -97.6%)"
+      },
+      {
+        "id": "KON-1015-005404-KEK",
+        "arm": "kontrolle",
+        "scan_idx": 280,
+        "opened_ts": "2026-10-15T00:54:04.689957+00:00",
+        "symbol": "KEK",
+        "pool_address": "61njVbTbk8TwtLx9cYBLtQTR3ce8GcvLB3ZtDHRErdfe",
+        "token_address": "9PyZxgKxbtgaEuQwCVBrMGpm2jE4ZJ3hUcWfWoEApump",
+        "entry_price_usd": 3.7977136067989677e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3000.9553,
+        "age_minutes": 2.3,
+        "status": "sl",
+        "current_price_usd": 3.0902455608939693e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-15T05:48:16.071314+00:00",
+        "liquidity_usd_jetzt": 2396.6169,
+        "closed_ts": "2026-10-15T05:48:16.071314+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -18.6%)"
       }
     ],
     "alt": [
@@ -16382,6 +16410,34 @@
         "liquidity_usd_jetzt": 8.15160788149093e-05,
         "closed_ts": "2026-10-14T22:39:03.582455+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 17380 $) — kein Ausstieg. Schein-PnL waere +67.1% gewesen."
+      },
+      {
+        "id": "ALT-1015-005404-MMW",
+        "arm": "alt",
+        "scan_idx": 280,
+        "opened_ts": "2026-10-15T00:54:04.689957+00:00",
+        "symbol": "MMW",
+        "pool_address": "4MAowDk1b8RYjXCteYTdcKg5P6Q8NWQKDp6reqU3iWKH",
+        "token_address": "BdHpetseij8UZwvTnuehrh9ZDoN9TLwueYRSUZT1pump",
+        "entry_price_usd": 5.715066736926491e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +44.6%",
+          "1h +44.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20855.3154,
+        "age_minutes": 3.3,
+        "status": "sl",
+        "current_price_usd": 2.1119195295082783e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-15T05:48:16.071314+00:00",
+        "liquidity_usd_jetzt": 2120.3886,
+        "closed_ts": "2026-10-15T05:48:16.071314+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -96.3%)"
       }
     ],
     "neu": [

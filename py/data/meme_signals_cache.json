@@ -30492,5 +30492,26 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "HJqkLv4scBpi5p9T9dpyK55A2mkPKX2YdSm657uepump": {
+    "mint": "HJqkLv4scBpi5p9T9dpyK55A2mkPKX2YdSm657uepump",
+    "_ts": 1792043333.8083515,
+    "abgerufen": "2026-10-15T05:48:53.808352+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "739q9aEWFxY9m3GnurKX5u6AgyiFTJXtHEE96umXpump": {
+    "mint": "739q9aEWFxY9m3GnurKX5u6AgyiFTJXtHEE96umXpump",
+    "_ts": 1792043334.2360315,
+    "abgerufen": "2026-10-15T05:48:54.236036+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "EwxBSMsJpqw9CawTfPkb71efKB5N9f4cp5KPCtzCpump": {
+    "mint": "EwxBSMsJpqw9CawTfPkb71efKB5N9f4cp5KPCtzCpump",
+    "_ts": 1792043335.702071,
+    "abgerufen": "2026-10-15T05:48:55.702073+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
