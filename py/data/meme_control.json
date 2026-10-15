@@ -1,12 +1,100 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 285,
-  "last_scan": "2026-10-15T19:23:18.161348+00:00",
+  "scans": 286,
+  "last_scan": "2026-10-15T22:31:34.253526+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1015-223134-STREAM",
+        "arm": "kontrolle",
+        "scan_idx": 285,
+        "opened_ts": "2026-10-15T22:31:34.253526+00:00",
+        "symbol": "STREAM",
+        "pool_address": "91TcJ2v9wFs11pkvyZkNTswC35cB1tUJXpkUgsGnRJcQ",
+        "token_address": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
+        "entry_price_usd": 0.00020693569358434078,
+        "score": 2,
+        "signals": [
+          "5m +10.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 41363.2215,
+        "age_minutes": 387.2,
+        "status": "open",
+        "current_price_usd": 0.00020693569358434078,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1015-223134-GME",
+        "arm": "alt",
+        "scan_idx": 285,
+        "opened_ts": "2026-10-15T22:31:34.253526+00:00",
+        "symbol": "GME",
+        "pool_address": "FvN9dYR2VxyYrYdbk1fbp3D6XuZqxySq6z5nw9mDwjW8",
+        "token_address": "8VzywE6uHNLrXNjykZTMLQz71hppT5XNvtubVwoTpump",
+        "entry_price_usd": 4.012152284592087e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +9.4%",
+          "1h +9.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3036.6255,
+        "age_minutes": 3.0,
+        "status": "open",
+        "current_price_usd": 4.012152284592087e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1015-223134-FTR",
+        "arm": "neu",
+        "scan_idx": 285,
+        "opened_ts": "2026-10-15T22:31:34.253526+00:00",
+        "symbol": "FTR",
+        "pool_address": "Fk5MuGv2H3Qpt6AxdhS2KHgDL2os424BvfEoqFNTdv9Y",
+        "token_address": "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
+        "entry_price_usd": 0.0015569049505870913,
+        "score": 3,
+        "signals": [
+          "5m +3.0%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 125813.9093,
+        "age_minutes": 1223.2,
+        "status": "open",
+        "current_price_usd": 0.0015569049505870913,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 41 %",
+          "11689 Halter",
+          "6 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 41.45,
+          "halter": 11689,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [

@@ -30659,5 +30659,73 @@
     "abgerufen": "2026-10-15T15:39:47.102503+00:00",
     "vollstaendig": false,
     "rugcheck_zustand": "unknown"
+  },
+  "5aJfiNVZvYoeA83mXsn1aAnjUuuyCWfB47K8zsogvy5X": {
+    "mint": "5aJfiNVZvYoeA83mXsn1aAnjUuuyCWfB47K8zsogvy5X",
+    "_ts": 1792103504.575105,
+    "abgerufen": "2026-10-15T22:31:44.575106+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "8VzywE6uHNLrXNjykZTMLQz71hppT5XNvtubVwoTpump": {
+    "mint": "8VzywE6uHNLrXNjykZTMLQz71hppT5XNvtubVwoTpump",
+    "_ts": 1792103504.8678403,
+    "abgerufen": "2026-10-15T22:31:44.867842+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump": {
+    "mint": "DFMt2FyLpB6ekPNAzVErLXgpSnJ9CRf1VnxBAkTLpump",
+    "_ts": 1792103506.3758738,
+    "abgerufen": "2026-10-15T22:31:46.375876+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 22.03,
+    "top10_pct": 41.45,
+    "halter": 11689,
+    "creator": "D1Civ6jnotFnN88szQvBqTwZMWQuucT7gm7ETR6dpAfM",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 6,
+    "graph_insider": 79,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 286451.2283310827,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
+  },
+  "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump": {
+    "mint": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
+    "_ts": 1792103509.2535925,
+    "abgerufen": "2026-10-15T22:31:49.253594+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 24.93,
+    "top10_pct": 62.85,
+    "halter": 7074,
+    "creator": "GNNNZvk5p6y6ThsQN5UWdrf7kESMVFQbncre15uGYLuC",
+    "creator_haelt": true,
+    "creator_balance_roh": 65178687120093,
+    "insider_netzwerke": 8,
+    "graph_insider": 139,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 46718.62912420459,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": false
+    }
   }
 }
