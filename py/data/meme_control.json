@@ -1,63 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 284,
-  "last_scan": "2026-10-15T15:39:11.012720+00:00",
+  "scans": 285,
+  "last_scan": "2026-10-15T19:23:18.161348+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1015-153911-lysis",
-        "arm": "kontrolle",
-        "scan_idx": 283,
-        "opened_ts": "2026-10-15T15:39:11.012720+00:00",
-        "symbol": "lysis",
-        "pool_address": "42HLVfkHZ5W6h2FnUz5qwHyTnsqk67eMmAtb7RRT34NB",
-        "token_address": "Eerypmnqj8nGJzT4LAhKz1wk4qqReq8RjABtX8mjpump",
-        "entry_price_usd": 1.1123310752589707e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +120.6%",
-          "1h +120.6%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 5772.4552,
-        "age_minutes": 2.6,
-        "status": "open",
-        "current_price_usd": 1.1123310752589707e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1015-153911-Ebay",
-        "arm": "alt",
-        "scan_idx": 283,
-        "opened_ts": "2026-10-15T15:39:11.012720+00:00",
-        "symbol": "Ebay",
-        "pool_address": "7zDys5ENqtXC2EZfbFW4ReRvCPF7xC2NuuSHUWeoL5Ta",
-        "token_address": "sT7e1XjmxmWwNFN1csJPWwxQv6xCbj7XSYbGSnDpump",
-        "entry_price_usd": 1.4424715944104246e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +214.2%",
-          "1h +214.2%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 5339.9096,
-        "age_minutes": 2.8,
-        "status": "open",
-        "current_price_usd": 1.4424715944104246e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": []
   },
   "geschlossen": {
@@ -8108,6 +8056,34 @@
         "liquidity_usd_jetzt": 267731.9134,
         "closed_ts": "2026-10-15T15:39:08.154038+00:00",
         "close_reason": "Take-Profit erreicht (roh +45.6%)"
+      },
+      {
+        "id": "KON-1015-153911-lysis",
+        "arm": "kontrolle",
+        "scan_idx": 283,
+        "opened_ts": "2026-10-15T15:39:11.012720+00:00",
+        "symbol": "lysis",
+        "pool_address": "42HLVfkHZ5W6h2FnUz5qwHyTnsqk67eMmAtb7RRT34NB",
+        "token_address": "Eerypmnqj8nGJzT4LAhKz1wk4qqReq8RjABtX8mjpump",
+        "entry_price_usd": 1.1123310752589707e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +120.6%",
+          "1h +120.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5772.4552,
+        "age_minutes": 2.6,
+        "status": "sl",
+        "current_price_usd": 2.9700191352946993e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-15T19:23:12.588062+00:00",
+        "liquidity_usd_jetzt": 2364.9119,
+        "closed_ts": "2026-10-15T19:23:12.588062+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -73.3%)"
       }
     ],
     "alt": [
@@ -16548,6 +16524,34 @@
         "liquidity_usd_jetzt": 0.00402040622455839,
         "closed_ts": "2026-10-15T15:39:08.154038+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 117389 $) — kein Ausstieg. Schein-PnL waere +20.8% gewesen."
+      },
+      {
+        "id": "ALT-1015-153911-Ebay",
+        "arm": "alt",
+        "scan_idx": 283,
+        "opened_ts": "2026-10-15T15:39:11.012720+00:00",
+        "symbol": "Ebay",
+        "pool_address": "7zDys5ENqtXC2EZfbFW4ReRvCPF7xC2NuuSHUWeoL5Ta",
+        "token_address": "sT7e1XjmxmWwNFN1csJPWwxQv6xCbj7XSYbGSnDpump",
+        "entry_price_usd": 1.4424715944104246e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +214.2%",
+          "1h +214.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5339.9096,
+        "age_minutes": 2.8,
+        "status": "sl",
+        "current_price_usd": 3.115100908865707e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-15T19:23:12.588062+00:00",
+        "liquidity_usd_jetzt": 2476.0734,
+        "closed_ts": "2026-10-15T19:23:12.588062+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -78.4%)"
       }
     ],
     "neu": [
