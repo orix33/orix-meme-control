@@ -30638,5 +30638,26 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "4G9sYmLMpUxor7B6tzJgrfY5upzs4XV52BwLqnTjzMsa": {
+    "mint": "4G9sYmLMpUxor7B6tzJgrfY5upzs4XV52BwLqnTjzMsa",
+    "_ts": 1792078785.3192213,
+    "abgerufen": "2026-10-15T15:39:45.319223+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "Eerypmnqj8nGJzT4LAhKz1wk4qqReq8RjABtX8mjpump": {
+    "mint": "Eerypmnqj8nGJzT4LAhKz1wk4qqReq8RjABtX8mjpump",
+    "_ts": 1792078785.594941,
+    "abgerufen": "2026-10-15T15:39:45.594944+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "sT7e1XjmxmWwNFN1csJPWwxQv6xCbj7XSYbGSnDpump": {
+    "mint": "sT7e1XjmxmWwNFN1csJPWwxQv6xCbj7XSYbGSnDpump",
+    "_ts": 1792078787.1025007,
+    "abgerufen": "2026-10-15T15:39:47.102503+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
