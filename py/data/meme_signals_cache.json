@@ -30727,5 +30727,134 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "272fifxiUXMFvQPLo8bNU4p4kbzArACnHPSAT1bepump": {
+    "mint": "272fifxiUXMFvQPLo8bNU4p4kbzArACnHPSAT1bepump",
+    "_ts": 1792127302.0678596,
+    "abgerufen": "2026-10-16T05:08:22.067861+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 20.96,
+    "top10_pct": 68.84,
+    "halter": 113,
+    "creator": "9yUsbeeyKpWDHJ6VPBodjH9QJTNDZQ2B8bsmnvAADbH4",
+    "creator_haelt": true,
+    "creator_balance_roh": 1234763086741,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 21421.747870607156,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "7ZhNnfEikcGPcUyrQd6HBU2qpVZ3tsWUvXi78HGVpump": {
+    "mint": "7ZhNnfEikcGPcUyrQd6HBU2qpVZ3tsWUvXi78HGVpump",
+    "_ts": 1792127303.6605394,
+    "abgerufen": "2026-10-16T05:08:23.660543+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "F6yxGAK9cxgz5w6mVD8ePHcdYwh1gnRkoUky8P6hh4wQ": {
+    "mint": "F6yxGAK9cxgz5w6mVD8ePHcdYwh1gnRkoUky8P6hh4wQ",
+    "_ts": 1792127305.5043979,
+    "abgerufen": "2026-10-16T05:08:25.504401+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "7SKn79n2gYCnGXc4KZ18YGAYdzkjmgpG1Dz6Abhppump": {
+    "mint": "7SKn79n2gYCnGXc4KZ18YGAYdzkjmgpG1Dz6Abhppump",
+    "_ts": 1792127307.009947,
+    "abgerufen": "2026-10-16T05:08:27.009950+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "4WDMWH57oDHoewJntgnMXDUPdVHu9V4wGvfYQnW9Aot8": {
+    "mint": "4WDMWH57oDHoewJntgnMXDUPdVHu9V4wGvfYQnW9Aot8",
+    "_ts": 1792127308.5124028,
+    "abgerufen": "2026-10-16T05:08:28.512406+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 67,
+    "rugged_flag": false,
+    "top1_pct": 100.0,
+    "top10_pct": 186.67,
+    "halter": 380,
+    "creator": null,
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 23469.869342920945,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump": {
+    "mint": "2bCCHQadi4QeHWPKG3w13siCyWWQPgkFtniouTqVpump",
+    "_ts": 1792127309.9630864,
+    "abgerufen": "2026-10-16T05:08:29.963089+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 20.67,
+    "top10_pct": 39.21,
+    "halter": 21212,
+    "creator": "CCzJn9SePqizJ1KJswBxSTYCSGumdRirkyjeafqug9aP",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 5,
+    "graph_insider": 23,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 174445.10663740168,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
+  },
+  "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump": {
+    "mint": "2ay4jNY3JxfuXJzhZ8DrAKkGzpirgD7Dv2ccL9zmpump",
+    "_ts": 1792127313.3410778,
+    "abgerufen": "2026-10-16T05:08:33.341080+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 24.47,
+    "top10_pct": 56.96,
+    "halter": 8668,
+    "creator": "GXtr8EUhcr6wSMb9ihc7zGXz2sCULdwGCp4sn32syjER",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 3,
+    "graph_insider": 64,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 59907.53991523663,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": false
+    }
   }
 }
