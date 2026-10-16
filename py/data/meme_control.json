@@ -1,12 +1,102 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 291,
-  "last_scan": "2026-10-16T18:25:30.035578+00:00",
+  "scans": 292,
+  "last_scan": "2026-10-16T21:28:43.577539+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1016-212843-SpaceXer",
+        "arm": "kontrolle",
+        "scan_idx": 291,
+        "opened_ts": "2026-10-16T21:28:43.577539+00:00",
+        "symbol": "SpaceXers",
+        "pool_address": "46SMJs79BRQYqGvQdgwYsRRoovGvdaFrG9EPYeDnws73",
+        "token_address": "HZqncgHB7PboiQn36B5ytPzKYqLWmNUxQZRwsmitUenZ",
+        "entry_price_usd": 9.833589492107264e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +660.7%",
+          "1h +660.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20314.7599,
+        "age_minutes": 2.2,
+        "status": "open",
+        "current_price_usd": 9.833589492107264e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1016-212843-onboard",
+        "arm": "alt",
+        "scan_idx": 291,
+        "opened_ts": "2026-10-16T21:28:43.577539+00:00",
+        "symbol": "onboard",
+        "pool_address": "83TLWp2XoR5PKgziYU4yLbiKtCRtk3oJmr4yiV4siT21",
+        "token_address": "EMrJzFmhxMxia52LfRQ5m1MELL4DabQJDMrz24riqaNU",
+        "entry_price_usd": 1.2462335177773147e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.0%",
+          "1h +28.0%",
+          "Buy-Ratio 74%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17978.1682,
+        "age_minutes": 2.0,
+        "status": "open",
+        "current_price_usd": 1.2462335177773147e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1016-212843-Spacexer",
+        "arm": "neu",
+        "scan_idx": 291,
+        "opened_ts": "2026-10-16T21:28:43.577539+00:00",
+        "symbol": "Spacexers",
+        "pool_address": "vXfN4Xog5qKcH1hHas2VTX75Fbr9fEXr8HbnBgeiHes",
+        "token_address": "7Zij7RSSN6owMbyqXeJB2ebr6t5zX3XZA26RXsHcpump",
+        "entry_price_usd": 3.7056655406868513e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4501.67,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 3.7056655406868513e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "65 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 65,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
