@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 298,
-  "last_scan": "2026-10-17T18:23:54.507122+00:00",
+  "scans": 299,
+  "last_scan": "2026-10-17T20:46:56.544664+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -24,8 +24,8 @@
         "status": "open",
         "current_price_usd": 0.0010536339618231834,
         "pnl_pct": 0.83,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-17T18:23:48.904419+00:00",
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
         "liquidity_usd_jetzt": 92825.1583
       },
       {
@@ -46,10 +46,11 @@
         "liquidity_usd": 2481.1301,
         "age_minutes": 3.7,
         "status": "open",
-        "current_price_usd": 3.1321483250913664e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.0043998644688314e-06,
+        "pnl_pct": -4.08,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
+        "liquidity_usd_jetzt": 2390.3392
       },
       {
         "id": "KON-1017-182354-Elomn",
@@ -71,59 +72,58 @@
         "status": "open",
         "current_price_usd": 3.6754199104914595e-06,
         "pnl_pct": 0.0,
+        "unknown_strikes": 1,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00"
+      },
+      {
+        "id": "KON-1017-204656-rebond",
+        "arm": "kontrolle",
+        "scan_idx": 298,
+        "opened_ts": "2026-10-17T20:46:56.544664+00:00",
+        "symbol": "rebond",
+        "pool_address": "AvxvVdy7kbRHpYEUtjd6WWHHwTojZWLXVDyYkTDxuK5a",
+        "token_address": "8iCB2LurK3TSmWWJDGKKp9y5EkxB4o2uo7mR2xFj6X8G",
+        "entry_price_usd": 1.2503818706287921e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +42.6%",
+          "1h +42.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20078.7134,
+        "age_minutes": 3.0,
+        "status": "open",
+        "current_price_usd": 1.2503818706287921e-05,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
     "alt": [
       {
-        "id": "ALT-1017-182354-ELOGE",
+        "id": "ALT-1017-204656-Flying",
         "arm": "alt",
-        "scan_idx": 297,
-        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
-        "symbol": "ELOGE",
-        "pool_address": "9Tco5veu6wLVd8zotZJstTZGuYZTRJxzWSJeRR4KhJEy",
-        "token_address": "FMvTS8HSr3xbcn2AeUHbBPfENn6UeEbr11RF71JD3idp",
-        "entry_price_usd": 7.822364082810799e-05,
+        "scan_idx": 298,
+        "opened_ts": "2026-10-17T20:46:56.544664+00:00",
+        "symbol": "Flying",
+        "pool_address": "EgCLpigyn4qykCEqf4924vZc5ETkVDKKpzCFTDzafBd5",
+        "token_address": "C5pUsd9xmH36t9r7jPVS8W6WnNytqJqr1aRaiQhj3dre",
+        "entry_price_usd": 9.1967404837543e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +48.5%",
-          "1h +48.5%",
-          "Buy-Ratio 64%",
+          "5m +43.2%",
+          "1h +43.2%",
+          "Buy-Ratio 63%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 25748.6685,
-        "age_minutes": 4.0,
+        "liquidity_usd": 17738.1801,
+        "age_minutes": 2.6,
         "status": "open",
-        "current_price_usd": 7.822364082810799e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      },
-      {
-        "id": "ALT-1017-182354-ELOGE",
-        "arm": "alt",
-        "scan_idx": 297,
-        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
-        "symbol": "ELOGE",
-        "pool_address": "8YZTaAkrpQxS5GB9pu8ybr9MnCG6BetdkQUxVVCuhEcb",
-        "token_address": "HknNzwsWdYg7VQuaqXwRph3LsxxJkQLPp3mHuz1bxrK1",
-        "entry_price_usd": 1.0873968932900443e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +18.8%",
-          "1h +18.8%",
-          "Buy-Ratio 67%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 19750.2051,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 1.0873968932900443e-05,
+        "current_price_usd": 9.1967404837543e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -149,10 +149,10 @@
         "liquidity_usd": 37478.7601,
         "age_minutes": 910.2,
         "status": "open",
-        "current_price_usd": 0.00017119876764311984,
-        "pnl_pct": 0.0,
+        "current_price_usd": 0.00019428702390893813,
+        "pnl_pct": 13.49,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
         "v2_score": 6,
         "v2_warum": [
           "Twitter vorhanden",
@@ -166,46 +166,45 @@
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
-        }
+        },
+        "liquidity_usd_jetzt": 40107.141
       },
       {
-        "id": "NEU-1017-182354-CAT",
+        "id": "NEU-1017-204656-KLARA",
         "arm": "neu",
-        "scan_idx": 297,
-        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
-        "symbol": "CAT",
-        "pool_address": "D8DRHaeEmYc4pp5gRkVUsxHJ1C6z4J9x1BUqfeeHKaDj",
-        "token_address": "5r63e1iiPkwc38tWkETL4Lv2Xcd8S5GP4E2WYPLAVscs",
-        "entry_price_usd": 1.296723839960848e-05,
+        "scan_idx": 298,
+        "opened_ts": "2026-10-17T20:46:56.544664+00:00",
+        "symbol": "KLARA",
+        "pool_address": "FUtpqS8mo1mR4vmdXcGkteKiVGjzSAMRMBcgKWrfapve",
+        "token_address": "4jzNS7wW7dcqa5mDdfJxP3p46Uimgg1Tw2fAxmSEWGmU",
+        "entry_price_usd": 1.2796293545872196e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +27.8%",
-          "1h +27.8%",
-          "Buy-Ratio 89%",
+          "5m +95.3%",
+          "1h +95.3%",
+          "Buy-Ratio 68%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 21344.852,
-        "age_minutes": 2.2,
+        "liquidity_usd": 5606.1934,
+        "age_minutes": 2.0,
         "status": "open",
-        "current_price_usd": 1.296723839960848e-05,
+        "current_price_usd": 1.2796293545872196e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 5,
         "v2_warum": [
           "Twitter vorhanden",
-          "Website vorhanden",
-          "895 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 52 (hoch)"
+          "215 Halter — viel fuer einen jungen Pool"
         ],
         "v2_signale": {
-          "top10_pct": 95.14,
-          "halter": 895,
+          "top10_pct": 71.97,
+          "halter": 215,
           "telegram": false,
           "creator_haelt": false,
-          "risiko_score": 52
+          "risiko_score": 1
         }
       }
     ]
@@ -17229,6 +17228,64 @@
         "liquidity_usd_jetzt": 6758.0783,
         "closed_ts": "2026-10-17T18:23:48.904419+00:00",
         "close_reason": "Stop-Loss erreicht (roh -83.6%)"
+      },
+      {
+        "id": "ALT-1017-182354-ELOGE",
+        "arm": "alt",
+        "scan_idx": 297,
+        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
+        "symbol": "ELOGE",
+        "pool_address": "9Tco5veu6wLVd8zotZJstTZGuYZTRJxzWSJeRR4KhJEy",
+        "token_address": "FMvTS8HSr3xbcn2AeUHbBPfENn6UeEbr11RF71JD3idp",
+        "entry_price_usd": 7.822364082810799e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +48.5%",
+          "1h +48.5%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 25748.6685,
+        "age_minutes": 4.0,
+        "status": "rug",
+        "current_price_usd": 1.3865647292989267e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
+        "liquidity_usd_jetzt": 0.0104,
+        "closed_ts": "2026-10-17T20:46:16.399716+00:00",
+        "close_reason": "Liquiditaet 0.01 $ (Start 25749 $) — kein Ausstieg. Schein-PnL waere -98.2% gewesen."
+      },
+      {
+        "id": "ALT-1017-182354-ELOGE",
+        "arm": "alt",
+        "scan_idx": 297,
+        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
+        "symbol": "ELOGE",
+        "pool_address": "8YZTaAkrpQxS5GB9pu8ybr9MnCG6BetdkQUxVVCuhEcb",
+        "token_address": "HknNzwsWdYg7VQuaqXwRph3LsxxJkQLPp3mHuz1bxrK1",
+        "entry_price_usd": 1.0873968932900443e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +18.8%",
+          "1h +18.8%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19750.2051,
+        "age_minutes": 2.5,
+        "status": "rug",
+        "current_price_usd": 1.9438622911072572e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
+        "liquidity_usd_jetzt": 0.0001286745633,
+        "closed_ts": "2026-10-17T20:46:16.399716+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 19750 $) — kein Ausstieg. Schein-PnL waere +78.8% gewesen."
       }
     ],
     "neu": [
@@ -25489,6 +25546,49 @@
         "liquidity_usd_jetzt": 2297.6253,
         "closed_ts": "2026-10-17T18:23:48.904419+00:00",
         "close_reason": "Stop-Loss erreicht (roh -40.4%)"
+      },
+      {
+        "id": "NEU-1017-182354-CAT",
+        "arm": "neu",
+        "scan_idx": 297,
+        "opened_ts": "2026-10-17T18:23:54.507122+00:00",
+        "symbol": "CAT",
+        "pool_address": "D8DRHaeEmYc4pp5gRkVUsxHJ1C6z4J9x1BUqfeeHKaDj",
+        "token_address": "5r63e1iiPkwc38tWkETL4Lv2Xcd8S5GP4E2WYPLAVscs",
+        "entry_price_usd": 1.296723839960848e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +27.8%",
+          "1h +27.8%",
+          "Buy-Ratio 89%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21344.852,
+        "age_minutes": 2.2,
+        "status": "rug",
+        "current_price_usd": 1.5199240884606524e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-17T20:46:16.399716+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "895 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 52 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 95.14,
+          "halter": 895,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 52
+        },
+        "liquidity_usd_jetzt": 1.57809740695856e-05,
+        "closed_ts": "2026-10-17T20:46:16.399716+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 21345 $) — kein Ausstieg. Schein-PnL waere +17.2% gewesen."
       }
     ]
   }
