@@ -1,12 +1,189 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 295,
-  "last_scan": "2026-10-17T08:40:29.574496+00:00",
+  "scans": 296,
+  "last_scan": "2026-10-17T12:25:27.018298+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1017-122527-1DOPE",
+        "arm": "kontrolle",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "1DOPE",
+        "pool_address": "FmY4H63BEfMMk4LbSWTXkFGk4HWQ5YcFyJPuRGNDa1TK",
+        "token_address": "76ZYb6vqZJMAb1GE6UuFa7udMz7LVaHzT23SCu5kpump",
+        "entry_price_usd": 5.005226141121215e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +14.2%",
+          "1h +14.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19502.3764,
+        "age_minutes": 3.4,
+        "status": "open",
+        "current_price_usd": 5.005226141121215e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1017-122527-Kavantis",
+        "arm": "kontrolle",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "Kavantissa",
+        "pool_address": "96KxzMUhgqzXnZETdt5azVPSxVWzY1PH9BXBbYqCB2rb",
+        "token_address": "EjQpCK9q4xVtW6Zkzt87uu91BWDTwCNMDPHRSHuPfE7T",
+        "entry_price_usd": 1.4092529274528684e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +60.8%",
+          "1h +60.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 22250.8942,
+        "age_minutes": 3.8,
+        "status": "open",
+        "current_price_usd": 1.4092529274528684e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1017-122527-Sprbl",
+        "arm": "alt",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "Sprbl",
+        "pool_address": "Ho9d2pbqzvbcSZbyMZzUWMC1jPnLom6bAJNw7D7mAmjr",
+        "token_address": "5RLZFZunm6GhJjPh73fbHY4R54nYsmLhJxou7dkMBAGS",
+        "entry_price_usd": 0.09187050013017485,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +120.9%",
+          "1h +120.9%",
+          "Buy-Ratio 80%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 93740.0078,
+        "age_minutes": 3.5,
+        "status": "open",
+        "current_price_usd": 0.09187050013017485,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1017-122527-Kavantis",
+        "arm": "alt",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "Kavantissa",
+        "pool_address": "813K6oMWiBYsXX8zsLffZ47U6Cps2S2bLzYPkBP3GXF2",
+        "token_address": "5GDnr7bgPPX594ChFsF2qd8DaZ3axoFsaNwABdrHtCKC",
+        "entry_price_usd": 9.289601175763832e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +90.0%",
+          "1h +90.0%",
+          "Buy-Ratio 68%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 25624.4272,
+        "age_minutes": 2.2,
+        "status": "open",
+        "current_price_usd": 9.289601175763832e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1017-122527-PRIME",
+        "arm": "neu",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "PRIME",
+        "pool_address": "E3uzs2APAc4m6CSTCEZDA65yY1orfTvhCGotWyEjbbzr",
+        "token_address": "rVWG97Yj6ZbuF9zeQo8TosQG6mUcUeL8BocfHu3pump",
+        "entry_price_usd": 0.00023710505849806237,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 44625.3935,
+        "age_minutes": 409.7,
+        "status": "open",
+        "current_price_usd": 0.00023710505849806237,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 29 % bei reifem Token",
+          "8508 Halter",
+          "RugCheck-Risiko 29 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 29.23,
+          "halter": 8508,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 29
+        }
+      },
+      {
+        "id": "NEU-1017-122527-Aloooong",
+        "arm": "neu",
+        "scan_idx": 295,
+        "opened_ts": "2026-10-17T12:25:27.018298+00:00",
+        "symbol": "Aloooong",
+        "pool_address": "6CWeZYjCrn2ZQEDjD7NKE38NiDN99H9wy48zBHyqbvPw",
+        "token_address": "1htv5Nzfdy44FJWAdTXZoACJW4BWbB2XwZC6SVopurp",
+        "entry_price_usd": 0.00024261455935397705,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 48135.1822,
+        "age_minutes": 1280.5,
+        "status": "open",
+        "current_price_usd": 0.00024261455935397705,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 27 % bei reifem Token",
+          "6799 Halter",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 27.16,
+          "halter": 6799,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
