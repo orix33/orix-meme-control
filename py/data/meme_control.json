@@ -1,31 +1,53 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 302,
-  "last_scan": "2026-10-18T04:48:33.123498+00:00",
+  "scans": 303,
+  "last_scan": "2026-10-18T09:28:33.053004+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1018-044833-Nakama",
+        "id": "KON-1018-092833-YILONGMA",
         "arm": "kontrolle",
-        "scan_idx": 301,
-        "opened_ts": "2026-10-18T04:48:33.123498+00:00",
-        "symbol": "Nakama",
-        "pool_address": "EJDgaTXvjMXfbwQGz73Ymp73Ey2k1H4m6w1afTUe4YTJ",
-        "token_address": "nw1eZMAFKX3VeLKj9Dd96QemuitYsFcLHaEAPr1pump",
-        "entry_price_usd": 1.3948863182803862e-05,
-        "score": 7,
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "YILONGMA",
+        "pool_address": "18g3EYKu5PksAdTRFoTbraCL6gT5o2qmxJ1ERQtvQhN",
+        "token_address": "DrLF1dG1K4U6ggx5BZ6bSwzGcPNVrQwYoTJzRDyZpump",
+        "entry_price_usd": 0.0016465752988920304,
+        "score": 4,
+        "signals": [
+          "5m +7.7%",
+          "1h +37.8%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 117184.3935,
+        "age_minutes": 1023.4,
+        "status": "open",
+        "current_price_usd": 0.0016465752988920304,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1018-092833-REXCOIN",
+        "arm": "kontrolle",
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "REXCOIN",
+        "pool_address": "Crt5TZAqHUcu7tZQjcJK279HACWCxXmq7s83AojKrqg8",
+        "token_address": "J3TFujvYsUHwRpUPKtUp8dwyUVQjvYPChT9sZFyw1Wfg",
+        "entry_price_usd": 3.930441633151403e-05,
+        "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +146.3%",
-          "1h +146.3%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 6281.2773,
-        "age_minutes": 4.2,
+        "liquidity_usd": 2787.4902,
+        "age_minutes": 3.6,
         "status": "open",
-        "current_price_usd": 1.3948863182803862e-05,
+        "current_price_usd": 3.930441633151403e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -49,7 +71,60 @@
         "liquidity_usd": 384465.9105,
         "age_minutes": 444.6,
         "status": "open",
-        "current_price_usd": 0.017575339324793816,
+        "current_price_usd": 0.016359000533776275,
+        "pnl_pct": -6.92,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-18T09:28:27.482703+00:00",
+        "liquidity_usd_jetzt": 374204.1118
+      },
+      {
+        "id": "ALT-1018-092833-REXCOIN",
+        "arm": "alt",
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "REXCOIN",
+        "pool_address": "FDZqWrCFkEkWMXYWjzA1FRUvPp5AFQZUEDUUwBndP1W7",
+        "token_address": "FpENncquxx8TVjaV6HSXCX4xNUoBdMBgBuFAEcvTJrvm",
+        "entry_price_usd": 9.997977369902007e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +92.7%",
+          "1h +92.7%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 26067.1357,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 9.997977369902007e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1018-092833-RIOT",
+        "arm": "alt",
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "RIOT",
+        "pool_address": "HDzHtppbgu9REicrzLJhz9NH7RXFmhsNKoUrPSCtmTUp",
+        "token_address": "RiotrYL75CDoh9tjQ8tfCTLXyQbCU7saaRTAsXknVm4",
+        "entry_price_usd": 7.132409714522343e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +51.4%",
+          "1h +51.4%",
+          "Buy-Ratio 70%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4641.3452,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 7.132409714522343e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -57,36 +132,74 @@
     ],
     "neu": [
       {
-        "id": "NEU-1018-044833-invest",
+        "id": "NEU-1018-092833-ココロボ",
         "arm": "neu",
-        "scan_idx": 301,
-        "opened_ts": "2026-10-18T04:48:33.123498+00:00",
-        "symbol": "invest",
-        "pool_address": "8y9Zvfeqiuu8N1QWLjpwvTQR4s75xwyiP5jEFVkh8aEq",
-        "token_address": "7RTAzjazfM1eev5HchbNLNUHyKEkuL6FEjT6h1tHpump",
-        "entry_price_usd": 3.711381374384225e-06,
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "ココロボ",
+        "pool_address": "CCkVrh9CFRzLhLQgvaaiHDufUBvyuxqjqDfqMQYZBGeC",
+        "token_address": "GAzYhWxYhesP3GdeCaUL5Tk1YYezjC88AEKR5uvWpump",
+        "entry_price_usd": 2.9861703227758334e-05,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2890.4898,
-        "age_minutes": 3.7,
+        "liquidity_usd": 12963.6053,
+        "age_minutes": 3.1,
         "status": "open",
-        "current_price_usd": 3.711381374384225e-06,
+        "current_price_usd": 2.9861703227758334e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 6,
         "v2_warum": [
           "Twitter vorhanden",
           "Website vorhanden",
-          "88 Halter (jung)"
+          "853 Halter — viel fuer einen jungen Pool"
         ],
         "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 88,
+          "top10_pct": 47.19,
+          "halter": 853,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1018-092833-Humboldt",
+        "arm": "neu",
+        "scan_idx": 302,
+        "opened_ts": "2026-10-18T09:28:33.053004+00:00",
+        "symbol": "Humboldt",
+        "pool_address": "DLpHRtNZnoWeuNaVVJ1n8PTifQ9zPfz9K3P2pqb1siYj",
+        "token_address": "4iRw5TtjrARoJRiWh3bV7MfEtmdSxeJNUNKinfuPpump",
+        "entry_price_usd": 1.0393811785540755e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +142.0%",
+          "1h +142.0%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5781.0525,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 1.0393811785540755e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "265 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 76.83,
+          "halter": 265,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -8519,6 +8632,34 @@
         "liquidity_usd_jetzt": 2388.4312,
         "closed_ts": "2026-10-18T04:48:22.245664+00:00",
         "close_reason": "Horizont erreicht (624 min)"
+      },
+      {
+        "id": "KON-1018-044833-Nakama",
+        "arm": "kontrolle",
+        "scan_idx": 301,
+        "opened_ts": "2026-10-18T04:48:33.123498+00:00",
+        "symbol": "Nakama",
+        "pool_address": "EJDgaTXvjMXfbwQGz73Ymp73Ey2k1H4m6w1afTUe4YTJ",
+        "token_address": "nw1eZMAFKX3VeLKj9Dd96QemuitYsFcLHaEAPr1pump",
+        "entry_price_usd": 1.3948863182803862e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +146.3%",
+          "1h +146.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6281.2773,
+        "age_minutes": 4.2,
+        "status": "sl",
+        "current_price_usd": 3.151560873430845e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-18T09:28:27.482703+00:00",
+        "liquidity_usd_jetzt": 2494.7588,
+        "closed_ts": "2026-10-18T09:28:27.482703+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -77.4%)"
       }
     ],
     "alt": [
@@ -25787,6 +25928,45 @@
         "liquidity_usd_jetzt": 26901.3838,
         "closed_ts": "2026-10-18T04:48:22.245664+00:00",
         "close_reason": "Stop-Loss erreicht (roh -48.2%)"
+      },
+      {
+        "id": "NEU-1018-044833-invest",
+        "arm": "neu",
+        "scan_idx": 301,
+        "opened_ts": "2026-10-18T04:48:33.123498+00:00",
+        "symbol": "invest",
+        "pool_address": "8y9Zvfeqiuu8N1QWLjpwvTQR4s75xwyiP5jEFVkh8aEq",
+        "token_address": "7RTAzjazfM1eev5HchbNLNUHyKEkuL6FEjT6h1tHpump",
+        "entry_price_usd": 3.711381374384225e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2890.4898,
+        "age_minutes": 3.7,
+        "status": "sl",
+        "current_price_usd": 2.9023096726160183e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-18T09:28:27.482703+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "88 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 88,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2301.2563,
+        "closed_ts": "2026-10-18T09:28:27.482703+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -21.8%)"
       }
     ]
   }
