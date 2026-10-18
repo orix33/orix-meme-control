@@ -1,60 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 306,
-  "last_scan": "2026-10-18T19:22:25.989580+00:00",
+  "scans": 307,
+  "last_scan": "2026-10-18T21:37:08.133593+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1018-192225-mucron",
-        "arm": "kontrolle",
-        "scan_idx": 305,
-        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
-        "symbol": "mucron",
-        "pool_address": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
-        "token_address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
-        "entry_price_usd": 0.00034216579304301474,
-        "score": 2,
-        "signals": [
-          "5m +2.4%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 54823.8922,
-        "age_minutes": 607.5,
-        "status": "open",
-        "current_price_usd": 0.00034216579304301474,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1018-192225-DOLL",
-        "arm": "alt",
-        "scan_idx": 305,
-        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
-        "symbol": "DOLL",
-        "pool_address": "4NVsTs81a5WJLRaoQApW7e95WbWMVFxEdqQrA4UaMb6c",
-        "token_address": "2oU7yCJAxow2aMWovYgoHL7P3zTEMP1J8rgdwqc3Gswd",
-        "entry_price_usd": 1.3401984304892045e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +28.7%",
-          "1h +28.7%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 21035.878,
-        "age_minutes": 2.6,
-        "status": "open",
-        "current_price_usd": 1.3401984304892045e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": [
       {
         "id": "NEU-1018-192225-ANSEM",
@@ -74,10 +25,10 @@
         "liquidity_usd": 2322.2819,
         "age_minutes": 2.7,
         "status": "open",
-        "current_price_usd": 2.8650848567363215e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 3.1091178494912946e-06,
+        "pnl_pct": 8.52,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-10-18T21:37:02.635072+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -89,7 +40,8 @@
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
-        }
+        },
+        "liquidity_usd_jetzt": 2472.5133
       }
     ]
   },
@@ -8684,6 +8636,31 @@
         "liquidity_usd_jetzt": 0.0001529367065,
         "closed_ts": "2026-10-18T19:22:20.378344+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 23472 $) — kein Ausstieg. Schein-PnL waere +301.5% gewesen."
+      },
+      {
+        "id": "KON-1018-192225-mucron",
+        "arm": "kontrolle",
+        "scan_idx": 305,
+        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
+        "symbol": "mucron",
+        "pool_address": "Af7W724Kw2A7Z5PbaCAS6RNQ8ubiKEWqiSa715bxgbFA",
+        "token_address": "3A3qjns31YZA6Ung91ZpoPD7J3p1bDFbTJ4ANFAPpump",
+        "entry_price_usd": 0.00034216579304301474,
+        "score": 2,
+        "signals": [
+          "5m +2.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 54823.8922,
+        "age_minutes": 607.5,
+        "status": "sl",
+        "current_price_usd": 0.0001511393877837953,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-18T21:37:02.635072+00:00",
+        "liquidity_usd_jetzt": 36003.0875,
+        "closed_ts": "2026-10-18T21:37:02.635072+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -55.8%)"
       }
     ],
     "alt": [
@@ -17694,6 +17671,34 @@
         "liquidity_usd_jetzt": 2437.4027,
         "closed_ts": "2026-10-18T19:22:20.378344+00:00",
         "close_reason": "Stop-Loss erreicht (roh -95.3%)"
+      },
+      {
+        "id": "ALT-1018-192225-DOLL",
+        "arm": "alt",
+        "scan_idx": 305,
+        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
+        "symbol": "DOLL",
+        "pool_address": "4NVsTs81a5WJLRaoQApW7e95WbWMVFxEdqQrA4UaMb6c",
+        "token_address": "2oU7yCJAxow2aMWovYgoHL7P3zTEMP1J8rgdwqc3Gswd",
+        "entry_price_usd": 1.3401984304892045e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.7%",
+          "1h +28.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21035.878,
+        "age_minutes": 2.6,
+        "status": "rug",
+        "current_price_usd": 0.8517399732471186,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-18T21:37:02.635072+00:00",
+        "liquidity_usd_jetzt": 3.775712671e-07,
+        "closed_ts": "2026-10-18T21:37:02.635072+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 21036 $) — kein Ausstieg. Schein-PnL waere +6355227.3% gewesen."
       }
     ],
     "neu": [
