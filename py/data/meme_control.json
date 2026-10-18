@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 300,
-  "last_scan": "2026-10-17T22:41:17.254817+00:00",
+  "scans": 301,
+  "last_scan": "2026-10-18T00:21:22.616772+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -26,11 +26,63 @@
         "current_price_usd": 3.0043998644688314e-06,
         "pnl_pct": -4.08,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-17T22:41:01.163982+00:00",
-        "liquidity_usd_jetzt": 2358.3046
+        "letzte_pruefung": "2026-10-18T00:21:19.739600+00:00",
+        "liquidity_usd_jetzt": 2373.4003
+      },
+      {
+        "id": "KON-1018-002122-CAT-K",
+        "arm": "kontrolle",
+        "scan_idx": 300,
+        "opened_ts": "2026-10-18T00:21:22.616772+00:00",
+        "symbol": "CAT-K",
+        "pool_address": "Andpyr32DVBiG3PPYRKeXLG2geDF5yDEh5FMngpk4zxU",
+        "token_address": "5As9iWk82ftLzhLF3uKyaiLcPYDexNugbUJGLAb2pump",
+        "entry_price_usd": 8.447776642899256e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +113.1%",
+          "1h +113.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5335.2213,
+        "age_minutes": 3.0,
+        "status": "open",
+        "current_price_usd": 8.447776642899256e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
       }
     ],
-    "alt": [],
+    "alt": [
+      {
+        "id": "ALT-1018-002122-ALT",
+        "arm": "alt",
+        "scan_idx": 300,
+        "opened_ts": "2026-10-18T00:21:22.616772+00:00",
+        "symbol": "ALT",
+        "pool_address": "EkuSyHNSbZwZvg8pwpyj3p34GL8LhzEXn1EDcE3bxqCb",
+        "token_address": "B8mciwGMMYt8cJmkSxiRa3nMYL9iT9zyEXRv32L4tKCK",
+        "entry_price_usd": 8.000158288448285e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +11.9%",
+          "1h +11.9%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 13114.3256,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 8.000158288448285e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": [
       {
         "id": "NEU-1017-182354-MAKERS",
@@ -51,10 +103,10 @@
         "liquidity_usd": 37478.7601,
         "age_minutes": 910.2,
         "status": "open",
-        "current_price_usd": 0.00019960763651198106,
-        "pnl_pct": 16.59,
+        "current_price_usd": 0.00017361473228202912,
+        "pnl_pct": 1.41,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-17T22:41:01.163982+00:00",
+        "letzte_pruefung": "2026-10-18T00:21:19.739600+00:00",
         "v2_score": 6,
         "v2_warum": [
           "Twitter vorhanden",
@@ -69,7 +121,44 @@
           "creator_haelt": false,
           "risiko_score": 1
         },
-        "liquidity_usd_jetzt": 40810.4504
+        "liquidity_usd_jetzt": 38048.3066
+      },
+      {
+        "id": "NEU-1018-002122-COLLECTI",
+        "arm": "neu",
+        "scan_idx": 300,
+        "opened_ts": "2026-10-18T00:21:22.616772+00:00",
+        "symbol": "COLLECTIVE",
+        "pool_address": "EU4my5ZE7MBkR563itiV8L9pfaNS5DMcvLcCvpLiMsJ3",
+        "token_address": "4FoWEbBsiwUrbnfyWxfq27xrqmuBEaLkB66sgFZBpump",
+        "entry_price_usd": 1.2429892292517505e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +154.6%",
+          "1h +154.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6165.0076,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 1.2429892292517505e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "217 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 78.55,
+          "halter": 217,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
       }
     ]
   },
