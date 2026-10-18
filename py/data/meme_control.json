@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 307,
-  "last_scan": "2026-10-18T21:37:08.133593+00:00",
+  "scans": 308,
+  "last_scan": "2026-10-18T23:40:33.616050+00:00",
   "offen": {
     "kontrolle": [],
     "alt": [],
@@ -25,10 +25,10 @@
         "liquidity_usd": 2322.2819,
         "age_minutes": 2.7,
         "status": "open",
-        "current_price_usd": 3.1091178494912946e-06,
-        "pnl_pct": 8.52,
+        "current_price_usd": 3.154212124750243e-06,
+        "pnl_pct": 10.09,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-18T21:37:02.635072+00:00",
+        "letzte_pruefung": "2026-10-18T23:40:33.379878+00:00",
         "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
@@ -41,7 +41,7 @@
           "creator_haelt": false,
           "risiko_score": 1
         },
-        "liquidity_usd_jetzt": 2472.5133
+        "liquidity_usd_jetzt": 2515.2696
       }
     ]
   },
