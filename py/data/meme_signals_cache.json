@@ -32621,5 +32621,26 @@
     "abgerufen": "2026-10-19T01:44:28.349484+00:00",
     "vollstaendig": false,
     "rugcheck_zustand": "unknown"
+  },
+  "AFWhj5SiPQZdKDb3xtvBQA8hndCzSam2fHs1vw2LwpUW": {
+    "mint": "AFWhj5SiPQZdKDb3xtvBQA8hndCzSam2fHs1vw2LwpUW",
+    "_ts": 1792392882.3024821,
+    "abgerufen": "2026-10-19T06:54:42.302483+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "43GNZdmKpLqWYQw13WAddtyCn4iuaMk3VxHzLoyNpXWz": {
+    "mint": "43GNZdmKpLqWYQw13WAddtyCn4iuaMk3VxHzLoyNpXWz",
+    "_ts": 1792392882.3278005,
+    "abgerufen": "2026-10-19T06:54:42.327802+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "3FjdEKJ7kVRE1vLuxY2EEJ4eXFcWWdpzcerZgVE1MbM6": {
+    "mint": "3FjdEKJ7kVRE1vLuxY2EEJ4eXFcWWdpzcerZgVE1MbM6",
+    "_ts": 1792392883.824949,
+    "abgerufen": "2026-10-19T06:54:43.824952+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
