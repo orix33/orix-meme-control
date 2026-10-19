@@ -1,49 +1,62 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 308,
-  "last_scan": "2026-10-18T23:40:33.616050+00:00",
+  "scans": 309,
+  "last_scan": "2026-10-19T01:44:03.073908+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": [
+    "kontrolle": [
       {
-        "id": "NEU-1018-192225-ANSEM",
-        "arm": "neu",
-        "scan_idx": 305,
-        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
-        "symbol": "ANSEM",
-        "pool_address": "FQea7gmHcUjZZkwjFvSEFVXwbt1PfzM8ec3WuqmcsMEK",
-        "token_address": "Gp9yKcSb4rdhKTgHXDzdVyC3MdbF2jE3n8WdUG1wpump",
-        "entry_price_usd": 2.8650848567363215e-06,
+        "id": "KON-1019-014403-Inucome",
+        "arm": "kontrolle",
+        "scan_idx": 308,
+        "opened_ts": "2026-10-19T01:44:03.073908+00:00",
+        "symbol": "Inucome",
+        "pool_address": "76E8fHhJ6rxvEuVTfDFfzq3sqpLWGhFqsjkNyC8A9Nsw",
+        "token_address": "4G2giKbr5R68rhgxGqvjcRahPeTE9T8NtacLycRUpump",
+        "entry_price_usd": 4.052503163820303e-06,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2322.2819,
-        "age_minutes": 2.7,
+        "liquidity_usd": 3511.8154,
+        "age_minutes": 2.8,
         "status": "open",
-        "current_price_usd": 3.154212124750243e-06,
-        "pnl_pct": 10.09,
+        "current_price_usd": 4.052503163820303e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-18T23:40:33.379878+00:00",
-        "v2_score": 3,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "94 Halter (jung)"
-        ],
-        "v2_signale": {
-          "top10_pct": 95.45,
-          "halter": 94,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 2515.2696
+        "letzte_pruefung": null
       }
-    ]
+    ],
+    "alt": [
+      {
+        "id": "ALT-1019-014403-trendpad",
+        "arm": "alt",
+        "scan_idx": 308,
+        "opened_ts": "2026-10-19T01:44:03.073908+00:00",
+        "symbol": "trendpad",
+        "pool_address": "3bpH23FhjdokTjVby5MqNTqT99b2RiY8Ym2iAXgkMmAw",
+        "token_address": "3pLvmTGhRRgDFwz72eRdZ1GmeD5nMBHZeSnN6jJozGDK",
+        "entry_price_usd": 1.2847130992441875e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +20.4%",
+          "1h +20.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19871.5867,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 1.2847130992441875e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -26325,6 +26338,44 @@
         "liquidity_usd_jetzt": 4447.3937,
         "closed_ts": "2026-10-18T19:22:20.378344+00:00",
         "close_reason": "Stop-Loss erreicht (roh -61.5%)"
+      },
+      {
+        "id": "NEU-1018-192225-ANSEM",
+        "arm": "neu",
+        "scan_idx": 305,
+        "opened_ts": "2026-10-18T19:22:25.989580+00:00",
+        "symbol": "ANSEM",
+        "pool_address": "FQea7gmHcUjZZkwjFvSEFVXwbt1PfzM8ec3WuqmcsMEK",
+        "token_address": "Gp9yKcSb4rdhKTgHXDzdVyC3MdbF2jE3n8WdUG1wpump",
+        "entry_price_usd": 2.8650848567363215e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2322.2819,
+        "age_minutes": 2.7,
+        "status": "expired",
+        "current_price_usd": 2.989476979167486e-06,
+        "pnl_pct": 4.34,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-19T01:44:02.795111+00:00",
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "94 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 95.45,
+          "halter": 94,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2376.3102,
+        "closed_ts": "2026-10-19T01:44:02.795111+00:00",
+        "close_reason": "Horizont erreicht (382 min)"
       }
     ]
   }

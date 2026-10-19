@@ -32593,5 +32593,33 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "8ia1Q3AXj8jeZSXxBJ5xS6vhJKE4HTE6RDB46b3zGkU6": {
+    "mint": "8ia1Q3AXj8jeZSXxBJ5xS6vhJKE4HTE6RDB46b3zGkU6",
+    "_ts": 1792374265.3362005,
+    "abgerufen": "2026-10-19T01:44:25.336201+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "4G2giKbr5R68rhgxGqvjcRahPeTE9T8NtacLycRUpump": {
+    "mint": "4G2giKbr5R68rhgxGqvjcRahPeTE9T8NtacLycRUpump",
+    "_ts": 1792374265.3578532,
+    "abgerufen": "2026-10-19T01:44:25.357854+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "3pLvmTGhRRgDFwz72eRdZ1GmeD5nMBHZeSnN6jJozGDK": {
+    "mint": "3pLvmTGhRRgDFwz72eRdZ1GmeD5nMBHZeSnN6jJozGDK",
+    "_ts": 1792374266.8628535,
+    "abgerufen": "2026-10-19T01:44:26.862857+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "5GATseZ8ET9VUpi1yoRAg1fkucWWjJuPZpNis3KKpump": {
+    "mint": "5GATseZ8ET9VUpi1yoRAg1fkucWWjJuPZpNis3KKpump",
+    "_ts": 1792374268.3494816,
+    "abgerufen": "2026-10-19T01:44:28.349484+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
