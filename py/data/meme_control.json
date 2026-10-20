@@ -1,56 +1,54 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 314,
-  "last_scan": "2026-10-20T04:37:53.014431+00:00",
+  "scans": 315,
+  "last_scan": "2026-10-20T09:39:02.802113+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1020-043753-BALDS",
+        "id": "KON-1020-093902-EARTHPAD",
         "arm": "kontrolle",
-        "scan_idx": 313,
-        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
-        "symbol": "BALDS",
-        "pool_address": "C5nrt3nYDsZ59gjyp5oUrwLmNkkSrojLaBESAZhhPqSS",
-        "token_address": "2sUtzZBm3fd82LavwM1r1fkKsR592UnwPbPzCkeypump",
-        "entry_price_usd": 6.816139468509615e-06,
-        "score": 7,
+        "scan_idx": 314,
+        "opened_ts": "2026-10-20T09:39:02.802113+00:00",
+        "symbol": "EARTHPAD",
+        "pool_address": "J6MHADwrgQcy4pisdpVcLUf87CwrSf4sfM1bfE6NosVf",
+        "token_address": "BiJP58kEtWwHQBy6GBbUWPnPp6Hp1HW61SN8mApxj2zj",
+        "entry_price_usd": 1.2086488535535604e-05,
+        "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +62.5%",
-          "1h +62.5%",
+          "5m +36.5%",
+          "1h +36.5%",
+          "Buy-Ratio 88%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 4772.0324,
-        "age_minutes": 1.6,
+        "liquidity_usd": 20610.952,
+        "age_minutes": 3.1,
         "status": "open",
-        "current_price_usd": 6.816139468509615e-06,
+        "current_price_usd": 1.2086488535535604e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       },
       {
-        "id": "KON-1020-043753-SHINY",
+        "id": "KON-1020-093902-BORLY",
         "arm": "kontrolle",
-        "scan_idx": 313,
-        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
-        "symbol": "SHINY",
-        "pool_address": "CzNzidchdth7i2CaS5zpEVVR74sWx18VLxvEcd1navo",
-        "token_address": "8jULD1hCvRURXry3XbuRA2HfwSvGksxfwiZV7Cnmpump",
-        "entry_price_usd": 6.778019302052314e-06,
-        "score": 7,
+        "scan_idx": 314,
+        "opened_ts": "2026-10-20T09:39:02.802113+00:00",
+        "symbol": "BORLY",
+        "pool_address": "3pUeKCLPfocGPGYo6MvbfkZSuqTUkQ3EAPZ99aDhSj8r",
+        "token_address": "ECFmFaHyJ8krXErN1QAxqUq97xCFUWYv9Ax5j2Aspump",
+        "entry_price_usd": 0.000669086440436847,
+        "score": 2,
         "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +80.6%",
-          "1h +80.6%",
+          "5m +4.5%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 4963.7897,
-        "age_minutes": 3.0,
+        "liquidity_usd": 74510.7937,
+        "age_minutes": 399.1,
         "status": "open",
-        "current_price_usd": 6.778019302052314e-06,
+        "current_price_usd": 0.000669086440436847,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -75,10 +73,11 @@
         "liquidity_usd": 3226.62,
         "age_minutes": 3.3,
         "status": "open",
-        "current_price_usd": 3.134565701676998e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 2.951223159686238e-06,
+        "pnl_pct": -5.85,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
+        "liquidity_usd_jetzt": 2315.4071
       },
       {
         "id": "ALT-1020-043753-mewinu",
@@ -98,51 +97,65 @@
         "liquidity_usd": 2830.1771,
         "age_minutes": 3.5,
         "status": "open",
-        "current_price_usd": 3.762919914320459e-06,
+        "current_price_usd": 3.3579746597084896e-06,
+        "pnl_pct": -10.76,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
+        "liquidity_usd_jetzt": 2619.9868
+      },
+      {
+        "id": "ALT-1020-093902-SEEDORF",
+        "arm": "alt",
+        "scan_idx": 314,
+        "opened_ts": "2026-10-20T09:39:02.802113+00:00",
+        "symbol": "SEEDORF",
+        "pool_address": "GRiGqkhzAnnKaep5mfAWDfXB7i8NsyD9FfiWWnz8ACa3",
+        "token_address": "E9mjfytGPrwWURAVEru4grVzhQ18s5EWWyeSM73Dmoon",
+        "entry_price_usd": 0.09490494119841512,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +34.0%",
+          "1h +34.0%",
+          "Buy-Ratio 84%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 130904.6553,
+        "age_minutes": 3.1,
+        "status": "open",
+        "current_price_usd": 0.09490494119841512,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1020-093902-KOLSHI",
+        "arm": "alt",
+        "scan_idx": 314,
+        "opened_ts": "2026-10-20T09:39:02.802113+00:00",
+        "symbol": "KOLSHI",
+        "pool_address": "EXF6f2Co1z6ALPZeuj2ecyhxGSryb81WqjPYdN5AcUoE",
+        "token_address": "9HcB8BJJqZw78Sa9ooPbBAvzZ5mE9WTisnKvff37qZG3",
+        "entry_price_usd": 0.0003369703664385094,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +3.7%",
+          "Buy-Ratio 80%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 35270.5921,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 0.0003369703664385094,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
     "neu": [
-      {
-        "id": "NEU-1020-043753-WORTHLES",
-        "arm": "neu",
-        "scan_idx": 313,
-        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
-        "symbol": "WORTHLESS",
-        "pool_address": "HNJY1mVocFbPNxWtAnscCeqnR5t2aCkYfYUSKWjHEE3J",
-        "token_address": "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump",
-        "entry_price_usd": 0.00034088336830900547,
-        "score": 5,
-        "signals": [
-          "Volumen-Beschleunigung",
-          "5m +28.7%",
-          "1h +36.5%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 54127.1643,
-        "age_minutes": 861.1,
-        "status": "open",
-        "current_price_usd": 0.00034088336830900547,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 8,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 31 % bei reifem Token",
-          "5429 Halter"
-        ],
-        "v2_signale": {
-          "top10_pct": 30.77,
-          "halter": 5429,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      },
       {
         "id": "NEU-1020-043753-COLLECTO",
         "arm": "neu",
@@ -160,10 +173,10 @@
         "liquidity_usd": 67953.6776,
         "age_minutes": 578.9,
         "status": "open",
-        "current_price_usd": 0.00039045243210441514,
-        "pnl_pct": 0.0,
+        "current_price_usd": 0.00037536025444577525,
+        "pnl_pct": -3.87,
         "unknown_strikes": 0,
-        "letzte_pruefung": null,
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
         "v2_score": 5,
         "v2_warum": [
           "Twitter vorhanden",
@@ -174,6 +187,42 @@
         "v2_signale": {
           "top10_pct": 25.04,
           "halter": 10272,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 67013.9683
+      },
+      {
+        "id": "NEU-1020-093902-ㅤ",
+        "arm": "neu",
+        "scan_idx": 314,
+        "opened_ts": "2026-10-20T09:39:02.802113+00:00",
+        "symbol": "ㅤ",
+        "pool_address": "Eqs8SJs7nFYYtYYP5Pckra7MwQbebEyj7UrgGw3ae5Bp",
+        "token_address": "CRaQAEkYKAqJ8FLvArhxT7UsvxzNiiYd4YkmUreipump",
+        "entry_price_usd": 3.3745484467018035e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2685.8147,
+        "age_minutes": 2.3,
+        "status": "open",
+        "current_price_usd": 3.3745484467018035e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 44,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -8958,6 +9007,62 @@
         "liquidity_usd_jetzt": 6791.2331,
         "closed_ts": "2026-10-20T04:37:47.355074+00:00",
         "close_reason": "Take-Profit erreicht (roh +33.2%)"
+      },
+      {
+        "id": "KON-1020-043753-BALDS",
+        "arm": "kontrolle",
+        "scan_idx": 313,
+        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
+        "symbol": "BALDS",
+        "pool_address": "C5nrt3nYDsZ59gjyp5oUrwLmNkkSrojLaBESAZhhPqSS",
+        "token_address": "2sUtzZBm3fd82LavwM1r1fkKsR592UnwPbPzCkeypump",
+        "entry_price_usd": 6.816139468509615e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +62.5%",
+          "1h +62.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4772.0324,
+        "age_minutes": 1.6,
+        "status": "sl",
+        "current_price_usd": 3.200889368401834e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
+        "liquidity_usd_jetzt": 2513.3831,
+        "closed_ts": "2026-10-20T09:38:37.006087+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -53.0%)"
+      },
+      {
+        "id": "KON-1020-043753-SHINY",
+        "arm": "kontrolle",
+        "scan_idx": 313,
+        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
+        "symbol": "SHINY",
+        "pool_address": "CzNzidchdth7i2CaS5zpEVVR74sWx18VLxvEcd1navo",
+        "token_address": "8jULD1hCvRURXry3XbuRA2HfwSvGksxfwiZV7Cnmpump",
+        "entry_price_usd": 6.778019302052314e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +80.6%",
+          "1h +80.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4963.7897,
+        "age_minutes": 3.0,
+        "status": "sl",
+        "current_price_usd": 2.936150790457262e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
+        "liquidity_usd_jetzt": 2322.6491,
+        "closed_ts": "2026-10-20T09:38:37.006087+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -56.7%)"
       }
     ],
     "alt": [
@@ -26952,6 +27057,47 @@
         "liquidity_usd_jetzt": 23741.0315,
         "closed_ts": "2026-10-20T04:37:47.355074+00:00",
         "close_reason": "Stop-Loss erreicht (roh -39.5%)"
+      },
+      {
+        "id": "NEU-1020-043753-WORTHLES",
+        "arm": "neu",
+        "scan_idx": 313,
+        "opened_ts": "2026-10-20T04:37:53.014431+00:00",
+        "symbol": "WORTHLESS",
+        "pool_address": "HNJY1mVocFbPNxWtAnscCeqnR5t2aCkYfYUSKWjHEE3J",
+        "token_address": "87sEXKPMBeoryaqFQQnq1Yq6mUvjeNzhiFGxJbRjpump",
+        "entry_price_usd": 0.00034088336830900547,
+        "score": 5,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "5m +28.7%",
+          "1h +36.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 54127.1643,
+        "age_minutes": 861.1,
+        "status": "sl",
+        "current_price_usd": 0.0002464472538987698,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-20T09:38:37.006087+00:00",
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 31 % bei reifem Token",
+          "5429 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 30.77,
+          "halter": 5429,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 45178.8003,
+        "closed_ts": "2026-10-20T09:38:37.006087+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -27.7%)"
       }
     ]
   }
