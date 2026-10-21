@@ -33763,5 +33763,84 @@
       "website": false,
       "beschreibung": false
     }
+  },
+  "8okcAmH3BgyyNvSXuhPbatDRZUUfA6Xgd2UGFLaSSvK3": {
+    "mint": "8okcAmH3BgyyNvSXuhPbatDRZUUfA6Xgd2UGFLaSSvK3",
+    "_ts": 1792542796.225791,
+    "abgerufen": "2026-10-21T00:33:16.225793+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 34,
+    "rugged_flag": false,
+    "top1_pct": 80.05,
+    "top10_pct": 99.75,
+    "halter": 329,
+    "creator": "8QPoGZ2VEo8awbCAqJSpgUyGvJyB59phkAQuZVJJEDK6",
+    "creator_haelt": true,
+    "creator_balance_roh": 184545041871117,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 1.5651859174205702,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "12H4bekUQhGFrgMGmSf7KBxEjwp6YgJ2wkGqDBPuXFzt": {
+    "mint": "12H4bekUQhGFrgMGmSf7KBxEjwp6YgJ2wkGqDBPuXFzt",
+    "_ts": 1792542797.8211467,
+    "abgerufen": "2026-10-21T00:33:17.821150+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 52,
+    "rugged_flag": false,
+    "top1_pct": 73.8,
+    "top10_pct": 84.24,
+    "halter": 326,
+    "creator": "UPFt9AvqoQU1RndQkykMabB9AFMzXCvx8swJxQFfQAz",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 25104.45815442156,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": {
+    "mint": "CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump",
+    "_ts": 1792542800.7778635,
+    "abgerufen": "2026-10-21T00:33:20.777866+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 56,
+    "rugged_flag": false,
+    "top1_pct": 75.32,
+    "top10_pct": 79.01,
+    "halter": 24090,
+    "creator": "FResVamn1XTH66ST3CQnFgWNDsEDTcYbXaSyujwa1xS9",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 1380983.313898781,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": false
+    }
   }
 }
