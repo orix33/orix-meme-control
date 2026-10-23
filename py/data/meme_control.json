@@ -1,57 +1,27 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 330,
-  "last_scan": "2026-10-22T23:14:36.097888+00:00",
+  "scans": 331,
+  "last_scan": "2026-10-23T01:40:26.451061+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1022-160237-中国人能飞",
+        "id": "KON-1023-014026-SHAVCOIN",
         "arm": "kontrolle",
-        "scan_idx": 327,
-        "opened_ts": "2026-10-22T16:02:37.056032+00:00",
-        "symbol": "中国人能飞",
-        "pool_address": "4phDLKmujkiBf1g5EhmTk7sv4sY8f9L15RHLxPLGwobo",
-        "token_address": "EmFdi336geMQrBBv43iRHxEQNtmXZ3Wspfx6oRoKu6SV",
-        "entry_price_usd": 2.5925473575631438e-05,
-        "score": 8,
+        "scan_idx": 330,
+        "opened_ts": "2026-10-23T01:40:26.451061+00:00",
+        "symbol": "SHAVCOIN",
+        "pool_address": "HfT2fJjb1SmDsdjHbCkJuvnVdzDSY1525j4rhYXwdTDt",
+        "token_address": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
+        "entry_price_usd": 0.00361883158507322,
+        "score": 1,
         "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +3.5%",
-          "1h +10.7%",
-          "Buy-Ratio 73%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 49062.5116,
-        "age_minutes": 4.3,
+        "liquidity_usd": 174983.086,
+        "age_minutes": 842.5,
         "status": "open",
-        "current_price_usd": 2.5925473575631438e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 2,
-        "letzte_pruefung": "2026-10-22T23:14:10.502084+00:00"
-      },
-      {
-        "id": "KON-1022-231436-ELON",
-        "arm": "kontrolle",
-        "scan_idx": 329,
-        "opened_ts": "2026-10-22T23:14:36.097888+00:00",
-        "symbol": "ELON",
-        "pool_address": "B9Lm5vmprfkjBjMPt5svtqZmMuzARNCymYwScaZSvakF",
-        "token_address": "2W8oi9jdzx3Tv6WmzKi5h3ZbjK4s1CxSxyWNRpKRLeSh",
-        "entry_price_usd": 2.844465221825978e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +188.6%",
-          "1h +188.6%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 25940.732,
-        "age_minutes": 3.4,
-        "status": "open",
-        "current_price_usd": 2.844465221825978e-05,
+        "current_price_usd": 0.00361883158507322,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -59,29 +29,70 @@
     ],
     "alt": [
       {
-        "id": "ALT-1022-231436-VIRTUAL",
+        "id": "ALT-1023-014026-fomo",
         "arm": "alt",
-        "scan_idx": 329,
-        "opened_ts": "2026-10-22T23:14:36.097888+00:00",
-        "symbol": "VIRTUAL",
-        "pool_address": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
-        "token_address": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-        "entry_price_usd": 0.0003616900448123916,
-        "score": 2,
+        "scan_idx": 330,
+        "opened_ts": "2026-10-23T01:40:26.451061+00:00",
+        "symbol": "fomo",
+        "pool_address": "DwhcvKSoADSyUzFeWfEEPzYopttz5iP1K7jCvxTJX38j",
+        "token_address": "2tr16FEyrYgWEyysKnAqmN6XE5HiTYNtoAwoBrSPpump",
+        "entry_price_usd": 0.0003977760474993922,
+        "score": 8,
         "signals": [
-          "Buy-Ratio 64%",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +767.7%",
+          "1h +767.7%",
+          "Buy-Ratio 66%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 51380.4565,
-        "age_minutes": 447.6,
+        "liquidity_usd": 50019.1941,
+        "age_minutes": 4.4,
         "status": "open",
-        "current_price_usd": 0.0003616900448123916,
+        "current_price_usd": 0.0003977760474993922,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": []
+    "neu": [
+      {
+        "id": "NEU-1023-014026-Alone",
+        "arm": "neu",
+        "scan_idx": 330,
+        "opened_ts": "2026-10-23T01:40:26.451061+00:00",
+        "symbol": "Alone",
+        "pool_address": "D9aZvqbJdvg2KnCo9SkHJZkwHU3X4umoc3fVk7yHEEVY",
+        "token_address": "EcHmYXHpmQGVfe9WNWaSKxD8uLGNgrzvYAJFXXdVpump",
+        "entry_price_usd": 3.610268528489386e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3555.0047,
+        "age_minutes": 4.4,
+        "status": "open",
+        "current_price_usd": 3.610268528489386e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "67 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 67,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -9302,6 +9313,63 @@
         "liquidity_usd_jetzt": 1137734.6691,
         "closed_ts": "2026-10-22T23:14:10.502084+00:00",
         "close_reason": "Horizont erreicht (695 min)"
+      },
+      {
+        "id": "KON-1022-231436-ELON",
+        "arm": "kontrolle",
+        "scan_idx": 329,
+        "opened_ts": "2026-10-22T23:14:36.097888+00:00",
+        "symbol": "ELON",
+        "pool_address": "B9Lm5vmprfkjBjMPt5svtqZmMuzARNCymYwScaZSvakF",
+        "token_address": "2W8oi9jdzx3Tv6WmzKi5h3ZbjK4s1CxSxyWNRpKRLeSh",
+        "entry_price_usd": 2.844465221825978e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +188.6%",
+          "1h +188.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 25940.732,
+        "age_minutes": 3.4,
+        "status": "sl",
+        "current_price_usd": 1.0411215223922954e-05,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T01:40:20.673575+00:00",
+        "liquidity_usd_jetzt": 19579.7543,
+        "closed_ts": "2026-10-23T01:40:20.673575+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -63.4%)"
+      },
+      {
+        "id": "KON-1022-160237-中国人能飞",
+        "arm": "kontrolle",
+        "scan_idx": 327,
+        "opened_ts": "2026-10-22T16:02:37.056032+00:00",
+        "symbol": "中国人能飞",
+        "pool_address": "4phDLKmujkiBf1g5EhmTk7sv4sY8f9L15RHLxPLGwobo",
+        "token_address": "EmFdi336geMQrBBv43iRHxEQNtmXZ3Wspfx6oRoKu6SV",
+        "entry_price_usd": 2.5925473575631438e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +3.5%",
+          "1h +10.7%",
+          "Buy-Ratio 73%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 49062.5116,
+        "age_minutes": 4.3,
+        "status": "expired",
+        "current_price_usd": 2.8630208235026223e-05,
+        "pnl_pct": 10.43,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T01:40:20.673575+00:00",
+        "liquidity_usd_jetzt": 51193.3841,
+        "closed_ts": "2026-10-23T01:40:20.673575+00:00",
+        "close_reason": "Horizont erreicht (578 min)"
       }
     ],
     "alt": [
@@ -18993,6 +19061,31 @@
         "liquidity_usd_jetzt": 3.59565548799426e-07,
         "closed_ts": "2026-10-22T23:14:10.502084+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 14964 $) — kein Ausstieg. Schein-PnL waere +100.1% gewesen."
+      },
+      {
+        "id": "ALT-1022-231436-VIRTUAL",
+        "arm": "alt",
+        "scan_idx": 329,
+        "opened_ts": "2026-10-22T23:14:36.097888+00:00",
+        "symbol": "VIRTUAL",
+        "pool_address": "MFsvPTXCy6eiT1qMpMGKJf6a8K8fdj7YKUFPKDeEXEX",
+        "token_address": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+        "entry_price_usd": 0.0003616900448123916,
+        "score": 2,
+        "signals": [
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 51380.4565,
+        "age_minutes": 447.6,
+        "status": "sl",
+        "current_price_usd": 0.0002906129596241861,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T01:40:20.673575+00:00",
+        "liquidity_usd_jetzt": 45511.2244,
+        "closed_ts": "2026-10-23T01:40:20.673575+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -19.7%)"
       }
     ],
     "neu": [
