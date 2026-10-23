@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 333,
-  "last_scan": "2026-10-23T12:08:21.040312+00:00",
+  "scans": 334,
+  "last_scan": "2026-10-23T17:18:39.750460+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -23,7 +23,33 @@
         "liquidity_usd": 2892.7624,
         "age_minutes": 3.4,
         "status": "open",
-        "current_price_usd": 3.4719020594993836e-06,
+        "current_price_usd": 3.0133390974942203e-06,
+        "pnl_pct": -13.21,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T17:18:31.197229+00:00",
+        "liquidity_usd_jetzt": 2395.0419
+      },
+      {
+        "id": "KON-1023-171839-SAM",
+        "arm": "kontrolle",
+        "scan_idx": 333,
+        "opened_ts": "2026-10-23T17:18:39.750460+00:00",
+        "symbol": "SAM",
+        "pool_address": "Aj85rrK7SoXSd7o5ECe3e4ydXUejgQHCgqGqV2ebt9MR",
+        "token_address": "8K19Fh5EGQQRu3iodq4tuFgYaKb9sqkpnxBbMkAjgLEN",
+        "entry_price_usd": 0.000187875942846595,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +190.3%",
+          "1h +190.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3243.3738,
+        "age_minutes": 3.3,
+        "status": "open",
+        "current_price_usd": 0.000187875942846595,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -31,27 +57,27 @@
     ],
     "alt": [
       {
-        "id": "ALT-1023-120821-赛伊德",
+        "id": "ALT-1023-171839-FUN",
         "arm": "alt",
-        "scan_idx": 332,
-        "opened_ts": "2026-10-23T12:08:21.040312+00:00",
-        "symbol": "赛伊德",
-        "pool_address": "915yXnpHMyMApv86CKWr8hWaXzWhCDjx4pYUSK4MNyYb",
-        "token_address": "GiwvQf9wBbk1eAHPzJ8zVrZyaYLaqLRTZZ44FbopJwXR",
-        "entry_price_usd": 0.0004046383073908867,
+        "scan_idx": 333,
+        "opened_ts": "2026-10-23T17:18:39.750460+00:00",
+        "symbol": "FUN",
+        "pool_address": "3sMLWAMEpVngdP9kr1XNzw3Nx2MpHY36znf4UijpsA5v",
+        "token_address": "DbKopw4nxHpbFYbWxDC3KjBjNGvM2CnGUfsK3hbyef68",
+        "entry_price_usd": 0.00038831728499963425,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +28.7%",
-          "1h +28.7%",
-          "Buy-Ratio 73%",
+          "5m +28.4%",
+          "1h +28.4%",
+          "Buy-Ratio 69%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 42511.8034,
-        "age_minutes": 3.5,
+        "liquidity_usd": 45320.6624,
+        "age_minutes": 3.2,
         "status": "open",
-        "current_price_usd": 0.0004046383073908867,
+        "current_price_usd": 0.00038831728499963425,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -59,77 +85,38 @@
     ],
     "neu": [
       {
-        "id": "NEU-1023-062931-McRib",
+        "id": "NEU-1023-171839-MMF",
         "arm": "neu",
-        "scan_idx": 331,
-        "opened_ts": "2026-10-23T06:29:31.713188+00:00",
-        "symbol": "McRib",
-        "pool_address": "6KGbV6LxuATyk32jUaRuujgW63jmEJLezgyUxMqFWER7",
-        "token_address": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
-        "entry_price_usd": 0.0006164340696372146,
-        "score": 3,
-        "signals": [
-          "1h +29.6%",
-          "Buy-Ratio 73%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 78418.9131,
-        "age_minutes": 666.8,
-        "status": "open",
-        "current_price_usd": 0.0007371820790957816,
-        "pnl_pct": 19.59,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-23T12:08:15.531096+00:00",
-        "v2_score": 6,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "Top-10 nur 23 % bei reifem Token",
-          "16051 Halter",
-          "10 Insider-Netzwerke"
-        ],
-        "v2_signale": {
-          "top10_pct": 22.9,
-          "halter": 16051,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 88789.3298
-      },
-      {
-        "id": "NEU-1023-120821-BLACKTOB",
-        "arm": "neu",
-        "scan_idx": 332,
-        "opened_ts": "2026-10-23T12:08:21.040312+00:00",
-        "symbol": "BLACKTOBER",
-        "pool_address": "7sWUAGxj5uywA1ryJ9cTocRwAy6tTqYrgmf3DxjQ3Wpz",
-        "token_address": "A32k85epAi6bjkzQW6TjGE9nDqad9FEK5LpP1NUHatoG",
-        "entry_price_usd": 4.546017431287733e-06,
-        "score": 7,
+        "scan_idx": 333,
+        "opened_ts": "2026-10-23T17:18:39.750460+00:00",
+        "symbol": "MMF",
+        "pool_address": "9MQkn4yWPH8EabnJRcPyU4h4jEfBdJkBUkiAPDdeP2VG",
+        "token_address": "C35vFT8PoE7Qd6MbCKSVkDgtdiSEcPhG4TqNymJopump",
+        "entry_price_usd": 4.6321222733203655e-06,
+        "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +20.4%",
-          "1h +20.4%",
+          "5m +48.8%",
+          "1h +48.8%",
+          "Buy-Ratio 61%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2814.4455,
-        "age_minutes": 3.1,
+        "liquidity_usd": 3944.2626,
+        "age_minutes": 3.3,
         "status": "open",
-        "current_price_usd": 4.546017431287733e-06,
+        "current_price_usd": 4.6321222733203655e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 3,
         "v2_warum": [
           "Twitter vorhanden",
-          "Website vorhanden",
-          "117 Halter (jung)"
+          "76 Halter (jung)"
         ],
         "v2_signale": {
-          "top10_pct": 93.07,
-          "halter": 117,
+          "top10_pct": 99.97,
+          "halter": 76,
           "telegram": false,
           "creator_haelt": false,
           "risiko_score": 1
@@ -19237,6 +19224,35 @@
         "liquidity_usd_jetzt": 2545.038,
         "closed_ts": "2026-10-23T12:08:15.531096+00:00",
         "close_reason": "Stop-Loss erreicht (roh -21.5%)"
+      },
+      {
+        "id": "ALT-1023-120821-赛伊德",
+        "arm": "alt",
+        "scan_idx": 332,
+        "opened_ts": "2026-10-23T12:08:21.040312+00:00",
+        "symbol": "赛伊德",
+        "pool_address": "915yXnpHMyMApv86CKWr8hWaXzWhCDjx4pYUSK4MNyYb",
+        "token_address": "GiwvQf9wBbk1eAHPzJ8zVrZyaYLaqLRTZZ44FbopJwXR",
+        "entry_price_usd": 0.0004046383073908867,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.7%",
+          "1h +28.7%",
+          "Buy-Ratio 73%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 42511.8034,
+        "age_minutes": 3.5,
+        "status": "rug",
+        "current_price_usd": 7.660107768528034e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T17:18:31.197229+00:00",
+        "liquidity_usd_jetzt": 0.0026430258766328,
+        "closed_ts": "2026-10-23T17:18:31.197229+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 42512 $) — kein Ausstieg. Schein-PnL waere -81.1% gewesen."
       }
     ],
     "neu": [
@@ -28700,6 +28716,88 @@
         "liquidity_usd_jetzt": 2434.1134,
         "closed_ts": "2026-10-23T06:29:26.218722+00:00",
         "close_reason": "Stop-Loss erreicht (roh -15.2%)"
+      },
+      {
+        "id": "NEU-1023-120821-BLACKTOB",
+        "arm": "neu",
+        "scan_idx": 332,
+        "opened_ts": "2026-10-23T12:08:21.040312+00:00",
+        "symbol": "BLACKTOBER",
+        "pool_address": "7sWUAGxj5uywA1ryJ9cTocRwAy6tTqYrgmf3DxjQ3Wpz",
+        "token_address": "A32k85epAi6bjkzQW6TjGE9nDqad9FEK5LpP1NUHatoG",
+        "entry_price_usd": 4.546017431287733e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +20.4%",
+          "1h +20.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2814.4455,
+        "age_minutes": 3.1,
+        "status": "sl",
+        "current_price_usd": 2.9307396145335474e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T17:18:31.197229+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "117 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 93.07,
+          "halter": 117,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2328.2082,
+        "closed_ts": "2026-10-23T17:18:31.197229+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -35.5%)"
+      },
+      {
+        "id": "NEU-1023-062931-McRib",
+        "arm": "neu",
+        "scan_idx": 331,
+        "opened_ts": "2026-10-23T06:29:31.713188+00:00",
+        "symbol": "McRib",
+        "pool_address": "6KGbV6LxuATyk32jUaRuujgW63jmEJLezgyUxMqFWER7",
+        "token_address": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
+        "entry_price_usd": 0.0006164340696372146,
+        "score": 3,
+        "signals": [
+          "1h +29.6%",
+          "Buy-Ratio 73%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 78418.9131,
+        "age_minutes": 666.8,
+        "status": "tp",
+        "current_price_usd": 0.0008682748322771393,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-23T17:18:31.197229+00:00",
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 23 % bei reifem Token",
+          "16051 Halter",
+          "10 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 22.9,
+          "halter": 16051,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 97424.0312,
+        "closed_ts": "2026-10-23T17:18:31.197229+00:00",
+        "close_reason": "Take-Profit erreicht (roh +40.9%)"
       }
     ]
   }
