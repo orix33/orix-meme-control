@@ -1,12 +1,190 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 339,
-  "last_scan": "2026-10-24T12:06:09.439575+00:00",
+  "scans": 340,
+  "last_scan": "2026-10-24T15:51:06.480916+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1024-155106-YMB",
+        "arm": "kontrolle",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "YMB",
+        "pool_address": "BcbQfEr3NKp8tJfbCmveqSS1o87npjfSbxuuLDSHwpsU",
+        "token_address": "2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump",
+        "entry_price_usd": 0.0002829416186333021,
+        "score": 3,
+        "signals": [
+          "5m +4.1%",
+          "Buy-Ratio 81%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 58325.5525,
+        "age_minutes": 1249.4,
+        "status": "open",
+        "current_price_usd": 0.0002829416186333021,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1024-155106-blockcha",
+        "arm": "kontrolle",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "blockchain",
+        "pool_address": "43fetARys2RgrvmMsMwbwW7UcbyheKaxoeE7kkWM3Tsp",
+        "token_address": "7nEcvYv5bCgiqmTM4RY8Re8tsYGciNHssGRXnPU5pump",
+        "entry_price_usd": 2.8330647440672096e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2246.7719,
+        "age_minutes": 4.2,
+        "status": "open",
+        "current_price_usd": 2.8330647440672096e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1024-155106-iNU",
+        "arm": "alt",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "iNU",
+        "pool_address": "8ASDQHNwJmATtgqM8isQ35z1a8wvRpJJPxsuXGjd43TN",
+        "token_address": "81GLqEJVThKYEeSsxYnWu6p68xo6G9MMPqyi8N5p5JsK",
+        "entry_price_usd": 9.521356377933478e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.7%",
+          "1h +8.7%",
+          "Buy-Ratio 75%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18188.0596,
+        "age_minutes": 4.3,
+        "status": "open",
+        "current_price_usd": 9.521356377933478e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1024-155106-Makayla",
+        "arm": "alt",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "Makayla",
+        "pool_address": "J8rqp9oismBfnW4zVqaeboXTRcuZeksHmfZ1YBLFtKDY",
+        "token_address": "EZCkjWUQXDoWgVUGX27Cuf5M95KL56V5yGMe3R55pump",
+        "entry_price_usd": 1.226973323682127e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +140.8%",
+          "1h +140.8%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6087.7041,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 1.226973323682127e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1024-155106-COIL",
+        "arm": "neu",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "COIL",
+        "pool_address": "BDFCdXTi8JfCkioHtytKCBfy2axEMmQoUV6j9BoLj2KJ",
+        "token_address": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+        "entry_price_usd": 0.0001593488329627714,
+        "score": 5,
+        "signals": [
+          "Volumen-Beschleunigung",
+          "5m +26.1%",
+          "1h +30.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 34376.7113,
+        "age_minutes": 551.6,
+        "status": "open",
+        "current_price_usd": 0.0001593488329627714,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 33 % bei reifem Token",
+          "3885 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 32.59,
+          "halter": 3885,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1024-155106-Makayla",
+        "arm": "neu",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "Makayla",
+        "pool_address": "GZnxhenPAt2XULmS3Xr469VYPRgN2dNQjEs6NA2Zvddg",
+        "token_address": "DqEFHntB3taDVU77j6kEH8EY9EZ2T6RsGeKZSEmK9Prq",
+        "entry_price_usd": 7.556928393987128e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +79.8%",
+          "1h +79.8%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4719.2599,
+        "age_minutes": 2.4,
+        "status": "open",
+        "current_price_usd": 7.556928393987128e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "152 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 97.62,
+          "halter": 152,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
