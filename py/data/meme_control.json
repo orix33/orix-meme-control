@@ -1,58 +1,10 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 342,
-  "last_scan": "2026-10-24T21:13:11.542705+00:00",
+  "scans": 343,
+  "last_scan": "2026-10-24T23:26:12.982754+00:00",
   "offen": {
     "kontrolle": [
-      {
-        "id": "KON-1024-155106-blockcha",
-        "arm": "kontrolle",
-        "scan_idx": 339,
-        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
-        "symbol": "blockchain",
-        "pool_address": "43fetARys2RgrvmMsMwbwW7UcbyheKaxoeE7kkWM3Tsp",
-        "token_address": "7nEcvYv5bCgiqmTM4RY8Re8tsYGciNHssGRXnPU5pump",
-        "entry_price_usd": 2.8330647440672096e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2246.7719,
-        "age_minutes": 4.2,
-        "status": "open",
-        "current_price_usd": 2.8325493648686267e-06,
-        "pnl_pct": -0.02,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-24T21:13:00.748449+00:00",
-        "liquidity_usd_jetzt": 2268.5589
-      },
-      {
-        "id": "KON-1024-184431-REMUS",
-        "arm": "kontrolle",
-        "scan_idx": 340,
-        "opened_ts": "2026-10-24T18:44:31.643924+00:00",
-        "symbol": "REMUS",
-        "pool_address": "6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
-        "token_address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
-        "entry_price_usd": 0.0005446661188390204,
-        "score": 3,
-        "signals": [
-          "1h +18.2%",
-          "Buy-Ratio 73%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 66014.531,
-        "age_minutes": 1175.0,
-        "status": "open",
-        "current_price_usd": 0.0006402376594897614,
-        "pnl_pct": 17.55,
-        "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-24T21:13:00.748449+00:00",
-        "liquidity_usd_jetzt": 71996.907
-      },
       {
         "id": "KON-1024-211311-Newt",
         "arm": "kontrolle",
@@ -71,82 +23,15 @@
         "liquidity_usd": 2242.9095,
         "age_minutes": 4.0,
         "status": "open",
-        "current_price_usd": 2.826630071383304e-06,
-        "pnl_pct": 0.0,
+        "current_price_usd": 2.826515170976851e-06,
+        "pnl_pct": -0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": null
+        "letzte_pruefung": "2026-10-24T23:26:02.029895+00:00",
+        "liquidity_usd_jetzt": 2251.1627
       }
     ],
-    "alt": [
-      {
-        "id": "ALT-1024-211311-100u",
-        "arm": "alt",
-        "scan_idx": 341,
-        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
-        "symbol": "100u",
-        "pool_address": "3QTv2TN5roR7LqQb7btUX4qHpCuZsABAxbW6E7VnYKjm",
-        "token_address": "DghHsR56STwzSm325y3udtPYsD85pBUu4N28Q56dxURj",
-        "entry_price_usd": 1.4731088968746648e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +55.2%",
-          "1h +55.2%",
-          "Buy-Ratio 79%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 21086.1542,
-        "age_minutes": 4.1,
-        "status": "open",
-        "current_price_usd": 1.4731088968746648e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1024-211311-ANTHROPI",
-        "arm": "neu",
-        "scan_idx": 341,
-        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
-        "symbol": "ANTHROPIC",
-        "pool_address": "9ALnEJrQTQnePpY8SByH2vuFBRV7GxPJV4wEEWyGBCHV",
-        "token_address": "7Gsiqh8MpiVwL8uxUEYBdikS3YA6NWJa7bsY35Snd2Lx",
-        "entry_price_usd": 4.5938171279081844e-06,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +67.5%",
-          "1h +67.5%",
-          "Buy-Ratio 65%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 5939.2265,
-        "age_minutes": 3.8,
-        "status": "open",
-        "current_price_usd": 4.5938171279081844e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "181 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 29 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 88.74,
-          "halter": 181,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 29
-        }
-      }
-    ]
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -9694,6 +9579,58 @@
         "liquidity_usd_jetzt": 48892.4292,
         "closed_ts": "2026-10-24T21:13:00.748449+00:00",
         "close_reason": "Stop-Loss erreicht (roh -30.1%)"
+      },
+      {
+        "id": "KON-1024-155106-blockcha",
+        "arm": "kontrolle",
+        "scan_idx": 339,
+        "opened_ts": "2026-10-24T15:51:06.480916+00:00",
+        "symbol": "blockchain",
+        "pool_address": "43fetARys2RgrvmMsMwbwW7UcbyheKaxoeE7kkWM3Tsp",
+        "token_address": "7nEcvYv5bCgiqmTM4RY8Re8tsYGciNHssGRXnPU5pump",
+        "entry_price_usd": 2.8330647440672096e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2246.7719,
+        "age_minutes": 4.2,
+        "status": "expired",
+        "current_price_usd": 2.8325493648686267e-06,
+        "pnl_pct": -0.02,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-24T23:26:02.029895+00:00",
+        "liquidity_usd_jetzt": 2268.9382,
+        "closed_ts": "2026-10-24T23:26:02.029895+00:00",
+        "close_reason": "Horizont erreicht (455 min)"
+      },
+      {
+        "id": "KON-1024-184431-REMUS",
+        "arm": "kontrolle",
+        "scan_idx": 340,
+        "opened_ts": "2026-10-24T18:44:31.643924+00:00",
+        "symbol": "REMUS",
+        "pool_address": "6JDiSPsWBwcSN8xBa4LNBzMZRikxksbxcto8J3ELR4cG",
+        "token_address": "CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump",
+        "entry_price_usd": 0.0005446661188390204,
+        "score": 3,
+        "signals": [
+          "1h +18.2%",
+          "Buy-Ratio 73%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 66014.531,
+        "age_minutes": 1175.0,
+        "status": "tp",
+        "current_price_usd": 0.000759274811261744,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-24T23:26:02.029895+00:00",
+        "liquidity_usd_jetzt": 79972.3083,
+        "closed_ts": "2026-10-24T23:26:02.029895+00:00",
+        "close_reason": "Take-Profit erreicht (roh +39.4%)"
       }
     ],
     "alt": [
@@ -19747,6 +19684,35 @@
         "liquidity_usd_jetzt": 58374.5095,
         "closed_ts": "2026-10-24T21:13:00.748449+00:00",
         "close_reason": "Take-Profit erreicht (roh +31.9%)"
+      },
+      {
+        "id": "ALT-1024-211311-100u",
+        "arm": "alt",
+        "scan_idx": 341,
+        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
+        "symbol": "100u",
+        "pool_address": "3QTv2TN5roR7LqQb7btUX4qHpCuZsABAxbW6E7VnYKjm",
+        "token_address": "DghHsR56STwzSm325y3udtPYsD85pBUu4N28Q56dxURj",
+        "entry_price_usd": 1.4731088968746648e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +55.2%",
+          "1h +55.2%",
+          "Buy-Ratio 79%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 21086.1542,
+        "age_minutes": 4.1,
+        "status": "rug",
+        "current_price_usd": 4.081866369705451e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-24T23:26:02.029895+00:00",
+        "liquidity_usd_jetzt": 0.0406,
+        "closed_ts": "2026-10-24T23:26:02.029895+00:00",
+        "close_reason": "Liquiditaet 0.04 $ (Start 21086 $) — kein Ausstieg. Schein-PnL waere +177.1% gewesen."
       }
     ],
     "neu": [
@@ -29620,6 +29586,49 @@
         "liquidity_usd_jetzt": 2254.3681,
         "closed_ts": "2026-10-24T21:13:00.748449+00:00",
         "close_reason": "Stop-Loss erreicht (roh -21.5%)"
+      },
+      {
+        "id": "NEU-1024-211311-ANTHROPI",
+        "arm": "neu",
+        "scan_idx": 341,
+        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
+        "symbol": "ANTHROPIC",
+        "pool_address": "9ALnEJrQTQnePpY8SByH2vuFBRV7GxPJV4wEEWyGBCHV",
+        "token_address": "7Gsiqh8MpiVwL8uxUEYBdikS3YA6NWJa7bsY35Snd2Lx",
+        "entry_price_usd": 4.5938171279081844e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +67.5%",
+          "1h +67.5%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5939.2265,
+        "age_minutes": 3.8,
+        "status": "sl",
+        "current_price_usd": 2.9374281980965576e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-24T23:26:02.029895+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "181 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 29 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 88.74,
+          "halter": 181,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 29
+        },
+        "liquidity_usd_jetzt": 2336.0803,
+        "closed_ts": "2026-10-24T23:26:02.029895+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -36.1%)"
       }
     ]
   }
