@@ -1,8 +1,8 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 348,
-  "last_scan": "2026-10-25T18:54:38.348763+00:00",
+  "scans": 349,
+  "last_scan": "2026-10-25T21:39:30.485874+00:00",
   "offen": {
     "kontrolle": [
       {
@@ -26,27 +26,54 @@
         "current_price_usd": 2.8854329451312587e-06,
         "pnl_pct": -10.59,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-25T18:54:32.783776+00:00",
-        "liquidity_usd_jetzt": 2301.2184
+        "letzte_pruefung": "2026-10-25T21:39:22.200032+00:00",
+        "liquidity_usd_jetzt": 2288.7799
       },
       {
-        "id": "KON-1025-185438-CATTLEAX",
+        "id": "KON-1025-213930-Kimchi",
         "arm": "kontrolle",
-        "scan_idx": 347,
-        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
-        "symbol": "CATTLEAXE",
-        "pool_address": "3p3uYa9AYzV7w2nHEJeo8ANkuuwhYUonQvhHS8LyrqJY",
-        "token_address": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
-        "entry_price_usd": 0.001813468752369295,
-        "score": 2,
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "Kimchi",
+        "pool_address": "tYDVFDZH3dZU2ZiFheNEbigxZrJHRR49KubxH9wpQst",
+        "token_address": "7gF5uE5p1GTjhMYpkYSpKFS9uZV7jTMgxEctcy6qfVHc",
+        "entry_price_usd": 1.3668474304255605e-05,
+        "score": 7,
         "signals": [
-          "1h +27.8%",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +38.1%",
+          "1h +47.9%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 127728.3542,
-        "age_minutes": 1399.5,
+        "liquidity_usd": 16254.9949,
+        "age_minutes": 5.7,
         "status": "open",
-        "current_price_usd": 0.001813468752369295,
+        "current_price_usd": 1.3668474304255605e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1025-213930-Tommie",
+        "arm": "kontrolle",
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "Tommie",
+        "pool_address": "EMZyag9zMBBsZL414wkfJfZ3kSedAaDSwq9VdwScDdVT",
+        "token_address": "jqKLdTqtDY8WVG5WaiqBbbzzYQBXE6LZkbjJUqx2ddJ",
+        "entry_price_usd": 9.064395548276523e-07,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 27016.7273,
+        "age_minutes": 5.4,
+        "status": "open",
+        "current_price_usd": 9.064395548276523e-07,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -54,27 +81,51 @@
     ],
     "alt": [
       {
-        "id": "ALT-1025-185438-MemeToke",
+        "id": "ALT-1025-213930-NVIDIA",
         "arm": "alt",
-        "scan_idx": 347,
-        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
-        "symbol": "MemeTokens",
-        "pool_address": "6EHKaQcoqrTnR3PqMzAnTZgsGfUkYTPHeFWnuZLaQ7YQ",
-        "token_address": "9wB4LsqagPoQQrYN4HtwNPtXhJd7EGG83s7wAJWGpump",
-        "entry_price_usd": 8.720831240070975e-06,
-        "score": 8,
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "NVIDIA",
+        "pool_address": "G7RpF521EUQmVCikKdSfLzBfKrkxWGqW5YcHEkzBj2R4",
+        "token_address": "4bj865a4nkP9rbQozWopMxtY7eSf674XbZe95rzHnUEc",
+        "entry_price_usd": 0.00012399390858007603,
+        "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +51.0%",
-          "1h +51.0%",
-          "Buy-Ratio 62%",
+          "5m +750.3%",
+          "1h +770.1%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 5197.362,
-        "age_minutes": 4.1,
+        "liquidity_usd": 5880.0144,
+        "age_minutes": 5.5,
         "status": "open",
-        "current_price_usd": 8.720831240070975e-06,
+        "current_price_usd": 0.00012399390858007603,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1025-213930-NICKI",
+        "arm": "alt",
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "NICKI",
+        "pool_address": "A56rD6yyi617YGTWRfFQGtT3tjSWfB6aArZnVp6BDXh6",
+        "token_address": "12mmk7i7KFXxB7XQKGMG9Ugtn481aiY77bbSpy8Cpump",
+        "entry_price_usd": 1.1962431708081284e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +207.1%",
+          "1h +132.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6236.9772,
+        "age_minutes": 5.6,
+        "status": "open",
+        "current_price_usd": 1.1962431708081284e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -82,42 +133,75 @@
     ],
     "neu": [
       {
-        "id": "NEU-1025-185438-MEMESTOC",
+        "id": "NEU-1025-213930-Trustee",
         "arm": "neu",
-        "scan_idx": 347,
-        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
-        "symbol": "MEMESTOCK",
-        "pool_address": "EdTSq6xwHyQGcUshRKG9a5Sw2f57jmA6kG46esV3bWVP",
-        "token_address": "HHPC3RVFquVc3XYXL2BLMCkJGE6E31VJbHtd39rgdGdJ",
-        "entry_price_usd": 8.708081766339333e-05,
-        "score": 7,
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "Trustee",
+        "pool_address": "C2jn1YVmSVydjDTc6iM1ZbeNoERoUEozMN6mBNcoaE2a",
+        "token_address": "C6WkJZLLALwoN771E1J7Z1scQV4oqUDxssVVAYkZpump",
+        "entry_price_usd": 3.8950066154217275e-06,
+        "score": 6,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +65.1%",
-          "1h +65.1%",
+          "1h +14.6%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 23670.3134,
-        "age_minutes": 5.0,
+        "liquidity_usd": 2999.113,
+        "age_minutes": 5.4,
         "status": "open",
-        "current_price_usd": 8.708081766339333e-05,
+        "current_price_usd": 3.8950066154217275e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null,
-        "v2_score": 4,
+        "v2_score": 6,
         "v2_warum": [
           "Twitter vorhanden",
           "Website vorhanden",
-          "445 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 52 (hoch)"
+          "199 Halter — viel fuer einen jungen Pool"
         ],
         "v2_signale": {
-          "top10_pct": 97.04,
-          "halter": 445,
+          "top10_pct": 99.75,
+          "halter": 199,
           "telegram": false,
           "creator_haelt": false,
-          "risiko_score": 52
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1025-213930-LAUNCH",
+        "arm": "neu",
+        "scan_idx": 348,
+        "opened_ts": "2026-10-25T21:39:30.485874+00:00",
+        "symbol": "LAUNCH",
+        "pool_address": "FZWxV7C4JKKe3wX54MM6QpcVAHtyGrtnPFmihysWfiDB",
+        "token_address": "AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C",
+        "entry_price_usd": 0.0016899944654347574,
+        "score": 2,
+        "signals": [
+          "Alter<6h",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 90062.5003,
+        "age_minutes": 271.4,
+        "status": "open",
+        "current_price_usd": 0.0016899944654347574,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "14189 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 21.44,
+          "halter": 14189,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
         }
       }
     ]
@@ -9798,6 +9882,31 @@
         "liquidity_usd_jetzt": 86884.3338,
         "closed_ts": "2026-10-25T16:00:53.114084+00:00",
         "close_reason": "Stop-Loss erreicht (roh -53.4%)"
+      },
+      {
+        "id": "KON-1025-185438-CATTLEAX",
+        "arm": "kontrolle",
+        "scan_idx": 347,
+        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
+        "symbol": "CATTLEAXE",
+        "pool_address": "3p3uYa9AYzV7w2nHEJeo8ANkuuwhYUonQvhHS8LyrqJY",
+        "token_address": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+        "entry_price_usd": 0.001813468752369295,
+        "score": 2,
+        "signals": [
+          "1h +27.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 127728.3542,
+        "age_minutes": 1399.5,
+        "status": "sl",
+        "current_price_usd": 0.0012175885182922506,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T21:39:22.200032+00:00",
+        "liquidity_usd_jetzt": 103701.4551,
+        "closed_ts": "2026-10-25T21:39:22.200032+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -32.9%)"
       }
     ],
     "alt": [
@@ -19967,6 +20076,35 @@
         "liquidity_usd_jetzt": 1999.6597,
         "closed_ts": "2026-10-25T18:54:32.783776+00:00",
         "close_reason": "Liquiditaet 1999.66 $ (Start 50825 $) — kein Ausstieg. Schein-PnL waere -99.5% gewesen."
+      },
+      {
+        "id": "ALT-1025-185438-MemeToke",
+        "arm": "alt",
+        "scan_idx": 347,
+        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
+        "symbol": "MemeTokens",
+        "pool_address": "6EHKaQcoqrTnR3PqMzAnTZgsGfUkYTPHeFWnuZLaQ7YQ",
+        "token_address": "9wB4LsqagPoQQrYN4HtwNPtXhJd7EGG83s7wAJWGpump",
+        "entry_price_usd": 8.720831240070975e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +51.0%",
+          "1h +51.0%",
+          "Buy-Ratio 62%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5197.362,
+        "age_minutes": 4.1,
+        "status": "sl",
+        "current_price_usd": 2.8521914041662066e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T21:39:22.200032+00:00",
+        "liquidity_usd_jetzt": 2264.7865,
+        "closed_ts": "2026-10-25T21:39:22.200032+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -67.3%)"
       }
     ],
     "neu": [
@@ -30002,6 +30140,48 @@
         "liquidity_usd_jetzt": 1.399867747e-07,
         "closed_ts": "2026-10-25T18:54:32.783776+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 117348 $) — kein Ausstieg. Schein-PnL waere +78.2% gewesen."
+      },
+      {
+        "id": "NEU-1025-185438-MEMESTOC",
+        "arm": "neu",
+        "scan_idx": 347,
+        "opened_ts": "2026-10-25T18:54:38.348763+00:00",
+        "symbol": "MEMESTOCK",
+        "pool_address": "EdTSq6xwHyQGcUshRKG9a5Sw2f57jmA6kG46esV3bWVP",
+        "token_address": "HHPC3RVFquVc3XYXL2BLMCkJGE6E31VJbHtd39rgdGdJ",
+        "entry_price_usd": 8.708081766339333e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +65.1%",
+          "1h +65.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23670.3134,
+        "age_minutes": 5.0,
+        "status": "rug",
+        "current_price_usd": 0.00012900082895436334,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T21:39:22.200032+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "445 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 52 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 97.04,
+          "halter": 445,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 52
+        },
+        "liquidity_usd_jetzt": 8.138637671e-07,
+        "closed_ts": "2026-10-25T21:39:22.200032+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 23670 $) — kein Ausstieg. Schein-PnL waere +48.1% gewesen."
       }
     ]
   }
