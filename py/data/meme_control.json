@@ -1,37 +1,183 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 344,
-  "last_scan": "2026-10-25T01:24:06.865079+00:00",
+  "scans": 345,
+  "last_scan": "2026-10-25T06:26:41.182089+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1024-211311-Newt",
+        "id": "KON-1025-062641-POP",
         "arm": "kontrolle",
-        "scan_idx": 341,
-        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
-        "symbol": "Newt",
-        "pool_address": "GbWuDenXH5Kedxq1qMRmw2GyEcA88jSKBEfqK1egqDHZ",
-        "token_address": "4xZMch9rJndD8saWYjAtdMFhdctXC9dApHeYFC46pump",
-        "entry_price_usd": 2.826630071383304e-06,
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "POP",
+        "pool_address": "AFWwqbzqgFxzBvjsbS5WnioWHbfXY4tGzQwWrvyDEHUn",
+        "token_address": "31XfmMNUNuoxEZUDAaSd7vQBNtsnJY6QKSzf3tS6pump",
+        "entry_price_usd": 6.868576884977509e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +44.8%",
+          "1h +44.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18572.8775,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 6.868576884977509e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1025-062641-SWORDOPE",
+        "arm": "kontrolle",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "SWORDOPE",
+        "pool_address": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
+        "token_address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+        "entry_price_usd": 0.0018314138714124548,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 126631.632,
+        "age_minutes": 642.6,
+        "status": "open",
+        "current_price_usd": 0.0018314138714124548,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1025-062641-XRC",
+        "arm": "alt",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "XRC",
+        "pool_address": "HXi6JYE2aVDD1KcSihjCiofF8hdeUmK6wf17VR3mHEJC",
+        "token_address": "626JvXZiYgK7MUGqTXraSKW3DwWiLFawqeCXuykVpump",
+        "entry_price_usd": 0.05410065036205686,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +127683.5%",
+          "1h +127683.5%",
+          "Buy-Ratio 98%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 620928.0746,
+        "age_minutes": 3.5,
+        "status": "open",
+        "current_price_usd": 0.05410065036205686,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1025-062641-HUMANITY",
+        "arm": "alt",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "HUMANITY",
+        "pool_address": "6pycqHLkWquNDRRyoGAVZrCCaKvgJPfqQ3ZhSRKXPXGh",
+        "token_address": "9XTJAkPLB2PXjRfWwDxvwaHi85nHjb3FHoFX5Dchpump",
+        "entry_price_usd": 8.165805979679846e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +63.6%",
+          "1h +63.6%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5431.9331,
+        "age_minutes": 3.3,
+        "status": "open",
+        "current_price_usd": 8.165805979679846e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1025-062641-HUMANITY",
+        "arm": "neu",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "HUMANITY",
+        "pool_address": "mnw8YmNtNzWzpw8K5p13rW81H2e1AyScAejkfrq5cU8",
+        "token_address": "ehZGQhtnVNhUfubPzkUE6kMtMpYf9dr5N5qeKcnpump",
+        "entry_price_usd": 3.011976437165248e-06,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2242.9095,
-        "age_minutes": 4.0,
+        "liquidity_usd": 2485.0643,
+        "age_minutes": 4.5,
         "status": "open",
-        "current_price_usd": 2.826515170976851e-06,
-        "pnl_pct": -0.0,
+        "current_price_usd": 3.011976437165248e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-25T01:24:06.570245+00:00",
-        "liquidity_usd_jetzt": 2265.1169
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "92 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 92,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1025-062641-Pumpkin",
+        "arm": "neu",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "Pumpkin",
+        "pool_address": "BvdA6kfQy3NrsRNP4haAy1bQUgiSzBim1HuwAtXJSJ6u",
+        "token_address": "8v3GAGANt9Wy7Wcq286NVy9F5WKEdFficSARvSQ4pump",
+        "entry_price_usd": 3.698555300588583e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2902.6859,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 3.698555300588583e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 2,
+        "v2_warum": [
+          "Twitter vorhanden"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 36,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
       }
-    ],
-    "alt": [],
-    "neu": []
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -9631,6 +9777,32 @@
         "liquidity_usd_jetzt": 79972.3083,
         "closed_ts": "2026-10-24T23:26:02.029895+00:00",
         "close_reason": "Take-Profit erreicht (roh +39.4%)"
+      },
+      {
+        "id": "KON-1024-211311-Newt",
+        "arm": "kontrolle",
+        "scan_idx": 341,
+        "opened_ts": "2026-10-24T21:13:11.542705+00:00",
+        "symbol": "Newt",
+        "pool_address": "GbWuDenXH5Kedxq1qMRmw2GyEcA88jSKBEfqK1egqDHZ",
+        "token_address": "4xZMch9rJndD8saWYjAtdMFhdctXC9dApHeYFC46pump",
+        "entry_price_usd": 2.826630071383304e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2242.9095,
+        "age_minutes": 4.0,
+        "status": "expired",
+        "current_price_usd": 2.826515170976851e-06,
+        "pnl_pct": -0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T06:26:40.826205+00:00",
+        "liquidity_usd_jetzt": 2257.9886,
+        "closed_ts": "2026-10-25T06:26:40.826205+00:00",
+        "close_reason": "Horizont erreicht (553 min)"
       }
     ],
     "alt": [
