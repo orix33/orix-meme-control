@@ -1,70 +1,102 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 346,
-  "last_scan": "2026-10-25T11:54:31.597272+00:00",
+  "scans": 347,
+  "last_scan": "2026-10-25T16:00:56.124892+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1025-062641-SWORDOPE",
+        "id": "KON-1025-160056-meme",
         "arm": "kontrolle",
-        "scan_idx": 344,
-        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
-        "symbol": "SWORDOPE",
-        "pool_address": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
-        "token_address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
-        "entry_price_usd": 0.0018314138714124548,
-        "score": 1,
-        "signals": [
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 126631.632,
-        "age_minutes": 642.6,
-        "status": "open",
-        "current_price_usd": 0.0018314138714124548,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-10-25T11:54:05.956002+00:00"
-      }
-    ],
-    "alt": [],
-    "neu": [
-      {
-        "id": "NEU-1025-062641-HUMANITY",
-        "arm": "neu",
-        "scan_idx": 344,
-        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
-        "symbol": "HUMANITY",
-        "pool_address": "mnw8YmNtNzWzpw8K5p13rW81H2e1AyScAejkfrq5cU8",
-        "token_address": "ehZGQhtnVNhUfubPzkUE6kMtMpYf9dr5N5qeKcnpump",
-        "entry_price_usd": 3.011976437165248e-06,
+        "scan_idx": 346,
+        "opened_ts": "2026-10-25T16:00:56.124892+00:00",
+        "symbol": "meme",
+        "pool_address": "7sw2J6Vc2QpiAVzZyrFzfgNE6xjqsmR8ZtTYUrx6dxqX",
+        "token_address": "BmMQezwdoU9vvafPaXUeg8VQ3U5ct3hBKKufr4NTc4zG",
+        "entry_price_usd": 3.227121692287326e-06,
         "score": 5,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 2485.0643,
-        "age_minutes": 4.5,
+        "liquidity_usd": 2593.1297,
+        "age_minutes": 2.2,
         "status": "open",
-        "current_price_usd": 2.8539454025370236e-06,
-        "pnl_pct": -5.25,
+        "current_price_usd": 3.227121692287326e-06,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-10-25T11:54:05.956002+00:00",
-        "v2_score": 4,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1025-160056-ChatGPT",
+        "arm": "alt",
+        "scan_idx": 346,
+        "opened_ts": "2026-10-25T16:00:56.124892+00:00",
+        "symbol": "ChatGPT",
+        "pool_address": "D9WReaUXL39gDCi97VUJiciHKY9rL3KJyqVYzJeJRWXg",
+        "token_address": "X57MZj7pbfwWrW4tD9oEyaLfxUkV1pSWji5j6d7pump",
+        "entry_price_usd": 0.0003878589380490188,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +9.0%",
+          "1h +9.0%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 50824.849,
+        "age_minutes": 3.4,
+        "status": "open",
+        "current_price_usd": 0.0003878589380490188,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1025-160056-GME",
+        "arm": "neu",
+        "scan_idx": 346,
+        "opened_ts": "2026-10-25T16:00:56.124892+00:00",
+        "symbol": "GME",
+        "pool_address": "GyjgTk49hPQuKfNmTLR5Por6NwCQygcvaRnpKFEgi8Xz",
+        "token_address": "12s7XVPHWNoiwpuKjpAKJEKMwMq7VRcGnhSYvzyYGMJJ",
+        "entry_price_usd": 6.801769458988784e-07,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +23.4%",
+          "1h +23.4%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 117348.4129,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 6.801769458988784e-07,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
         "v2_warum": [
           "Twitter vorhanden",
-          "Website vorhanden",
-          "92 Halter (jung)"
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "172 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 54 (hoch)"
         ],
         "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 92,
+          "top10_pct": 96.31,
+          "halter": 172,
           "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 2238.8918
+          "creator_haelt": true,
+          "risiko_score": 54
+        }
       }
     ]
   },
@@ -9720,6 +9752,30 @@
         "liquidity_usd_jetzt": 2061.0354,
         "closed_ts": "2026-10-25T11:54:05.956002+00:00",
         "close_reason": "Stop-Loss erreicht (roh -97.0%)"
+      },
+      {
+        "id": "KON-1025-062641-SWORDOPE",
+        "arm": "kontrolle",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "SWORDOPE",
+        "pool_address": "3tXP9X2W1aL9jtZF1tuAwEZMuX4w3PWNvVAHPJjd3MAq",
+        "token_address": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+        "entry_price_usd": 0.0018314138714124548,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 126631.632,
+        "age_minutes": 642.6,
+        "status": "sl",
+        "current_price_usd": 0.0008527463663598628,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T16:00:53.114084+00:00",
+        "liquidity_usd_jetzt": 86884.3338,
+        "closed_ts": "2026-10-25T16:00:53.114084+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -53.4%)"
       }
     ],
     "alt": [
@@ -29813,6 +29869,45 @@
         "liquidity_usd_jetzt": 2388.2992,
         "closed_ts": "2026-10-25T11:54:05.956002+00:00",
         "close_reason": "Stop-Loss erreicht (roh -18.2%)"
+      },
+      {
+        "id": "NEU-1025-062641-HUMANITY",
+        "arm": "neu",
+        "scan_idx": 344,
+        "opened_ts": "2026-10-25T06:26:41.182089+00:00",
+        "symbol": "HUMANITY",
+        "pool_address": "mnw8YmNtNzWzpw8K5p13rW81H2e1AyScAejkfrq5cU8",
+        "token_address": "ehZGQhtnVNhUfubPzkUE6kMtMpYf9dr5N5qeKcnpump",
+        "entry_price_usd": 3.011976437165248e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2485.0643,
+        "age_minutes": 4.5,
+        "status": "expired",
+        "current_price_usd": 2.8539454025370236e-06,
+        "pnl_pct": -5.25,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-25T16:00:53.114084+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "92 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 92,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2257.2391,
+        "closed_ts": "2026-10-25T16:00:53.114084+00:00",
+        "close_reason": "Horizont erreicht (574 min)"
       }
     ]
   }

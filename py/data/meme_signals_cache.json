@@ -36394,5 +36394,113 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "BmMQezwdoU9vvafPaXUeg8VQ3U5ct3hBKKufr4NTc4zG": {
+    "mint": "BmMQezwdoU9vvafPaXUeg8VQ3U5ct3hBKKufr4NTc4zG",
+    "_ts": 1792944078.4382157,
+    "abgerufen": "2026-10-25T16:01:18.438217+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 98.05,
+    "top10_pct": 100.0,
+    "halter": 67,
+    "creator": "bwamJzztZsepfkteWRChggmXuiiCQvpLqPietdNfSXa",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 2371.717939926701,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": false
+    }
+  },
+  "12s7XVPHWNoiwpuKjpAKJEKMwMq7VRcGnhSYvzyYGMJJ": {
+    "mint": "12s7XVPHWNoiwpuKjpAKJEKMwMq7VRcGnhSYvzyYGMJJ",
+    "_ts": 1792944080.0909877,
+    "abgerufen": "2026-10-25T16:01:20.090992+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 54,
+    "rugged_flag": false,
+    "top1_pct": 83.68,
+    "top10_pct": 96.31,
+    "halter": 172,
+    "creator": "71VfBPW9kueepCnTJa5jeoQjs9fjRW3ZGCvKatwoNsTp",
+    "creator_haelt": true,
+    "creator_balance_roh": 120000000000000,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 120736.22020856722,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": true
+    }
+  },
+  "51bY8LsEf4gg1FKPqsgZFDjn2b7uevkpzkWzdji9CB5Q": {
+    "mint": "51bY8LsEf4gg1FKPqsgZFDjn2b7uevkpzkWzdji9CB5Q",
+    "_ts": 1792944083.2648997,
+    "abgerufen": "2026-10-25T16:01:23.264903+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 91.98,
+    "top10_pct": 100.0,
+    "halter": 106,
+    "creator": "3KEFKWP84ynEMaai2AVP7VdYHwEtnjHge3UuLLdyppaA",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 1,
+    "graph_insider": 4,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 218.64499494055335,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "X57MZj7pbfwWrW4tD9oEyaLfxUkV1pSWji5j6d7pump": {
+    "mint": "X57MZj7pbfwWrW4tD9oEyaLfxUkV1pSWji5j6d7pump",
+    "_ts": 1792944086.006346,
+    "abgerufen": "2026-10-25T16:01:26.006349+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 31,
+    "rugged_flag": false,
+    "top1_pct": 13.63,
+    "top10_pct": 20.42,
+    "halter": 2509,
+    "creator": "BsfMTAXqay3ko89T8de9pcGN2NqaF37eDDLND7Nd8z9W",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 53679.197245578136,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": false
+    }
   }
 }
