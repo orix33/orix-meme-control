@@ -1,12 +1,189 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 355,
-  "last_scan": "2026-10-26T23:45:20.936350+00:00",
+  "scans": 356,
+  "last_scan": "2026-10-27T02:26:59.345851+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1027-022659-NVIDIA",
+        "arm": "kontrolle",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "NVIDIA",
+        "pool_address": "BbBJcNDpXjaBPaEiXjBG9HnKXsxMBaoK8ypjcG2ZCCbE",
+        "token_address": "6FLZ8hehQ1dzgWTATQFE6LnCCHhggv7vVHHmdYS9pump",
+        "entry_price_usd": 0.0003750213497525095,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +809.5%",
+          "1h +809.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 50104.955,
+        "age_minutes": 3.7,
+        "status": "open",
+        "current_price_usd": 0.0003750213497525095,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1027-022659-Kardashi",
+        "arm": "kontrolle",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "Kardashian",
+        "pool_address": "BMt5v8nME1vpkrZUrmAp5oapDci9bgbWxxWBUqR4Tt55",
+        "token_address": "AR81dQhBwnRkPx37vGQkUQvzYfewZrzxHrTRQNdgpump",
+        "entry_price_usd": 6.453810845290175e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +51.5%",
+          "1h +51.5%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17386.7093,
+        "age_minutes": 2.0,
+        "status": "open",
+        "current_price_usd": 6.453810845290175e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1027-022659-$Miau",
+        "arm": "alt",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "$Miau",
+        "pool_address": "3QfG9n4YqSk8e6B7N18h8BhRpLBxEtW8bpfZ75hYNzUk",
+        "token_address": "7ZqYmiSJcWz3j6LdTAdYfzVk2icAT6fjkLxEEiWApump",
+        "entry_price_usd": 2.9977680428405874e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +1262.8%",
+          "1h +1262.8%",
+          "Buy-Ratio 61%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 8562.4253,
+        "age_minutes": 3.6,
+        "status": "open",
+        "current_price_usd": 2.9977680428405874e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1027-022659-Cornell",
+        "arm": "alt",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "Cornell",
+        "pool_address": "8sdNZ5jnXzAMYDrFfQxMpvEkUnkk2pAUUy65DxzV3gXo",
+        "token_address": "4m61PQ2jdmnM754RkewFTV9uzG2CBaaVhTB4zKWspump",
+        "entry_price_usd": 6.2699993120985906e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +86.8%",
+          "1h +86.8%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3007.5211,
+        "age_minutes": 2.6,
+        "status": "open",
+        "current_price_usd": 6.2699993120985906e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1027-022659-Goldcoin",
+        "arm": "neu",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "Goldcoin",
+        "pool_address": "AfK16Pd6GduLe3EGET9Y6Hvo7asLkECUeRPTHyh1g7hg",
+        "token_address": "3tqocdT5Kc7nyu49zhFTaZ8c9jerMv3R6B49SGMYpump",
+        "entry_price_usd": 3.716806358462418e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2879.5401,
+        "age_minutes": 3.5,
+        "status": "open",
+        "current_price_usd": 3.716806358462418e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "134 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.88,
+          "halter": 134,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1027-022659-HAND",
+        "arm": "neu",
+        "scan_idx": 355,
+        "opened_ts": "2026-10-27T02:26:59.345851+00:00",
+        "symbol": "HAND",
+        "pool_address": "3CHPqVUS9g38RqCL1tUDgPqpR9oirrt3eS8nUrGaSBXY",
+        "token_address": "4K2e28y67wJequzzWoJVujHckdNE2vmdxi9EX9Vtpump",
+        "entry_price_usd": 3.2271492118012825e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2557.2804,
+        "age_minutes": 4.4,
+        "status": "open",
+        "current_price_usd": 3.2271492118012825e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "71 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 71,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
