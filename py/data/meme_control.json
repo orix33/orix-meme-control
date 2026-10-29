@@ -1,12 +1,192 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 365,
-  "last_scan": "2026-10-29T00:47:02.434625+00:00",
+  "scans": 366,
+  "last_scan": "2026-10-29T06:31:32.405921+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1029-063132-CLUDIA",
+        "arm": "kontrolle",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "CLUDIA",
+        "pool_address": "Gt11PP8nWujqmEHAAKWaLjvvw46yEwnJKbCujZhXZWoz",
+        "token_address": "Egy3NHW7P4j2W98FTEyvbkXohypDLJGEJKoFVcYu9vLT",
+        "entry_price_usd": 1.340087582990064e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +72.5%",
+          "1h +72.5%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 22733.6389,
+        "age_minutes": 5.6,
+        "status": "open",
+        "current_price_usd": 1.340087582990064e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1029-063132-BUY",
+        "arm": "kontrolle",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "BUY",
+        "pool_address": "AX66Kmrppwxq8ips1bdf44sMsDX18PtZT2YzkVpbCegw",
+        "token_address": "3TUYsrn4daz3nqnrTNPxSMpVdJN46VeSkGNa24vMPAVz",
+        "entry_price_usd": 1.1924183497977394e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +29.9%",
+          "1h +29.9%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18357.2806,
+        "age_minutes": 1.1,
+        "status": "open",
+        "current_price_usd": 1.1924183497977394e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1029-063132-CLUDIA",
+        "arm": "alt",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "CLUDIA",
+        "pool_address": "C8dWB1LADmwmbkjZyzNvBsmHPz4qpBSYQ8A1V8EnMm6G",
+        "token_address": "93D32VvtE7etLdk8ZH6VtBxCyo1mfyD5Xa1ciWqEb1YJ",
+        "entry_price_usd": 1.1169245166221826e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +22.0%",
+          "1h +22.0%",
+          "Buy-Ratio 63%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19291.4139,
+        "age_minutes": 4.7,
+        "status": "open",
+        "current_price_usd": 1.1169245166221826e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1029-063132-STEVE",
+        "arm": "alt",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "STEVE",
+        "pool_address": "BLJA2KAcbDajTZcWaZdMt1Rbq1p4gE7YQDrvhvj5hz8r",
+        "token_address": "78PqSG2nKn6Ej43NufpCHfGzLFWrX3PMNhJMWk8K7Se4",
+        "entry_price_usd": 1.5039719386306387e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +61.5%",
+          "1h +61.5%",
+          "Buy-Ratio 79%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 22667.0255,
+        "age_minutes": 4.0,
+        "status": "open",
+        "current_price_usd": 1.5039719386306387e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1029-063132-BUY",
+        "arm": "neu",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "BUY",
+        "pool_address": "4icuVBhbKupFSJrXtK5pKT9XGpmdgXHG2jsfwTvSfWx9",
+        "token_address": "5ELGYJZwpA5PqPXkzzNDDsDUPrrwHA1dnYZKrzj1pump",
+        "entry_price_usd": 2.271165457520116e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +620.1%",
+          "1h +620.1%",
+          "Buy-Ratio 63%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 8077.0646,
+        "age_minutes": 4.2,
+        "status": "open",
+        "current_price_usd": 2.271165457520116e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "271 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 68.93,
+          "halter": 271,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1029-063132-BUY",
+        "arm": "neu",
+        "scan_idx": 365,
+        "opened_ts": "2026-10-29T06:31:32.405921+00:00",
+        "symbol": "BUY",
+        "pool_address": "GA4AJHZPuKQgHkV99o5Ux1L5pXAGArgHAMDF9iGFSKj9",
+        "token_address": "53ciVmVgr7wyi95EjFW69UhqRNX2rzpEuNwGo9K5pump",
+        "entry_price_usd": 3.2447453260693203e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2556.6367,
+        "age_minutes": 4.5,
+        "status": "open",
+        "current_price_usd": 3.2447453260693203e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "66 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 66,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
