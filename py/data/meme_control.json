@@ -1,12 +1,186 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 371,
-  "last_scan": "2026-10-30T09:02:53.356545+00:00",
+  "scans": 372,
+  "last_scan": "2026-10-30T15:49:57.843333+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1030-154957-JUPPAD",
+        "arm": "kontrolle",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "JUPPAD",
+        "pool_address": "EcnhLGE5zm8ipEJkicdZE5Fjk4wbp1NTmgNMRUuavxpm",
+        "token_address": "Cq1rN9a42p8YTgyHeboUdvFkXvVtVk38GHhk2Fa38dS2",
+        "entry_price_usd": 9.235853837766636e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +33.5%",
+          "1h +83.2%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7321.6357,
+        "age_minutes": 5.2,
+        "status": "open",
+        "current_price_usd": 9.235853837766636e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1030-154957-SPACECAT",
+        "arm": "kontrolle",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "SPACECAT",
+        "pool_address": "2RUr9NgVTuASadBTsCFsrWpAbUaE7Dk5ZS6NrxMZ9Ddu",
+        "token_address": "8SZjk9YAQ7wiMtcRop5oekWFfWQ7HnVvcJZLfnTVpump",
+        "entry_price_usd": 2.7476511090538247e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2234.7141,
+        "age_minutes": 5.6,
+        "status": "open",
+        "current_price_usd": 2.7476511090538247e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1030-154957-Fedinu",
+        "arm": "alt",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "Fedinu",
+        "pool_address": "EWhP9agEU45j2uuwf6CyDyN5bgaymYADFciuPjqccbMQ",
+        "token_address": "GRgyKKdZ9858BSW5XjirydtarcXtgCcXSHDyWuJQ8pQs",
+        "entry_price_usd": 1.2783102434693963e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +57.7%",
+          "1h +57.7%",
+          "Buy-Ratio 74%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19332.8028,
+        "age_minutes": 5.0,
+        "status": "open",
+        "current_price_usd": 1.2783102434693963e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1030-154957-CI",
+        "arm": "alt",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "CI",
+        "pool_address": "9h5cA3cohCWFVbpvqUUh1ac7VRHCRSYLkgcFZMHKMgtg",
+        "token_address": "9f4gF3h9pvcn57UeEytooTn3W64Q6h28XnS8JPMapump",
+        "entry_price_usd": 2.7254354758413297e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +131.7%",
+          "1h +131.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5065.2625,
+        "age_minutes": 4.8,
+        "status": "open",
+        "current_price_usd": 2.7254354758413297e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1030-154957-survive",
+        "arm": "neu",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "survive",
+        "pool_address": "DX4QxU1BvBGzZgGvDtRmm5WG4rpCJJzq5ssoCDrMzTYg",
+        "token_address": "2PiT8jfP7VuSEpSFw4LWtcj2P6488MbVadW3Vmiqpump",
+        "entry_price_usd": 5.3258387583486685e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3607.6605,
+        "age_minutes": 4.5,
+        "status": "open",
+        "current_price_usd": 5.3258387583486685e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "155 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.98,
+          "halter": 155,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1030-154957-CI",
+        "arm": "neu",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "CI",
+        "pool_address": "AtzZxQ2j6RVKErYLpDdNzW4jdkqtqVYD1jDAd7LWgxYh",
+        "token_address": "GtDUqYGpayXFQQLLjw4sQsRdBWZy8ncAws27LTqhpump",
+        "entry_price_usd": 2.630451628309586e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2473.887,
+        "age_minutes": 5.4,
+        "status": "open",
+        "current_price_usd": 2.630451628309586e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "52 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 52,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
