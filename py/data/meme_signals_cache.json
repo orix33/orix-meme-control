@@ -39501,5 +39501,40 @@
     "abgerufen": "2026-10-31T05:29:11.924767+00:00",
     "vollstaendig": false,
     "rugcheck_zustand": "unknown"
+  },
+  "GYnn92E7hNjkmkZboR2RwdM7i8bD5fUJJJ2EBjy716ng": {
+    "mint": "GYnn92E7hNjkmkZboR2RwdM7i8bD5fUJJJ2EBjy716ng",
+    "_ts": 1793445308.888333,
+    "abgerufen": "2026-10-31T11:15:08.888340+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "3D1oCN22m8D1r2iuaVhv2dKHZHSkT6AMeiPcSqkYpump": {
+    "mint": "3D1oCN22m8D1r2iuaVhv2dKHZHSkT6AMeiPcSqkYpump",
+    "_ts": 1793445309.3426402,
+    "abgerufen": "2026-10-31T11:15:09.342644+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "HAJcmgd5Y4r3Y6yzLSf3sSW18TJEkwvZy2awjaDypump": {
+    "mint": "HAJcmgd5Y4r3Y6yzLSf3sSW18TJEkwvZy2awjaDypump",
+    "_ts": 1793445312.2533572,
+    "abgerufen": "2026-10-31T11:15:12.253360+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": {
+    "mint": "DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump",
+    "_ts": 1793445312.6414642,
+    "abgerufen": "2026-10-31T11:15:12.641467+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": {
+    "mint": "HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump",
+    "_ts": 1793445314.108669,
+    "abgerufen": "2026-10-31T11:15:14.108672+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }
