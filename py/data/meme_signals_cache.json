@@ -39473,5 +39473,33 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "C9YWfvdDtAJTkGEW8KLoA99eAnosT9Nf5m7p8DBCbonk": {
+    "mint": "C9YWfvdDtAJTkGEW8KLoA99eAnosT9Nf5m7p8DBCbonk",
+    "_ts": 1793424548.523919,
+    "abgerufen": "2026-10-31T05:29:08.523921+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "HD55QSQtpvV2UkaaEDyzuxFmYsLiHyjoTiqS7kDqzNng": {
+    "mint": "HD55QSQtpvV2UkaaEDyzuxFmYsLiHyjoTiqS7kDqzNng",
+    "_ts": 1793424548.9351444,
+    "abgerufen": "2026-10-31T05:29:08.935148+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "FELbfdX8ECSRqXLw3fuMtRPYJWEg2asSyAdhuWXrbfuj": {
+    "mint": "FELbfdX8ECSRqXLw3fuMtRPYJWEg2asSyAdhuWXrbfuj",
+    "_ts": 1793424550.3842053,
+    "abgerufen": "2026-10-31T05:29:10.384208+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
+  },
+  "CDUn3Z2dNJ4jSsivoL4QfMs7uv2HTtkvQSbXgLSiKCJA": {
+    "mint": "CDUn3Z2dNJ4jSsivoL4QfMs7uv2HTtkvQSbXgLSiKCJA",
+    "_ts": 1793424551.9247642,
+    "abgerufen": "2026-10-31T05:29:11.924767+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "unknown"
   }
 }

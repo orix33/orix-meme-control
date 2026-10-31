@@ -1,31 +1,31 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 374,
-  "last_scan": "2026-10-31T00:06:53.218799+00:00",
+  "scans": 375,
+  "last_scan": "2026-10-31T05:28:22.221395+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1031-000653-Eminem",
+        "id": "KON-1031-052822-Dino",
         "arm": "kontrolle",
-        "scan_idx": 373,
-        "opened_ts": "2026-10-31T00:06:53.218799+00:00",
-        "symbol": "Eminem",
-        "pool_address": "J6sv9MgK5X9QEGQkpdZmVou7pNn8NxyfzEzccM2jZoFF",
-        "token_address": "9RdrfJtbx4wrDmLbSmLZVsMvd1uRD2GH24B7u2cKzuj",
-        "entry_price_usd": 1.608896023515858e-05,
+        "scan_idx": 374,
+        "opened_ts": "2026-10-31T05:28:22.221395+00:00",
+        "symbol": "Dino",
+        "pool_address": "CinCsHtm1sWcmxosHVPqw9cq3H2pEPt6turMddC8Sz6M",
+        "token_address": "CDUn3Z2dNJ4jSsivoL4QfMs7uv2HTtkvQSbXgLSiKCJA",
+        "entry_price_usd": 2.2692634602603362e-05,
         "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +36.0%",
-          "1h +68.4%",
+          "5m +61.7%",
+          "1h +61.7%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 17401.6711,
-        "age_minutes": 4.8,
+        "liquidity_usd": 22083.9678,
+        "age_minutes": 2.9,
         "status": "open",
-        "current_price_usd": 1.608896023515858e-05,
+        "current_price_usd": 2.2692634602603362e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -33,70 +33,33 @@
     ],
     "alt": [
       {
-        "id": "ALT-1031-000653-iWould",
+        "id": "ALT-1031-052822-anon",
         "arm": "alt",
-        "scan_idx": 373,
-        "opened_ts": "2026-10-31T00:06:53.218799+00:00",
-        "symbol": "iWould",
-        "pool_address": "ADof9Rixm8zbi4Po2ivH7WYSfhP1rC3B8VXcXcVSFeBA",
-        "token_address": "D5xGh3EDiDDe5evkR8rnDoG3bqz8dwr8yU1RGAYqC3pS",
-        "entry_price_usd": 1.1040652524188162e-05,
+        "scan_idx": 374,
+        "opened_ts": "2026-10-31T05:28:22.221395+00:00",
+        "symbol": "anon",
+        "pool_address": "6CkqpMKLw3zNkbM3oK21aQ8kKRtLDjLoQHaHbKsjVYgh",
+        "token_address": "HD55QSQtpvV2UkaaEDyzuxFmYsLiHyjoTiqS7kDqzNng",
+        "entry_price_usd": 9.510129692638423e-06,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +21.4%",
-          "1h +21.4%",
-          "Buy-Ratio 72%",
+          "5m +16.6%",
+          "1h +16.6%",
+          "Buy-Ratio 69%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 18866.4213,
-        "age_minutes": 4.4,
+        "liquidity_usd": 17529.918,
+        "age_minutes": 2.3,
         "status": "open",
-        "current_price_usd": 1.1040652524188162e-05,
+        "current_price_usd": 9.510129692638423e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": [
-      {
-        "id": "NEU-1030-154957-CI",
-        "arm": "neu",
-        "scan_idx": 371,
-        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
-        "symbol": "CI",
-        "pool_address": "AtzZxQ2j6RVKErYLpDdNzW4jdkqtqVYD1jDAd7LWgxYh",
-        "token_address": "GtDUqYGpayXFQQLLjw4sQsRdBWZy8ncAws27LTqhpump",
-        "entry_price_usd": 2.630451628309586e-06,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 2473.887,
-        "age_minutes": 5.4,
-        "status": "open",
-        "current_price_usd": 2.634035931915773e-06,
-        "pnl_pct": 0.14,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-10-31T00:05:54.309717+00:00",
-        "v2_score": 3,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "52 Halter (jung)"
-        ],
-        "v2_signale": {
-          "top10_pct": 100.0,
-          "halter": 52,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        },
-        "liquidity_usd_jetzt": 2099.1972
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -10512,6 +10475,34 @@
         "liquidity_usd_jetzt": 2132.9389,
         "closed_ts": "2026-10-31T00:05:54.309717+00:00",
         "close_reason": "Horizont erreicht (496 min)"
+      },
+      {
+        "id": "KON-1031-000653-Eminem",
+        "arm": "kontrolle",
+        "scan_idx": 373,
+        "opened_ts": "2026-10-31T00:06:53.218799+00:00",
+        "symbol": "Eminem",
+        "pool_address": "J6sv9MgK5X9QEGQkpdZmVou7pNn8NxyfzEzccM2jZoFF",
+        "token_address": "9RdrfJtbx4wrDmLbSmLZVsMvd1uRD2GH24B7u2cKzuj",
+        "entry_price_usd": 1.608896023515858e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +36.0%",
+          "1h +68.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17401.6711,
+        "age_minutes": 4.8,
+        "status": "rug",
+        "current_price_usd": 3.759208424299502e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-31T05:28:16.145566+00:00",
+        "liquidity_usd_jetzt": 0.0,
+        "closed_ts": "2026-10-31T05:28:16.145566+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 17402 $) — kein Ausstieg. Schein-PnL waere +133.7% gewesen."
       }
     ],
     "alt": [
@@ -21427,6 +21418,35 @@
         "liquidity_usd_jetzt": 2132.8619,
         "closed_ts": "2026-10-31T00:05:54.309717+00:00",
         "close_reason": "Horizont erreicht (496 min)"
+      },
+      {
+        "id": "ALT-1031-000653-iWould",
+        "arm": "alt",
+        "scan_idx": 373,
+        "opened_ts": "2026-10-31T00:06:53.218799+00:00",
+        "symbol": "iWould",
+        "pool_address": "ADof9Rixm8zbi4Po2ivH7WYSfhP1rC3B8VXcXcVSFeBA",
+        "token_address": "D5xGh3EDiDDe5evkR8rnDoG3bqz8dwr8yU1RGAYqC3pS",
+        "entry_price_usd": 1.1040652524188162e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +21.4%",
+          "1h +21.4%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18866.4213,
+        "age_minutes": 4.4,
+        "status": "rug",
+        "current_price_usd": 2.5433403403616077e-09,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-31T05:28:16.145566+00:00",
+        "liquidity_usd_jetzt": 0.0002446564993,
+        "closed_ts": "2026-10-31T05:28:16.145566+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 18866 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
       }
     ],
     "neu": [
@@ -32455,6 +32475,44 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-10-31T00:05:54.309717+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 5737 $) — kein Ausstieg. Schein-PnL waere +462.2% gewesen."
+      },
+      {
+        "id": "NEU-1030-154957-CI",
+        "arm": "neu",
+        "scan_idx": 371,
+        "opened_ts": "2026-10-30T15:49:57.843333+00:00",
+        "symbol": "CI",
+        "pool_address": "AtzZxQ2j6RVKErYLpDdNzW4jdkqtqVYD1jDAd7LWgxYh",
+        "token_address": "GtDUqYGpayXFQQLLjw4sQsRdBWZy8ncAws27LTqhpump",
+        "entry_price_usd": 2.630451628309586e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2473.887,
+        "age_minutes": 5.4,
+        "status": "expired",
+        "current_price_usd": 2.634035931915773e-06,
+        "pnl_pct": 0.14,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-10-31T05:28:16.145566+00:00",
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "52 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 100.0,
+          "halter": 52,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 2120.3852,
+        "closed_ts": "2026-10-31T05:28:16.145566+00:00",
+        "close_reason": "Horizont erreicht (818 min)"
       }
     ]
   }
