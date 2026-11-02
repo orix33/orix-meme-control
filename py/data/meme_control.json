@@ -1,12 +1,103 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 384,
-  "last_scan": "2026-11-01T23:54:30.169433+00:00",
+  "scans": 385,
+  "last_scan": "2026-11-02T05:49:42.669279+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1102-054942-ANAKIN",
+        "arm": "kontrolle",
+        "scan_idx": 384,
+        "opened_ts": "2026-11-02T05:49:42.669279+00:00",
+        "symbol": "ANAKIN",
+        "pool_address": "HcGPz2eXV8SFcMVQ9fJPBd71bRLJVzUtd2avvv86GwbK",
+        "token_address": "8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump",
+        "entry_price_usd": 0.0031329016568698645,
+        "score": 4,
+        "signals": [
+          "5m +3.3%",
+          "1h +11.5%",
+          "Buy-Ratio 68%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 154645.0311,
+        "age_minutes": 441.4,
+        "status": "open",
+        "current_price_usd": 0.0031329016568698645,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1102-054942-FRANK",
+        "arm": "alt",
+        "scan_idx": 384,
+        "opened_ts": "2026-11-02T05:49:42.669279+00:00",
+        "symbol": "FRANK",
+        "pool_address": "H4UD3aRogEYEqjL1auKUSLkSD5MgMW56774kj3Z7P4VC",
+        "token_address": "6yZ2zhfBjtLgHUFLZxH42e9LubsZvkTmkamrqSJB6H9",
+        "entry_price_usd": 1.2392746973618597e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +401.9%",
+          "1h +401.9%",
+          "Buy-Ratio 77%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6214.2078,
+        "age_minutes": 4.1,
+        "status": "open",
+        "current_price_usd": 1.2392746973618597e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1102-054942-wallahi",
+        "arm": "neu",
+        "scan_idx": 384,
+        "opened_ts": "2026-11-02T05:49:42.669279+00:00",
+        "symbol": "wallahi",
+        "pool_address": "GzULf1f3geKWqx28VWwSwUsGd6kuyLA6vs5LUst1AHhT",
+        "token_address": "5R57mF48cxgmKEGT4KUhrAo8VU566UGJ2SNm7Qwppump",
+        "entry_price_usd": 4.8541247630382605e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +32.5%",
+          "1h +32.5%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3279.1138,
+        "age_minutes": 1.9,
+        "status": "open",
+        "current_price_usd": 4.8541247630382605e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "95 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 83.67,
+          "halter": 95,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
