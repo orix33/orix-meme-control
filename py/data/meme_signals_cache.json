@@ -41012,5 +41012,92 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "U3DKxNdDkL9d17uCjKZTryxnP3d3tZSFdSHxbkjpump": {
+    "mint": "U3DKxNdDkL9d17uCjKZTryxnP3d3tZSFdSHxbkjpump",
+    "_ts": 1793734042.7569542,
+    "abgerufen": "2026-11-03T19:27:22.756956+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 44.39,
+    "top10_pct": 69.08,
+    "halter": 151,
+    "creator": "56RaPbrxg4wPbKpDVszchrGUEBUvZwJK4KZf2TS6qPcK",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 1.6755590512180283,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
+  },
+  "4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": {
+    "mint": "4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump",
+    "_ts": 1793734045.0672204,
+    "abgerufen": "2026-11-03T19:27:25.067225+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 13.25,
+    "top10_pct": 37.14,
+    "halter": 3515,
+    "creator": "57NB6Jdm8Dam23AK8n16JmmSBtmX5caGqBdthZAp5DdJ",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 1,
+    "graph_insider": 9,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 27771.495788357817,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": true
+    }
+  },
+  "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": {
+    "mint": "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win",
+    "_ts": 1793734047.9113557,
+    "abgerufen": "2026-11-03T19:27:27.911358+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 53,
+    "rugged_flag": false,
+    "top1_pct": 22.5,
+    "top10_pct": 83.09,
+    "halter": 8490,
+    "creator": "4K5xxirCw8WD5uKGcu5kP3qdh5ZkBanNbm6BVoKD8vcf",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 3,
+    "graph_insider": 359,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 324424.6881340189,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": false,
+      "website": false,
+      "beschreibung": true
+    }
   }
 }
