@@ -1,47 +1,63 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 391,
-  "last_scan": "2026-11-04T00:03:21.253587+00:00",
+  "scans": 392,
+  "last_scan": "2026-11-04T06:02:27.106775+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": [
+    "kontrolle": [
       {
-        "id": "NEU-1103-192612-1WIN",
-        "arm": "neu",
-        "scan_idx": 389,
-        "opened_ts": "2026-11-03T19:26:12.497045+00:00",
-        "symbol": "1WIN",
-        "pool_address": "3Uq381E8SfUit1AG5zXMQC9VmjJJJDMzenPm26DkvLeK",
-        "token_address": "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win",
-        "entry_price_usd": 0.05716313275836185,
-        "score": 1,
+        "id": "KON-1104-060227-POLI",
+        "arm": "kontrolle",
+        "scan_idx": 391,
+        "opened_ts": "2026-11-04T06:02:27.106775+00:00",
+        "symbol": "POLI",
+        "pool_address": "74khPDyF7RiZjTdT2WT42huYrKWTWToBLcrGxJSKK68v",
+        "token_address": "5uofEYB9odEGBBeqUqr1kxcixySSYqp9bGXoAppsCpF1",
+        "entry_price_usd": 3.633033600066457e-05,
+        "score": 5,
         "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 1054541.3575,
-        "age_minutes": 1354.1,
+        "liquidity_usd": 15462.9202,
+        "age_minutes": 4.7,
         "status": "open",
-        "current_price_usd": 0.05449891133793021,
-        "pnl_pct": -4.66,
+        "current_price_usd": 3.633033600066457e-05,
+        "pnl_pct": 0.0,
         "unknown_strikes": 0,
-        "letzte_pruefung": "2026-11-04T00:03:15.343668+00:00",
-        "v2_score": 0,
-        "v2_warum": [
-          "8490 Halter",
-          "RugCheck-Risiko 53 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 83.09,
-          "halter": 8490,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 53
-        },
-        "liquidity_usd_jetzt": 1027745.4352
+        "letzte_pruefung": null
       }
-    ]
+    ],
+    "alt": [
+      {
+        "id": "ALT-1104-060227-RUN/NER",
+        "arm": "alt",
+        "scan_idx": 391,
+        "opened_ts": "2026-11-04T06:02:27.106775+00:00",
+        "symbol": "RUN/NER",
+        "pool_address": "2Lk1D3r5c8h5awzCWZY1K8tjAhu2s52A7rBy1zvH8RWu",
+        "token_address": "H3sjzzKK2VFwWLYj7TrQBzFxWD6hkGBjC1yxoERhqPZQ",
+        "entry_price_usd": 8.773288777202513e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +13.4%",
+          "1h +13.4%",
+          "Buy-Ratio 81%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 16744.4403,
+        "age_minutes": 3.4,
+        "status": "open",
+        "current_price_usd": 8.773288777202513e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -33943,6 +33959,42 @@
         "liquidity_usd_jetzt": 0.028,
         "closed_ts": "2026-11-03T19:25:58.429533+00:00",
         "close_reason": "Liquiditaet 0.03 $ (Start 25155 $) — kein Ausstieg. Schein-PnL waere -92.6% gewesen."
+      },
+      {
+        "id": "NEU-1103-192612-1WIN",
+        "arm": "neu",
+        "scan_idx": 389,
+        "opened_ts": "2026-11-03T19:26:12.497045+00:00",
+        "symbol": "1WIN",
+        "pool_address": "3Uq381E8SfUit1AG5zXMQC9VmjJJJDMzenPm26DkvLeK",
+        "token_address": "FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win",
+        "entry_price_usd": 0.05716313275836185,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 1054541.3575,
+        "age_minutes": 1354.1,
+        "status": "expired",
+        "current_price_usd": 0.05207907763373561,
+        "pnl_pct": -8.89,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-04T06:02:26.976301+00:00",
+        "v2_score": 0,
+        "v2_warum": [
+          "8490 Halter",
+          "RugCheck-Risiko 53 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 83.09,
+          "halter": 8490,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 53
+        },
+        "liquidity_usd_jetzt": 1009943.9256,
+        "closed_ts": "2026-11-04T06:02:26.976301+00:00",
+        "close_reason": "Horizont erreicht (636 min)"
       }
     ]
   }
