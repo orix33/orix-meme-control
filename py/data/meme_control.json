@@ -1,12 +1,106 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 401,
-  "last_scan": "2026-11-06T17:24:12.711692+00:00",
+  "scans": 402,
+  "last_scan": "2026-11-06T22:13:32.928856+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1106-221332-Avery",
+        "arm": "kontrolle",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "Avery",
+        "pool_address": "PDJ7kqGxQ835vNRF3gR6YJy9T2bt9cZkwPUJDGjEP82",
+        "token_address": "9vSn8HdKqamgHZBGeF6F8MnWRAj4pvnZtbthENSMpump",
+        "entry_price_usd": 1.1517612978655686e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +98.4%",
+          "1h +98.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5268.0226,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 1.1517612978655686e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1106-221332-PD",
+        "arm": "alt",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "PD",
+        "pool_address": "8JXJ9L89Kmhp59YLYp3f3fnydRSo17g9268Z66w9WECu",
+        "token_address": "EqwmqCqidASpmm91sHNd92598WaYEPb3PaxKasNYUQQz",
+        "entry_price_usd": 1.4975667343095716e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +38.1%",
+          "1h +38.1%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 25685.2915,
+        "age_minutes": 2.2,
+        "status": "open",
+        "current_price_usd": 1.4975667343095716e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1106-221332-Diamond",
+        "arm": "neu",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "Diamond",
+        "pool_address": "FuRux1f138SYsm1PLzxEBr5j7ij9PtuBu4TcJVooHtYb",
+        "token_address": "Gsfk4jQUxkukSWJZowFnnNykD11ekqB7ubTLD61HEtE",
+        "entry_price_usd": 5.195378965314778e-07,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +10.2%",
+          "1h +10.2%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 92190.742,
+        "age_minutes": 2.1,
+        "status": "open",
+        "current_price_usd": 5.195378965314778e-07,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "93 Halter (jung)",
+          "RugCheck-Risiko 52 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 98.34,
+          "halter": 93,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 52
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
