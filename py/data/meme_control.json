@@ -1,31 +1,27 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 402,
-  "last_scan": "2026-11-06T22:13:32.928856+00:00",
+  "scans": 403,
+  "last_scan": "2026-11-07T02:03:35.898652+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1106-221332-Avery",
+        "id": "KON-1107-020335-AMD",
         "arm": "kontrolle",
-        "scan_idx": 401,
-        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
-        "symbol": "Avery",
-        "pool_address": "PDJ7kqGxQ835vNRF3gR6YJy9T2bt9cZkwPUJDGjEP82",
-        "token_address": "9vSn8HdKqamgHZBGeF6F8MnWRAj4pvnZtbthENSMpump",
-        "entry_price_usd": 1.1517612978655686e-05,
-        "score": 7,
+        "scan_idx": 402,
+        "opened_ts": "2026-11-07T02:03:35.898652+00:00",
+        "symbol": "AMD",
+        "pool_address": "6ZV8dyRdxH56Au2EbhpZZBMKpRP5ixBKPRJ7hB2pJ3rr",
+        "token_address": "oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump",
+        "entry_price_usd": 0.0019068162882674192,
+        "score": 1,
         "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +98.4%",
-          "1h +98.4%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 5268.0226,
-        "age_minutes": 1.8,
+        "liquidity_usd": 120965.4576,
+        "age_minutes": 1413.4,
         "status": "open",
-        "current_price_usd": 1.1517612978655686e-05,
+        "current_price_usd": 0.0019068162882674192,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -33,74 +29,33 @@
     ],
     "alt": [
       {
-        "id": "ALT-1106-221332-PD",
+        "id": "ALT-1107-020335-Scamcoin",
         "arm": "alt",
-        "scan_idx": 401,
-        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
-        "symbol": "PD",
-        "pool_address": "8JXJ9L89Kmhp59YLYp3f3fnydRSo17g9268Z66w9WECu",
-        "token_address": "EqwmqCqidASpmm91sHNd92598WaYEPb3PaxKasNYUQQz",
-        "entry_price_usd": 1.4975667343095716e-05,
+        "scan_idx": 402,
+        "opened_ts": "2026-11-07T02:03:35.898652+00:00",
+        "symbol": "Scamcoin",
+        "pool_address": "DUTLxFPcCpwVtiy94SWeveyUAFvgZzcCVPYXig8oE8Nw",
+        "token_address": "8S4gRypdKpqJWMYy5DNR4FQ64ERgHPQguwmTHTGTir8M",
+        "entry_price_usd": 8.414864420266182e-06,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +38.1%",
-          "1h +38.1%",
-          "Buy-Ratio 66%",
+          "5m +11.6%",
+          "1h +11.6%",
+          "Buy-Ratio 67%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 25685.2915,
-        "age_minutes": 2.2,
+        "liquidity_usd": 16325.7816,
+        "age_minutes": 2.5,
         "status": "open",
-        "current_price_usd": 1.4975667343095716e-05,
+        "current_price_usd": 8.414864420266182e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": [
-      {
-        "id": "NEU-1106-221332-Diamond",
-        "arm": "neu",
-        "scan_idx": 401,
-        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
-        "symbol": "Diamond",
-        "pool_address": "FuRux1f138SYsm1PLzxEBr5j7ij9PtuBu4TcJVooHtYb",
-        "token_address": "Gsfk4jQUxkukSWJZowFnnNykD11ekqB7ubTLD61HEtE",
-        "entry_price_usd": 5.195378965314778e-07,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +10.2%",
-          "1h +10.2%",
-          "Buy-Ratio 76%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 92190.742,
-        "age_minutes": 2.1,
-        "status": "open",
-        "current_price_usd": 5.195378965314778e-07,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
-          "93 Halter (jung)",
-          "RugCheck-Risiko 52 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 98.34,
-          "halter": 93,
-          "telegram": false,
-          "creator_haelt": true,
-          "risiko_score": 52
-        }
-      }
-    ]
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -11286,6 +11241,34 @@
         "liquidity_usd_jetzt": 169285.7716,
         "closed_ts": "2026-11-06T17:24:07.332460+00:00",
         "close_reason": "Take-Profit erreicht (roh +32.4%)"
+      },
+      {
+        "id": "KON-1106-221332-Avery",
+        "arm": "kontrolle",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "Avery",
+        "pool_address": "PDJ7kqGxQ835vNRF3gR6YJy9T2bt9cZkwPUJDGjEP82",
+        "token_address": "9vSn8HdKqamgHZBGeF6F8MnWRAj4pvnZtbthENSMpump",
+        "entry_price_usd": 1.1517612978655686e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +98.4%",
+          "1h +98.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5268.0226,
+        "age_minutes": 1.8,
+        "status": "sl",
+        "current_price_usd": 4.190083176455532e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-07T02:03:29.714797+00:00",
+        "liquidity_usd_jetzt": 3217.5967,
+        "closed_ts": "2026-11-07T02:03:29.714797+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -63.6%)"
       }
     ],
     "alt": [
@@ -23002,6 +22985,35 @@
         "liquidity_usd_jetzt": 0.00381205233127427,
         "closed_ts": "2026-11-06T17:24:07.332460+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 108780 $) — kein Ausstieg. Schein-PnL waere +24.2% gewesen."
+      },
+      {
+        "id": "ALT-1106-221332-PD",
+        "arm": "alt",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "PD",
+        "pool_address": "8JXJ9L89Kmhp59YLYp3f3fnydRSo17g9268Z66w9WECu",
+        "token_address": "EqwmqCqidASpmm91sHNd92598WaYEPb3PaxKasNYUQQz",
+        "entry_price_usd": 1.4975667343095716e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +38.1%",
+          "1h +38.1%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 25685.2915,
+        "age_minutes": 2.2,
+        "status": "rug",
+        "current_price_usd": 1.2633650767587569e-07,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-07T02:03:29.714797+00:00",
+        "liquidity_usd_jetzt": 0.0001590387808,
+        "closed_ts": "2026-11-07T02:03:29.714797+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 25685 $) — kein Ausstieg. Schein-PnL waere -99.2% gewesen."
       }
     ],
     "neu": [
@@ -34865,6 +34877,49 @@
         "liquidity_usd_jetzt": 2007.0098,
         "closed_ts": "2026-11-06T17:24:07.332460+00:00",
         "close_reason": "Stop-Loss erreicht (roh -77.6%)"
+      },
+      {
+        "id": "NEU-1106-221332-Diamond",
+        "arm": "neu",
+        "scan_idx": 401,
+        "opened_ts": "2026-11-06T22:13:32.928856+00:00",
+        "symbol": "Diamond",
+        "pool_address": "FuRux1f138SYsm1PLzxEBr5j7ij9PtuBu4TcJVooHtYb",
+        "token_address": "Gsfk4jQUxkukSWJZowFnnNykD11ekqB7ubTLD61HEtE",
+        "entry_price_usd": 5.195378965314778e-07,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +10.2%",
+          "1h +10.2%",
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 92190.742,
+        "age_minutes": 2.1,
+        "status": "rug",
+        "current_price_usd": 7.090934745918966e-10,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-07T02:03:29.714797+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Creator haelt eigene Token (Stellvertreter fuer Self-Buy)",
+          "93 Halter (jung)",
+          "RugCheck-Risiko 52 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 98.34,
+          "halter": 93,
+          "telegram": false,
+          "creator_haelt": true,
+          "risiko_score": 52
+        },
+        "liquidity_usd_jetzt": 0.0004563387501,
+        "closed_ts": "2026-11-07T02:03:29.714797+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 92191 $) — kein Ausstieg. Schein-PnL waere -99.9% gewesen."
       }
     ]
   }
