@@ -1,12 +1,190 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 412,
-  "last_scan": "2026-11-08T23:52:10.676852+00:00",
+  "scans": 413,
+  "last_scan": "2026-11-09T06:01:56.180365+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1109-060156-PUSSY",
+        "arm": "kontrolle",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "PUSSY",
+        "pool_address": "KUVXbGvwcWhSVwL9qJ3tu6y3vDUonxY38dph8Z6iyuD",
+        "token_address": "8V6kppB7LRm32v5wUC7jsWYeogrSTTU8U2NWz8b5pump",
+        "entry_price_usd": 0.00034755659721655296,
+        "score": 6,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Buy-Ratio 90%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 44505.4228,
+        "age_minutes": 2.6,
+        "status": "open",
+        "current_price_usd": 0.00034755659721655296,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1109-060156-JASONJAK",
+        "arm": "kontrolle",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "JASONJAK",
+        "pool_address": "43QdxHwDRxCcPukSu3wMraUHSJ9GR9gd9CdGJdaof3uT",
+        "token_address": "ALUQokmdbSkwmMZRxxwysxrYAHHUAEke9cP7udHYpump",
+        "entry_price_usd": 1.5604442019706175e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +63.5%",
+          "1h +63.5%",
+          "Buy-Ratio 78%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6193.2703,
+        "age_minutes": 4.4,
+        "status": "open",
+        "current_price_usd": 1.5604442019706175e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1109-060156-牛逼",
+        "arm": "alt",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "牛逼",
+        "pool_address": "3v1tqnRTedwrCPBkbgsqVDeEvTUNhHtQCTmZREUo4RN4",
+        "token_address": "AfDmDb2uQn5wbjZX5teXKSB9P95D1S9DBn7ePpNuYzcN",
+        "entry_price_usd": 8.565442210807053e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.6%",
+          "1h +28.6%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17888.6003,
+        "age_minutes": 4.5,
+        "status": "open",
+        "current_price_usd": 8.565442210807053e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1109-060156-牛逼",
+        "arm": "alt",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "牛逼",
+        "pool_address": "J7KWgTcAxbU65MJ24q5obREdpE4YHYB9tEPvHMLD24vT",
+        "token_address": "2hbfpbULiE9CsCAJCMSfPA9PFp3o3mDWra1Y9ryERg1s",
+        "entry_price_usd": 7.774132535094973e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +98.4%",
+          "1h +98.4%",
+          "Buy-Ratio 74%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17238.9338,
+        "age_minutes": 3.3,
+        "status": "open",
+        "current_price_usd": 7.774132535094973e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1109-060156-PUSSY",
+        "arm": "neu",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "PUSSY",
+        "pool_address": "HcyYBrZVFDDVBLtLxL5C1HDJND1p86BoNA6m7MjBKE3p",
+        "token_address": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
+        "entry_price_usd": 0.0028966191569083184,
+        "score": 4,
+        "signals": [
+          "5m +5.3%",
+          "1h +10.3%",
+          "Buy-Ratio 100%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 155349.3245,
+        "age_minutes": 570.1,
+        "status": "open",
+        "current_price_usd": 0.0028966191569083184,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 8,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "Top-10 nur 23 % bei reifem Token",
+          "21814 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 22.96,
+          "halter": 21814,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1109-060156-TRUMP",
+        "arm": "neu",
+        "scan_idx": 412,
+        "opened_ts": "2026-11-09T06:01:56.180365+00:00",
+        "symbol": "TRUMP",
+        "pool_address": "32zkTrt8HVrXZjDF5LJu4TmXnH9bmooYUbQgusyAmY9D",
+        "token_address": "kHb2wHWdXqWnuQkj7WjyjMh6m2WLSnbpdpbEvpHpump",
+        "entry_price_usd": 3.5144374132556744e-05,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 14846.7757,
+        "age_minutes": 3.3,
+        "status": "open",
+        "current_price_usd": 3.5144374132556744e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "848 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 49.87,
+          "halter": 848,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
