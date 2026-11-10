@@ -1,39 +1,106 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 415,
-  "last_scan": "2026-11-10T00:09:02.728049+00:00",
+  "scans": 416,
+  "last_scan": "2026-11-10T07:31:36.160716+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1109-160036-POGE",
+        "id": "KON-1110-073136-DOOB",
         "arm": "kontrolle",
-        "scan_idx": 413,
-        "opened_ts": "2026-11-09T16:00:36.607385+00:00",
-        "symbol": "POGE",
-        "pool_address": "Dh3FF6E1F3mf3DKfGmMNv6qwr2F8S9DS4S4yVJrz4wT1",
-        "token_address": "8vBgXwL25jQ5WzwUhJ1g2kJTRckJr17y7LnNJcxu2cr2",
-        "entry_price_usd": 1.630286703164413e-05,
+        "scan_idx": 415,
+        "opened_ts": "2026-11-10T07:31:36.160716+00:00",
+        "symbol": "DOOB",
+        "pool_address": "yAyc1jzMkyYpsRfVTNg4uycFwF1vR2d6YTvTBffTokW",
+        "token_address": "HHDAGvGmNkq1RGAjxH5CHeiYUebzKRgDuK6aTPEupump",
+        "entry_price_usd": 3.8312906479211255e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +564.5%",
+          "1h +1438.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20061.5388,
+        "age_minutes": 2.1,
+        "status": "open",
+        "current_price_usd": 3.8312906479211255e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1110-073136-José",
+        "arm": "alt",
+        "scan_idx": 415,
+        "opened_ts": "2026-11-10T07:31:36.160716+00:00",
+        "symbol": "José",
+        "pool_address": "4JAFhmc8SeSsuYAVGtZ6Az1fKjFw6spgGzUZcuj1ThBA",
+        "token_address": "2hypXeSzsEozfCcZ2VBhJvrS6EtiFngF1MVnp6U7Atk6",
+        "entry_price_usd": 1.0074510394624707e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +108.8%",
-          "1h +108.8%",
-          "Buy-Ratio 65%",
+          "5m +62.0%",
+          "1h +62.0%",
+          "Buy-Ratio 74%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 23328.0574,
-        "age_minutes": 2.7,
+        "liquidity_usd": 15319.7814,
+        "age_minutes": 3.5,
         "status": "open",
-        "current_price_usd": 1.630286703164413e-05,
+        "current_price_usd": 1.0074510394624707e-05,
         "pnl_pct": 0.0,
-        "unknown_strikes": 1,
-        "letzte_pruefung": "2026-11-10T00:08:34.323754+00:00"
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
       }
     ],
-    "alt": [],
-    "neu": []
+    "neu": [
+      {
+        "id": "NEU-1110-073136-AICAGE",
+        "arm": "neu",
+        "scan_idx": 415,
+        "opened_ts": "2026-11-10T07:31:36.160716+00:00",
+        "symbol": "AICAGE",
+        "pool_address": "52sPfHP9aUtvWgcpuZZBzY7DwdxArMdANHsk5AnB2TxM",
+        "token_address": "AiCageMeFqFtTgJWYeG6fsaqoQHs7eA7ohqLf389UFq2",
+        "entry_price_usd": 9.581191392023937e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +20.8%",
+          "1h +78.7%",
+          "Buy-Ratio 64%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 5302.3185,
+        "age_minutes": 3.7,
+        "status": "open",
+        "current_price_usd": 9.581191392023937e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "177 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 55 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 67.59,
+          "halter": 177,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 55
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -11662,6 +11729,35 @@
         "liquidity_usd_jetzt": 1927.1019,
         "closed_ts": "2026-11-10T00:08:34.323754+00:00",
         "close_reason": "Stop-Loss erreicht (roh -84.5%)"
+      },
+      {
+        "id": "KON-1109-160036-POGE",
+        "arm": "kontrolle",
+        "scan_idx": 413,
+        "opened_ts": "2026-11-09T16:00:36.607385+00:00",
+        "symbol": "POGE",
+        "pool_address": "Dh3FF6E1F3mf3DKfGmMNv6qwr2F8S9DS4S4yVJrz4wT1",
+        "token_address": "8vBgXwL25jQ5WzwUhJ1g2kJTRckJr17y7LnNJcxu2cr2",
+        "entry_price_usd": 1.630286703164413e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +108.8%",
+          "1h +108.8%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 23328.0574,
+        "age_minutes": 2.7,
+        "status": "rug",
+        "current_price_usd": 4.209029505488498e-08,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-10T07:31:35.697017+00:00",
+        "liquidity_usd_jetzt": 1.71325464622484e-05,
+        "closed_ts": "2026-11-10T07:31:35.697017+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 23328 $) — kein Ausstieg. Schein-PnL waere -99.7% gewesen."
       }
     ],
     "alt": [
