@@ -1,103 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 422,
-  "last_scan": "2026-11-11T22:53:24.466380+00:00",
+  "scans": 423,
+  "last_scan": "2026-11-12T03:45:14.202870+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1111-225324-DISHWASH",
-        "arm": "kontrolle",
-        "scan_idx": 421,
-        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
-        "symbol": "DISHWASHER",
-        "pool_address": "BCKWhJdcjj8cqtfTAW2TyHdJBZPW95eVBsiaQNwuPMv2",
-        "token_address": "4mQMUsPQxjWnxSCjwXRvbfCdsJTD1HRvALAdWqpTdy2i",
-        "entry_price_usd": 4.7321597103738655e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +8.1%",
-          "1h +8.1%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 18190.1678,
-        "age_minutes": 3.2,
-        "status": "open",
-        "current_price_usd": 4.7321597103738655e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1111-225324-JUNG",
-        "arm": "alt",
-        "scan_idx": 421,
-        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
-        "symbol": "JUNG",
-        "pool_address": "7vYgZv1txCoNdU1HeGTJzGyRGbr91pVjiUUZxSEp4r8v",
-        "token_address": "FZfN3QJH6wAc4MYnLXen5So9tCqzMRLTHSEFDurMQ4i5",
-        "entry_price_usd": 7.604591324789101e-07,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +57.2%",
-          "1h +57.2%",
-          "Buy-Ratio 71%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 17191.7884,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 7.604591324789101e-07,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1111-225324-DISHWASH",
-        "arm": "neu",
-        "scan_idx": 421,
-        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
-        "symbol": "DISHWASHER",
-        "pool_address": "4ouNMUzptt9gRdy5d2t2QtL4GccS7nGdG1zQk3ymeeYc",
-        "token_address": "43EEAnb1JBKYG6gbn3JdGtGU45ys6mS7QaSHopTzpump",
-        "entry_price_usd": 3.439245407971312e-05,
-        "score": 5,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 12253.6446,
-        "age_minutes": 3.3,
-        "status": "open",
-        "current_price_usd": 3.439245407971312e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "842 Halter — viel fuer einen jungen Pool",
-          "4 Insider-Netzwerke"
-        ],
-        "v2_signale": {
-          "top10_pct": 41.48,
-          "halter": 842,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 1
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -11951,6 +11860,34 @@
         "liquidity_usd_jetzt": 0.000124483496376029,
         "closed_ts": "2026-11-11T22:53:21.309034+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 19427 $) — kein Ausstieg. Schein-PnL waere +168.0% gewesen."
+      },
+      {
+        "id": "KON-1111-225324-DISHWASH",
+        "arm": "kontrolle",
+        "scan_idx": 421,
+        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
+        "symbol": "DISHWASHER",
+        "pool_address": "BCKWhJdcjj8cqtfTAW2TyHdJBZPW95eVBsiaQNwuPMv2",
+        "token_address": "4mQMUsPQxjWnxSCjwXRvbfCdsJTD1HRvALAdWqpTdy2i",
+        "entry_price_usd": 4.7321597103738655e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.1%",
+          "1h +8.1%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 18190.1678,
+        "age_minutes": 3.2,
+        "status": "rug",
+        "current_price_usd": 3.9911952851703664e-08,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-12T03:45:08.413104+00:00",
+        "liquidity_usd_jetzt": 1.58750481862283e-05,
+        "closed_ts": "2026-11-12T03:45:08.413104+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 18190 $) — kein Ausstieg. Schein-PnL waere -99.9% gewesen."
       }
     ],
     "alt": [
@@ -24360,6 +24297,35 @@
         "liquidity_usd_jetzt": 9.06049491995178e-05,
         "closed_ts": "2026-11-11T22:53:21.309034+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 16092 $) — kein Ausstieg. Schein-PnL waere -29.4% gewesen."
+      },
+      {
+        "id": "ALT-1111-225324-JUNG",
+        "arm": "alt",
+        "scan_idx": 421,
+        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
+        "symbol": "JUNG",
+        "pool_address": "7vYgZv1txCoNdU1HeGTJzGyRGbr91pVjiUUZxSEp4r8v",
+        "token_address": "FZfN3QJH6wAc4MYnLXen5So9tCqzMRLTHSEFDurMQ4i5",
+        "entry_price_usd": 7.604591324789101e-07,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +57.2%",
+          "1h +57.2%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17191.7884,
+        "age_minutes": 2.5,
+        "status": "rug",
+        "current_price_usd": 7.604591324789101e-07,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-12T03:45:08.413104+00:00",
+        "liquidity_usd_jetzt": 2.192678556e-05,
+        "closed_ts": "2026-11-12T03:45:08.413104+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 17192 $) — kein Ausstieg. Schein-PnL waere +0.0% gewesen."
       }
     ],
     "neu": [
@@ -36960,6 +36926,46 @@
         "liquidity_usd_jetzt": 9.341797208e-06,
         "closed_ts": "2026-11-11T08:23:57.725924+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 14828 $) — kein Ausstieg. Schein-PnL waere -96.1% gewesen."
+      },
+      {
+        "id": "NEU-1111-225324-DISHWASH",
+        "arm": "neu",
+        "scan_idx": 421,
+        "opened_ts": "2026-11-11T22:53:24.466380+00:00",
+        "symbol": "DISHWASHER",
+        "pool_address": "4ouNMUzptt9gRdy5d2t2QtL4GccS7nGdG1zQk3ymeeYc",
+        "token_address": "43EEAnb1JBKYG6gbn3JdGtGU45ys6mS7QaSHopTzpump",
+        "entry_price_usd": 3.439245407971312e-05,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 12253.6446,
+        "age_minutes": 3.3,
+        "status": "sl",
+        "current_price_usd": 7.443672165304801e-06,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-12T03:45:08.413104+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "842 Halter — viel fuer einen jungen Pool",
+          "4 Insider-Netzwerke"
+        ],
+        "v2_signale": {
+          "top10_pct": 41.48,
+          "halter": 842,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        },
+        "liquidity_usd_jetzt": 5263.8444,
+        "closed_ts": "2026-11-12T03:45:08.413104+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -78.4%)"
       }
     ]
   }
