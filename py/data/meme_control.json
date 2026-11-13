@@ -1,12 +1,104 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 425,
-  "last_scan": "2026-11-12T19:49:28.206352+00:00",
+  "scans": 426,
+  "last_scan": "2026-11-13T00:59:24.710266+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1113-005924-THRONG",
+        "arm": "kontrolle",
+        "scan_idx": 425,
+        "opened_ts": "2026-11-13T00:59:24.710266+00:00",
+        "symbol": "THRONG",
+        "pool_address": "4aTdZmi74vVPt8Amr6hgHHvKf2FE15RucrxGYdegtdrv",
+        "token_address": "DsQmDUNX5gB8uYThxoTFwawGUYjMxn8hwg5XuE9NtvnC",
+        "entry_price_usd": 7.508725876221221e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +15.2%",
+          "1h +15.2%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15755.0655,
+        "age_minutes": 2.5,
+        "status": "open",
+        "current_price_usd": 7.508725876221221e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1113-005924-Su",
+        "arm": "alt",
+        "scan_idx": 425,
+        "opened_ts": "2026-11-13T00:59:24.710266+00:00",
+        "symbol": "Su",
+        "pool_address": "BsYthS3EJ4Ud6KH3M8fg7ewQXbY67ih1MqrhRbPczKTR",
+        "token_address": "ESXV4xJMeEgPi5rkBEc5R4NhS1Jf83tprnNKg8ZXbtZJ",
+        "entry_price_usd": 1.8023246351447454e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +443.1%",
+          "1h +443.1%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 7785.9273,
+        "age_minutes": 2.3,
+        "status": "open",
+        "current_price_usd": 1.8023246351447454e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1113-005924-LISA",
+        "arm": "neu",
+        "scan_idx": 425,
+        "opened_ts": "2026-11-13T00:59:24.710266+00:00",
+        "symbol": "LISA",
+        "pool_address": "99EwHH73ykVXfgaWitqjTpRNf1QYeTNyCanymHUE2Joi",
+        "token_address": "FY8deSKen6mfY8i17rGda78QUcFG13YqcXie5ZqzwuWp",
+        "entry_price_usd": 3.7326969094269e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +8.9%",
+          "1h +8.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2925.831,
+        "age_minutes": 3.8,
+        "status": "open",
+        "current_price_usd": 3.7326969094269e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "110 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 98.32,
+          "halter": 110,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
