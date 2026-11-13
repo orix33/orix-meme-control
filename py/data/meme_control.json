@@ -1,61 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 427,
-  "last_scan": "2026-11-13T07:47:57.234824+00:00",
+  "scans": 428,
+  "last_scan": "2026-11-13T16:08:05.885406+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1113-074757-FOOD",
-        "arm": "kontrolle",
-        "scan_idx": 426,
-        "opened_ts": "2026-11-13T07:47:57.234824+00:00",
-        "symbol": "FOOD",
-        "pool_address": "2XhQqp1vDVxtaa21bPsekQF5gjts9euqRPSZ6Urs41qk",
-        "token_address": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
-        "entry_price_usd": 0.0009003636386734509,
-        "score": 2,
-        "signals": [
-          "5m +2.7%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 87874.546,
-        "age_minutes": 511.9,
-        "status": "open",
-        "current_price_usd": 0.0009003636386734509,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1113-074757-COLE",
-        "arm": "alt",
-        "scan_idx": 426,
-        "opened_ts": "2026-11-13T07:47:57.234824+00:00",
-        "symbol": "COLE",
-        "pool_address": "DAXDbifrw6JjH7UZWS8xJfdDzXGr5n2e3mnY2iGarRhn",
-        "token_address": "DTjd3nFJ4akEzkUoG8cJF8mDJRdH4e7cEm45TXSSVcyB",
-        "entry_price_usd": 8.844249951755596e-06,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +30.4%",
-          "1h +30.4%",
-          "Buy-Ratio 67%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 15441.0224,
-        "age_minutes": 2.9,
-        "status": "open",
-        "current_price_usd": 8.844249951755596e-06,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": []
   },
   "geschlossen": {
@@ -11996,6 +11946,31 @@
         "liquidity_usd_jetzt": 0.00035517355,
         "closed_ts": "2026-11-13T07:47:51.506581+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 15755 $) — kein Ausstieg. Schein-PnL waere +53.3% gewesen."
+      },
+      {
+        "id": "KON-1113-074757-FOOD",
+        "arm": "kontrolle",
+        "scan_idx": 426,
+        "opened_ts": "2026-11-13T07:47:57.234824+00:00",
+        "symbol": "FOOD",
+        "pool_address": "2XhQqp1vDVxtaa21bPsekQF5gjts9euqRPSZ6Urs41qk",
+        "token_address": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
+        "entry_price_usd": 0.0009003636386734509,
+        "score": 2,
+        "signals": [
+          "5m +2.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 87874.546,
+        "age_minutes": 511.9,
+        "status": "tp",
+        "current_price_usd": 0.0012119117591282804,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-13T16:08:02.808275+00:00",
+        "liquidity_usd_jetzt": 104761.8809,
+        "closed_ts": "2026-11-13T16:08:02.808275+00:00",
+        "close_reason": "Take-Profit erreicht (roh +34.6%)"
       }
     ],
     "alt": [
@@ -24492,6 +24467,35 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-11-13T07:47:51.506581+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 7786 $) — kein Ausstieg. Schein-PnL waere +133.8% gewesen."
+      },
+      {
+        "id": "ALT-1113-074757-COLE",
+        "arm": "alt",
+        "scan_idx": 426,
+        "opened_ts": "2026-11-13T07:47:57.234824+00:00",
+        "symbol": "COLE",
+        "pool_address": "DAXDbifrw6JjH7UZWS8xJfdDzXGr5n2e3mnY2iGarRhn",
+        "token_address": "DTjd3nFJ4akEzkUoG8cJF8mDJRdH4e7cEm45TXSSVcyB",
+        "entry_price_usd": 8.844249951755596e-06,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +30.4%",
+          "1h +30.4%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15441.0224,
+        "age_minutes": 2.9,
+        "status": "rug",
+        "current_price_usd": 1.1633256275056962e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-13T16:08:02.808275+00:00",
+        "liquidity_usd_jetzt": 3.96601376459314e-05,
+        "closed_ts": "2026-11-13T16:08:02.808275+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 15441 $) — kein Ausstieg. Schein-PnL waere +31.5% gewesen."
       }
     ],
     "neu": [
