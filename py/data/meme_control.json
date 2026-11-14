@@ -1,105 +1,12 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 431,
-  "last_scan": "2026-11-14T09:08:10.228073+00:00",
+  "scans": 432,
+  "last_scan": "2026-11-14T15:54:08.599854+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1114-090810-Penguin",
-        "arm": "kontrolle",
-        "scan_idx": 430,
-        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
-        "symbol": "Penguin",
-        "pool_address": "E6qxetZNkzRqntkci9LBZq23ZyWVXx3A3CSMyYmr4LjV",
-        "token_address": "6AYMNxgP1TKMCiqhyPHkAxton85NacUeqk2Ennzsik19",
-        "entry_price_usd": 1.2467950060268305e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +123.2%",
-          "1h +123.2%",
-          "Buy-Ratio 72%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 20111.103,
-        "age_minutes": 2.6,
-        "status": "open",
-        "current_price_usd": 1.2467950060268305e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1114-090810-FUND",
-        "arm": "alt",
-        "scan_idx": 430,
-        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
-        "symbol": "FUND",
-        "pool_address": "BHnnPN5n5JZJTfEnkxKx5SrZPWgb8Y4AYrvBnZTsm4r6",
-        "token_address": "3D3NS3NAQxARPnqiCoCBUJTufF8cungVAGcYi7yzyjqB",
-        "entry_price_usd": 8.101904751080367e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +36.0%",
-          "1h +36.0%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 15650.4778,
-        "age_minutes": 2.5,
-        "status": "open",
-        "current_price_usd": 8.101904751080367e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "neu": [
-      {
-        "id": "NEU-1114-090810-PENGUIN",
-        "arm": "neu",
-        "scan_idx": 430,
-        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
-        "symbol": "PENGUIN",
-        "pool_address": "3mmZZxiYUHBocSjEUP1e7hjeFq9rF3nb63AmjSH492Cg",
-        "token_address": "AvmhTGqQpF2SGJkwCqRpsiR7kfEcsdSii9NzGQutzMcP",
-        "entry_price_usd": 1.14418633780208e-05,
-        "score": 7,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +16.9%",
-          "1h +16.9%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 20913.4507,
-        "age_minutes": 3.1,
-        "status": "open",
-        "current_price_usd": 1.14418633780208e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null,
-        "v2_score": 4,
-        "v2_warum": [
-          "Twitter vorhanden",
-          "Website vorhanden",
-          "153 Halter — viel fuer einen jungen Pool",
-          "RugCheck-Risiko 52 (hoch)"
-        ],
-        "v2_signale": {
-          "top10_pct": 92.78,
-          "halter": 153,
-          "telegram": false,
-          "creator_haelt": false,
-          "risiko_score": 52
-        }
-      }
-    ]
+    "kontrolle": [],
+    "alt": [],
+    "neu": []
   },
   "geschlossen": {
     "kontrolle": [
@@ -12147,6 +12054,35 @@
         "liquidity_usd_jetzt": 2.384087124e-05,
         "closed_ts": "2026-11-14T09:07:44.464903+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 34855 $) — kein Ausstieg. Schein-PnL waere -97.2% gewesen."
+      },
+      {
+        "id": "KON-1114-090810-Penguin",
+        "arm": "kontrolle",
+        "scan_idx": 430,
+        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
+        "symbol": "Penguin",
+        "pool_address": "E6qxetZNkzRqntkci9LBZq23ZyWVXx3A3CSMyYmr4LjV",
+        "token_address": "6AYMNxgP1TKMCiqhyPHkAxton85NacUeqk2Ennzsik19",
+        "entry_price_usd": 1.2467950060268305e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +123.2%",
+          "1h +123.2%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20111.103,
+        "age_minutes": 2.6,
+        "status": "rug",
+        "current_price_usd": 5.692322540365726e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-14T15:54:02.838229+00:00",
+        "liquidity_usd_jetzt": 3.85051148589815e-05,
+        "closed_ts": "2026-11-14T15:54:02.838229+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 20111 $) — kein Ausstieg. Schein-PnL waere -54.3% gewesen."
       }
     ],
     "alt": [
@@ -24758,6 +24694,34 @@
         "liquidity_usd_jetzt": 8.18494316736509e-05,
         "closed_ts": "2026-11-14T09:07:44.464903+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 44595 $) — kein Ausstieg. Schein-PnL waere -65.5% gewesen."
+      },
+      {
+        "id": "ALT-1114-090810-FUND",
+        "arm": "alt",
+        "scan_idx": 430,
+        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
+        "symbol": "FUND",
+        "pool_address": "BHnnPN5n5JZJTfEnkxKx5SrZPWgb8Y4AYrvBnZTsm4r6",
+        "token_address": "3D3NS3NAQxARPnqiCoCBUJTufF8cungVAGcYi7yzyjqB",
+        "entry_price_usd": 8.101904751080367e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +36.0%",
+          "1h +36.0%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15650.4778,
+        "age_minutes": 2.5,
+        "status": "rug",
+        "current_price_usd": 7.874917187696985e-06,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-14T15:54:02.838229+00:00",
+        "liquidity_usd_jetzt": 0.001529355581,
+        "closed_ts": "2026-11-14T15:54:02.838229+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 15650 $) — kein Ausstieg. Schein-PnL waere -90.3% gewesen."
       }
     ],
     "neu": [
@@ -37559,6 +37523,48 @@
         "liquidity_usd_jetzt": 0.0,
         "closed_ts": "2026-11-14T09:07:44.464903+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 5348 $) — kein Ausstieg. Schein-PnL waere +149.7% gewesen."
+      },
+      {
+        "id": "NEU-1114-090810-PENGUIN",
+        "arm": "neu",
+        "scan_idx": 430,
+        "opened_ts": "2026-11-14T09:08:10.228073+00:00",
+        "symbol": "PENGUIN",
+        "pool_address": "3mmZZxiYUHBocSjEUP1e7hjeFq9rF3nb63AmjSH492Cg",
+        "token_address": "AvmhTGqQpF2SGJkwCqRpsiR7kfEcsdSii9NzGQutzMcP",
+        "entry_price_usd": 1.14418633780208e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +16.9%",
+          "1h +16.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 20913.4507,
+        "age_minutes": 3.1,
+        "status": "rug",
+        "current_price_usd": 9.025260173425894e-08,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-14T15:54:02.838229+00:00",
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "153 Halter — viel fuer einen jungen Pool",
+          "RugCheck-Risiko 52 (hoch)"
+        ],
+        "v2_signale": {
+          "top10_pct": 92.78,
+          "halter": 153,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 52
+        },
+        "liquidity_usd_jetzt": 9.59167901e-06,
+        "closed_ts": "2026-11-14T15:54:02.838229+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 20913 $) — kein Ausstieg. Schein-PnL waere -99.2% gewesen."
       }
     ]
   }
