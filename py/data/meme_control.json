@@ -1,11 +1,115 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 432,
-  "last_scan": "2026-11-14T15:54:08.599854+00:00",
+  "scans": 433,
+  "last_scan": "2026-11-14T20:37:19.506395+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
+    "kontrolle": [
+      {
+        "id": "KON-1114-203719-BTC",
+        "arm": "kontrolle",
+        "scan_idx": 432,
+        "opened_ts": "2026-11-14T20:37:19.506395+00:00",
+        "symbol": "BTC",
+        "pool_address": "Eu2orChL8xctcwAkaooGu3XQDvJnKeGCw7hdc5DdyaX6",
+        "token_address": "D2g737EXhM7UWkCNhy4md12tUjuwdBGpatxGPgL6DeAA",
+        "entry_price_usd": 0.00012244481248913314,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +11.7%",
+          "1h +16.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 8874.8797,
+        "age_minutes": 2.6,
+        "status": "open",
+        "current_price_usd": 0.00012244481248913314,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1114-203719-TRENCH",
+        "arm": "kontrolle",
+        "scan_idx": 432,
+        "opened_ts": "2026-11-14T20:37:19.506395+00:00",
+        "symbol": "TRENCH",
+        "pool_address": "AFFYwq1uv2Rfp8bBkF2Jpy6jDpwDn33u6XTMbRWq7GiZ",
+        "token_address": "8eoJciBPqyoack64rGJ5SGHvkFkhqamKjrEvbMG4CXRT",
+        "entry_price_usd": 1.8263243324056502e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +23.7%",
+          "1h +24.3%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 31666.3072,
+        "age_minutes": 2.6,
+        "status": "open",
+        "current_price_usd": 1.8263243324056502e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1114-203719-Mikol",
+        "arm": "alt",
+        "scan_idx": 432,
+        "opened_ts": "2026-11-14T20:37:19.506395+00:00",
+        "symbol": "Mikol",
+        "pool_address": "93KChqBHHucYJ83KAXrhMhe4MoMcU4TmeTYAb7bBXmN9",
+        "token_address": "A4HZCvEP74mVN6beX6CR6Qoc5LzzhvtDo7Cp1GhPbwJi",
+        "entry_price_usd": 1.0870535039022225e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +23.3%",
+          "1h +23.3%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17859.3361,
+        "age_minutes": 1.5,
+        "status": "open",
+        "current_price_usd": 1.0870535039022225e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1114-203719-NaiNud",
+        "arm": "alt",
+        "scan_idx": 432,
+        "opened_ts": "2026-11-14T20:37:19.506395+00:00",
+        "symbol": "NaiNud",
+        "pool_address": "ARuuEF5ReR1hFechZNmLLXRLCQXWeX9WZnfTTkSN9D4t",
+        "token_address": "24r8mF8T6mLUbUYmPw1mGo25EBoiTi3en9T2UWCsRNPZ",
+        "entry_price_usd": 1.0169208511728615e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +63.6%",
+          "1h +63.6%",
+          "Buy-Ratio 71%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15226.5597,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 1.0169208511728615e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
     "neu": []
   },
   "geschlossen": {
