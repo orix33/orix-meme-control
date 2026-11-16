@@ -45946,5 +45946,84 @@
     "socials": {
       "erreichbar": false
     }
+  },
+  "9qwZvng6zwqb3Y5WkGEFWxvU3iHcFwSY3n8zhuvdeSod": {
+    "mint": "9qwZvng6zwqb3Y5WkGEFWxvU3iHcFwSY3n8zhuvdeSod",
+    "_ts": 1794809450.7894895,
+    "abgerufen": "2026-11-16T06:10:50.789491+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 52,
+    "rugged_flag": false,
+    "top1_pct": 11.63,
+    "top10_pct": 15.74,
+    "halter": 415,
+    "creator": "4VNmR6trviv6FLsvGfGDj44KyyMPDNMPtZAcNZXsJ6Mb",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 11711.971060914826,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "BAcgrUDoDxdCMef2VhZRi415jK3aEopmJKeR49ahan2S": {
+    "mint": "BAcgrUDoDxdCMef2VhZRi415jK3aEopmJKeR49ahan2S",
+    "_ts": 1794809452.3890774,
+    "abgerufen": "2026-11-16T06:10:52.389080+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 52,
+    "rugged_flag": false,
+    "top1_pct": 1.24,
+    "top10_pct": 4.37,
+    "halter": 483,
+    "creator": "8j9WLLCjs2TCTEKRqYVHNMfjK7HTL7wXXzaiQ2wBfvT9",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 19991.316743442752,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "GfqXrk1B9A4Z6EVqfXPhDUcbMpi2U6q895D94n2wDi1d": {
+    "mint": "GfqXrk1B9A4Z6EVqfXPhDUcbMpi2U6q895D94n2wDi1d",
+    "_ts": 1794809455.5811064,
+    "abgerufen": "2026-11-16T06:10:55.581109+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 52,
+    "rugged_flag": false,
+    "top1_pct": 77.72,
+    "top10_pct": 85.09,
+    "halter": 239,
+    "creator": "9WF9MfMwcwYgWetRbVDiUEiLZ9isRG1vGhoDgsDZDG9j",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 17988.96940100554,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": false
+    }
   }
 }
