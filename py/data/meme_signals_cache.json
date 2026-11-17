@@ -46229,5 +46229,88 @@
       "website": true,
       "beschreibung": true
     }
+  },
+  "7BXPbWSo3rj2ueGtdBbLGRzgRNC3pJJrBUbDx3eRihEJ": {
+    "mint": "7BXPbWSo3rj2ueGtdBbLGRzgRNC3pJJrBUbDx3eRihEJ",
+    "_ts": 1794959872.998054,
+    "abgerufen": "2026-11-17T23:57:52.998057+00:00",
+    "vollstaendig": false,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 52,
+    "rugged_flag": false,
+    "top1_pct": 86.53,
+    "top10_pct": 91.08,
+    "halter": 156,
+    "creator": "CXsnEPhdxwuWwsKThyV1SKBGCaUM7nQgLYWTiizNCfJH",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 21051.771742626588,
+    "launchpad": null,
+    "socials": {
+      "erreichbar": false
+    }
+  },
+  "HZWkpqYotPGKjqNZRr4r2wt8rH3MBbJbNnPYRxqhpump": {
+    "mint": "HZWkpqYotPGKjqNZRr4r2wt8rH3MBbJbNnPYRxqhpump",
+    "_ts": 1794959874.7432554,
+    "abgerufen": "2026-11-17T23:57:54.743258+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 1,
+    "rugged_flag": false,
+    "top1_pct": 90.3,
+    "top10_pct": 100.0,
+    "halter": 21,
+    "creator": "DmpnriGgJE7HoNqmUJ3BA8rZoVsoKS49HBGuXueWiiML",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 2016.417691070288,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": false,
+      "beschreibung": true
+    }
+  },
+  "F6F3YsHu5pLjJUaLpwLKWSb381G1FdNAsL8KuMzRpump": {
+    "mint": "F6F3YsHu5pLjJUaLpwLKWSb381G1FdNAsL8KuMzRpump",
+    "_ts": 1794959877.629919,
+    "abgerufen": "2026-11-17T23:57:57.629921+00:00",
+    "vollstaendig": true,
+    "rugcheck_zustand": "ok",
+    "risiko_score": 32,
+    "rugged_flag": false,
+    "top1_pct": 87.75,
+    "top10_pct": 98.63,
+    "halter": 173,
+    "creator": "DqqV1ZYbpYjDudQBHPxv8BbmR86MAVLYiXA2XoZGFpCU",
+    "creator_haelt": false,
+    "creator_balance_roh": 0,
+    "insider_netzwerke": 0,
+    "graph_insider": 0,
+    "mint_authority": false,
+    "freeze_authority": false,
+    "lp_locked_pct": null,
+    "liquiditaet_rugcheck": 1864.4780911950045,
+    "launchpad": "pump_fun",
+    "socials": {
+      "erreichbar": true,
+      "telegram": false,
+      "twitter": true,
+      "website": true,
+      "beschreibung": true
+    }
   }
 }
