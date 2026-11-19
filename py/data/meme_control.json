@@ -1,32 +1,32 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 447,
-  "last_scan": "2026-11-18T23:09:01.586298+00:00",
+  "scans": 448,
+  "last_scan": "2026-11-19T04:15:56.408179+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1118-230901-CLIPCITY",
+        "id": "KON-1119-041556-Treasure",
         "arm": "kontrolle",
-        "scan_idx": 446,
-        "opened_ts": "2026-11-18T23:09:01.586298+00:00",
-        "symbol": "CLIPCITY",
-        "pool_address": "GK3b5Rk5B4D74HNUEL7HrSA7sgKn95ezSK2H7SKQAYt9",
-        "token_address": "WfnSSoTGeD3NSEDJCPysi1aVTMbRTcAuREZogSrutfB",
-        "entry_price_usd": 1.738544134387954e-05,
+        "scan_idx": 447,
+        "opened_ts": "2026-11-19T04:15:56.408179+00:00",
+        "symbol": "Treasure",
+        "pool_address": "C3ggq7Q5mbd9jTvpnZPaL5iEx4fd889SjRNwnYx7BsRh",
+        "token_address": "5ucUhFvoNYeDar1fM43b75sReoxR11y1LB5X1YZBHp6k",
+        "entry_price_usd": 1.4061881265828783e-05,
         "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +15.6%",
-          "1h +15.6%",
-          "Buy-Ratio 67%",
+          "5m +36.7%",
+          "1h +36.7%",
+          "Buy-Ratio 76%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 31116.1701,
-        "age_minutes": 2.0,
+        "liquidity_usd": 23853.58,
+        "age_minutes": 3.2,
         "status": "open",
-        "current_price_usd": 1.738544134387954e-05,
+        "current_price_usd": 1.4061881265828783e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -34,32 +34,72 @@
     ],
     "alt": [
       {
-        "id": "ALT-1118-230901-NASDUCK",
+        "id": "ALT-1119-041556-Treasure",
         "arm": "alt",
-        "scan_idx": 446,
-        "opened_ts": "2026-11-18T23:09:01.586298+00:00",
-        "symbol": "NASDUCK",
-        "pool_address": "CDkq9um2fhZyhxjoGKBbpM6tMgsiPiJpJaVJGhmcWDN3",
-        "token_address": "42KWiEhuyhGpjGtWesiyT8cUkeEZSoj35WKk8Lhwxm1L",
-        "entry_price_usd": 5.579855156758839e-05,
-        "score": 7,
+        "scan_idx": 447,
+        "opened_ts": "2026-11-19T04:15:56.408179+00:00",
+        "symbol": "Treasure",
+        "pool_address": "Fa53q7bKhjgKYFpGCaPCcNzqvGkXoCGFqUXWS9bFkLvE",
+        "token_address": "hbSgfeUgT7xP3BURAQZUySxF7HRLzwSSiHU4446VGvf",
+        "entry_price_usd": 1.9480594922915456e-05,
+        "score": 8,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +64.7%",
-          "1h +64.7%",
+          "5m +29.2%",
+          "1h +29.2%",
+          "Buy-Ratio 66%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 17447.9,
-        "age_minutes": 1.9,
+        "liquidity_usd": 32063.1784,
+        "age_minutes": 3.5,
         "status": "open",
-        "current_price_usd": 5.579855156758839e-05,
+        "current_price_usd": 1.9480594922915456e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": []
+    "neu": [
+      {
+        "id": "NEU-1119-041556-GTA",
+        "arm": "neu",
+        "scan_idx": 447,
+        "opened_ts": "2026-11-19T04:15:56.408179+00:00",
+        "symbol": "GTA",
+        "pool_address": "xtiWwK7hs1jB6iVBmbf7BQzE2WLeqALLLPKJAkmpfaC",
+        "token_address": "9JJUYXAzAUqxtYHvRhkb5HMQxxDmDQNhi9ms3wYipump",
+        "entry_price_usd": 1.2670901039069244e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +204.6%",
+          "1h +204.6%",
+          "Buy-Ratio 65%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 6953.5048,
+        "age_minutes": 2.9,
+        "status": "open",
+        "current_price_usd": 1.2670901039069244e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "317 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 62.0,
+          "halter": 317,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -12555,6 +12595,35 @@
         "liquidity_usd_jetzt": 2854.9043,
         "closed_ts": "2026-11-18T23:08:47.574414+00:00",
         "close_reason": "Horizont erreicht (393 min)"
+      },
+      {
+        "id": "KON-1118-230901-CLIPCITY",
+        "arm": "kontrolle",
+        "scan_idx": 446,
+        "opened_ts": "2026-11-18T23:09:01.586298+00:00",
+        "symbol": "CLIPCITY",
+        "pool_address": "GK3b5Rk5B4D74HNUEL7HrSA7sgKn95ezSK2H7SKQAYt9",
+        "token_address": "WfnSSoTGeD3NSEDJCPysi1aVTMbRTcAuREZogSrutfB",
+        "entry_price_usd": 1.738544134387954e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +15.6%",
+          "1h +15.6%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 31116.1701,
+        "age_minutes": 2.0,
+        "status": "rug",
+        "current_price_usd": 2.002945306467499e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-19T04:15:53.334905+00:00",
+        "liquidity_usd_jetzt": 2.175425469e-05,
+        "closed_ts": "2026-11-19T04:15:53.334905+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 31116 $) — kein Ausstieg. Schein-PnL waere +15.2% gewesen."
       }
     ],
     "alt": [
@@ -25623,6 +25692,34 @@
         "liquidity_usd_jetzt": 0.0364,
         "closed_ts": "2026-11-18T23:08:47.574414+00:00",
         "close_reason": "Liquiditaet 0.04 $ (Start 9079 $) — kein Ausstieg. Schein-PnL waere -93.2% gewesen."
+      },
+      {
+        "id": "ALT-1118-230901-NASDUCK",
+        "arm": "alt",
+        "scan_idx": 446,
+        "opened_ts": "2026-11-18T23:09:01.586298+00:00",
+        "symbol": "NASDUCK",
+        "pool_address": "CDkq9um2fhZyhxjoGKBbpM6tMgsiPiJpJaVJGhmcWDN3",
+        "token_address": "42KWiEhuyhGpjGtWesiyT8cUkeEZSoj35WKk8Lhwxm1L",
+        "entry_price_usd": 5.579855156758839e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +64.7%",
+          "1h +64.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17447.9,
+        "age_minutes": 1.9,
+        "status": "rug",
+        "current_price_usd": 9.795632694850887e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-19T04:15:53.334905+00:00",
+        "liquidity_usd_jetzt": 0.002498869508,
+        "closed_ts": "2026-11-19T04:15:53.334905+00:00",
+        "close_reason": "Liquiditaet 0.00 $ (Start 17448 $) — kein Ausstieg. Schein-PnL waere +75.6% gewesen."
       }
     ],
     "neu": [
