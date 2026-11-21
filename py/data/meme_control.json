@@ -1,12 +1,153 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 456,
-  "last_scan": "2026-11-21T16:15:21.798404+00:00",
+  "scans": 457,
+  "last_scan": "2026-11-21T21:43:31.641523+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1121-214331-BTC",
+        "arm": "kontrolle",
+        "scan_idx": 456,
+        "opened_ts": "2026-11-21T21:43:31.641523+00:00",
+        "symbol": "BTC",
+        "pool_address": "5c6NUdx2YPKFfg5UdP7sYtt7oUkQphg1Jh7277N7jzmc",
+        "token_address": "FbB1YDjgy8S1aFhQLLppM8Xhz6wMbu2dCLcD8Jco5oSV",
+        "entry_price_usd": 1.994684881208904e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +14.7%",
+          "1h +14.7%",
+          "Buy-Ratio 81%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 33110.3376,
+        "age_minutes": 1.1,
+        "status": "open",
+        "current_price_usd": 1.994684881208904e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1121-214331-MAYA",
+        "arm": "kontrolle",
+        "scan_idx": 456,
+        "opened_ts": "2026-11-21T21:43:31.641523+00:00",
+        "symbol": "MAYA",
+        "pool_address": "51edMriYsoN7MWtgQxAYsoG4z9nnVhVUUpbuyY1EPCbo",
+        "token_address": "FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump",
+        "entry_price_usd": 0.0008787579537714872,
+        "score": 2,
+        "signals": [
+          "Buy-Ratio 76%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 67794.0103,
+        "age_minutes": 996.1,
+        "status": "open",
+        "current_price_usd": 0.0008787579537714872,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1121-214331-Bigfoot",
+        "arm": "alt",
+        "scan_idx": 456,
+        "opened_ts": "2026-11-21T21:43:31.641523+00:00",
+        "symbol": "Bigfoot",
+        "pool_address": "3JxaAnLf9GJUXc58gzmNUi7a3v5JQbiFDtcdfhR7rNnr",
+        "token_address": "6vmYNQygvTJWn8gUCEi5zva2MdMMs9UZXsKy9zVQztjV",
+        "entry_price_usd": 1.604117082041242e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +19.5%",
+          "1h +19.5%",
+          "Buy-Ratio 68%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 28808.6838,
+        "age_minutes": 2.3,
+        "status": "open",
+        "current_price_usd": 1.604117082041242e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1121-214331-GOOSLING",
+        "arm": "alt",
+        "scan_idx": 456,
+        "opened_ts": "2026-11-21T21:43:31.641523+00:00",
+        "symbol": "GOOSLING",
+        "pool_address": "DoaybeuNtVQxRjngGZW3V77AN5aXQifqgbah6zTzBbWw",
+        "token_address": "371voHC5LcmHRMYS3EqzDEGbk9jHFPzg46iuFZMo8TbY",
+        "entry_price_usd": 1.6582863444538675e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +26.4%",
+          "1h +26.4%",
+          "Buy-Ratio 66%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 29477.4431,
+        "age_minutes": 1.8,
+        "status": "open",
+        "current_price_usd": 1.6582863444538675e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1121-214331-123456",
+        "arm": "neu",
+        "scan_idx": 456,
+        "opened_ts": "2026-11-21T21:43:31.641523+00:00",
+        "symbol": "123456",
+        "pool_address": "CjGwWtyNq5gv99XbxUAE6JncMGkfGAtQJ19ZShtai8tK",
+        "token_address": "g175ad5xYhuPZzBbGaDL2AuN1sZKxXMxnS7ZNGLpump",
+        "entry_price_usd": 4.49457545862683e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +30.8%",
+          "1h +30.8%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 3852.6182,
+        "age_minutes": 1.7,
+        "status": "open",
+        "current_price_usd": 4.49457545862683e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 6,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "291 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 62.25,
+          "halter": 291,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
