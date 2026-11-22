@@ -1,12 +1,101 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 459,
-  "last_scan": "2026-11-22T08:51:48.864813+00:00",
+  "scans": 460,
+  "last_scan": "2026-11-22T17:02:58.588993+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1122-170258-Tom",
+        "arm": "kontrolle",
+        "scan_idx": 459,
+        "opened_ts": "2026-11-22T17:02:58.588993+00:00",
+        "symbol": "Tom",
+        "pool_address": "5cmiAUCbVMyndfu2xtDp72JMPrDQj5LfdRDkANuKpN7q",
+        "token_address": "jjh3XVzVKhbbVRA76NXFSciv6Tiw4uhoF97ep5hpump",
+        "entry_price_usd": 4.138413449436996e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +40.4%",
+          "1h +40.4%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2856.8158,
+        "age_minutes": 2.8,
+        "status": "open",
+        "current_price_usd": 4.138413449436996e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1122-170258-FOAM",
+        "arm": "alt",
+        "scan_idx": 459,
+        "opened_ts": "2026-11-22T17:02:58.588993+00:00",
+        "symbol": "FOAM",
+        "pool_address": "9aBYzUnqvEzQav573ER7zu1TNPnVSW5Xv5X1Q2JZBfrE",
+        "token_address": "6cjY8rhfjsPt7B9oZwNvCnMSX9aiEUv2xD64YkdiYrNY",
+        "entry_price_usd": 1.6789453957559553e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +80.2%",
+          "1h +80.2%",
+          "Buy-Ratio 72%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 19637.3231,
+        "age_minutes": 2.0,
+        "status": "open",
+        "current_price_usd": 1.6789453957559553e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1122-170258-stuffinu",
+        "arm": "neu",
+        "scan_idx": 459,
+        "opened_ts": "2026-11-22T17:02:58.588993+00:00",
+        "symbol": "stuffinu",
+        "pool_address": "GKkwwSXY18pAXtBLCF34iBDieyGD4TjY7UqCJX1oe3hi",
+        "token_address": "FXoYjjhdtyt8B2TnHd1RaoGi91KUsiBcd2Muuux8pump",
+        "entry_price_usd": 2.9263209980484846e-06,
+        "score": 5,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2420.9499,
+        "age_minutes": 2.7,
+        "status": "open",
+        "current_price_usd": 2.9263209980484846e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 3,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "62 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.95,
+          "halter": 62,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
