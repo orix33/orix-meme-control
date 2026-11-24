@@ -1,28 +1,58 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 463,
-  "last_scan": "2026-11-23T12:13:52.749345+00:00",
+  "scans": 464,
+  "last_scan": "2026-11-24T00:06:41.592886+00:00",
   "offen": {
     "kontrolle": [
       {
-        "id": "KON-1123-121352-OpenInde",
+        "id": "KON-1124-000641-SPCX",
         "arm": "kontrolle",
-        "scan_idx": 462,
-        "opened_ts": "2026-11-23T12:13:52.749345+00:00",
-        "symbol": "OpenIndex",
-        "pool_address": "4X1SAtTgzqfyRDu237HxJLtSfTosMHe9EuXNPvRfFbjc",
-        "token_address": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
-        "entry_price_usd": 0.00044081173099801347,
-        "score": 2,
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
+        "symbol": "SPCX",
+        "pool_address": "9XkZxStYVix148prCtciTMRmpCNN77iUymA6b2CETh6K",
+        "token_address": "7aR13o2JW4Z6gPsxAmB8SA5pPbWgQgvdVspWjr9Bu8MK",
+        "entry_price_usd": 1.9053785100723177e-05,
+        "score": 8,
         "signals": [
-          "1h +17.2%",
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +28.8%",
+          "1h +28.8%",
+          "Buy-Ratio 69%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 52650.3154,
-        "age_minutes": 1125.4,
+        "liquidity_usd": 32942.4456,
+        "age_minutes": 2.6,
         "status": "open",
-        "current_price_usd": 0.00044081173099801347,
+        "current_price_usd": 1.9053785100723177e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "KON-1124-000641-Perplius",
+        "arm": "kontrolle",
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
+        "symbol": "Perplius",
+        "pool_address": "Emui1G8MaKKLN9V3RKUdjy2TggbZwz39tReGAkjrBVnB",
+        "token_address": "35mhybyEFkkk6H2vkEHJFfCitsvZoziG65am9kjJwyHs",
+        "entry_price_usd": 2.9809014855299013e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +207.2%",
+          "1h +207.2%",
+          "Buy-Ratio 69%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 26585.7138,
+        "age_minutes": 3.5,
+        "status": "open",
+        "current_price_usd": 2.9809014855299013e-05,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
@@ -30,32 +60,134 @@
     ],
     "alt": [
       {
-        "id": "ALT-1123-121352-FIONA",
+        "id": "ALT-1124-000641-FIONA",
         "arm": "alt",
-        "scan_idx": 462,
-        "opened_ts": "2026-11-23T12:13:52.749345+00:00",
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
         "symbol": "FIONA",
-        "pool_address": "94VWicLX5yVBFuiWkceLRjhgdQPFax1J5ypXYwdzP9p8",
-        "token_address": "7VabbtsupfW8j5hoqimLSqSbwq9ZHChmGifZEeCRTAes",
-        "entry_price_usd": 0.0003444153505777655,
+        "pool_address": "DbnyuHZrysPLvWHzQogiR6rzjwByHwpLahbtKUQoaFVp",
+        "token_address": "AbLxBtGUK61tnigtqQQm1m6JfkypUS2fXXM3rbxzRSN",
+        "entry_price_usd": 4.951927023597288e-07,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +17.2%",
+          "1h +17.2%",
+          "Buy-Ratio 69%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 86193.5173,
+        "age_minutes": 3.2,
+        "status": "open",
+        "current_price_usd": 4.951927023597288e-07,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      },
+      {
+        "id": "ALT-1124-000641-KAREN",
+        "arm": "alt",
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
+        "symbol": "KAREN",
+        "pool_address": "HxHV7S77MkfTLr9F28ZXcQEZ4WMpo75bGooqXHM3J4GT",
+        "token_address": "GR3GyxemHiuqghjeQA1SmcmHjzV8SK84MPAedHgj2htL",
+        "entry_price_usd": 9.066939604209778e-06,
         "score": 7,
         "signals": [
           "Alter<1h",
           "Volumen-Beschleunigung",
-          "5m +174.6%",
-          "1h +174.6%",
+          "5m +23.2%",
+          "1h +23.2%",
           "Liquiditäts-Sweet-Spot"
         ],
-        "liquidity_usd": 17390.5622,
-        "age_minutes": 3.5,
+        "liquidity_usd": 15966.8653,
+        "age_minutes": 3.9,
         "status": "open",
-        "current_price_usd": 0.0003444153505777655,
+        "current_price_usd": 9.066939604209778e-06,
         "pnl_pct": 0.0,
         "unknown_strikes": 0,
         "letzte_pruefung": null
       }
     ],
-    "neu": []
+    "neu": [
+      {
+        "id": "NEU-1124-000641-Christma",
+        "arm": "neu",
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
+        "symbol": "Christmas",
+        "pool_address": "BYUyWK2KnWqvMy59qaop2SLSPhhqBnqHSF9TqUZzMVzK",
+        "token_address": "FmfZ7x2KmfFe8n2nErk2ajJBbMF6HmfTTwE3Hyzpump",
+        "entry_price_usd": 1.1864098906319995e-05,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +405.9%",
+          "1h +405.9%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 4684.3292,
+        "age_minutes": 4.1,
+        "status": "open",
+        "current_price_usd": 1.1864098906319995e-05,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 5,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "412 Halter — viel fuer einen jungen Pool"
+        ],
+        "v2_signale": {
+          "top10_pct": 47.68,
+          "halter": 412,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      },
+      {
+        "id": "NEU-1124-000641-KAREN",
+        "arm": "neu",
+        "scan_idx": 463,
+        "opened_ts": "2026-11-24T00:06:41.592886+00:00",
+        "symbol": "KAREN",
+        "pool_address": "9PDQtmQWRBzigd6oeBNX7jTdRhSky53MR1mcSiza52vL",
+        "token_address": "7CqP3cBEaw7DC1RGTVNcQhhEiFXu1qQkA6gdt4rG4nZj",
+        "entry_price_usd": 4.0161836604317e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +33.7%",
+          "1h +33.7%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 2678.5744,
+        "age_minutes": 3.1,
+        "status": "open",
+        "current_price_usd": 4.0161836604317e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 4,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Website vorhanden",
+          "93 Halter (jung)"
+        ],
+        "v2_signale": {
+          "top10_pct": 99.98,
+          "halter": 93,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
@@ -13085,6 +13217,31 @@
         "liquidity_usd_jetzt": 1627.2912,
         "closed_ts": "2026-11-23T12:13:41.896836+00:00",
         "close_reason": "Stop-Loss erreicht (roh -47.5%)"
+      },
+      {
+        "id": "KON-1123-121352-OpenInde",
+        "arm": "kontrolle",
+        "scan_idx": 462,
+        "opened_ts": "2026-11-23T12:13:52.749345+00:00",
+        "symbol": "OpenIndex",
+        "pool_address": "4X1SAtTgzqfyRDu237HxJLtSfTosMHe9EuXNPvRfFbjc",
+        "token_address": "FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump",
+        "entry_price_usd": 0.00044081173099801347,
+        "score": 2,
+        "signals": [
+          "1h +17.2%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 52650.3154,
+        "age_minutes": 1125.4,
+        "status": "sl",
+        "current_price_usd": 0.0002846653258992372,
+        "pnl_pct": -15.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-24T00:06:38.714820+00:00",
+        "liquidity_usd_jetzt": 41841.2965,
+        "closed_ts": "2026-11-24T00:06:38.714820+00:00",
+        "close_reason": "Stop-Loss erreicht (roh -35.4%)"
       }
     ],
     "alt": [
@@ -26727,6 +26884,34 @@
         "liquidity_usd_jetzt": 1343.4253,
         "closed_ts": "2026-11-23T12:13:41.896836+00:00",
         "close_reason": "Stop-Loss erreicht (roh -45.2%)"
+      },
+      {
+        "id": "ALT-1123-121352-FIONA",
+        "arm": "alt",
+        "scan_idx": 462,
+        "opened_ts": "2026-11-23T12:13:52.749345+00:00",
+        "symbol": "FIONA",
+        "pool_address": "94VWicLX5yVBFuiWkceLRjhgdQPFax1J5ypXYwdzP9p8",
+        "token_address": "7VabbtsupfW8j5hoqimLSqSbwq9ZHChmGifZEeCRTAes",
+        "entry_price_usd": 0.0003444153505777655,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +174.6%",
+          "1h +174.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 17390.5622,
+        "age_minutes": 3.5,
+        "status": "rug",
+        "current_price_usd": 3.7010702055454995e-09,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-24T00:06:38.714820+00:00",
+        "liquidity_usd_jetzt": 6.9544,
+        "closed_ts": "2026-11-24T00:06:38.714820+00:00",
+        "close_reason": "Liquiditaet 6.95 $ (Start 17391 $) — kein Ausstieg. Schein-PnL waere -100.0% gewesen."
       }
     ],
     "neu": [
