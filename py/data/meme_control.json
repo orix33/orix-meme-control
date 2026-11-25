@@ -1,12 +1,95 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 467,
-  "last_scan": "2026-11-25T03:36:16.327774+00:00",
+  "scans": 468,
+  "last_scan": "2026-11-25T13:30:49.449285+00:00",
   "offen": {
-    "kontrolle": [],
-    "alt": [],
-    "neu": []
+    "kontrolle": [
+      {
+        "id": "KON-1125-133049-CI",
+        "arm": "kontrolle",
+        "scan_idx": 467,
+        "opened_ts": "2026-11-25T13:30:49.449285+00:00",
+        "symbol": "CI",
+        "pool_address": "DVNZJuYqSQF3WYiMe7zjGcmgEu59rgJcQGDGEmrNyiT9",
+        "token_address": "4iA4ZVPFHHw5a3uKcD7Phojpu6dXCc3Ct3Da8MHJq7Yg",
+        "entry_price_usd": 9.234459896844221e-06,
+        "score": 7,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +41.6%",
+          "1h +41.6%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15303.2648,
+        "age_minutes": 4.1,
+        "status": "open",
+        "current_price_usd": 9.234459896844221e-06,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "alt": [
+      {
+        "id": "ALT-1125-133049-BASKET",
+        "arm": "alt",
+        "scan_idx": 467,
+        "opened_ts": "2026-11-25T13:30:49.449285+00:00",
+        "symbol": "BASKET",
+        "pool_address": "CixcofsPwHnYWjsoDxXxvLd6uM5fH7w8MFPL9mpQpqtX",
+        "token_address": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+        "entry_price_usd": 0.0013405208111186156,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 161928.8011,
+        "age_minutes": 528.0,
+        "status": "open",
+        "current_price_usd": 0.0013405208111186156,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null
+      }
+    ],
+    "neu": [
+      {
+        "id": "NEU-1125-133049-4CHAN",
+        "arm": "neu",
+        "scan_idx": 467,
+        "opened_ts": "2026-11-25T13:30:49.449285+00:00",
+        "symbol": "4CHAN",
+        "pool_address": "Ak4wr2ueEAJMqZSEcGPMX9EhCrwWRngP8CskvdEh1e6H",
+        "token_address": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+        "entry_price_usd": 0.0002925913137333246,
+        "score": 1,
+        "signals": [
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 42761.2824,
+        "age_minutes": 930.1,
+        "status": "open",
+        "current_price_usd": 0.0002925913137333246,
+        "pnl_pct": 0.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": null,
+        "v2_score": 7,
+        "v2_warum": [
+          "Twitter vorhanden",
+          "Top-10 nur 24 % bei reifem Token",
+          "12420 Halter"
+        ],
+        "v2_signale": {
+          "top10_pct": 23.84,
+          "halter": 12420,
+          "telegram": false,
+          "creator_haelt": false,
+          "risiko_score": 1
+        }
+      }
+    ]
   },
   "geschlossen": {
     "kontrolle": [
