@@ -1,62 +1,11 @@
 {
   "version": 1,
   "erstellt": "2026-08-31T17:01:37.667103+00:00",
-  "scans": 466,
-  "last_scan": "2026-11-24T20:22:37.586447+00:00",
+  "scans": 467,
+  "last_scan": "2026-11-25T03:36:16.327774+00:00",
   "offen": {
-    "kontrolle": [
-      {
-        "id": "KON-1124-202237-GROKIA",
-        "arm": "kontrolle",
-        "scan_idx": 465,
-        "opened_ts": "2026-11-24T20:22:37.586447+00:00",
-        "symbol": "GROKIA",
-        "pool_address": "CpfB8pTVj8Uzu55nKj6sX4KmV6zVe7J2t3C22mLgCVGg",
-        "token_address": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
-        "entry_price_usd": 0.002615929805956066,
-        "score": 3,
-        "signals": [
-          "1h +19.9%",
-          "Buy-Ratio 67%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 121190.734,
-        "age_minutes": 1088.0,
-        "status": "open",
-        "current_price_usd": 0.002615929805956066,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
-    "alt": [
-      {
-        "id": "ALT-1124-202237-CIA",
-        "arm": "alt",
-        "scan_idx": 465,
-        "opened_ts": "2026-11-24T20:22:37.586447+00:00",
-        "symbol": "CIA",
-        "pool_address": "DrCBQFzM6AsnxLDQmFoBWnekwCxosyMkR1p318rnCsrj",
-        "token_address": "ELF71uPoQCDzsMzJ32dqH6ekEznW1HzoGEUpk8wD3hAM",
-        "entry_price_usd": 7.25018221993288e-05,
-        "score": 8,
-        "signals": [
-          "Alter<1h",
-          "Volumen-Beschleunigung",
-          "5m +61.5%",
-          "1h +61.5%",
-          "Buy-Ratio 70%",
-          "Liquiditäts-Sweet-Spot"
-        ],
-        "liquidity_usd": 15001.6025,
-        "age_minutes": 3.4,
-        "status": "open",
-        "current_price_usd": 7.25018221993288e-05,
-        "pnl_pct": 0.0,
-        "unknown_strikes": 0,
-        "letzte_pruefung": null
-      }
-    ],
+    "kontrolle": [],
+    "alt": [],
     "neu": []
   },
   "geschlossen": {
@@ -13198,6 +13147,32 @@
         "liquidity_usd_jetzt": 5.264990575e-05,
         "closed_ts": "2026-11-24T20:22:29.056247+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 26586 $) — kein Ausstieg. Schein-PnL waere +41.3% gewesen."
+      },
+      {
+        "id": "KON-1124-202237-GROKIA",
+        "arm": "kontrolle",
+        "scan_idx": 465,
+        "opened_ts": "2026-11-24T20:22:37.586447+00:00",
+        "symbol": "GROKIA",
+        "pool_address": "CpfB8pTVj8Uzu55nKj6sX4KmV6zVe7J2t3C22mLgCVGg",
+        "token_address": "3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump",
+        "entry_price_usd": 0.002615929805956066,
+        "score": 3,
+        "signals": [
+          "1h +19.9%",
+          "Buy-Ratio 67%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 121190.734,
+        "age_minutes": 1088.0,
+        "status": "tp",
+        "current_price_usd": 0.00422054875168091,
+        "pnl_pct": 25.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-25T03:36:13.567905+00:00",
+        "liquidity_usd_jetzt": 155295.8992,
+        "closed_ts": "2026-11-25T03:36:13.567905+00:00",
+        "close_reason": "Take-Profit erreicht (roh +61.3%)"
       }
     ],
     "alt": [
@@ -26954,6 +26929,35 @@
         "liquidity_usd_jetzt": 8.540490418e-05,
         "closed_ts": "2026-11-24T20:22:29.056247+00:00",
         "close_reason": "Liquiditaet 0.00 $ (Start 24184 $) — kein Ausstieg. Schein-PnL waere +26.1% gewesen."
+      },
+      {
+        "id": "ALT-1124-202237-CIA",
+        "arm": "alt",
+        "scan_idx": 465,
+        "opened_ts": "2026-11-24T20:22:37.586447+00:00",
+        "symbol": "CIA",
+        "pool_address": "DrCBQFzM6AsnxLDQmFoBWnekwCxosyMkR1p318rnCsrj",
+        "token_address": "ELF71uPoQCDzsMzJ32dqH6ekEznW1HzoGEUpk8wD3hAM",
+        "entry_price_usd": 7.25018221993288e-05,
+        "score": 8,
+        "signals": [
+          "Alter<1h",
+          "Volumen-Beschleunigung",
+          "5m +61.5%",
+          "1h +61.5%",
+          "Buy-Ratio 70%",
+          "Liquiditäts-Sweet-Spot"
+        ],
+        "liquidity_usd": 15001.6025,
+        "age_minutes": 3.4,
+        "status": "rug",
+        "current_price_usd": 7.25018221993288e-05,
+        "pnl_pct": -100.0,
+        "unknown_strikes": 0,
+        "letzte_pruefung": "2026-11-25T03:36:13.567905+00:00",
+        "liquidity_usd_jetzt": 0.0069,
+        "closed_ts": "2026-11-25T03:36:13.567905+00:00",
+        "close_reason": "Liquiditaet 0.01 $ (Start 15002 $) — kein Ausstieg. Schein-PnL waere +0.0% gewesen."
       }
     ],
     "neu": [
